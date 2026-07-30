@@ -1,0 +1,25 @@
+{
+  "name": "cea-os",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Cyber Elias Academy Digital Operating System",
+  "scripts": {
+    "dev": "npm run dev:api & npm run dev:web",
+    "dev:web": "npm run dev -w apps/web",
+    "dev:api": "npm run dev -w workers/api",
+    "build": "npm run build -w packages/db && npm run build -w packages/validators && npm run build -w apps/web && npm run build -w workers/api",
+    "lint": "npm run lint -w apps/web && npm run lint -w workers/api",
+    "typecheck": "npm run typecheck -w apps/web && npm run typecheck -w workers/api",
+    "db:generate": "npm run db:generate -w packages/db",
+    "db:migrate": "npm run db:migrate -w packages/db",
+    "db:seed": "npm run db:seed -w packages/db"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "workers/*"
+  ],
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260702.1"
+  }
+}
