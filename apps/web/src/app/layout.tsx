@@ -4,6 +4,7 @@ import { AuthProvider } from '../lib/auth-context';
 import { SiteHeader } from '../components/site-header';
 import { SiteFooter } from '../components/site-footer';
 import { PWARegister } from '../components/pwa-register';
+import { CommandPalette } from '../components/command-palette';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -47,6 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProvider>
           <AuthProvider>
             <PWARegister />
+            <CommandPalette />
             <div className="flex min-h-screen flex-col">
               <SiteHeader />
               <main className="flex-1">{children}</main>

@@ -9,6 +9,7 @@ const footerLinks = {
   Academy: [
     { href: '/about', label: 'About Us' },
     { href: '/courses', label: 'Courses' },
+    { href: '/events', label: 'Events' },
     { href: '/courses/compare', label: 'Compare Programs' },
     { href: '/scholarships', label: 'Scholarships' },
     { href: '/apply', label: 'Apply Now' },

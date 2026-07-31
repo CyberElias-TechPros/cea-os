@@ -154,6 +154,13 @@ communityRouter.post('/events/:id/register', authMiddleware, async (c) => {
   return c.json({ success: true, data: reg }, 201);
 });
 
+communityRouter.get('/events/registered', authMiddleware, async (c) => {
+  const db = getDb(c.env.DB);
+  const userId = c.get('userId');
+  const items = await db.select({ eventId: eventRegistrations.eventId, status: eventRegistrations.status }).from(eventRegistrations).where(eq(eventRegistrations.userId, userId));
+  return c.json({ success: true, data: items });
+});
+
 communityRouter.post('/events/:id/checkin', authMiddleware, async (c) => {
   const db = getDb(c.env.DB);
   const userId = c.get('userId');
