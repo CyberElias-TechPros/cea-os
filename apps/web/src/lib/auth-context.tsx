@@ -9,6 +9,8 @@ interface User {
   firstName: string;
   lastName: string;
   role: string;
+  roles?: string[];
+  phone?: string;
   avatarUrl?: string;
 }
 

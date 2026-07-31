@@ -1,11 +1,34 @@
 import { Hono } from 'hono';
-import { getDb, forumCategories, forumThreads, forumPosts, forumLikes, groups, groupMembers, events, eventRegistrations, scholarships, scholarshipApplications, mentorshipRelations, partnerships, volunteerOpportunities, volunteerSignups, donations } from '@cea/db';
+import { getDb, contacts, forumCategories, forumThreads, forumPosts, forumLikes, groups, groupMembers, events, eventRegistrations, scholarships, scholarshipApplications, mentorshipRelations, partnerships, volunteerOpportunities, volunteerSignups, donations } from '@cea/db';
 import { eq, and, desc, asc } from 'drizzle-orm';
 import { sql } from 'drizzle-orm';
 import type { Env } from '..';
 import { authMiddleware, requirePermission } from '../middleware/auth';
 
 export const communityRouter = new Hono<Env>();
+
+// --- Newsletter (public lead capture) ---
+communityRouter.post('/newsletter', async (c) => {
+  const db = getDb(c.env.DB);
+  const { firstName, lastName, email } = await c.req.json<{ firstName?: string; lastName?: string; email: string }>();
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    return c.json({ success: false, error: { code: 'VALIDATION_ERROR', message: 'A valid email is required' } }, 422);
+  }
+  const existing = await db.select().from(contacts).where(eq(contacts.email, email)).limit(1);
+  if (existing.length > 0) {
+    return c.json({ success: true, data: { message: 'Already subscribed' } });
+  }
+  const [contact] = await db.insert(contacts).values({
+    firstName: firstName?.trim() || 'Newsletter',
+    lastName: lastName?.trim() || 'Subscriber',
+    email: email.trim(),
+    source: 'website',
+    status: 'lead',
+    type: 'prospective_student',
+    notes: 'Newsletter signup',
+  }).returning();
+  return c.json({ success: true, data: { id: contact!.id, message: 'Subscribed' } }, 201);
+});
 
 // --- Forums ---
 communityRouter.get('/forums/categories', async (c) => {
@@ -165,6 +188,13 @@ communityRouter.post('/scholarships/:id/apply', authMiddleware, async (c) => {
 communityRouter.get('/mentorship/mentors', async (c) => {
   const db = getDb(c.env.DB);
   const items = await db.select().from(mentorshipRelations).where(eq(mentorshipRelations.status, 'active'));
+  return c.json({ success: true, data: items });
+});
+
+communityRouter.get('/mentorship/relations', authMiddleware, async (c) => {
+  const db = getDb(c.env.DB);
+  const userId = c.get('userId');
+  const items = await db.select().from(mentorshipRelations).where(eq(mentorshipRelations.menteeId, userId)).orderBy(desc(mentorshipRelations.createdAt));
   return c.json({ success: true, data: items });
 });
 

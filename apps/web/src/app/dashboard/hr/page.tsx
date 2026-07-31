@@ -54,6 +54,11 @@ export default function HRPage() {
     await load();
   };
 
+  const decideLeave = async (id: string, accept: boolean) => {
+    await api(`/v1/hr/leave/${id}/decide`, { method: 'POST', body: JSON.stringify({ approved: accept }) });
+    await load();
+  };
+
   if (loading) return <div className="flex items-center justify-center min-h-[60vh]"><Loader2 className="h-8 w-8 animate-spin text-muted-foreground" /></div>;
 
   const statusCounts = { active: employees.filter(e => e.status === 'active').length, on_leave: employees.filter(e => e.status === 'on_leave').length };
@@ -96,7 +101,15 @@ export default function HRPage() {
             <div className="space-y-2">{leaves.map(l => (
               <Card key={l.id}><CardContent className="flex items-center justify-between py-3">
                 <div><p className="text-sm font-medium capitalize">{l.type} Leave</p><p className="text-xs text-muted-foreground">{new Date(l.startDate).toLocaleDateString()} - {new Date(l.endDate).toLocaleDateString()} ({l.days} days)</p></div>
-                <Badge variant={l.status === 'approved' ? 'default' : l.status === 'rejected' ? 'destructive' : 'secondary'}>{l.status}</Badge>
+                <div className="flex items-center gap-2">
+                  <Badge variant={l.status === 'approved' ? 'default' : l.status === 'rejected' ? 'destructive' : 'secondary'}>{l.status}</Badge>
+                  {l.status === 'pending' && (
+                    <>
+                      <Button size="sm" variant="outline" onClick={() => decideLeave(l.id, true)}>Approve</Button>
+                      <Button size="sm" variant="ghost" className="text-destructive" onClick={() => decideLeave(l.id, false)}>Reject</Button>
+                    </>
+                  )}
+                </div>
               </CardContent></Card>
             ))}</div>
           )}

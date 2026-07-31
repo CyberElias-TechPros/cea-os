@@ -2,13 +2,30 @@ import { Hono } from 'hono';
 import { hash, compare } from 'bcryptjs';
 import { sign, verify } from 'jsonwebtoken';
 import { getDb } from '@cea/db';
-import { users, sessions, userRoles, roles } from '@cea/db';
+import { users, sessions, userRoles, roles, rolePermissions, permissions } from '@cea/db';
 import { loginSchema, registerSchema } from '@cea/validators';
 import { eq, inArray } from 'drizzle-orm';
 import type { Env } from '..';
 import { authMiddleware } from '../middleware/auth';
 
 export const authRouter = new Hono<Env>();
+
+type Db = ReturnType<typeof getDb>;
+
+async function loadPermissionStrings(db: Db, roleIds: string[]): Promise<{ roles: string[]; permissions: string[] }> {
+  if (roleIds.length === 0) return { roles: [], permissions: [] };
+  const rolesData = await db.select().from(roles).where(inArray(roles.id, roleIds));
+  const roleSlugs = rolesData.map((r) => r.slug);
+  const perms = await db.select({
+    resource: permissions.resource,
+    action: permissions.action,
+  }).from(rolePermissions)
+    .innerJoin(permissions, eq(rolePermissions.permissionId, permissions.id))
+    .where(inArray(rolePermissions.roleId, roleIds));
+  const permissionStrings = perms.map((p) => `${p.resource}.${p.action}`);
+  if (roleSlugs.includes('admin')) permissionStrings.push('admin.*');
+  return { roles: roleSlugs, permissions: permissionStrings };
+}
 
 authRouter.post('/register', async (c) => {
   const body = await c.req.json();
@@ -39,7 +56,9 @@ authRouter.post('/register', async (c) => {
     await db.insert(userRoles).values({ userId: user.id, roleId: defaultRole[0]!.id, scopeType: 'global' });
   }
 
-  const token = sign({ sub: user.id, roles: ['student'], permissions: [] }, c.env.JWT_SECRET, { expiresIn: '15m' });
+  const { roles: roleSlugs, permissions: permStrings } = await loadPermissionStrings(db, defaultRole.length > 0 ? [defaultRole[0]!.id] : [],
+  );
+  const token = sign({ sub: user.id, roles: roleSlugs, permissions: permStrings }, c.env.JWT_SECRET, { expiresIn: '15m' });
   const refreshToken = sign({ sub: user.id, type: 'refresh' }, c.env.JWT_SECRET, { expiresIn: '7d' });
 
   await db.insert(sessions).values({
@@ -93,10 +112,9 @@ authRouter.post('/login', async (c) => {
 
   const userRolesResult = await db.select().from(userRoles).where(eq(userRoles.userId, user.id));
   const roleIds = userRolesResult.map((ur) => ur.roleId);
-  const rolesData = roleIds.length > 0 ? await db.select().from(roles).where(inArray(roles.id, roleIds)) : [];
-  const roleSlugs = rolesData.map((r) => r.slug);
+  const { roles: roleSlugs, permissions: permStrings } = await loadPermissionStrings(db, roleIds);
 
-  const token = sign({ sub: user.id, roles: roleSlugs, permissions: [] }, c.env.JWT_SECRET, { expiresIn: '15m' });
+  const token = sign({ sub: user.id, roles: roleSlugs, permissions: permStrings }, c.env.JWT_SECRET, { expiresIn: '15m' });
   const refreshToken = sign({ sub: user.id, type: 'refresh' }, c.env.JWT_SECRET, { expiresIn: '7d' });
 
   await db.insert(sessions).values({
@@ -137,10 +155,9 @@ authRouter.post('/refresh', async (c) => {
 
     const userRolesResult = await db.select().from(userRoles).where(eq(userRoles.userId, user.id));
     const roleIds = userRolesResult.map((ur) => ur.roleId);
-    const rolesData = roleIds.length > 0 ? await db.select().from(roles).where(inArray(roles.id, roleIds)) : [];
-    const roleSlugs = rolesData.map((r) => r.slug);
+    const { roles: roleSlugs, permissions: permStrings } = await loadPermissionStrings(db, roleIds);
 
-    const newToken = sign({ sub: user.id, roles: roleSlugs, permissions: [] }, c.env.JWT_SECRET, { expiresIn: '15m' });
+    const newToken = sign({ sub: user.id, roles: roleSlugs, permissions: permStrings }, c.env.JWT_SECRET, { expiresIn: '15m' });
     const newRefreshToken = sign({ sub: user.id, type: 'refresh' }, c.env.JWT_SECRET, { expiresIn: '7d' });
 
     return c.json({ success: true, data: { token: newToken, refreshToken: newRefreshToken } });
@@ -157,8 +174,11 @@ authRouter.get('/me', authMiddleware, async (c) => {
     return c.json({ success: false, error: { code: 'NOT_FOUND', message: 'User not found' } }, 404);
   }
 
+  const userRolesResult = await db.select().from(userRoles).where(eq(userRoles.userId, user.id));
+  const roleIds = userRolesResult.map((ur) => ur.roleId);
+  const { roles } = await loadPermissionStrings(db, roleIds);
   const { passwordHash, twoFactorSecret, ...safeUser } = user;
-  return c.json({ success: true, data: safeUser });
+  return c.json({ success: true, data: { ...safeUser, roles } });
 });
 
 authRouter.post('/logout', authMiddleware, async (c) => {
@@ -173,3 +193,4 @@ authRouter.post('/logout', authMiddleware, async (c) => {
 
   return c.json({ success: true, data: { message: 'Logged out successfully' } });
 });
+

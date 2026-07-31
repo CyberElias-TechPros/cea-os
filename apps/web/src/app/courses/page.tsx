@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Button, Card, CardContent, Badge } from '@cea/ui';
-import { Clock, Users, BookOpen } from 'lucide-react';
+import { Clock, Users, BookOpen, GitCompareArrows } from 'lucide-react';
 
 const courses = [
   { slug: 'full-stack-web-development', title: 'Full-Stack Web Development', category: 'Software Dev', duration: '12 weeks', students: 120, level: 'Beginner to Advanced', description: 'Master HTML, CSS, JavaScript, React, Node.js, and databases. Build production-ready applications.' },
@@ -18,9 +18,14 @@ const categories = [...new Set(courses.map(c => c.category))];
 export default function CoursesPage() {
   return (
     <div className="container mx-auto px-4 py-12">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">Our Courses</h1>
-        <p className="mt-2 text-muted-foreground">Industry-relevant curriculum designed to get you job-ready.</p>
+      <div className="mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <h1 className="text-3xl font-bold tracking-tight">Our Courses</h1>
+          <p className="mt-2 text-muted-foreground">Industry-relevant curriculum designed to get you job-ready.</p>
+        </div>
+        <Link href="/courses/compare">
+          <Button variant="outline"><GitCompareArrows className="mr-2 h-4 w-4" /> Compare Programs</Button>
+        </Link>
       </div>
 
       <div className="flex flex-wrap gap-2 mb-8">

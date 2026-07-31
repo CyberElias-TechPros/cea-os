@@ -2,7 +2,8 @@
 
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle, Button, Badge } from '@cea/ui';
-import { Plus, BookOpen, Users, Clock, Briefcase, Building2, GraduationCap, UserCircle, Contact, FolderKanban, TicketCheck, FileText, PanelTop, Wallet, UserCog, Package, ShoppingCart, MessageSquare, BarChart3, Bell } from 'lucide-react';
+import { Plus, BookOpen, Users, Clock, Briefcase, Building2, GraduationCap, UserCircle, Contact, FolderKanban, TicketCheck, FileText, PanelTop, Wallet, UserCog, Package, ShoppingCart, MessageSquare, BarChart3, Bell, ClipboardList, NotebookPen, Award, CreditCard, CalendarDays, Send, Handshake, FileDown, ShieldCheck, DoorOpen } from 'lucide-react';
+import { useAuth } from '../../lib/auth-context';
 
 const mockCourses = [
   { id: '1', name: 'Full-Stack Web Development', status: 'active', students: 45, modules: 8, duration: '12 weeks' },
@@ -11,6 +12,7 @@ const mockCourses = [
 ];
 
 export default function DashboardPage() {
+  const { user } = useAuth();
   return (
     <div>
       <div className="flex items-center justify-between mb-8">
@@ -252,6 +254,100 @@ export default function DashboardPage() {
         </Link>
       </div>
 
+      <h2 className="text-xl font-semibold mb-4">Student Tools</h2>
+      <div className="grid gap-4 md:grid-cols-5 mb-8">
+        <Link href="/dashboard/assessments">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <ClipboardList className="h-8 w-8 text-blue-500" />
+              <div className="font-medium">Assessments</div>
+              <div className="text-xs text-muted-foreground">Exams & quizzes</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/assignments">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <NotebookPen className="h-8 w-8 text-purple-500" />
+              <div className="font-medium">Assignments</div>
+              <div className="text-xs text-muted-foreground">Submit your work</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/grades">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <BarChart3 className="h-8 w-8 text-green-500" />
+              <div className="font-medium">Grades</div>
+              <div className="text-xs text-muted-foreground">Scorebook</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/attendance">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <Clock className="h-8 w-8 text-amber-500" />
+              <div className="font-medium">Attendance</div>
+              <div className="text-xs text-muted-foreground">Check in & history</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/certificates">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <Award className="h-8 w-8 text-orange-500" />
+              <div className="font-medium">Certificates</div>
+              <div className="text-xs text-muted-foreground">Earned credentials</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/marketplace">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <Briefcase className="h-8 w-8 text-cyan-500" />
+              <div className="font-medium">Marketplace</div>
+              <div className="text-xs text-muted-foreground">Jobs & gigs</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/messages">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <Send className="h-8 w-8 text-pink-500" />
+              <div className="font-medium">Messages</div>
+              <div className="text-xs text-muted-foreground">Chat with mentors</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/calendar">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <CalendarDays className="h-8 w-8 text-indigo-500" />
+              <div className="font-medium">Calendar</div>
+              <div className="text-xs text-muted-foreground">Schedule & events</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/billing">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <CreditCard className="h-8 w-8 text-emerald-500" />
+              <div className="font-medium">Billing</div>
+              <div className="text-xs text-muted-foreground">Invoices & payments</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/profile">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <UserCircle className="h-8 w-8 text-rose-500" />
+              <div className="font-medium">Profile</div>
+              <div className="text-xs text-muted-foreground">Settings & security</div>
+            </CardContent>
+          </Card>
+        </Link>
+      </div>
+
       <Card>
         <CardHeader>
           <CardTitle>Your Courses</CardTitle>
@@ -265,7 +361,47 @@ export default function DashboardPage() {
                     <div className="font-medium">{course.name}</div>
                     <div className="text-sm text-muted-foreground mt-1">
                       {course.modules} modules · {course.students} students · {course.duration}
-                    </div>
+        <Link href="/dashboard/cv">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <FileDown className="h-8 w-8 text-violet-500" />
+              <div className="font-medium">CV Generator</div>
+              <div className="text-xs text-muted-foreground">Print-ready resume</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/mentorship">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <Handshake className="h-8 w-8 text-teal-500" />
+              <div className="font-medium">Mentorship</div>
+              <div className="text-xs text-muted-foreground">Find a mentor</div>
+            </CardContent>
+          </Card>
+        </Link>
+        {user?.roles?.includes('admin') && (
+          <Link href="/dashboard/admin">
+            <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+              <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+                <ShieldCheck className="h-8 w-8 text-slate-500" />
+                <div className="font-medium">Admin Console</div>
+                <div className="text-xs text-muted-foreground">Roles & audit</div>
+              </CardContent>
+            </Card>
+          </Link>
+        )}
+        {(user?.roles?.includes('admin') || user?.roles?.includes('staff')) && (
+          <Link href="/dashboard/front-desk">
+            <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+              <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+                <DoorOpen className="h-8 w-8 text-lime-500" />
+                <div className="font-medium">Front Desk</div>
+                <div className="text-xs text-muted-foreground">Visitor management</div>
+              </CardContent>
+            </Card>
+          </Link>
+        )}
+      </div>
                   </div>
                   <Badge variant={course.status === 'active' ? 'success' : course.status === 'published' ? 'info' : 'secondary'}>
                     {course.status}

@@ -1,12 +1,17 @@
+'use client';
+
 import Link from 'next/link';
-import { GraduationCap, Mail, MapPin, Phone, Heart } from 'lucide-react';
+import { GraduationCap, Mail, MapPin, Phone, Heart, BadgeCheck, Send, CheckCircle2 } from 'lucide-react';
+import { useState } from 'react';
+import { api } from '../lib/api-client';
 
 const footerLinks = {
   Academy: [
     { href: '/about', label: 'About Us' },
     { href: '/courses', label: 'Courses' },
-    { href: '/blog', label: 'Blog' },
-    { href: '/contact', label: 'Contact' },
+    { href: '/courses/compare', label: 'Compare Programs' },
+    { href: '/scholarships', label: 'Scholarships' },
+    { href: '/apply', label: 'Apply Now' },
   ],
   Programs: [
     { href: '/courses/software-development', label: 'Software Development' },
@@ -16,6 +21,7 @@ const footerLinks = {
   ],
   Support: [
     { href: '/faq', label: 'FAQ' },
+    { href: '/verify', label: 'Verify Certificate' },
     { href: '/terms', label: 'Terms of Service' },
     { href: '/privacy', label: 'Privacy Policy' },
     { href: '/help', label: 'Help Center' },
@@ -23,6 +29,17 @@ const footerLinks = {
 };
 
 export function SiteFooter() {
+  const [email, setEmail] = useState('');
+  const [state, setState] = useState<'idle' | 'loading' | 'done' | 'error'>('idle');
+
+  const subscribe = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email.trim()) return;
+    setState('loading');
+    const res = await api('/v1/community/newsletter', { method: 'POST', body: JSON.stringify({ email }) });
+    setState(res.success ? 'done' : 'error');
+  };
+
   return (
     <footer className="border-t bg-muted/50 relative overflow-hidden">
       <div className="absolute inset-0 -z-10">
@@ -57,6 +74,33 @@ export function SiteFooter() {
                 <span>Lagos, Nigeria</span>
               </div>
             </div>
+            <div className="mt-6">
+              <div className="text-sm font-semibold mb-2">Stay in the loop</div>
+              {state === 'done' ? (
+                <div className="flex items-center gap-2 text-sm text-green-600 dark:text-green-400">
+                  <CheckCircle2 className="h-4 w-4" /> Subscribed — welcome!
+                </div>
+              ) : (
+                <form onSubmit={subscribe} className="flex gap-2">
+                  <input
+                    type="email"
+                    required
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder="Your email"
+                    className="h-9 flex-1 rounded-lg border bg-background px-3 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                  />
+                  <button
+                    type="submit"
+                    disabled={state === 'loading'}
+                    className="inline-flex h-9 items-center gap-1.5 rounded-lg bg-primary px-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors disabled:opacity-60"
+                  >
+                    <Send className="h-3.5 w-3.5" />
+                  </button>
+                </form>
+              )}
+              {state === 'error' && <div className="mt-1 text-xs text-red-500">Something went wrong — try again.</div>}
+            </div>
           </div>
           {Object.entries(footerLinks).map(([title, links]) => (
             <div key={title}>
@@ -74,8 +118,11 @@ export function SiteFooter() {
           ))}
         </div>
         <div className="mt-12 border-t pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <div>
-            &copy; {new Date().getFullYear()} Cyber Elias Academy. All rights reserved.
+          <div className="flex items-center gap-4">
+            <span>&copy; {new Date().getFullYear()} Cyber Elias Academy. All rights reserved.</span>
+            <Link href="/verify" className="inline-flex items-center gap-1 text-xs hover:text-primary transition-colors">
+              <BadgeCheck className="h-3.5 w-3.5" /> Certificate verification
+            </Link>
           </div>
           <div className="flex items-center gap-1.5">
             Made with <Heart className="h-4 w-4 fill-red-500 text-red-500" /> for the future of learning
@@ -85,3 +132,4 @@ export function SiteFooter() {
     </footer>
   );
 }
+

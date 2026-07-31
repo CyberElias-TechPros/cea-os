@@ -9,6 +9,7 @@ import { motion, AnimatePresence } from 'motion/react';
 
 const navLinks = [
   { href: '/courses', label: 'Courses' },
+  { href: '/scholarships', label: 'Scholarships' },
   { href: '/blog', label: 'Blog' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
@@ -57,11 +58,8 @@ export function SiteHeader() {
             </Link>
           ))}
           <ThemeToggle />
-          <Link href="/login">
-            <Button variant="ghost" size="sm">Sign In</Button>
-          </Link>
-          <Link href="/register">
-            <Button size="sm" className="shadow-md shadow-primary/20">Get Started</Button>
+          <Link href="/apply">
+            <Button size="sm" className="shadow-md shadow-primary/20">Apply Now</Button>
           </Link>
         </nav>
 
@@ -97,7 +95,7 @@ export function SiteHeader() {
               <div className="flex items-center gap-2 pt-2">
                 <ThemeToggle />
                 <Link href="/login"><Button variant="ghost" size="sm" className="w-full">Sign In</Button></Link>
-                <Link href="/register"><Button size="sm" className="w-full">Get Started</Button></Link>
+                <Link href="/apply"><Button size="sm" className="w-full">Apply Now</Button></Link>
               </div>
             </div>
           </motion.div>

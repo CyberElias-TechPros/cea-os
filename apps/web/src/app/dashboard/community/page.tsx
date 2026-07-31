@@ -9,36 +9,47 @@ interface ForumThread { id: string; categoryId: string; title: string; userId: s
 interface Group { id: string; name: string; description?: string; type: string; memberCount: number; }
 interface Event { id: string; title: string; type: string; format: string; startDate: string; location?: string; status: string; }
 interface Scholarship { id: string; name: string; description?: string; fundAmount?: number; deadline?: string; }
-interface Partnership { id: string; organizationName: string; type: string; status: string; }
+interface Partnership { id: string; organizationName: string; contactPerson?: string; email?: string; type: string; status: string; startDate?: string; notes?: string; }
+interface VolunteerOpportunity { id: string; title: string; description?: string; location?: string; skills?: string; commitment?: string; slots?: number; status: string; createdAt: string; }
 
 export default function CommunityPage() {
   const [threads, setThreads] = useState<ForumThread[]>([]);
   const [groups, setGroups] = useState<Group[]>([]);
   const [events, setEvents] = useState<Event[]>([]);
   const [scholarships, setScholarships] = useState<Scholarship[]>([]);
+  const [volunteerOpportunities, setVolunteerOpportunities] = useState<VolunteerOpportunity[]>([]);
+  const [partnerships, setPartnerships] = useState<Partnership[]>([]);
   const [loading, setLoading] = useState(true);
   const [showThreadForm, setShowThreadForm] = useState(false);
   const [showEventForm, setShowEventForm] = useState(false);
   const [showGroupForm, setShowGroupForm] = useState(false);
+  const [showVolunteerForm, setShowVolunteerForm] = useState(false);
+  const [showPartnershipForm, setShowPartnershipForm] = useState(false);
   const [threadForm, setThreadForm] = useState({ categoryId: '', title: '', content: '' });
   const [eventForm, setEventForm] = useState({ title: '', description: '', type: 'workshop', format: 'virtual', startDate: '', location: '', virtualLink: '', maxAttendees: '' });
   const [groupForm, setGroupForm] = useState({ name: '', description: '', type: 'study', visibility: 'public' });
+  const [volunteerForm, setVolunteerForm] = useState({ title: '', description: '', location: '', skills: '', commitment: '', slots: '1' });
+  const [partnershipForm, setPartnershipForm] = useState({ organizationName: '', contactPerson: '', email: '', type: 'educational', notes: '' });
   const [selectedThread, setSelectedThread] = useState<ForumThread | null>(null);
   const [threadPosts, setThreadPosts] = useState<{ id: string; content: string; userId: string; createdAt: string }[]>([]);
   const [newPost, setNewPost] = useState('');
 
   const load = async () => {
     setLoading(true);
-    const [tRes, gRes, eRes, sRes] = await Promise.all([
+    const [tRes, gRes, eRes, sRes, vRes, pRes] = await Promise.all([
       api<ForumThread[]>('/v1/community/forums/threads'),
       api<Group[]>('/v1/community/groups'),
       api<Event[]>('/v1/community/events'),
       api<Scholarship[]>('/v1/community/scholarships'),
+      api<VolunteerOpportunity[]>('/v1/community/volunteer/opportunities'),
+      api<Partnership[]>('/v1/community/partnerships'),
     ]);
     if (tRes.success && tRes.data) setThreads(tRes.data);
     if (gRes.success && gRes.data) setGroups(gRes.data);
     if (eRes.success && eRes.data) setEvents(eRes.data);
     if (sRes.success && sRes.data) setScholarships(sRes.data);
+    if (vRes.success && vRes.data) setVolunteerOpportunities(vRes.data);
+    if (pRes.success && pRes.data) setPartnerships(pRes.data);
     setLoading(false);
   };
 
@@ -88,6 +99,25 @@ export default function CommunityPage() {
     await load();
   };
 
+  const createVolunteerOpportunity = async () => {
+    await api('/v1/community/volunteer/opportunities', { method: 'POST', body: JSON.stringify({ ...volunteerForm, slots: Number(volunteerForm.slots) }) });
+    setShowVolunteerForm(false);
+    setVolunteerForm({ title: '', description: '', location: '', skills: '', commitment: '', slots: '1' });
+    await load();
+  };
+
+  const signUpVolunteer = async (id: string) => {
+    await api(`/v1/community/volunteer/opportunities/${id}/signup`, { method: 'POST' });
+    await load();
+  };
+
+  const createPartnership = async () => {
+    await api('/v1/community/partnerships', { method: 'POST', body: JSON.stringify(partnershipForm) });
+    setShowPartnershipForm(false);
+    setPartnershipForm({ organizationName: '', contactPerson: '', email: '', type: 'educational', notes: '' });
+    await load();
+  };
+
   if (loading) return <div className="flex items-center justify-center min-h-[60vh]"><Loader2 className="h-8 w-8 animate-spin text-muted-foreground" /></div>;
 
   return (
@@ -97,6 +127,8 @@ export default function CommunityPage() {
         <div className="flex gap-2">
           <Button variant="outline" onClick={() => setShowGroupForm(true)}><Users className="h-4 w-4 mr-2" /> New Group</Button>
           <Button variant="outline" onClick={() => setShowEventForm(true)}><CalendarDays className="h-4 w-4 mr-2" /> New Event</Button>
+          <Button variant="outline" onClick={() => setShowVolunteerForm(true)}><Heart className="h-4 w-4 mr-2" /> Add Volunteer Role</Button>
+          <Button variant="outline" onClick={() => setShowPartnershipForm(true)}><Handshake className="h-4 w-4 mr-2" /> Add Partnership</Button>
           <Button onClick={() => setShowThreadForm(true)}><Plus className="h-4 w-4 mr-2" /> New Thread</Button>
         </div>
       </div>
@@ -114,6 +146,8 @@ export default function CommunityPage() {
           <TabsTrigger value="groups">Groups ({groups.length})</TabsTrigger>
           <TabsTrigger value="events">Events ({events.length})</TabsTrigger>
           <TabsTrigger value="scholarships">Scholarships ({scholarships.length})</TabsTrigger>
+          <TabsTrigger value="volunteer">Volunteer ({volunteerOpportunities.length})</TabsTrigger>
+          <TabsTrigger value="partners">Partners ({partnerships.length})</TabsTrigger>
         </TabsList>
 
         <TabsContent value="discussions" className="space-y-3">
@@ -165,6 +199,41 @@ export default function CommunityPage() {
                 <CardContent className="space-y-1 text-sm">
                   {s.fundAmount && <p><strong>Amount:</strong> {s.fundAmount.toLocaleString()} ZAR</p>}
                   {s.deadline && <p><strong>Deadline:</strong> {new Date(s.deadline).toLocaleDateString()}</p>}
+                </CardContent>
+              </Card>
+            ))}</div>
+          )}
+        </TabsContent>
+        <TabsContent value="volunteer">
+          {volunteerOpportunities.length === 0 ? <div className="text-center py-12 text-muted-foreground"><Heart className="h-12 w-12 mx-auto mb-4" /><p>No volunteer opportunities yet. Add one to mobilise the community.</p></div> : (
+            <div className="grid gap-4 md:grid-cols-2">{volunteerOpportunities.map(v => (
+              <Card key={v.id}>
+                <CardHeader><CardTitle className="text-lg">{v.title}</CardTitle><CardDescription>{v.description}</CardDescription></CardHeader>
+                <CardContent className="space-y-1 text-sm">
+                  {v.location && <p><strong>Location:</strong> {v.location}</p>}
+                  {v.skills && <p><strong>Skills:</strong> {v.skills}</p>}
+                  {v.commitment && <p><strong>Commitment:</strong> {v.commitment}</p>}
+                  {v.slots !== undefined && <p><strong>Slots:</strong> {v.slots}</p>}
+                  <div className="flex items-center gap-2 pt-2">
+                    <Badge variant={v.status === 'open' ? 'success' : 'outline'} className="text-xs capitalize">{v.status}</Badge>
+                    {v.status === 'open' && <Button size="sm" variant="outline" onClick={() => signUpVolunteer(v.id)}>Sign up</Button>}
+                  </div>
+                </CardContent>
+              </Card>
+            ))}</div>
+          )}
+        </TabsContent>
+
+        <TabsContent value="partners">
+          {partnerships.length === 0 ? <div className="text-center py-12 text-muted-foreground"><Handshake className="h-12 w-12 mx-auto mb-4" /><p>No partnerships yet. Register an organisation you're working with.</p></div> : (
+            <div className="grid gap-4 md:grid-cols-2">{partnerships.map(p => (
+              <Card key={p.id}>
+                <CardHeader><CardTitle className="text-lg">{p.organizationName}</CardTitle><CardDescription className="capitalize">{p.type.replace('_', ' ')} partnership</CardDescription></CardHeader>
+                <CardContent className="space-y-1 text-sm">
+                  {p.contactPerson && <p><strong>Contact:</strong> {p.contactPerson}{p.email ? ` · ${p.email}` : ''}</p>}
+                  {p.startDate && <p><strong>Since:</strong> {new Date(p.startDate).toLocaleDateString()}</p>}
+                  {p.notes && <p className="text-muted-foreground">{p.notes}</p>}
+                  <div className="pt-1"><Badge variant={p.status === 'active' ? 'success' : 'outline'} className="text-xs capitalize">{p.status}</Badge></div>
                 </CardContent>
               </Card>
             ))}</div>
@@ -231,6 +300,39 @@ export default function CommunityPage() {
             </div>
           </div>
           <DialogFooter><Button variant="outline" onClick={() => setShowGroupForm(false)}>Cancel</Button><Button onClick={createGroup}>Create</Button></DialogFooter>
+        </DialogContent>
+      </Dialog>
+
+      <Dialog open={showVolunteerForm} onOpenChange={setShowVolunteerForm}>
+        <DialogContent><DialogHeader><DialogTitle>Add Volunteer Opportunity</DialogTitle></DialogHeader>
+          <div className="space-y-4">
+            <div><label className="text-sm font-medium">Title *</label><Input value={volunteerForm.title} onChange={e => setVolunteerForm(f => ({ ...f, title: e.target.value }))} /></div>
+            <div><label className="text-sm font-medium">Description</label><Textarea value={volunteerForm.description} onChange={e => setVolunteerForm(f => ({ ...f, description: e.target.value }))} rows={3} /></div>
+            <div className="grid grid-cols-2 gap-4">
+              <div><label className="text-sm font-medium">Location</label><Input value={volunteerForm.location} onChange={e => setVolunteerForm(f => ({ ...f, location: e.target.value }))} /></div>
+              <div><label className="text-sm font-medium">Slots</label><Input type="number" value={volunteerForm.slots} onChange={e => setVolunteerForm(f => ({ ...f, slots: e.target.value }))} /></div>
+            </div>
+            <div><label className="text-sm font-medium">Skills needed</label><Input value={volunteerForm.skills} onChange={e => setVolunteerForm(f => ({ ...f, skills: e.target.value }))} placeholder="e.g. Teaching, Mentoring, Events" /></div>
+            <div><label className="text-sm font-medium">Commitment</label><Input value={volunteerForm.commitment} onChange={e => setVolunteerForm(f => ({ ...f, commitment: e.target.value }))} placeholder="e.g. 4 hours/week for 8 weeks" /></div>
+          </div>
+          <DialogFooter><Button variant="outline" onClick={() => setShowVolunteerForm(false)}>Cancel</Button><Button onClick={createVolunteerOpportunity}>Create</Button></DialogFooter>
+        </DialogContent>
+      </Dialog>
+
+      <Dialog open={showPartnershipForm} onOpenChange={setShowPartnershipForm}>
+        <DialogContent><DialogHeader><DialogTitle>Register Partnership</DialogTitle></DialogHeader>
+          <div className="space-y-4">
+            <div><label className="text-sm font-medium">Organization *</label><Input value={partnershipForm.organizationName} onChange={e => setPartnershipForm(f => ({ ...f, organizationName: e.target.value }))} /></div>
+            <div className="grid grid-cols-2 gap-4">
+              <div><label className="text-sm font-medium">Contact person</label><Input value={partnershipForm.contactPerson} onChange={e => setPartnershipForm(f => ({ ...f, contactPerson: e.target.value }))} /></div>
+              <div><label className="text-sm font-medium">Email</label><Input type="email" value={partnershipForm.email} onChange={e => setPartnershipForm(f => ({ ...f, email: e.target.value }))} /></div>
+            </div>
+            <div><label className="text-sm font-medium">Type</label>
+              <select className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm" value={partnershipForm.type} onChange={e => setPartnershipForm(f => ({ ...f, type: e.target.value }))}>
+                <option value="educational">Educational</option><option value="corporate">Corporate</option><option value="government">Government</option><option value="ngo">NGO</option><option value="other">Other</option></select></div>
+            <div><label className="text-sm font-medium">Notes</label><Textarea value={partnershipForm.notes} onChange={e => setPartnershipForm(f => ({ ...f, notes: e.target.value }))} rows={2} /></div>
+          </div>
+          <DialogFooter><Button variant="outline" onClick={() => setShowPartnershipForm(false)}>Cancel</Button><Button onClick={createPartnership}>Register</Button></DialogFooter>
         </DialogContent>
       </Dialog>
     </div>
