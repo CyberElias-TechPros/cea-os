@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle, Button, Badge } from '@cea/ui';
-import { Plus, BookOpen, Users, Clock, Briefcase, Building2, GraduationCap, UserCircle, Contact, FolderKanban, TicketCheck, FileText, PanelTop, Wallet, UserCog, Package, ShoppingCart, MessageSquare, BarChart3, Bell, ClipboardList, NotebookPen, Award, CreditCard, CalendarDays, Send, Handshake, FileDown, ShieldCheck, DoorOpen, MonitorPlay } from 'lucide-react';
+import { Plus, BookOpen, Users, Clock, Briefcase, Building2, GraduationCap, UserCircle, Contact, FolderKanban, TicketCheck, FileText, PanelTop, Wallet, UserCog, Package, ShoppingCart, MessageSquare, BarChart3, Bell, ClipboardList, NotebookPen, Award, CreditCard, CalendarDays, Send, Handshake, FileDown, ShieldCheck, DoorOpen, MonitorPlay, Banknote } from 'lucide-react';
 import { useAuth } from '../../lib/auth-context';
 import { OnboardingTour } from '../../components/onboarding-tour';
 
@@ -184,6 +184,15 @@ export default function DashboardPage() {
               <Wallet className="h-8 w-8 text-emerald-500" />
               <div className="font-medium">Finance</div>
               <div className="text-xs text-muted-foreground">Accounts & expenses</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/payroll">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <Banknote className="h-8 w-8 text-emerald-600" />
+              <div className="font-medium">Payroll</div>
+              <div className="text-xs text-muted-foreground">Runs & payslips</div>
             </CardContent>
           </Card>
         </Link>

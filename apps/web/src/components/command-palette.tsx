@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Search, CornerDownLeft, Home, BookOpen, GraduationCap, Award, ShieldCheck, Users, HelpCircle, LayoutDashboard, FileText, Handshake, CalendarDays, MessageSquare, Briefcase, CreditCard, Settings, Heart, DoorOpen, Video, Building2 } from 'lucide-react';
+import { Search, CornerDownLeft, Home, BookOpen, GraduationCap, Award, ShieldCheck, Users, HelpCircle, LayoutDashboard, FileText, Handshake, CalendarDays, MessageSquare, Briefcase, CreditCard, Settings, Heart, DoorOpen, Video, Building2, Banknote } from 'lucide-react';
 import { useAuth } from '../lib/auth-context';
 
 interface CommandItem {
@@ -48,6 +48,7 @@ const AUTH_COMMANDS: CommandItem[] = [
   { label: 'Profile & settings', href: '/dashboard/profile', group: 'Dashboard', keywords: 'profile settings password', icon: <Settings className="h-4 w-4" /> },
   { label: 'Front Desk', href: '/dashboard/front-desk', group: 'Staff', keywords: 'visitors front desk check in', icon: <DoorOpen className="h-4 w-4" /> },
   { label: 'Facilities', href: '/dashboard/facilities', group: 'Staff', keywords: 'rooms bookings work orders maintenance', icon: <Building2 className="h-4 w-4" /> },
+  { label: 'Payroll', href: '/dashboard/payroll', group: 'Staff', keywords: 'payroll payslips salary runs', icon: <Banknote className="h-4 w-4" /> },
   { label: 'Admin Console', href: '/dashboard/admin', group: 'Staff', keywords: 'admin roles users audit', icon: <ShieldCheck className="h-4 w-4" /> },
 ];
 

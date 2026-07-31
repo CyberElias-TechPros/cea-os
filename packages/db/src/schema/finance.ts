@@ -1,6 +1,7 @@
 import { sqliteTable, text, integer, real } from 'drizzle-orm/sqlite-core';
 import { createId } from '@paralleldrive/cuid2';
 import { users } from './users';
+import { employees } from './hr';
 
 export const chartOfAccounts = sqliteTable('chart_of_accounts', {
   id: text('id').primaryKey().$defaultFn(createId),
@@ -55,9 +56,40 @@ export const budgets = sqliteTable('budgets', {
   updatedAt: text('updated_at').notNull().$defaultFn(() => new Date().toISOString()),
 });
 
+export const payrollRuns = sqliteTable('payroll_runs', {
+  id: text('id').primaryKey().$defaultFn(createId),
+  period: text('period').notNull().unique(),
+  status: text('status', { enum: ['draft', 'approved', 'paid'] }).default('draft'),
+  grossTotal: real('gross_total').default(0),
+  netTotal: real('net_total').default(0),
+  payslipCount: integer('payslip_count').default(0),
+  processedById: text('processed_by_id').references(() => users.id, { onDelete: 'set null' }),
+  approvedById: text('approved_by_id').references(() => users.id, { onDelete: 'set null' }),
+  approvedAt: text('approved_at'),
+  paidAt: text('paid_at'),
+  createdAt: text('created_at').notNull().$defaultFn(() => new Date().toISOString()),
+  updatedAt: text('updated_at').notNull().$defaultFn(() => new Date().toISOString()),
+});
+
+export const payslips = sqliteTable('payslips', {
+  id: text('id').primaryKey().$defaultFn(createId),
+  runId: text('run_id').notNull().references(() => payrollRuns.id, { onDelete: 'cascade' }),
+  employeeId: text('employee_id').notNull().references(() => employees.id, { onDelete: 'cascade' }),
+  basicPay: real('basic_pay').default(0),
+  allowances: real('allowances').default(0),
+  deductions: real('deductions').default(0),
+  grossPay: real('gross_pay').default(0),
+  netPay: real('net_pay').default(0),
+  status: text('status', { enum: ['pending', 'paid'] }).default('pending'),
+  paidAt: text('paid_at'),
+  createdAt: text('created_at').notNull().$defaultFn(() => new Date().toISOString()),
+});
+
 export type Transaction = typeof transactions.$inferSelect;
 export type NewTransaction = typeof transactions.$inferInsert;
 export type ExpenseClaim = typeof expenseClaims.$inferSelect;
 export type NewExpenseClaim = typeof expenseClaims.$inferInsert;
 export type Budget = typeof budgets.$inferSelect;
 export type Account = typeof chartOfAccounts.$inferSelect;
+export type PayrollRun = typeof payrollRuns.$inferSelect;
+export type PaySlip = typeof payslips.$inferSelect;

@@ -28,7 +28,7 @@ export type { Contract } from './schema/contracts';
 export type { Invoice } from './schema/invoices';
 export type { InvoiceLineItem } from './schema/invoices';
 export type { Application, ApplicationDocument, Offer } from './schema/admissions';
-export type { Transaction, ExpenseClaim, Budget, Account } from './schema/finance';
+export type { Transaction, ExpenseClaim, Budget, Account, PayrollRun, PaySlip } from './schema/finance';
 export type { Employee, LeaveRequest, Department, Branch, StaffAttendance, PerformanceReview } from './schema/hr';
 export type { InventoryItem, AssetTrack, StockMovement } from './schema/inventory';
 export type { Supplier, PurchaseOrder, PurchaseOrderItem } from './schema/procurement';
