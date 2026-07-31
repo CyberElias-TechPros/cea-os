@@ -1,11 +1,11 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { motion } from 'motion/react';
 import { Button, Card, CardContent, Input, Label, Badge } from '@cea/ui';
-import { api } from '../../../lib/api-client';
+import { api, uploadFile } from '../../../lib/api-client';
 import { useAuth } from '../../../lib/auth-context';
-import { UserCircle, Loader2, Save, ShieldCheck, LogOut } from 'lucide-react';
+import { UserCircle, Loader2, Save, ShieldCheck, LogOut, Camera } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
 export default function ProfilePage() {
@@ -15,10 +15,31 @@ export default function ProfilePage() {
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
   const [password, setPassword] = useState({ current: '', next: '', confirm: '' });
+  const [uploading, setUploading] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     if (user) setForm({ firstName: user.firstName, lastName: user.lastName, email: user.email, phone: '' });
   }, [user]);
+
+  const uploadAvatar = async (file: File) => {
+    if (!user || !file) return;
+    if (file.size > 5 * 1024 * 1024) return;
+    setUploading(true);
+    try {
+      const ext = file.name.split('.').pop()?.toLowerCase() || 'jpg';
+      const key = `avatars/${user.id}/${Date.now()}.${ext}`;
+      const res = await uploadFile(key, file);
+      if (res.success && res.data) {
+        const base = (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8787').replace(/\/$/, '');
+        const avatarUrl = `${base}${res.data.url}`;
+        await api(`/v1/users/${user.id}`, { method: 'PATCH', body: JSON.stringify({ avatarUrl }) });
+        await refreshUser();
+      }
+    } finally {
+      setUploading(false);
+    }
+  };
 
   const saveProfile = async () => {
     if (!user) return;
@@ -49,9 +70,36 @@ export default function ProfilePage() {
         <Card>
           <CardContent className="p-8 space-y-5">
             <div className="flex items-center gap-4">
-              <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 flex items-center justify-center">
-                <UserCircle className="h-9 w-9 text-white" />
+              <div className="relative">
+                <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 flex items-center justify-center overflow-hidden">
+                  {user?.avatarUrl ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={user.avatarUrl} alt="Avatar" className="h-full w-full object-cover" />
+                  ) : (
+                    <UserCircle className="h-9 w-9 text-white" />
+                  )}
+                </div>
+                <button
+                  type="button"
+                  onClick={() => fileInputRef.current?.click()}
+                  disabled={uploading}
+                  className="absolute -bottom-1.5 -right-1.5 h-7 w-7 rounded-full bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 disabled:opacity-50"
+                  title="Change photo"
+                >
+                  {uploading ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <Camera className="h-3.5 w-3.5" />}
+                </button>
               </div>
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept="image/*"
+                className="hidden"
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  if (file) void uploadAvatar(file);
+                  e.target.value = '';
+                }}
+              />
               <div>
                 <div className="font-bold text-lg">{user ? `${user.firstName} ${user.lastName}` : ''}</div>
                 <div className="text-sm text-muted-foreground">{user?.email}</div>

@@ -14,3 +14,6 @@ wrangler.toml
 .wrangler/
 out-postcss.css
 
+
+# wrangler local dev env (has local secrets)
+.dev.vars

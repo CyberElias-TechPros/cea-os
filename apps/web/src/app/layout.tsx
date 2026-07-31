@@ -7,6 +7,8 @@ import { PWARegister } from '../components/pwa-register';
 import { CommandPalette } from '../components/command-palette';
 import './globals.css';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: {
     default: 'Cyber Elias Academy',

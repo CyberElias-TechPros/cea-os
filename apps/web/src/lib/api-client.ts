@@ -76,3 +76,39 @@ export async function api<T = unknown>(
 }
 
 export { setTokens, clearTokens, getTokens };
+
+export async function uploadFile<T = { key: string; url: string; contentType: string; size: number }>(
+  key: string,
+  file: Blob
+): Promise<{ success: boolean; data?: T; error?: { code: string; message: string } }> {
+  const { accessToken } = getTokens();
+  const headers: Record<string, string> = {};
+  if (accessToken) headers['Authorization'] = `Bearer ${accessToken}`;
+
+  let res = await fetch(`${API_URL}/v1/uploads/${encodeURIComponent(key)}`, {
+    method: 'PUT',
+    headers,
+    body: file,
+  });
+
+  if (res.status === 401 && accessToken) {
+    const newToken = await refreshAccessToken();
+    if (newToken) {
+      headers['Authorization'] = `Bearer ${newToken}`;
+      res = await fetch(`${API_URL}/v1/uploads/${encodeURIComponent(key)}`, {
+        method: 'PUT',
+        headers,
+        body: file,
+      });
+    }
+  }
+
+  const json: { success: boolean; data?: T; error?: { code: string; message: string } } = await res.json();
+  if (!res.ok) {
+    return {
+      success: false,
+      error: json.error || { code: 'UNKNOWN', message: 'Upload failed' },
+    };
+  }
+  return json;
+}

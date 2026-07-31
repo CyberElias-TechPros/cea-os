@@ -31,6 +31,7 @@ import { analyticsRouter } from './routes/analytics';
 import { adminRouter } from './routes/admin';
 import { facilitiesRouter } from './routes/facilities';
 import { platformRouter } from './routes/platform';
+import { uploadsRouter } from './routes/uploads';
 import { errorHandler } from './middleware/errorHandler';
 
 export type Env = {
@@ -43,6 +44,10 @@ export type Env = {
     NOTIF_QUEUE: Queue<unknown>;
     JWT_SECRET: string;
     APP_URL: string;
+    R2_ACCOUNT_ID: string;
+    R2_ACCESS_KEY_ID: string;
+    R2_SECRET_ACCESS_KEY: string;
+    R2_BUCKET: string;
   };
   Variables: {
     userId: string;
@@ -96,6 +101,7 @@ app.route('/v1/analytics', analyticsRouter);
 app.route('/v1/admin', adminRouter);
 app.route('/v1/facilities', facilitiesRouter);
 app.route('/v1/platform', platformRouter);
+app.route('/v1/uploads', uploadsRouter);
 
 app.get('/v1/health', (c) => c.json({ status: 'ok', timestamp: Date.now() }));
 

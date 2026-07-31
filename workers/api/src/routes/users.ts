@@ -44,7 +44,7 @@ usersRouter.patch('/:id', authMiddleware, requirePermission('users', 'update'), 
   const userId = c.req.param('id');
   const body = await c.req.json();
 
-  const allowed = ['firstName', 'lastName', 'phone', 'status', 'preferences'];
+  const allowed = ['firstName', 'lastName', 'phone', 'status', 'preferences', 'avatarUrl'];
   const updates: Record<string, unknown> = {};
   for (const key of allowed) {
     if (body[key] !== undefined) updates[key] = body[key];
