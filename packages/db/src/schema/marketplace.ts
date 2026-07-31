@@ -69,6 +69,22 @@ export const jobInterviews = sqliteTable('job_interviews', {
   location: text('location'),
   status: text('status', { enum: ['scheduled', 'completed', 'cancelled', 'rescheduled'] }).default('scheduled'),
   feedback: text('feedback'),
+  rating: integer('rating'),
+  createdAt: integer('created_at', { mode: 'timestamp' }).notNull().$defaultFn(() => new Date()),
+  updatedAt: integer('updated_at', { mode: 'timestamp' }).notNull().$defaultFn(() => new Date()).$onUpdateFn(() => new Date()),
+});
+
+export const jobOffers = sqliteTable('job_offers', {
+  id: text('id').primaryKey().$defaultFn(createId),
+  applicationId: text('application_id').notNull().references(() => jobApplications.id, { onDelete: 'cascade' }),
+  salary: real('salary'),
+  salaryCurrency: text('salary_currency').default('ZAR'),
+  employmentType: text('employment_type').default('full_time'),
+  startDate: text('start_date'),
+  notes: text('notes'),
+  status: text('status', { enum: ['pending', 'accepted', 'declined', 'withdrawn'] }).default('pending'),
+  offeredById: text('offered_by_id').references(() => users.id, { onDelete: 'set null' }),
+  respondedAt: integer('responded_at', { mode: 'timestamp' }),
   createdAt: integer('created_at', { mode: 'timestamp' }).notNull().$defaultFn(() => new Date()),
   updatedAt: integer('updated_at', { mode: 'timestamp' }).notNull().$defaultFn(() => new Date()).$onUpdateFn(() => new Date()),
 });
@@ -102,5 +118,6 @@ export type Employer = typeof employers.$inferSelect;
 export type JobListing = typeof jobListings.$inferSelect;
 export type JobApplication = typeof jobApplications.$inferSelect;
 export type JobInterview = typeof jobInterviews.$inferSelect;
+export type JobOffer = typeof jobOffers.$inferSelect;
 export type FreelanceGig = typeof freelanceGigs.$inferSelect;
 export type GigApplication = typeof gigApplications.$inferSelect;

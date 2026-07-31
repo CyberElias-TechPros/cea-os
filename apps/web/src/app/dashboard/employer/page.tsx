@@ -35,6 +35,12 @@ interface Application {
   expectedSalary?: string; status: string; appliedAt: string; notes?: string;
 }
 
+interface Interview { id: string; applicationId: string; type: string; scheduledAt: string; duration?: number; meetingLink?: string; location?: string; status: string; feedback?: string; rating?: number; }
+interface Offer { id: string; applicationId: string; salary?: number; salaryCurrency?: string; employmentType?: string; startDate?: string; notes?: string; status: string; }
+interface PipelineRow { id: string; jobListingId: string; jobTitle: string; jobSlug: string; firstName: string; lastName: string; email: string; status: string; matchScore?: number; notes?: string; appliedAt: string; interviews: Interview[]; offers: Offer[]; }
+
+const PIPELINE_STAGES = ['submitted', 'reviewing', 'shortlisted', 'interviewed', 'offered', 'hired', 'rejected'] as const;
+
 export default function EmployerPage() {
   const { user } = useAuth();
   const [employer, setEmployer] = useState<Employer | null>(null);
@@ -46,6 +52,13 @@ export default function EmployerPage() {
   const [profileForm, setProfileForm] = useState({ companyName: '', companyDescription: '', website: '', industry: '', size: '', location: '', contactEmail: '', contactPhone: '' });
   const [jobForm, setJobForm] = useState({ title: '', description: '', location: '', type: 'full-time', remote: false, salaryMin: '', salaryMax: '', requirements: '', status: 'draft' });
   const [selectedJobApps, setSelectedJobApps] = useState<{ job: JobListing; apps: Application[] } | null>(null);
+  const [pipeline, setPipeline] = useState<PipelineRow[]>([]);
+  const [activeApp, setActiveApp] = useState<PipelineRow | null>(null);
+  const [showInterviewForm, setShowInterviewForm] = useState(false);
+  const [showOfferForm, setShowOfferForm] = useState(false);
+  const [interviewForm, setInterviewForm] = useState({ type: 'video', scheduledAt: '', duration: 60, meetingLink: '' });
+  const [offerForm, setOfferForm] = useState({ salary: '', employmentType: 'full_time', startDate: '', notes: '' });
+  const [feedbackForm, setFeedbackForm] = useState({ feedback: '', rating: 3, status: 'completed' });
 
   const load = async () => {
     setLoading(true);
@@ -73,6 +86,8 @@ export default function EmployerPage() {
       }
       setApplications(appMap);
     }
+    const pipeRes = await api<PipelineRow[]>('/v1/marketplace/applications/pipeline');
+    if (pipeRes.success && pipeRes.data) setPipeline(pipeRes.data);
     setLoading(false);
   };
 
@@ -103,6 +118,38 @@ export default function EmployerPage() {
       method: 'PATCH',
       body: JSON.stringify({ status }),
     });
+    await load();
+  };
+
+  const scheduleInterview = async () => {
+    if (!activeApp) return;
+    await api('/v1/marketplace/interviews', {
+      method: 'POST',
+      body: JSON.stringify({ applicationId: activeApp.id, ...interviewForm, schedule: true }),
+    });
+    setShowInterviewForm(false);
+    setInterviewForm({ type: 'video', scheduledAt: '', duration: 60, meetingLink: '' });
+    await load();
+  };
+
+  const completeInterview = async (interviewId: string) => {
+    await api(`/v1/marketplace/interviews/${interviewId}`, {
+      method: 'PATCH',
+      body: JSON.stringify({ status: feedbackForm.status, feedback: feedbackForm.feedback, rating: Number(feedbackForm.rating) }),
+    });
+    setActiveApp(null);
+    setFeedbackForm({ feedback: '', rating: 3, status: 'completed' });
+    await load();
+  };
+
+  const makeOffer = async () => {
+    if (!activeApp) return;
+    await api(`/v1/marketplace/applications/${activeApp.id}/offer`, {
+      method: 'POST',
+      body: JSON.stringify({ ...offerForm, salary: offerForm.salary ? Number(offerForm.salary) : undefined }),
+    });
+    setShowOfferForm(false);
+    setOfferForm({ salary: '', employmentType: 'full_time', startDate: '', notes: '' });
     await load();
   };
 
@@ -150,6 +197,57 @@ export default function EmployerPage() {
           </CardContent>
         </Card>
       )}
+
+      <Separator />
+
+      <div className="flex items-center justify-between">
+        <div>
+          <h2 className="text-2xl font-semibold">Recruiting Pipeline</h2>
+          <p className="text-sm text-muted-foreground">Drag-free kanban — move candidates through stages, schedule interviews, and make offers.</p>
+        </div>
+        <Badge variant="outline">{pipeline.length} candidates</Badge>
+      </div>
+
+      <div className="grid gap-4 lg:grid-cols-4 overflow-x-auto pb-2 min-w-[900px]">
+        {PIPELINE_STAGES.filter(s => s !== 'rejected').map(stage => {
+          const items = pipeline.filter(p => p.status === stage);
+          return (
+            <div key={stage} className="rounded-xl border bg-muted/30 p-3 min-h-[200px]">
+              <div className="flex items-center justify-between mb-3">
+                <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">{stage}</span>
+                <Badge variant="secondary">{items.length}</Badge>
+              </div>
+              <div className="space-y-2">
+                {items.length === 0 && <p className="text-xs text-muted-foreground text-center py-6">No candidates</p>}
+                {items.map(p => (
+                  <button key={p.id} onClick={() => setActiveApp(p)} className="w-full text-left rounded-lg border bg-background p-3 hover:border-primary/50 transition-colors">
+                    <p className="font-medium text-sm">{p.firstName} {p.lastName}</p>
+                    <p className="text-xs text-muted-foreground truncate">{p.jobTitle}</p>
+                    <div className="flex items-center gap-2 mt-2">
+                      {p.matchScore != null && <Badge variant="outline" className="text-[10px]">match {Math.round(p.matchScore * 100)}%</Badge>}
+                      {p.interviews.length > 0 && <Badge variant="secondary" className="text-[10px]">{p.interviews.length} interview{p.interviews.length > 1 ? 's' : ''}</Badge>}
+                    </div>
+                  </button>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+        <div className="rounded-xl border border-dashed p-3 min-h-[200px]">
+          <div className="flex items-center justify-between mb-3">
+            <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Rejected</span>
+            <Badge variant="secondary">{pipeline.filter(p => p.status === 'rejected').length}</Badge>
+          </div>
+          <div className="space-y-2">
+            {pipeline.filter(p => p.status === 'rejected').map(p => (
+              <button key={p.id} onClick={() => setActiveApp(p)} className="w-full text-left rounded-lg border bg-background p-3 hover:border-primary/50 transition-colors opacity-70">
+                <p className="font-medium text-sm">{p.firstName} {p.lastName}</p>
+                <p className="text-xs text-muted-foreground truncate">{p.jobTitle}</p>
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
 
       <Separator />
 
@@ -338,6 +436,102 @@ export default function EmployerPage() {
               )}
             </>
           )}
+        </DialogContent>
+      </Dialog>
+
+      <Dialog open={!!activeApp && !showInterviewForm && !showOfferForm} onOpenChange={open => { if (!open) setActiveApp(null); }}>
+        <DialogContent className="max-w-2xl">
+          {activeApp && (
+            <>
+              <DialogHeader>
+                <DialogTitle>{activeApp.firstName} {activeApp.lastName}</DialogTitle>
+                <DialogDescription>{activeApp.jobTitle} · {activeApp.email} · Applied {new Date(activeApp.appliedAt).toLocaleDateString()}</DialogDescription>
+              </DialogHeader>
+              <div className="space-y-4">
+                <div className="flex items-center gap-2">
+                  <Badge>{activeApp.status}</Badge>
+                  {activeApp.matchScore != null && <Badge variant="outline">Match {Math.round(activeApp.matchScore * 100)}%</Badge>}
+                </div>
+                <div>
+                  <label className="text-sm font-medium">Move stage</label>
+                  <select className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm mt-1" value={activeApp.status} onChange={e => updateStatus(activeApp.id, e.target.value)}>
+                    {PIPELINE_STAGES.map(s => <option key={s} value={s}>{s}</option>)}
+                  </select>
+                </div>
+                {activeApp.notes && <p className="text-sm text-muted-foreground"><span className="font-medium text-foreground">Notes:</span> {activeApp.notes}</p>}
+                <div className="rounded-lg border p-4">
+                  <p className="font-medium text-sm mb-2">Interviews</p>
+                  {activeApp.interviews.length === 0 ? <p className="text-xs text-muted-foreground">None scheduled.</p> : activeApp.interviews.map(iv => (
+                    <div key={iv.id} className="flex items-center justify-between py-1 text-sm">
+                      <div>
+                        <span className="capitalize">{iv.type}</span> · {new Date(iv.scheduledAt).toLocaleString()}
+                        {iv.meetingLink && <a href={iv.meetingLink} target="_blank" rel="noopener noreferrer" className="text-primary ml-2 hover:underline">join</a>}
+                        {iv.feedback && <div className="text-xs text-muted-foreground mt-0.5">{iv.feedback}{iv.rating ? ` · ${iv.rating}/5` : ''}</div>}
+                      </div>
+                      <Badge variant={iv.status === 'completed' ? 'default' : 'secondary'}>{iv.status}</Badge>
+                    </div>
+                  ))}
+                </div>
+                {activeApp.offers.length > 0 && (
+                  <div className="rounded-lg border p-4">
+                    <p className="font-medium text-sm mb-2">Offer</p>
+                    {activeApp.offers.map(o => (
+                      <div key={o.id} className="text-sm">
+                        {o.salary ? `${Number(o.salary).toLocaleString()} ${o.salaryCurrency} / ${o.employmentType}` : o.employmentType}
+                        {o.startDate ? ` · start ${o.startDate}` : ''} <Badge variant={o.status === 'accepted' ? 'default' : o.status === 'declined' ? 'destructive' : 'secondary'}>{o.status}</Badge>
+                        {o.notes && <p className="text-xs text-muted-foreground mt-1">{o.notes}</p>}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+              <DialogFooter className="flex-wrap gap-2">
+                <Button variant="outline" onClick={() => setShowInterviewForm(true)}>Schedule Interview</Button>
+                <Button variant="outline" onClick={() => setShowOfferForm(true)}>Make Offer</Button>
+                <Button onClick={() => setActiveApp(null)}>Close</Button>
+              </DialogFooter>
+            </>
+          )}
+        </DialogContent>
+      </Dialog>
+
+      <Dialog open={showInterviewForm} onOpenChange={setShowInterviewForm}>
+        <DialogContent>
+          <DialogHeader><DialogTitle>Schedule Interview — {activeApp ? `${activeApp.firstName} ${activeApp.lastName}` : ''}</DialogTitle></DialogHeader>
+          <div className="space-y-4">
+            <div><label className="text-sm font-medium">Type</label>
+              <select className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm" value={interviewForm.type} onChange={e => setInterviewForm(f => ({ ...f, type: e.target.value }))}>
+                <option value="phone">Phone</option><option value="video">Video</option><option value="in_person">In person</option><option value="technical">Technical</option><option value="panel">Panel</option></select></div>
+            <div><label className="text-sm font-medium">Date & time</label><Input type="datetime-local" value={interviewForm.scheduledAt} onChange={e => setInterviewForm(f => ({ ...f, scheduledAt: e.target.value }))} /></div>
+            <div className="grid grid-cols-2 gap-4">
+              <div><label className="text-sm font-medium">Duration (min)</label><Input type="number" value={interviewForm.duration} onChange={e => setInterviewForm(f => ({ ...f, duration: Number(e.target.value) }))} /></div>
+              <div><label className="text-sm font-medium">Meeting link</label><Input value={interviewForm.meetingLink} onChange={e => setInterviewForm(f => ({ ...f, meetingLink: e.target.value }))} placeholder="https://meet..." /></div>
+            </div>
+          </div>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setShowInterviewForm(false)}>Cancel</Button>
+            <Button onClick={scheduleInterview}>Schedule</Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+
+      <Dialog open={showOfferForm} onOpenChange={setShowOfferForm}>
+        <DialogContent>
+          <DialogHeader><DialogTitle>Make Offer — {activeApp ? `${activeApp.firstName} ${activeApp.lastName}` : ''}</DialogTitle></DialogHeader>
+          <div className="space-y-4">
+            <div className="grid grid-cols-2 gap-4">
+              <div><label className="text-sm font-medium">Salary</label><Input type="number" value={offerForm.salary} onChange={e => setOfferForm(f => ({ ...f, salary: e.target.value }))} /></div>
+              <div><label className="text-sm font-medium">Type</label>
+                <select className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm" value={offerForm.employmentType} onChange={e => setOfferForm(f => ({ ...f, employmentType: e.target.value }))}>
+                  <option value="full_time">Full time</option><option value="part_time">Part time</option><option value="contract">Contract</option><option value="internship">Internship</option></select></div>
+            </div>
+            <div><label className="text-sm font-medium">Start date</label><Input type="date" value={offerForm.startDate} onChange={e => setOfferForm(f => ({ ...f, startDate: e.target.value }))} /></div>
+            <div><label className="text-sm font-medium">Notes</label><Textarea value={offerForm.notes} onChange={e => setOfferForm(f => ({ ...f, notes: e.target.value }))} rows={2} /></div>
+          </div>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setShowOfferForm(false)}>Cancel</Button>
+            <Button onClick={makeOffer}>Send Offer</Button>
+          </DialogFooter>
         </DialogContent>
       </Dialog>
     </div>

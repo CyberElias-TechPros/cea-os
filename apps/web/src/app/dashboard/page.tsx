@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle, Button, Badge } from '@cea/ui';
-import { Plus, BookOpen, Users, Clock, Briefcase, Building2, GraduationCap, UserCircle, Contact, FolderKanban, TicketCheck, FileText, PanelTop, Wallet, UserCog, Package, ShoppingCart, MessageSquare, BarChart3, Bell, ClipboardList, NotebookPen, Award, CreditCard, CalendarDays, Send, Handshake, FileDown, ShieldCheck, DoorOpen, MonitorPlay, Banknote } from 'lucide-react';
+import { Plus, BookOpen, Users, Clock, Briefcase, Building2, GraduationCap, UserCircle, Contact, FolderKanban, TicketCheck, FileText, PanelTop, Wallet, UserCog, Package, ShoppingCart, MessageSquare, BarChart3, Bell, ClipboardList, NotebookPen, Award, CreditCard, CalendarDays, Send, Handshake, FileDown, ShieldCheck, DoorOpen, MonitorPlay, Banknote, Wrench, Megaphone } from 'lucide-react';
 import { useAuth } from '../../lib/auth-context';
 import { OnboardingTour } from '../../components/onboarding-tour';
 
@@ -223,6 +223,42 @@ export default function DashboardPage() {
             </CardContent>
           </Card>
         </Link>
+        <Link href="/dashboard/it-support">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <Wrench className="h-8 w-8 text-slate-500" />
+              <div className="font-medium">IT Support</div>
+              <div className="text-xs text-muted-foreground">KB & monitoring</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/reports">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <FileDown className="h-8 w-8 text-cyan-500" />
+              <div className="font-medium">Reports</div>
+              <div className="text-xs text-muted-foreground">Exports & CSV</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/executive">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <BarChart3 className="h-8 w-8 text-slate-700" />
+              <div className="font-medium">Executive</div>
+              <div className="text-xs text-muted-foreground">KPIs & OKRs</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/dashboard/marketing">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <Megaphone className="h-8 w-8 text-fuchsia-500" />
+              <div className="font-medium">Marketing</div>
+              <div className="text-xs text-muted-foreground">Campaigns & leads</div>
+            </CardContent>
+          </Card>
+        </Link>
       </div>
 
       <h2 className="text-xl font-semibold mb-4">Education & Career</h2>
@@ -436,6 +472,15 @@ export default function DashboardPage() {
               <Building2 className="h-8 w-8 text-stone-500" />
               <div className="font-medium">Facilities</div>
               <div className="text-xs text-muted-foreground">Rooms & work orders</div>
+            </CardContent>
+          </Card>
+        </Link>
+        <Link href="/portal">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <DoorOpen className="h-8 w-8 text-indigo-500" />
+              <div className="font-medium">Portals</div>
+              <div className="text-xs text-muted-foreground">Supplier, parent & more</div>
             </CardContent>
           </Card>
         </Link>

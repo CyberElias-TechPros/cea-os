@@ -1,6 +1,6 @@
 import { Hono } from 'hono';
-import { hash, compare } from 'bcryptjs';
 import { sign, verify } from 'jsonwebtoken';
+import { hashPassword, verifyPassword } from '../lib/password';
 import { getDb } from '@cea/db';
 import { users, sessions, userRoles, roles, rolePermissions, permissions } from '@cea/db';
 import { loginSchema, registerSchema } from '@cea/validators';
@@ -41,7 +41,7 @@ authRouter.post('/register', async (c) => {
     return c.json({ success: false, error: { code: 'CONFLICT', message: 'Email already registered' } }, 409);
   }
 
-  const passwordHash = await hash(parsed.data.password, 12);
+  const passwordHash = await hashPassword(parsed.data.password);
   const inserted = await db.insert(users).values({
     email: parsed.data.email,
     passwordHash,
@@ -58,8 +58,8 @@ authRouter.post('/register', async (c) => {
 
   const { roles: roleSlugs, permissions: permStrings } = await loadPermissionStrings(db, defaultRole.length > 0 ? [defaultRole[0]!.id] : [],
   );
-  const token = sign({ sub: user.id, roles: roleSlugs, permissions: permStrings }, c.env.JWT_SECRET, { expiresIn: '15m' });
-  const refreshToken = sign({ sub: user.id, type: 'refresh' }, c.env.JWT_SECRET, { expiresIn: '7d' });
+  const token = sign({ sub: user.id, roles: roleSlugs, permissions: permStrings, jti: crypto.randomUUID() }, c.env.JWT_SECRET, { expiresIn: '15m' });
+  const refreshToken = sign({ sub: user.id, type: 'refresh', jti: crypto.randomUUID() }, c.env.JWT_SECRET, { expiresIn: '7d' });
 
   await db.insert(sessions).values({
     userId: user.id,
@@ -97,7 +97,7 @@ authRouter.post('/login', async (c) => {
     return c.json({ success: false, error: { code: 'ACCOUNT_LOCKED', message: 'Account temporarily locked. Try again later.' } }, 423);
   }
 
-  const valid = await compare(parsed.data.password, user.passwordHash);
+  const valid = await verifyPassword(parsed.data.password, user.passwordHash ?? '');
   if (!valid) {
     const attempts = (user.loginAttempts ?? 0) + 1;
     const updates: Partial<typeof user> = { loginAttempts: attempts };
@@ -114,8 +114,8 @@ authRouter.post('/login', async (c) => {
   const roleIds = userRolesResult.map((ur) => ur.roleId);
   const { roles: roleSlugs, permissions: permStrings } = await loadPermissionStrings(db, roleIds);
 
-  const token = sign({ sub: user.id, roles: roleSlugs, permissions: permStrings }, c.env.JWT_SECRET, { expiresIn: '15m' });
-  const refreshToken = sign({ sub: user.id, type: 'refresh' }, c.env.JWT_SECRET, { expiresIn: '7d' });
+  const token = sign({ sub: user.id, roles: roleSlugs, permissions: permStrings, jti: crypto.randomUUID() }, c.env.JWT_SECRET, { expiresIn: '15m' });
+  const refreshToken = sign({ sub: user.id, type: 'refresh', jti: crypto.randomUUID() }, c.env.JWT_SECRET, { expiresIn: '7d' });
 
   await db.insert(sessions).values({
     userId: user.id,
@@ -157,8 +157,8 @@ authRouter.post('/refresh', async (c) => {
     const roleIds = userRolesResult.map((ur) => ur.roleId);
     const { roles: roleSlugs, permissions: permStrings } = await loadPermissionStrings(db, roleIds);
 
-    const newToken = sign({ sub: user.id, roles: roleSlugs, permissions: permStrings }, c.env.JWT_SECRET, { expiresIn: '15m' });
-    const newRefreshToken = sign({ sub: user.id, type: 'refresh' }, c.env.JWT_SECRET, { expiresIn: '7d' });
+    const newToken = sign({ sub: user.id, roles: roleSlugs, permissions: permStrings, jti: crypto.randomUUID() }, c.env.JWT_SECRET, { expiresIn: '15m' });
+    const newRefreshToken = sign({ sub: user.id, type: 'refresh', jti: crypto.randomUUID() }, c.env.JWT_SECRET, { expiresIn: '7d' });
 
     return c.json({ success: true, data: { token: newToken, refreshToken: newRefreshToken } });
   } catch {

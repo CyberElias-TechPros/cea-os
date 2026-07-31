@@ -1,5 +1,5 @@
 import { Hono } from 'hono';
-import { getDb, contacts, forumCategories, forumThreads, forumPosts, forumLikes, groups, groupMembers, events, eventRegistrations, scholarships, scholarshipApplications, mentorshipRelations, partnerships, volunteerOpportunities, volunteerSignups, donations } from '@cea/db';
+import { getDb, contacts, forumCategories, forumThreads, forumPosts, forumLikes, groups, groupMembers, events, eventRegistrations, scholarships, scholarshipApplications, mentorshipRelations, partnerships, volunteerOpportunities, volunteerSignups, donations, newsletterSubscribers } from '@cea/db';
 import { eq, and, desc, asc } from 'drizzle-orm';
 import { sql } from 'drizzle-orm';
 import type { Env } from '..';
@@ -16,6 +16,10 @@ communityRouter.post('/newsletter', async (c) => {
   }
   const existing = await db.select().from(contacts).where(eq(contacts.email, email)).limit(1);
   if (existing.length > 0) {
+    const subExists = await db.select().from(newsletterSubscribers).where(eq(newsletterSubscribers.email, email)).limit(1);
+    if (subExists.length === 0) {
+      await db.insert(newsletterSubscribers).values({ email, firstName, source: 'community' });
+    }
     return c.json({ success: true, data: { message: 'Already subscribed' } });
   }
   const [contact] = await db.insert(contacts).values({
@@ -27,6 +31,10 @@ communityRouter.post('/newsletter', async (c) => {
     type: 'prospective_student',
     notes: 'Newsletter signup',
   }).returning();
+  const subExists = await db.select().from(newsletterSubscribers).where(eq(newsletterSubscribers.email, email.trim())).limit(1);
+  if (subExists.length === 0) {
+    await db.insert(newsletterSubscribers).values({ email: email.trim(), firstName, source: 'footer' });
+  }
   return c.json({ success: true, data: { id: contact!.id, message: 'Subscribed' } }, 201);
 });
 

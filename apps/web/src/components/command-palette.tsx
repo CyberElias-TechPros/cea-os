@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Search, CornerDownLeft, Home, BookOpen, GraduationCap, Award, ShieldCheck, Users, HelpCircle, LayoutDashboard, FileText, Handshake, CalendarDays, MessageSquare, Briefcase, CreditCard, Settings, Heart, DoorOpen, Video, Building2, Banknote } from 'lucide-react';
+import { Search, CornerDownLeft, Home, BookOpen, GraduationCap, Award, ShieldCheck, Users, HelpCircle, LayoutDashboard, FileText, Handshake, CalendarDays, MessageSquare, Briefcase, CreditCard, Settings, Heart, DoorOpen, Video, Building2, Banknote, BarChart3, Megaphone, ServerCog } from 'lucide-react';
 import { useAuth } from '../lib/auth-context';
 
 interface CommandItem {
@@ -24,6 +24,8 @@ const PUBLIC_COMMANDS: CommandItem[] = [
   { label: 'Community forums', href: '/community', group: 'Community', keywords: 'forums discussions groups community', icon: <MessageSquare className="h-4 w-4" /> },
   { label: 'Alumni network', href: '/alumni', group: 'Community', keywords: 'alumni graduates network', icon: <GraduationCap className="h-4 w-4" /> },
   { label: 'Donate', href: '/donate', group: 'Community', keywords: 'donate give support funding', icon: <Heart className="h-4 w-4" /> },
+  { label: 'Employer partners', href: '/employers', group: 'Community', keywords: 'employers companies hiring partners', icon: <Building2 className="h-4 w-4" /> },
+  { label: 'Virtual campus tour', href: '/tour', group: 'Main', keywords: 'tour campus 360 virtual', icon: <Video className="h-4 w-4" /> },
   { label: 'Verify certificate', href: '/verify', group: 'Support', keywords: 'certificate verify credential', icon: <ShieldCheck className="h-4 w-4" /> },
   { label: 'About', href: '/about', group: 'Main', keywords: 'about academy', icon: <Users className="h-4 w-4" /> },
   { label: 'Help & FAQ', href: '/help', group: 'Support', keywords: 'help faq support', icon: <HelpCircle className="h-4 w-4" /> },
@@ -49,6 +51,11 @@ const AUTH_COMMANDS: CommandItem[] = [
   { label: 'Front Desk', href: '/dashboard/front-desk', group: 'Staff', keywords: 'visitors front desk check in', icon: <DoorOpen className="h-4 w-4" /> },
   { label: 'Facilities', href: '/dashboard/facilities', group: 'Staff', keywords: 'rooms bookings work orders maintenance', icon: <Building2 className="h-4 w-4" /> },
   { label: 'Payroll', href: '/dashboard/payroll', group: 'Staff', keywords: 'payroll payslips salary runs', icon: <Banknote className="h-4 w-4" /> },
+  { label: 'Executive', href: '/dashboard/executive', group: 'Staff', keywords: 'executive command center okr kpi', icon: <BarChart3 className="h-4 w-4" /> },
+  { label: 'Marketing', href: '/dashboard/marketing', group: 'Staff', keywords: 'marketing campaigns content leads', icon: <Megaphone className="h-4 w-4" /> },
+  { label: 'IT Support', href: '/dashboard/it-support', group: 'Staff', keywords: 'it support knowledge base kb', icon: <ServerCog className="h-4 w-4" /> },
+  { label: 'Reports', href: '/dashboard/reports', group: 'Staff', keywords: 'reports exports csv', icon: <FileText className="h-4 w-4" /> },
+  { label: 'External portals', href: '/portal', group: 'Staff', keywords: 'portals supplier partner parent volunteer intern ngo government', icon: <DoorOpen className="h-4 w-4" /> },
   { label: 'Admin Console', href: '/dashboard/admin', group: 'Staff', keywords: 'admin roles users audit', icon: <ShieldCheck className="h-4 w-4" /> },
 ];
 

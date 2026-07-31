@@ -33,19 +33,27 @@ export default function JobsPage() {
   const [selectedJob, setSelectedJob] = useState<JobListing | null>(null);
   const [showApply, setShowApply] = useState(false);
   const [applyForm, setApplyForm] = useState({ coverLetter: '', expectedSalary: '' });
+  const [myOffers, setMyOffers] = useState<{ id: string; applicationId: string; salary?: number; salaryCurrency?: string; employmentType?: string; startDate?: string; status: string }[]>([]);
 
   const load = async () => {
     setLoading(true);
-    const [jobsRes, appsRes] = await Promise.all([
+    const [jobsRes, appsRes, offersRes] = await Promise.all([
       api<JobListing[]>('/v1/marketplace/jobs'),
       api<{ id: string; jobListingId: string; status: string; appliedAt: string }[]>('/v1/marketplace/applications/my'),
+      api<{ id: string; applicationId: string; salary?: number; salaryCurrency?: string; employmentType?: string; startDate?: string; status: string }[]>('/v1/marketplace/offers/my'),
     ]);
     if (jobsRes.success && jobsRes.data) setJobs(jobsRes.data);
     if (appsRes.success && appsRes.data) setMyApps(appsRes.data);
+    if (offersRes.success && offersRes.data) setMyOffers(offersRes.data);
     setLoading(false);
   };
 
   useEffect(() => { load(); }, []);
+
+  const respondOffer = async (id: string, accept: boolean) => {
+    await api(`/v1/marketplace/offers/${id}/respond`, { method: 'POST', body: JSON.stringify({ accept }) });
+    await load();
+  };
 
   const apply = async () => {
     if (!selectedJob) return;
@@ -144,16 +152,26 @@ export default function JobsPage() {
             <div className="space-y-3">
               {myApps.map(app => {
                 const job = jobs.find(j => j.id === app.jobListingId);
+                const offer = myOffers.find(o => o.applicationId === app.id);
                 return (
                   <Card key={app.id}>
                     <CardContent className="flex items-center justify-between py-4">
                       <div>
                         <p className="font-medium">{job?.title || 'Unknown Job'}</p>
                         <p className="text-sm text-muted-foreground">Applied {new Date(app.appliedAt).toLocaleDateString()}</p>
+                        {offer && <p className="text-sm mt-1">Offer: {offer.salary ? `${Number(offer.salary).toLocaleString()} ${offer.salaryCurrency}` : ''} {offer.employmentType} {offer.startDate ? `· starts ${offer.startDate}` : ''}</p>}
                       </div>
-                      <Badge variant={app.status === 'pending' ? 'secondary' : app.status === 'shortlisted' ? 'default' : 'outline'}>
-                        {app.status}
-                      </Badge>
+                      <div className="flex items-center gap-2">
+                        {offer && offer.status === 'pending' && (
+                          <>
+                            <Button size="sm" onClick={() => respondOffer(offer.id, true)}>Accept</Button>
+                            <Button size="sm" variant="outline" onClick={() => respondOffer(offer.id, false)}>Decline</Button>
+                          </>
+                        )}
+                        <Badge variant={app.status === 'submitted' ? 'secondary' : app.status === 'hired' ? 'default' : app.status === 'rejected' || app.status === 'withdrawn' ? 'destructive' : 'default'}>
+                          {app.status}
+                        </Badge>
+                      </div>
                     </CardContent>
                   </Card>
                 );

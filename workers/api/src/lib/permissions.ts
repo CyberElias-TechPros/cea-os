@@ -32,6 +32,10 @@ export const permissionCatalog: PermissionDef[] = [
   { resource: 'procurement', action: 'create', description: 'Approve purchase orders' },
   { resource: 'visitors', action: 'read', description: 'View visitor records' },
   { resource: 'visitors', action: 'update', description: 'Check visitors in and out' },
+  { resource: 'marketing', action: 'read', description: 'View campaigns and leads' },
+  { resource: 'marketing', action: 'create', description: 'Create and send campaigns' },
+  { resource: 'marketing', action: 'update', description: 'Edit content calendar' },
+  { resource: 'admin', action: 'update', description: 'Manage webhooks and system config' },
 ];
 
 export const defaultRoles: { name: string; slug: string; description: string; hierarchy: number }[] = [
@@ -42,4 +46,11 @@ export const defaultRoles: { name: string; slug: string; description: string; hi
   { name: 'Instructor', slug: 'instructor', description: 'Course instructor', hierarchy: 40 },
   { name: 'Employer', slug: 'employer', description: 'Hiring partner', hierarchy: 30 },
   { name: 'Mentor', slug: 'mentor', description: 'Alumni mentor', hierarchy: 35 },
+  { name: 'Supplier', slug: 'supplier', description: 'External supplier portal access', hierarchy: 25 },
+  { name: 'Partner', slug: 'partner', description: 'Partner organization portal access', hierarchy: 25 },
+  { name: 'Parent', slug: 'parent', description: 'Parent/guardian portal access', hierarchy: 15 },
+  { name: 'Volunteer', slug: 'volunteer', description: 'Volunteer portal access', hierarchy: 15 },
+  { name: 'Intern', slug: 'intern', description: 'Intern portal access', hierarchy: 15 },
+  { name: 'NGO', slug: 'ngo', description: 'NGO partner portal access', hierarchy: 25 },
+  { name: 'Government', slug: 'government', description: 'Government compliance portal access', hierarchy: 25 },
 ];

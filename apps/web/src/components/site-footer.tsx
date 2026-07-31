@@ -11,6 +11,8 @@ const footerLinks = {
     { href: '/courses', label: 'Courses' },
     { href: '/events', label: 'Events' },
     { href: '/alumni', label: 'Alumni Network' },
+    { href: '/employers', label: 'Employer Partners' },
+    { href: '/tour', label: 'Virtual Campus Tour' },
     { href: '/courses/compare', label: 'Compare Programs' },
     { href: '/scholarships', label: 'Scholarships' },
     { href: '/apply', label: 'Apply Now' },

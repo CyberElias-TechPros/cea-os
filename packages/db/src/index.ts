@@ -14,7 +14,7 @@ export type { AttendanceRecord } from './schema/attendance';
 export type { Certificate } from './schema/certificates';
 export type { Conversation, Message } from './schema/messaging';
 export type { Portfolio, PortfolioProject } from './schema/portfolios';
-export type { Employer, JobListing, JobApplication, JobInterview, FreelanceGig, GigApplication } from './schema/marketplace';
+export type { Employer, JobListing, JobApplication, JobInterview, JobOffer, FreelanceGig, GigApplication } from './schema/marketplace';
 export type { AlumniProfile, Placement } from './schema/alumni';
 export type { Contact } from './schema/crm';
 export type { Deal } from './schema/crm';
@@ -34,3 +34,4 @@ export type { InventoryItem, AssetTrack, StockMovement } from './schema/inventor
 export type { Supplier, PurchaseOrder, PurchaseOrderItem } from './schema/procurement';
 export type { ForumCategory, ForumThread, ForumPost, Group, GroupMember, Event, EventRegistration, Scholarship, ScholarshipApplication, MentorshipRelation, Partnership, VolunteerOpportunity, VolunteerSignup, Donation } from './schema/community';
 export type { Room, NewRoom, RoomBooking, NewRoomBooking, WorkOrder, NewWorkOrder } from './schema/facilities';
+export type { Okr, Campaign, ContentItem, KnowledgeBaseArticle, Webhook, NewsletterSubscriber, WardLink, InternTask, InternTimesheet, VolunteerHour } from './schema/platform';

@@ -30,6 +30,7 @@ import { communityRouter } from './routes/community';
 import { analyticsRouter } from './routes/analytics';
 import { adminRouter } from './routes/admin';
 import { facilitiesRouter } from './routes/facilities';
+import { platformRouter } from './routes/platform';
 import { errorHandler } from './middleware/errorHandler';
 
 export type Env = {
@@ -94,6 +95,7 @@ app.route('/v1/community', communityRouter);
 app.route('/v1/analytics', analyticsRouter);
 app.route('/v1/admin', adminRouter);
 app.route('/v1/facilities', facilitiesRouter);
+app.route('/v1/platform', platformRouter);
 
 app.get('/v1/health', (c) => c.json({ status: 'ok', timestamp: Date.now() }));
 

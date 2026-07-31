@@ -2,10 +2,10 @@
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { motion } from 'motion/react';
-import { Button, Card, CardContent, Badge, Tabs, TabsContent, TabsList, TabsTrigger, Input } from '@cea/ui';
+import { Button, Card, CardContent, Badge, Tabs, TabsContent, TabsList, TabsTrigger, Input, Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from '@cea/ui';
 import { api } from '../../../lib/api-client';
 import { useAuth } from '../../../lib/auth-context';
-import { ShieldCheck, Users as UsersIcon, KeyRound, Loader2, Search, History, Sparkles, CheckCircle2, Ban } from 'lucide-react';
+import { ShieldCheck, Users as UsersIcon, KeyRound, Loader2, Search, History, Sparkles, CheckCircle2, Ban, Plus, Send, Webhook as WebhookIcon, Trash2 } from 'lucide-react';
 
 interface Role { id: string; name: string; slug: string; description?: string; hierarchy: number; permissions: string[] }
 interface AdminUser {
@@ -18,6 +18,7 @@ interface AuditEntry {
   ipAddress?: string; createdAt: number;
   actor?: { firstName: string; lastName: string; email: string } | null;
 }
+interface Webhook { id: string; name: string; url: string; secret?: string; events?: string[]; enabled: boolean; lastDeliveredAt?: string; }
 
 export default function AdminPage() {
   const { user } = useAuth();
@@ -31,6 +32,37 @@ export default function AdminPage() {
   const [selectedRoles, setSelectedRoles] = useState<Record<string, string[]>>({});
   const [savingId, setSavingId] = useState<string | null>(null);
   const [forbidden, setForbidden] = useState(false);
+  const [webhooks, setWebhooks] = useState<Webhook[]>([]);
+  const [showWebhook, setShowWebhook] = useState(false);
+  const [testingId, setTestingId] = useState<string | null>(null);
+  const [hookForm, setHookForm] = useState({ name: '', url: '', secret: '', events: '' });
+
+  const loadWebhooks = useCallback(async () => {
+    const res = await api<Webhook[]>('/v1/platform/webhooks');
+    if (res.success && res.data) setWebhooks(res.data);
+  }, []);
+
+  const createWebhook = async () => {
+    await api('/v1/platform/webhooks', {
+      method: 'POST',
+      body: JSON.stringify({ ...hookForm, events: hookForm.events.split(',').map(s => s.trim()).filter(Boolean) }),
+    });
+    setShowWebhook(false);
+    setHookForm({ name: '', url: '', secret: '', events: '' });
+    await loadWebhooks();
+  };
+
+  const testWebhook = async (id: string) => {
+    setTestingId(id);
+    await api(`/v1/platform/webhooks/${id}/test`, { method: 'POST' });
+    setTestingId(null);
+    await loadWebhooks();
+  };
+
+  const deleteWebhook = async (id: string) => {
+    await api(`/v1/platform/webhooks/${id}`, { method: 'DELETE' });
+    await loadWebhooks();
+  };
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -56,7 +88,7 @@ export default function AdminPage() {
     setLoading(false);
   }, []);
 
-  useEffect(() => { load(); }, [load]);
+  useEffect(() => { load(); loadWebhooks(); }, [load, loadWebhooks]);
 
   const bootstrap = async () => {
     setBooting(true);
@@ -151,6 +183,7 @@ export default function AdminPage() {
           <TabsTrigger value="users">Users ({users.length})</TabsTrigger>
           <TabsTrigger value="roles">Roles ({roles.length})</TabsTrigger>
           <TabsTrigger value="audit">Audit log</TabsTrigger>
+          <TabsTrigger value="webhooks">Webhooks ({webhooks.length})</TabsTrigger>
         </TabsList>
 
         <TabsContent value="users" className="space-y-4">
@@ -262,6 +295,53 @@ export default function AdminPage() {
               </motion.div>
             ))
           )}
+        </TabsContent>
+
+        <TabsContent value="webhooks" className="space-y-3">
+          <div className="flex justify-end"><Button size="sm" onClick={() => setShowWebhook(true)}><Plus className="h-4 w-4 mr-1" /> New Webhook</Button></div>
+          {webhooks.length === 0 ? (
+            <Card><CardContent className="p-14 text-center">
+              <WebhookIcon className="h-12 w-12 text-muted-foreground mx-auto" />
+              <p className="mt-4 text-muted-foreground">No webhooks configured. Create one to receive platform events.</p>
+            </CardContent></Card>
+          ) : (
+            webhooks.map(h => (
+              <Card key={h.id}>
+                <CardContent className="p-5 flex items-center justify-between gap-4">
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2">
+                      <span className="font-semibold">{h.name}</span>
+                      <Badge variant={h.enabled ? 'default' : 'secondary'}>{h.enabled ? 'enabled' : 'disabled'}</Badge>
+                    </div>
+                    <p className="text-sm text-muted-foreground truncate font-mono">{h.url}</p>
+                    <div className="flex flex-wrap gap-1.5 mt-2">
+                      {(h.events ?? []).map(e => <Badge key={e} variant="secondary" className="text-[10px] font-mono">{e}</Badge>)}
+                      {(!h.events || h.events.length === 0) && <Badge variant="outline" className="text-[10px]">all events</Badge>}
+                      {h.lastDeliveredAt && <span className="text-xs text-muted-foreground self-center">last delivery {new Date(h.lastDeliveredAt).toLocaleString()}</span>}
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-2 shrink-0">
+                    <Button size="sm" variant="outline" onClick={() => testWebhook(h.id)} disabled={testingId === h.id}>
+                      {testingId === h.id ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <Send className="h-3.5 w-3.5 mr-1" />}Test
+                    </Button>
+                    <Button size="sm" variant="ghost" className="text-destructive" onClick={() => deleteWebhook(h.id)}>Delete</Button>
+                  </div>
+                </CardContent>
+              </Card>
+            ))
+          )}
+          <Dialog open={showWebhook} onOpenChange={setShowWebhook}>
+            <DialogContent>
+              <DialogHeader><DialogTitle>New Webhook</DialogTitle><DialogDescription>CEA-OS will POST JSON payloads to this endpoint.</DialogDescription></DialogHeader>
+              <div className="space-y-4">
+                <div><label className="text-sm font-medium">Name *</label><Input value={hookForm.name} onChange={e => setHookForm(f => ({ ...f, name: e.target.value }))} /></div>
+                <div><label className="text-sm font-medium">URL *</label><Input value={hookForm.url} onChange={e => setHookForm(f => ({ ...f, url: e.target.value }))} placeholder="https://example.com/hooks/cea" /></div>
+                <div><label className="text-sm font-medium">Secret (signature)</label><Input value={hookForm.secret} onChange={e => setHookForm(f => ({ ...f, secret: e.target.value }))} /></div>
+                <div><label className="text-sm font-medium">Events (comma separated, blank = all)</label><Input value={hookForm.events} onChange={e => setHookForm(f => ({ ...f, events: e.target.value }))} placeholder="enrollment.created, invoice.paid" /></div>
+              </div>
+              <DialogFooter><Button variant="outline" onClick={() => setShowWebhook(false)}>Cancel</Button><Button onClick={createWebhook}>Create</Button></DialogFooter>
+            </DialogContent>
+          </Dialog>
         </TabsContent>
       </Tabs>
     </div>

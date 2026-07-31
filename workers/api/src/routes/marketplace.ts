@@ -1,5 +1,5 @@
 import { Hono } from 'hono';
-import { getDb, employers, jobListings, jobApplications, jobInterviews, freelanceGigs, gigApplications } from '@cea/db';
+import { getDb, employers, jobListings, jobApplications, jobInterviews, jobOffers, freelanceGigs, gigApplications, users } from '@cea/db';
 import { eq, and, asc, desc, count, sql } from 'drizzle-orm';
 import type { Env } from '..';
 import { authMiddleware, requirePermission } from '../middleware/auth';
@@ -25,6 +25,20 @@ marketplaceRouter.get('/employers/me', authMiddleware, async (c) => {
   const [employer] = await db.select().from(employers).where(eq(employers.userId, userId)).limit(1);
   if (!employer) return c.json({ success: false, error: { code: 'NOT_FOUND', message: 'Employer profile not found' } }, 404);
   return c.json({ success: true, data: employer });
+});
+
+marketplaceRouter.get('/employers/directory', async (c) => {
+  const db = getDb(c.env.DB);
+  const rows = await db.select().from(employers).where(eq(employers.status, 'active')).orderBy(asc(employers.companyName));
+  const data = await Promise.all(rows.map(async (emp) => {
+    const jobs = await db.select({ id: jobListings.id, title: jobListings.title, location: jobListings.location, employmentType: jobListings.employmentType, salaryMin: jobListings.salaryMin, salaryMax: jobListings.salaryMax, salaryCurrency: jobListings.salaryCurrency })
+      .from(jobListings)
+      .where(and(eq(jobListings.employerId, emp.id), eq(jobListings.status, 'published')))
+      .orderBy(desc(jobListings.postedAt))
+      .limit(5);
+    return { employer: emp, jobs };
+  }));
+  return c.json({ success: true, data });
 });
 
 // --- Job Listings ---
@@ -118,11 +132,40 @@ marketplaceRouter.patch('/applications/:id/status', authMiddleware, async (c) =>
   return c.json({ success: true, data: { message: 'Application updated' } });
 });
 
+// --- Pipeline (staff kanban) ---
+marketplaceRouter.get('/applications/pipeline', authMiddleware, async (c) => {
+  const db = getDb(c.env.DB);
+  const rows = await db
+    .select({
+      id: jobApplications.id,
+      jobListingId: jobApplications.jobListingId,
+      userId: jobApplications.userId,
+      coverLetter: jobApplications.coverLetter,
+      matchScore: jobApplications.matchScore,
+      status: jobApplications.status,
+      notes: jobApplications.notes,
+      appliedAt: jobApplications.appliedAt,
+      firstName: users.firstName,
+      lastName: users.lastName,
+      email: users.email,
+      jobTitle: jobListings.title,
+      jobSlug: jobListings.slug,
+    })
+    .from(jobApplications)
+    .innerJoin(users, eq(jobApplications.userId, users.id))
+    .innerJoin(jobListings, eq(jobApplications.jobListingId, jobListings.id))
+    .orderBy(desc(jobApplications.appliedAt));
+  const interviews = await db.select().from(jobInterviews).orderBy(desc(jobInterviews.scheduledAt));
+  const offers = await db.select().from(jobOffers).orderBy(desc(jobOffers.createdAt));
+  return c.json({ success: true, data: rows.map((app) => ({ ...app, interviews: interviews.filter((i) => i.applicationId === app.id), offers: offers.filter((o) => o.applicationId === app.id) })) });
+});
+
 // --- Interviews ---
 marketplaceRouter.post('/interviews', authMiddleware, async (c) => {
   const db = getDb(c.env.DB);
   const body = await c.req.json();
   const [interview] = await db.insert(jobInterviews).values(body).returning();
+  if (body.schedule) await db.update(jobApplications).set({ status: 'interviewed' }).where(eq(jobApplications.id, body.applicationId));
   return c.json({ success: true, data: interview }, 201);
 });
 
@@ -130,6 +173,62 @@ marketplaceRouter.get('/interviews/:applicationId', authMiddleware, async (c) =>
   const db = getDb(c.env.DB);
   const interviews = await db.select().from(jobInterviews).where(eq(jobInterviews.applicationId, c.req.param('applicationId')));
   return c.json({ success: true, data: interviews });
+});
+
+marketplaceRouter.patch('/interviews/:id', authMiddleware, async (c) => {
+  const db = getDb(c.env.DB);
+  const body = await c.req.json();
+  await db.update(jobInterviews).set({ ...body, updatedAt: new Date() }).where(eq(jobInterviews.id, c.req.param('id')));
+  return c.json({ success: true, data: { message: 'Interview updated' } });
+});
+
+// --- Offers ---
+marketplaceRouter.post('/applications/:id/offer', authMiddleware, async (c) => {
+  const db = getDb(c.env.DB);
+  const { salary, salaryCurrency, employmentType, startDate, notes } = await c.req.json();
+  const existing = await db.select().from(jobOffers).where(eq(jobOffers.applicationId, c.req.param('id'))).limit(1);
+  if (existing.length > 0) return c.json({ success: false, error: { code: 'CONFLICT', message: 'Offer already exists for this application' } }, 409);
+  const [offer] = await db.insert(jobOffers).values({ applicationId: c.req.param('id'), salary, salaryCurrency, employmentType, startDate, notes, offeredById: c.get('userId') }).returning();
+  await db.update(jobApplications).set({ status: 'offered' }).where(eq(jobApplications.id, c.req.param('id')));
+  return c.json({ success: true, data: offer }, 201);
+});
+
+marketplaceRouter.get('/offers/my', authMiddleware, async (c) => {
+  const db = getDb(c.env.DB);
+  const userId = c.get('userId');
+  const rows = await db
+    .select({
+      id: jobOffers.id,
+      salary: jobOffers.salary,
+      salaryCurrency: jobOffers.salaryCurrency,
+      employmentType: jobOffers.employmentType,
+      startDate: jobOffers.startDate,
+      notes: jobOffers.notes,
+      status: jobOffers.status,
+      respondedAt: jobOffers.respondedAt,
+      createdAt: jobOffers.createdAt,
+      jobTitle: jobListings.title,
+      companyName: employers.companyName,
+      appStatus: jobApplications.status,
+    })
+    .from(jobOffers)
+    .innerJoin(jobApplications, eq(jobOffers.applicationId, jobApplications.id))
+    .innerJoin(jobListings, eq(jobApplications.jobListingId, jobListings.id))
+    .innerJoin(employers, eq(jobListings.employerId, employers.id))
+    .where(eq(jobApplications.userId, userId))
+    .orderBy(desc(jobOffers.createdAt));
+  return c.json({ success: true, data: rows });
+});
+
+marketplaceRouter.post('/offers/:id/respond', authMiddleware, async (c) => {
+  const db = getDb(c.env.DB);
+  const { accept } = await c.req.json();
+  const [offer] = await db.select().from(jobOffers).where(eq(jobOffers.id, c.req.param('id'))).limit(1);
+  if (!offer) return c.json({ success: false, error: { code: 'NOT_FOUND', message: 'Offer not found' } }, 404);
+  const status = accept ? 'accepted' : 'declined';
+  await db.update(jobOffers).set({ status, respondedAt: new Date() }).where(eq(jobOffers.id, offer.id));
+  await db.update(jobApplications).set({ status: accept ? 'hired' : 'withdrawn' }).where(eq(jobApplications.id, offer.applicationId));
+  return c.json({ success: true, data: { message: `Offer ${status}` } });
 });
 
 // --- Freelance Gigs ---
