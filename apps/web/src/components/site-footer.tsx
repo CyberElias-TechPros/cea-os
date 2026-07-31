@@ -10,9 +10,11 @@ const footerLinks = {
     { href: '/about', label: 'About Us' },
     { href: '/courses', label: 'Courses' },
     { href: '/events', label: 'Events' },
+    { href: '/alumni', label: 'Alumni Network' },
     { href: '/courses/compare', label: 'Compare Programs' },
     { href: '/scholarships', label: 'Scholarships' },
     { href: '/apply', label: 'Apply Now' },
+    { href: '/donate', label: 'Donate' },
   ],
   Programs: [
     { href: '/courses/software-development', label: 'Software Development' },

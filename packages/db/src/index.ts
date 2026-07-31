@@ -33,3 +33,4 @@ export type { Employee, LeaveRequest, Department, Branch, StaffAttendance, Perfo
 export type { InventoryItem, AssetTrack, StockMovement } from './schema/inventory';
 export type { Supplier, PurchaseOrder, PurchaseOrderItem } from './schema/procurement';
 export type { ForumCategory, ForumThread, ForumPost, Group, GroupMember, Event, EventRegistration, Scholarship, ScholarshipApplication, MentorshipRelation, Partnership, VolunteerOpportunity, VolunteerSignup, Donation } from './schema/community';
+export type { Room, NewRoom, RoomBooking, NewRoomBooking, WorkOrder, NewWorkOrder } from './schema/facilities';

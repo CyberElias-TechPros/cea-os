@@ -381,6 +381,15 @@ export default function DashboardPage() {
             </CardContent>
           </Card>
         </Link>
+        <Link href="/dashboard/transcript">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <FileText className="h-8 w-8 text-fuchsia-500" />
+              <div className="font-medium">Transcript</div>
+              <div className="text-xs text-muted-foreground">Academic record</div>
+            </CardContent>
+          </Card>
+        </Link>
         <Link href="/dashboard/mentorship">
           <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
             <CardContent className="p-6 flex flex-col items-center text-center gap-2">
@@ -412,6 +421,15 @@ export default function DashboardPage() {
             </Card>
           </Link>
         )}
+        <Link href="/dashboard/facilities">
+          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
+            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
+              <Building2 className="h-8 w-8 text-stone-500" />
+              <div className="font-medium">Facilities</div>
+              <div className="text-xs text-muted-foreground">Rooms & work orders</div>
+            </CardContent>
+          </Card>
+        </Link>
       </div>
                   </div>
                   <Badge variant={course.status === 'active' ? 'success' : course.status === 'published' ? 'info' : 'secondary'}>

@@ -11,6 +11,7 @@ const navLinks = [
   { href: '/courses', label: 'Courses' },
   { href: '/scholarships', label: 'Scholarships' },
   { href: '/events', label: 'Events' },
+  { href: '/community', label: 'Community' },
   { href: '/blog', label: 'Blog' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },

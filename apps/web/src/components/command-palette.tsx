@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Search, CornerDownLeft, Home, BookOpen, GraduationCap, Award, ShieldCheck, Users, HelpCircle, LayoutDashboard, FileText, Handshake, CalendarDays, MessageSquare, Briefcase, CreditCard, Settings, Heart, DoorOpen, Video } from 'lucide-react';
+import { Search, CornerDownLeft, Home, BookOpen, GraduationCap, Award, ShieldCheck, Users, HelpCircle, LayoutDashboard, FileText, Handshake, CalendarDays, MessageSquare, Briefcase, CreditCard, Settings, Heart, DoorOpen, Video, Building2 } from 'lucide-react';
 import { useAuth } from '../lib/auth-context';
 
 interface CommandItem {
@@ -21,6 +21,9 @@ const PUBLIC_COMMANDS: CommandItem[] = [
   { label: 'Apply now', href: '/apply', group: 'Admissions', keywords: 'apply enroll admission application', icon: <GraduationCap className="h-4 w-4" /> },
   { label: 'Scholarships', href: '/scholarships', group: 'Admissions', keywords: 'scholarship funding bursary', icon: <Award className="h-4 w-4" /> },
   { label: 'Events', href: '/events', group: 'Community', keywords: 'events calendar workshop', icon: <CalendarDays className="h-4 w-4" /> },
+  { label: 'Community forums', href: '/community', group: 'Community', keywords: 'forums discussions groups community', icon: <MessageSquare className="h-4 w-4" /> },
+  { label: 'Alumni network', href: '/alumni', group: 'Community', keywords: 'alumni graduates network', icon: <GraduationCap className="h-4 w-4" /> },
+  { label: 'Donate', href: '/donate', group: 'Community', keywords: 'donate give support funding', icon: <Heart className="h-4 w-4" /> },
   { label: 'Verify certificate', href: '/verify', group: 'Support', keywords: 'certificate verify credential', icon: <ShieldCheck className="h-4 w-4" /> },
   { label: 'About', href: '/about', group: 'Main', keywords: 'about academy', icon: <Users className="h-4 w-4" /> },
   { label: 'Help & FAQ', href: '/help', group: 'Support', keywords: 'help faq support', icon: <HelpCircle className="h-4 w-4" /> },
@@ -41,8 +44,10 @@ const AUTH_COMMANDS: CommandItem[] = [
   { label: 'Billing', href: '/dashboard/billing', group: 'Dashboard', keywords: 'billing invoices payments', icon: <CreditCard className="h-4 w-4" /> },
   { label: 'Mentorship', href: '/dashboard/mentorship', group: 'Dashboard', keywords: 'mentor mentorship guidance', icon: <Handshake className="h-4 w-4" /> },
   { label: 'CV Generator', href: '/dashboard/cv', group: 'Dashboard', keywords: 'cv resume', icon: <FileText className="h-4 w-4" /> },
+  { label: 'Transcript', href: '/dashboard/transcript', group: 'Dashboard', keywords: 'transcript academic record', icon: <FileText className="h-4 w-4" /> },
   { label: 'Profile & settings', href: '/dashboard/profile', group: 'Dashboard', keywords: 'profile settings password', icon: <Settings className="h-4 w-4" /> },
   { label: 'Front Desk', href: '/dashboard/front-desk', group: 'Staff', keywords: 'visitors front desk check in', icon: <DoorOpen className="h-4 w-4" /> },
+  { label: 'Facilities', href: '/dashboard/facilities', group: 'Staff', keywords: 'rooms bookings work orders maintenance', icon: <Building2 className="h-4 w-4" /> },
   { label: 'Admin Console', href: '/dashboard/admin', group: 'Staff', keywords: 'admin roles users audit', icon: <ShieldCheck className="h-4 w-4" /> },
 ];
 

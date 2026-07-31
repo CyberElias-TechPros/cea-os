@@ -24,3 +24,4 @@ export * from './hr';
 export * from './inventory';
 export * from './procurement';
 export * from './community';
+export * from './facilities';
