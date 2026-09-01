@@ -29,7 +29,38 @@ coursesRouter.post('/', authMiddleware, requirePermission('courses', 'create'), 
   const body = await c.req.json();
   const userId = c.get('userId');
 
-  const inserted = await db.insert(courses).values({ ...body, createdById: userId }).returning();
+  const name = String(body.name ?? body.title ?? '').trim();
+  if (!name) {
+    return c.json({ success: false, error: { code: 'VALIDATION_ERROR', message: 'Course name/title is required' } }, 422);
+  }
+
+  const slugBase = (body.slug || name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  const slug = `${slugBase}-${Date.now().toString(36)}`;
+  const code = String(body.code ?? `${slugBase.toUpperCase().slice(0, 16)}-${Date.now().toString(36).toUpperCase().slice(-4)}`);
+
+  // Build the insert payload with a whitelist of allowed fields and a couple
+  // of client field aliases (`title` → `name`, `durationWeeks` → `durationHours`).
+  const values: typeof courses.$inferInsert = {
+    name,
+    slug,
+    code,
+    createdById: userId,
+    description: body.description,
+    category: body.category,
+    difficulty: body.difficulty,
+    durationHours: body.durationHours != null ? body.durationHours : (body.durationWeeks != null ? Number(body.durationWeeks) * 10 : undefined),
+    price: body.price,
+    currency: body.currency,
+    isFree: body.isFree,
+    hasCertificate: body.hasCertificate,
+    passThreshold: body.passThreshold,
+    maxStudents: body.maxStudents,
+    thumbnailUrl: body.thumbnailUrl,
+    status: body.status,
+    programId: body.programId,
+  };
+
+  const inserted = await db.insert(courses).values(values).returning();
   const course = inserted[0]!;
   await db.insert(courseInstructors).values({ courseId: course.id, userId, role: 'primary' });
 

@@ -1,0 +1,21 @@
+# wrangler.toml — CEA-OS Email Worker (queue consumer)
+
+name = "cea-email"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Secrets: RESEND_API_KEY or SENDGRID_API_KEY, EMAIL_FROM.
+# Set with `wrangler secret put <NAME>`.
+
+[[queues.consumers]]
+binding = "EMAIL_QUEUE"
+queue = "cea-email-queue"
+max_batch_size = 10
+max_batch_timeout = 5
+
+[env.production]
+name = "cea-email"
+
+[env.staging]
+name = "cea-email-staging"

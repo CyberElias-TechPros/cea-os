@@ -1,500 +1,162 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle, Button, Badge } from '@cea/ui';
-import { Plus, BookOpen, Users, Clock, Briefcase, Building2, GraduationCap, UserCircle, Contact, FolderKanban, TicketCheck, FileText, PanelTop, Wallet, UserCog, Package, ShoppingCart, MessageSquare, BarChart3, Bell, ClipboardList, NotebookPen, Award, CreditCard, CalendarDays, Send, Handshake, FileDown, ShieldCheck, DoorOpen, MonitorPlay, Banknote, Wrench, Megaphone } from 'lucide-react';
+import {
+  BookOpen, Users, GraduationCap, UserCircle, Briefcase, Building2, Contact,
+  FolderKanban, TicketCheck, FileText, Wallet, UserCog, Package, ShoppingCart,
+  MessageSquare, BarChart3, Bell, ClipboardList, NotebookPen, Award,
+  CalendarDays, Send, Handshake, FileDown, ShieldCheck, DoorOpen, MonitorPlay,
+  Banknote, Wrench, Megaphone, Loader2, Clock,
+} from 'lucide-react';
 import { useAuth } from '../../lib/auth-context';
+import { api } from '../../lib/api-client';
 import { OnboardingTour } from '../../components/onboarding-tour';
 
-const mockCourses = [
-  { id: '1', name: 'Full-Stack Web Development', status: 'active', students: 45, modules: 8, duration: '12 weeks' },
-  { id: '2', name: 'Python for Data Science', status: 'published', students: 32, modules: 6, duration: '10 weeks' },
-  { id: '3', name: 'Cyber Security Essentials', status: 'draft', students: 0, modules: 4, duration: '14 weeks' },
-];
+interface Course {
+  id: string;
+  title: string;
+  slug?: string;
+  code?: string;
+  status?: string;
+  description?: string;
+  durationWeeks?: number;
+  price?: number;
+}
+
+function NavCard({ href, icon: Icon, title, desc, color }: {
+  href: string; icon: typeof BookOpen; title: string; desc: string; color: string;
+}) {
+  return (
+    <Link href={href}>
+      <Card className="h-full cursor-pointer transition-colors hover:border-primary/50">
+        <CardContent className="flex h-full flex-col items-center gap-2 p-6 text-center">
+          <Icon className={`h-8 w-8 ${color}`} />
+          <div className="font-medium">{title}</div>
+          <div className="text-xs text-muted-foreground">{desc}</div>
+        </CardContent>
+      </Card>
+    </Link>
+  );
+}
 
 export default function DashboardPage() {
   const { user } = useAuth();
+  const [courses, setCourses] = useState<Course[]>([]);
+  const [coursesLoading, setCoursesLoading] = useState(true);
+
+  useEffect(() => {
+    (async () => {
+      setCoursesLoading(true);
+      const res = await api<Course[]>('/v1/courses');
+      if (res.success && res.data) setCourses(res.data);
+      setCoursesLoading(false);
+    })();
+  }, []);
+
   return (
     <div>
       <OnboardingTour />
-      <div className="flex items-center justify-between mb-8">
+
+      <div className="mb-8 flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1>
-          <p className="text-muted-foreground">Manage your courses and teaching</p>
+          <h1 className="text-3xl font-bold tracking-tight">
+            Welcome back{user?.firstName ? `, ${user.firstName}` : ''}
+          </h1>
+          <p className="text-muted-foreground">Your learning and operations hub.</p>
         </div>
-        <Link href="/dashboard/courses/new">
-          <Button><Plus className="mr-2 h-4 w-4" /> New Course</Button>
+        <Link href="/courses">
+          <Button variant="outline"><BookOpen className="mr-2 h-4 w-4" /> Browse Courses</Button>
         </Link>
       </div>
 
-      <div className="grid gap-4 md:grid-cols-3 mb-8">
-        <Card>
-          <CardContent className="p-6 flex items-center gap-4">
-            <BookOpen className="h-8 w-8 text-blue-500" />
-            <div>
-              <div className="text-2xl font-bold">{mockCourses.length}</div>
-              <div className="text-sm text-muted-foreground">Total Courses</div>
-            </div>
+      {/* Courses */}
+      <h2 className="mb-4 text-xl font-semibold">Courses</h2>
+      {coursesLoading ? (
+        <div className="mb-8 flex justify-center py-10">
+          <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
+        </div>
+      ) : courses.length === 0 ? (
+        <Card className="mb-8">
+          <CardContent className="flex flex-col items-center gap-3 p-10 text-center">
+            <BookOpen className="h-8 w-8 text-muted-foreground" />
+            <p className="text-sm text-muted-foreground">No courses have been published yet. Check back soon.</p>
+            <Link href="/courses"><Button size="sm" variant="outline">View public catalog</Button></Link>
           </CardContent>
         </Card>
-        <Card>
-          <CardContent className="p-6 flex items-center gap-4">
-            <Users className="h-8 w-8 text-green-500" />
-            <div>
-              <div className="text-2xl font-bold">77</div>
-              <div className="text-sm text-muted-foreground">Total Students</div>
-            </div>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardContent className="p-6 flex items-center gap-4">
-            <Clock className="h-8 w-8 text-purple-500" />
-            <div>
-              <div className="text-2xl font-bold">3</div>
-              <div className="text-sm text-muted-foreground">Active Courses</div>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
-
-      <div className="grid gap-4 md:grid-cols-4 mb-8">
-        <Link href="/dashboard/portfolio">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <UserCircle className="h-8 w-8 text-blue-500" />
-              <div className="font-medium">My Portfolio</div>
-              <div className="text-xs text-muted-foreground">Showcase your work</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/jobs">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Briefcase className="h-8 w-8 text-green-500" />
-              <div className="font-medium">Job Board</div>
-              <div className="text-xs text-muted-foreground">Find opportunities</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/employer">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Building2 className="h-8 w-8 text-purple-500" />
-              <div className="font-medium">Employer</div>
-              <div className="text-xs text-muted-foreground">Post jobs, find talent</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/alumni">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <GraduationCap className="h-8 w-8 text-orange-500" />
-              <div className="font-medium">Alumni Network</div>
-              <div className="text-xs text-muted-foreground">Connect & mentor</div>
-            </CardContent>
-          </Card>
-        </Link>
-      </div>
-
-      <h2 className="text-xl font-semibold mb-4">Business Operations</h2>
-      <div className="grid gap-4 md:grid-cols-4 mb-8">
-        <Link href="/dashboard/clients">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Contact className="h-8 w-8 text-cyan-500" />
-              <div className="font-medium">CRM</div>
-              <div className="text-xs text-muted-foreground">Contacts & pipeline</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/projects">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <FolderKanban className="h-8 w-8 text-indigo-500" />
-              <div className="font-medium">Projects</div>
-              <div className="text-xs text-muted-foreground">Tasks & milestones</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/tickets">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <TicketCheck className="h-8 w-8 text-rose-500" />
-              <div className="font-medium">Support</div>
-              <div className="text-xs text-muted-foreground">Ticket system</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/invoices">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <FileText className="h-8 w-8 text-amber-500" />
-              <div className="font-medium">Invoices</div>
-              <div className="text-xs text-muted-foreground">Billing & payments</div>
-            </CardContent>
-          </Card>
-        </Link>
-      </div>
-
-      <h2 className="text-xl font-semibold mb-4">AI & Analytics</h2>
-      <div className="grid gap-4 md:grid-cols-3 mb-8">
-        <Link href="/dashboard/analytics">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <BarChart3 className="h-8 w-8 text-blue-500" />
-              <div className="font-medium">Analytics</div>
-              <div className="text-xs text-muted-foreground">Reports & insights</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/notifications">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Bell className="h-8 w-8 text-amber-500" />
-              <div className="font-medium">Notifications</div>
-              <div className="text-xs text-muted-foreground">View your alerts</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/community">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <MessageSquare className="h-8 w-8 text-pink-500" />
-              <div className="font-medium">Community Hub</div>
-              <div className="text-xs text-muted-foreground">Forums, events, groups & scholarships</div>
-            </CardContent>
-          </Card>
-        </Link>
-      </div>
-
-      <h2 className="text-xl font-semibold mb-4">ERP & Operations</h2>
-      <div className="grid gap-4 md:grid-cols-5 mb-8">
-        <Link href="/dashboard/admissions">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <PanelTop className="h-8 w-8 text-sky-500" />
-              <div className="font-medium">Admissions</div>
-              <div className="text-xs text-muted-foreground">Application pipeline</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/accounts">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Wallet className="h-8 w-8 text-emerald-500" />
-              <div className="font-medium">Finance</div>
-              <div className="text-xs text-muted-foreground">Accounts & expenses</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/payroll">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Banknote className="h-8 w-8 text-emerald-600" />
-              <div className="font-medium">Payroll</div>
-              <div className="text-xs text-muted-foreground">Runs & payslips</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/hr">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <UserCog className="h-8 w-8 text-pink-500" />
-              <div className="font-medium">HR</div>
-              <div className="text-xs text-muted-foreground">Employees & leave</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/inventory">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Package className="h-8 w-8 text-orange-500" />
-              <div className="font-medium">Inventory</div>
-              <div className="text-xs text-muted-foreground">Stock & assets</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/procurement">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <ShoppingCart className="h-8 w-8 text-teal-500" />
-              <div className="font-medium">Procurement</div>
-              <div className="text-xs text-muted-foreground">POs & suppliers</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/it-support">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Wrench className="h-8 w-8 text-slate-500" />
-              <div className="font-medium">IT Support</div>
-              <div className="text-xs text-muted-foreground">KB & monitoring</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/reports">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <FileDown className="h-8 w-8 text-cyan-500" />
-              <div className="font-medium">Reports</div>
-              <div className="text-xs text-muted-foreground">Exports & CSV</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/executive">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <BarChart3 className="h-8 w-8 text-slate-700" />
-              <div className="font-medium">Executive</div>
-              <div className="text-xs text-muted-foreground">KPIs & OKRs</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/marketing">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Megaphone className="h-8 w-8 text-fuchsia-500" />
-              <div className="font-medium">Marketing</div>
-              <div className="text-xs text-muted-foreground">Campaigns & leads</div>
-            </CardContent>
-          </Card>
-        </Link>
-      </div>
-
-      <h2 className="text-xl font-semibold mb-4">Education & Career</h2>
-      <div className="grid gap-4 md:grid-cols-4 mb-8">
-        <Link href="/dashboard/clients">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Contact className="h-8 w-8 text-cyan-500" />
-              <div className="font-medium">CRM</div>
-              <div className="text-xs text-muted-foreground">Contacts & pipeline</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/projects">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <FolderKanban className="h-8 w-8 text-indigo-500" />
-              <div className="font-medium">Projects</div>
-              <div className="text-xs text-muted-foreground">Tasks & milestones</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/tickets">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <TicketCheck className="h-8 w-8 text-rose-500" />
-              <div className="font-medium">Support</div>
-              <div className="text-xs text-muted-foreground">Ticket system</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/invoices">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <FileText className="h-8 w-8 text-amber-500" />
-              <div className="font-medium">Invoices</div>
-              <div className="text-xs text-muted-foreground">Billing & payments</div>
-            </CardContent>
-          </Card>
-        </Link>
-      </div>
-
-      <h2 className="text-xl font-semibold mb-4">Student Tools</h2>
-      <div className="grid gap-4 md:grid-cols-5 mb-8">
-        <Link href="/dashboard/assessments">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <ClipboardList className="h-8 w-8 text-blue-500" />
-              <div className="font-medium">Assessments</div>
-              <div className="text-xs text-muted-foreground">Exams & quizzes</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/assignments">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <NotebookPen className="h-8 w-8 text-purple-500" />
-              <div className="font-medium">Assignments</div>
-              <div className="text-xs text-muted-foreground">Submit your work</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/grades">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <BarChart3 className="h-8 w-8 text-green-500" />
-              <div className="font-medium">Grades</div>
-              <div className="text-xs text-muted-foreground">Scorebook</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/attendance">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Clock className="h-8 w-8 text-amber-500" />
-              <div className="font-medium">Attendance</div>
-              <div className="text-xs text-muted-foreground">Check in & history</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/certificates">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Award className="h-8 w-8 text-orange-500" />
-              <div className="font-medium">Certificates</div>
-              <div className="text-xs text-muted-foreground">Earned credentials</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/marketplace">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Briefcase className="h-8 w-8 text-cyan-500" />
-              <div className="font-medium">Marketplace</div>
-              <div className="text-xs text-muted-foreground">Jobs & gigs</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/messages">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Send className="h-8 w-8 text-pink-500" />
-              <div className="font-medium">Messages</div>
-              <div className="text-xs text-muted-foreground">Chat with mentors</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/calendar">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <CalendarDays className="h-8 w-8 text-indigo-500" />
-              <div className="font-medium">Calendar</div>
-              <div className="text-xs text-muted-foreground">Schedule & events</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/classes">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <MonitorPlay className="h-8 w-8 text-sky-500" />
-              <div className="font-medium">Live Classes</div>
-              <div className="text-xs text-muted-foreground">Interactive sessions</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/billing">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <CreditCard className="h-8 w-8 text-emerald-500" />
-              <div className="font-medium">Billing</div>
-              <div className="text-xs text-muted-foreground">Invoices & payments</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/profile">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <UserCircle className="h-8 w-8 text-rose-500" />
-              <div className="font-medium">Profile</div>
-              <div className="text-xs text-muted-foreground">Settings & security</div>
-            </CardContent>
-          </Card>
-        </Link>
-      </div>
-
-      <Card>
-        <CardHeader>
-          <CardTitle>Your Courses</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="space-y-4">
-            {mockCourses.map((course) => (
-              <Link key={course.id} href={`/dashboard/courses/${course.id}`}>
-                <div className="flex items-center justify-between p-4 rounded-lg border hover:bg-accent transition-colors">
-                  <div className="flex-1">
-                    <div className="font-medium">{course.name}</div>
-                    <div className="text-sm text-muted-foreground mt-1">
-                      {course.modules} modules · {course.students} students · {course.duration}
-        <Link href="/dashboard/cv">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <FileDown className="h-8 w-8 text-violet-500" />
-              <div className="font-medium">CV Generator</div>
-              <div className="text-xs text-muted-foreground">Print-ready resume</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/transcript">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <FileText className="h-8 w-8 text-fuchsia-500" />
-              <div className="font-medium">Transcript</div>
-              <div className="text-xs text-muted-foreground">Academic record</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/dashboard/mentorship">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Handshake className="h-8 w-8 text-teal-500" />
-              <div className="font-medium">Mentorship</div>
-              <div className="text-xs text-muted-foreground">Find a mentor</div>
-            </CardContent>
-          </Card>
-        </Link>
-        {user?.roles?.includes('admin') && (
-          <Link href="/dashboard/admin">
-            <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-              <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-                <ShieldCheck className="h-8 w-8 text-slate-500" />
-                <div className="font-medium">Admin Console</div>
-                <div className="text-xs text-muted-foreground">Roles & audit</div>
-              </CardContent>
-            </Card>
-          </Link>
-        )}
-        {(user?.roles?.includes('admin') || user?.roles?.includes('staff')) && (
-          <Link href="/dashboard/front-desk">
-            <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-              <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-                <DoorOpen className="h-8 w-8 text-lime-500" />
-                <div className="font-medium">Front Desk</div>
-                <div className="text-xs text-muted-foreground">Visitor management</div>
-              </CardContent>
-            </Card>
-          </Link>
-        )}
-        <Link href="/dashboard/facilities">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <Building2 className="h-8 w-8 text-stone-500" />
-              <div className="font-medium">Facilities</div>
-              <div className="text-xs text-muted-foreground">Rooms & work orders</div>
-            </CardContent>
-          </Card>
-        </Link>
-        <Link href="/portal">
-          <Card className="hover:border-primary/50 transition-colors cursor-pointer h-full">
-            <CardContent className="p-6 flex flex-col items-center text-center gap-2">
-              <DoorOpen className="h-8 w-8 text-indigo-500" />
-              <div className="font-medium">Portals</div>
-              <div className="text-xs text-muted-foreground">Supplier, parent & more</div>
-            </CardContent>
-          </Card>
-        </Link>
-      </div>
-                  </div>
-                  <Badge variant={course.status === 'active' ? 'success' : course.status === 'published' ? 'info' : 'secondary'}>
-                    {course.status}
-                  </Badge>
+      ) : (
+        <div className="mb-8 grid gap-4 md:grid-cols-3">
+          {courses.map((course) => (
+            <Card key={course.id}>
+              <CardContent className="p-6">
+                <div className="flex items-start justify-between gap-2">
+                  <div className="font-medium">{course.title}</div>
+                  {course.status && <Badge variant="secondary">{course.status}</Badge>}
                 </div>
-              </Link>
-            ))}
-          </div>
-        </CardContent>
-      </Card>
+                {course.description && (
+                  <p className="mt-2 line-clamp-2 text-sm text-muted-foreground">{course.description}</p>
+                )}
+                <div className="mt-3 flex items-center gap-3 text-xs text-muted-foreground">
+                  {course.durationWeeks ? <span className="flex items-center gap-1"><Clock className="h-3.5 w-3.5" /> {course.durationWeeks} weeks</span> : null}
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      )}
+
+      <h2 className="mb-4 text-xl font-semibold">Learning & Career</h2>
+      <div className="mb-8 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <NavCard href="/dashboard/portfolio" icon={UserCircle} title="My Portfolio" desc="Showcase your work" color="text-blue-500" />
+        <NavCard href="/dashboard/assessments" icon={ClipboardList} title="Assessments" desc="Exams & quizzes" color="text-blue-500" />
+        <NavCard href="/dashboard/assignments" icon={NotebookPen} title="Assignments" desc="Submit your work" color="text-purple-500" />
+        <NavCard href="/dashboard/grades" icon={Award} title="Grades" desc="Scorebook" color="text-green-500" />
+        <NavCard href="/dashboard/attendance" icon={Clock} title="Attendance" desc="Check in & history" color="text-amber-500" />
+        <NavCard href="/dashboard/certificates" icon={Award} title="Certificates" desc="Earned credentials" color="text-orange-500" />
+        <NavCard href="/dashboard/marketplace" icon={Briefcase} title="Marketplace" desc="Jobs & gigs" color="text-cyan-500" />
+        <NavCard href="/dashboard/messages" icon={Send} title="Messages" desc="Chat with mentors" color="text-pink-500" />
+        <NavCard href="/dashboard/calendar" icon={CalendarDays} title="Calendar" desc="Schedule & events" color="text-indigo-500" />
+        <NavCard href="/dashboard/classes" icon={MonitorPlay} title="Live Classes" desc="Interactive sessions" color="text-sky-500" />
+        <NavCard href="/dashboard/mentorship" icon={Handshake} title="Mentorship" desc="Find a mentor" color="text-teal-500" />
+        <NavCard href="/dashboard/cv" icon={FileDown} title="CV Generator" desc="Print-ready resume" color="text-violet-500" />
+        <NavCard href="/dashboard/transcript" icon={FileText} title="Transcript" desc="Academic record" color="text-fuchsia-500" />
+        <NavCard href="/dashboard/profile" icon={UserCircle} title="Profile" desc="Settings & security" color="text-rose-500" />
+      </div>
+
+      <h2 className="mb-4 text-xl font-semibold">Business Operations</h2>
+      <div className="mb-8 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <NavCard href="/dashboard/clients" icon={Contact} title="CRM" desc="Contacts & pipeline" color="text-cyan-500" />
+        <NavCard href="/dashboard/projects" icon={FolderKanban} title="Projects" desc="Tasks & milestones" color="text-indigo-500" />
+        <NavCard href="/dashboard/tickets" icon={TicketCheck} title="Support" desc="Ticket system" color="text-rose-500" />
+        <NavCard href="/dashboard/invoices" icon={FileText} title="Invoices" desc="Billing & payments" color="text-amber-500" />
+        <NavCard href="/dashboard/accounts" icon={Wallet} title="Finance" desc="Accounts & expenses" color="text-emerald-500" />
+        <NavCard href="/dashboard/payroll" icon={Banknote} title="Payroll" desc="Runs & payslips" color="text-emerald-600" />
+        <NavCard href="/dashboard/hr" icon={UserCog} title="HR" desc="Employees & leave" color="text-pink-500" />
+        <NavCard href="/dashboard/inventory" icon={Package} title="Inventory" desc="Stock & assets" color="text-orange-500" />
+        <NavCard href="/dashboard/procurement" icon={ShoppingCart} title="Procurement" desc="POs & suppliers" color="text-teal-500" />
+        <NavCard href="/dashboard/admissions" icon={GraduationCap} title="Admissions" desc="Application pipeline" color="text-sky-500" />
+        <NavCard href="/dashboard/front-desk" icon={DoorOpen} title="Front Desk" desc="Visitor management" color="text-lime-500" />
+        <NavCard href="/dashboard/facilities" icon={Building2} title="Facilities" desc="Rooms & work orders" color="text-stone-500" />
+      </div>
+
+      <h2 className="mb-4 text-xl font-semibold">Analytics, Marketing & Admin</h2>
+      <div className="mb-8 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <NavCard href="/dashboard/analytics" icon={BarChart3} title="Analytics" desc="Reports & insights" color="text-blue-500" />
+        <NavCard href="/dashboard/reports" icon={FileDown} title="Reports" desc="Exports & CSV" color="text-cyan-500" />
+        <NavCard href="/dashboard/notifications" icon={Bell} title="Notifications" desc="View your alerts" color="text-amber-500" />
+        <NavCard href="/dashboard/community" icon={MessageSquare} title="Community Hub" desc="Forums, events, groups" color="text-pink-500" />
+        <NavCard href="/dashboard/marketing" icon={Megaphone} title="Marketing" desc="Campaigns & leads" color="text-fuchsia-500" />
+        <NavCard href="/dashboard/it-support" icon={Wrench} title="IT Support" desc="KB & monitoring" color="text-slate-500" />
+        <NavCard href="/dashboard/executive" icon={BarChart3} title="Executive" desc="KPIs & OKRs" color="text-slate-700" />
+        <NavCard href="/dashboard/jobs" icon={Briefcase} title="Job Board" desc="Find opportunities" color="text-green-500" />
+        <NavCard href="/dashboard/employer" icon={Building2} title="Employer" desc="Post jobs, find talent" color="text-purple-500" />
+        <NavCard href="/dashboard/alumni" icon={GraduationCap} title="Alumni Network" desc="Connect & mentor" color="text-orange-500" />
+        {user?.roles?.includes('admin') && (
+          <NavCard href="/dashboard/admin" icon={ShieldCheck} title="Admin Console" desc="Roles & audit" color="text-slate-500" />
+        )}
+        <NavCard href="/portal" icon={DoorOpen} title="Portals" desc="Supplier, parent & more" color="text-indigo-500" />
+      </div>
     </div>
   );
 }

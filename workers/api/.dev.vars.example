@@ -1,0 +1,11 @@
+# Copy to `.dev.vars` for local `wrangler dev`. Never commit `.dev.vars`.
+# Generate JWT_SECRET with: openssl rand -base64 64
+JWT_SECRET=dev-only-secret-do-not-use-in-production
+APP_URL=http://localhost:3000
+
+# Optional: cross-account R2 (S3-compatible) credentials. Leave unset to use
+# the local/native R2 `UPLOADS` binding provided by wrangler dev.
+# R2_ACCOUNT_ID=
+# R2_ACCESS_KEY_ID=
+# R2_SECRET_ACCESS_KEY=
+# R2_BUCKET=cea-uploads

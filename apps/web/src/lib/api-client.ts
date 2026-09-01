@@ -1,4 +1,7 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8787';
+// Requests go through the same-origin `/api/v1/*` proxy (see next.config.ts
+// rewrites). The actual backend base is resolved server-side from
+// NEXT_PUBLIC_API_URL, so the browser never hardcodes a backend host.
+const API_URL = '/api';
 
 export class ApiError extends Error {
   constructor(public status: number, public code: string, message: string) {
@@ -55,17 +58,31 @@ export async function api<T = unknown>(
   };
   if (accessToken) headers['Authorization'] = `Bearer ${accessToken}`;
 
-  let res = await fetch(`${API_URL}${path}`, { ...options, headers });
+  let res: Response;
+  try {
+    res = await fetch(`${API_URL}${path}`, { ...options, headers });
+  } catch {
+    return { success: false, error: { code: 'NETWORK_ERROR', message: 'Unable to reach the server. Check your connection.' } };
+  }
 
   if (res.status === 401 && accessToken) {
     const newToken = await refreshAccessToken();
     if (newToken) {
       headers['Authorization'] = `Bearer ${newToken}`;
-      res = await fetch(`${API_URL}${path}`, { ...options, headers });
+      try {
+        res = await fetch(`${API_URL}${path}`, { ...options, headers });
+      } catch {
+        return { success: false, error: { code: 'NETWORK_ERROR', message: 'Unable to reach the server. Check your connection.' } };
+      }
     }
   }
 
-  const json: { success: boolean; data?: T; error?: { code: string; message: string } } = await res.json();
+  let json: { success: boolean; data?: T; error?: { code: string; message: string } };
+  try {
+    json = await res.json();
+  } catch {
+    return { success: false, error: { code: 'PARSE_ERROR', message: `Unexpected response (${res.status})` } };
+  }
   if (!res.ok) {
     return {
       success: false,

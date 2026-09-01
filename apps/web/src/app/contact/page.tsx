@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Button, Input, Label, Textarea } from '@cea/ui';
+import { api } from '../../lib/api-client';
 import { Mail, Phone, MapPin, Send, Loader2, CheckCircle2, MessageSquare, Clock } from 'lucide-react';
 
 const contactMethods = [
@@ -16,15 +17,21 @@ export default function ContactPage() {
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
+  const [error, setError] = useState('');
 
   const update = (key: string, value: string) => setForm((f) => ({ ...f, [key]: value }));
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setError('');
     setSending(true);
-    await new Promise((r) => setTimeout(r, 1200));
+    const res = await api('/v1/platform/contact', {
+      method: 'POST',
+      body: JSON.stringify(form),
+    });
     setSending(false);
-    setSent(true);
+    if (res.success) setSent(true);
+    else setError(res.error?.message || 'Could not send your message. Please try again.');
   };
 
   return (
@@ -104,6 +111,9 @@ export default function ContactPage() {
                     <Label htmlFor="message">Message</Label>
                     <Textarea id="message" rows={6} placeholder="Tell us everything…" value={form.message} onChange={(e) => update('message', e.target.value)} required />
                   </div>
+                  {error && (
+                    <div className="rounded-lg border border-red-500/30 bg-red-500/10 px-4 py-2.5 text-sm text-red-600 dark:text-red-400">{error}</div>
+                  )}
                   <Button type="submit" size="lg" className="w-full group" disabled={sending}>
                     {sending ? <Loader2 className="h-5 w-5 animate-spin" /> : (
                       <>

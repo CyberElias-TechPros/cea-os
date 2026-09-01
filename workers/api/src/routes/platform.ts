@@ -128,6 +128,51 @@ platformRouter.get('/marketing/leads', authMiddleware, requirePermission('market
   return c.json({ success: true, data: subs });
 });
 
+// ============ CONTACT (public) ============
+platformRouter.post('/contact', async (c) => {
+  const body = await c.req.json().catch(() => null) as { name?: string; email?: string; subject?: string; message?: string } | null;
+  const name = (body?.name ?? '').trim();
+  const email = (body?.email ?? '').trim();
+  const subject = (body?.subject ?? '').trim();
+  const message = (body?.message ?? '').trim();
+
+  if (!name || !email || !subject || !message) {
+    return c.json({ success: false, error: { code: 'VALIDATION_ERROR', message: 'Name, email, subject and message are required' } }, 422);
+  }
+  if (!/^\S+@\S+\.\S+$/.test(email)) {
+    return c.json({ success: false, error: { code: 'VALIDATION_ERROR', message: 'Valid email required' } }, 422);
+  }
+  if (message.length > 5000) {
+    return c.json({ success: false, error: { code: 'VALIDATION_ERROR', message: 'Message is too long' } }, 422);
+  }
+
+  // Basic abuse protection: 3 submissions per IP per 10 minutes.
+  try {
+    const kv = c.env.CACHE_KV;
+    const bucket = Math.floor(Date.now() / 1000 / 600);
+    const k = `contact:${c.req.header('CF-Connecting-IP') ?? 'unknown'}:${bucket}`;
+    const count = Number((await kv.get(k)) ?? 0);
+    if (count >= 3) {
+      return c.json({ success: false, error: { code: 'RATE_LIMITED', message: 'Too many messages. Please try again later.' } }, 429);
+    }
+    await kv.put(k, String(count + 1), { expirationTtl: 600 });
+  } catch { /* fail open if KV unavailable */ }
+
+  const contactEmail = (c.env.CONTACT_EMAIL as string | undefined) ?? 'hello@cea.academy';
+  try {
+    await c.env.EMAIL_QUEUE.send({
+      to: contactEmail,
+      subject: `[Contact] ${subject}`,
+      html: `<p><strong>From:</strong> ${name} &lt;${email}&gt;</p><p>${message.replace(/\n/g, '<br/>')}</p>`,
+      templateKey: 'contact',
+    });
+  } catch (err) {
+    console.error('[contact] failed to enqueue email:', err);
+  }
+
+  return c.json({ success: true, data: { message: 'Message received. We will be in touch soon.' } }, 201);
+});
+
 // ============ NEWSLETTER (public) ============
 platformRouter.post('/newsletter', async (c) => {
   const db = getDb(c.env.DB);

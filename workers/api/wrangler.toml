@@ -1,0 +1,64 @@
+# wrangler.toml — CEA-OS API Worker
+# Deploys to Cloudflare Workers. See README / deployment docs for setup.
+
+name = "cea-api"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+# ---------------------------------------------------------------------------
+# Environment variables (non-secret). Secrets (JWT_SECRET, R2 S3 keys) are set
+# with `wrangler secret put <NAME>` and must NOT be committed here.
+# ---------------------------------------------------------------------------
+[vars]
+APP_URL = "http://localhost:3000"            # override per environment below
+
+# ---------------------------------------------------------------------------
+# D1 relational database (create with `wrangler d1 create cea-db`).
+# Replace database_id with the value printed by wrangler.
+# ---------------------------------------------------------------------------
+[[d1_databases]]
+binding = "DB"
+database_name = "cea-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+# ---------------------------------------------------------------------------
+# KV namespaces (create with `wrangler kv namespace create <name>`).
+# ---------------------------------------------------------------------------
+[[kv_namespaces]]
+binding = "SESSION_KV"
+id = "REPLACE_WITH_SESSION_KV_ID"
+
+[[kv_namespaces]]
+binding = "CACHE_KV"
+id = "REPLACE_WITH_CACHE_KV_ID"
+
+# ---------------------------------------------------------------------------
+# R2 object storage (create with `wrangler r2 bucket create cea-uploads`).
+# ---------------------------------------------------------------------------
+[[r2_buckets]]
+binding = "UPLOADS"
+bucket_name = "cea-uploads"
+
+# ---------------------------------------------------------------------------
+# Queues — producers. The email/notif workers consume from the same queue
+# names within the same Cloudflare account.
+# ---------------------------------------------------------------------------
+[[queues.producers]]
+binding = "EMAIL_QUEUE"
+queue = "cea-email-queue"
+
+[[queues.producers]]
+binding = "NOTIF_QUEUE"
+queue = "cea-notif-queue"
+
+[env.production]
+name = "cea-api"
+[env.production.vars]
+APP_URL = "https://cea.academy"
+
+[env.staging]
+name = "cea-api-staging"
+[env.staging.vars]
+APP_URL = "https://staging.cea.academy"

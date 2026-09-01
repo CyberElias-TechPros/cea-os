@@ -40,3 +40,19 @@ export function requirePermission(resource: string, action: string) {
     await next();
   });
 }
+
+/** Require one of the given role slugs (e.g. 'staff', 'admin'). */
+export function requireRole(...slugs: string[]) {
+  return createMiddleware<Env>(async (c, next) => {
+    const roles = c.get('userRoles');
+    const allowed = slugs.some((s) => roles.includes(s));
+    if (!allowed) {
+      return c.json({ success: false, error: { code: 'FORBIDDEN', message: 'Insufficient role' } }, 403);
+    }
+    await next();
+  });
+}
+
+/** True when the current request carries a staff-level role. */
+export const STAFF_ROLES = ['admin', 'staff'];
+export const FACULTY_ROLES = ['admin', 'staff', 'instructor'];

@@ -29,6 +29,8 @@ export const permissionCatalog: PermissionDef[] = [
   { resource: 'finance', action: 'create', description: 'Create accounts and transactions' },
   { resource: 'finance', action: 'update', description: 'Approve expenses and manage budgets' },
   { resource: 'admissions', action: 'create', description: 'Manage admissions and offers' },
+  { resource: 'admissions', action: 'read', description: 'View and review applications' },
+  { resource: 'admissions', action: 'update', description: 'Update application status and decisions' },
   { resource: 'procurement', action: 'create', description: 'Approve purchase orders' },
   { resource: 'visitors', action: 'read', description: 'View visitor records' },
   { resource: 'visitors', action: 'update', description: 'Check visitors in and out' },

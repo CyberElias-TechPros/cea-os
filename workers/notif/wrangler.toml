@@ -1,0 +1,24 @@
+# wrangler.toml — CEA-OS Notification Worker (queue consumer)
+
+name = "cea-notif"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cea-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "../api/migrations"
+
+[[queues.consumers]]
+binding = "NOTIF_QUEUE"
+queue = "cea-notif-queue"
+max_batch_size = 20
+max_batch_timeout = 5
+
+[env.production]
+name = "cea-notif"
+
+[env.staging]
+name = "cea-notif-staging"

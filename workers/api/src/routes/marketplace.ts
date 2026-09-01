@@ -2,9 +2,20 @@ import { Hono } from 'hono';
 import { getDb, employers, jobListings, jobApplications, jobInterviews, jobOffers, freelanceGigs, gigApplications, users } from '@cea/db';
 import { eq, and, asc, desc, count, sql } from 'drizzle-orm';
 import type { Env } from '..';
-import { authMiddleware, requirePermission } from '../middleware/auth';
+import { authMiddleware, STAFF_ROLES } from '../middleware/auth';
 
 export const marketplaceRouter = new Hono<Env>();
+
+type Db = ReturnType<typeof getDb>;
+
+async function currentEmployer(db: Db, userId: string) {
+  const rows = await db.select().from(employers).where(eq(employers.userId, userId)).limit(1);
+  return rows[0] ?? null;
+}
+
+function isStaff(roles: string[]) {
+  return roles.some((r) => STAFF_ROLES.includes(r));
+}
 
 // --- Employer Profile ---
 marketplaceRouter.post('/employers', authMiddleware, async (c) => {
@@ -90,8 +101,20 @@ marketplaceRouter.get('/jobs/my', authMiddleware, async (c) => {
 
 marketplaceRouter.patch('/jobs/:id', authMiddleware, async (c) => {
   const db = getDb(c.env.DB);
+  const userId = c.get('userId');
+  const roles = c.get('userRoles');
+  const jobId = c.req.param('id');
+
+  const employer = isStaff(roles) ? { id: '' } : await currentEmployer(db, userId);
+  if (!isStaff(roles)) {
+    const [job] = await db.select().from(jobListings).where(eq(jobListings.id, jobId)).limit(1);
+    if (!employer || !job || job.employerId !== employer.id) {
+      return c.json({ success: false, error: { code: 'FORBIDDEN', message: 'Not authorized' } }, 403);
+    }
+  }
+
   const body = await c.req.json();
-  await db.update(jobListings).set(body).where(eq(jobListings.id, c.req.param('id')));
+  await db.update(jobListings).set(body).where(eq(jobListings.id, jobId));
   return c.json({ success: true, data: { message: 'Job updated' } });
 });
 
@@ -121,20 +144,48 @@ marketplaceRouter.get('/applications/my', authMiddleware, async (c) => {
 
 marketplaceRouter.get('/jobs/:id/applications', authMiddleware, async (c) => {
   const db = getDb(c.env.DB);
-  const apps = await db.select().from(jobApplications).where(eq(jobApplications.jobListingId, c.req.param('id'))).orderBy(desc(jobApplications.appliedAt));
+  const userId = c.get('userId');
+  const roles = c.get('userRoles');
+  const jobId = c.req.param('id');
+
+  if (!isStaff(roles)) {
+    const employer = await currentEmployer(db, userId);
+    const [job] = await db.select().from(jobListings).where(eq(jobListings.id, jobId)).limit(1);
+    if (!employer || !job || job.employerId !== employer.id) {
+      return c.json({ success: false, error: { code: 'FORBIDDEN', message: 'Not authorized' } }, 403);
+    }
+  }
+
+  const apps = await db.select().from(jobApplications).where(eq(jobApplications.jobListingId, jobId)).orderBy(desc(jobApplications.appliedAt));
   return c.json({ success: true, data: apps });
 });
 
 marketplaceRouter.patch('/applications/:id/status', authMiddleware, async (c) => {
   const db = getDb(c.env.DB);
+  const userId = c.get('userId');
+  const roles = c.get('userRoles');
+  const appId = c.req.param('id');
   const { status, notes } = await c.req.json();
-  await db.update(jobApplications).set({ status, notes }).where(eq(jobApplications.id, c.req.param('id')));
+
+  if (!isStaff(roles)) {
+    const employer = await currentEmployer(db, userId);
+    const [app] = await db.select().from(jobApplications).where(eq(jobApplications.id, appId)).limit(1);
+    const [job] = app ? await db.select().from(jobListings).where(eq(jobListings.id, app.jobListingId)).limit(1) : [];
+    if (!employer || !app || !job || job.employerId !== employer.id) {
+      return c.json({ success: false, error: { code: 'FORBIDDEN', message: 'Not authorized' } }, 403);
+    }
+  }
+
+  await db.update(jobApplications).set({ status, notes }).where(eq(jobApplications.id, appId));
   return c.json({ success: true, data: { message: 'Application updated' } });
 });
 
 // --- Pipeline (staff kanban) ---
 marketplaceRouter.get('/applications/pipeline', authMiddleware, async (c) => {
   const db = getDb(c.env.DB);
+  if (!isStaff(c.get('userRoles'))) {
+    return c.json({ success: false, error: { code: 'FORBIDDEN', message: 'Insufficient role' } }, 403);
+  }
   const rows = await db
     .select({
       id: jobApplications.id,
@@ -163,6 +214,9 @@ marketplaceRouter.get('/applications/pipeline', authMiddleware, async (c) => {
 // --- Interviews ---
 marketplaceRouter.post('/interviews', authMiddleware, async (c) => {
   const db = getDb(c.env.DB);
+  if (!isStaff(c.get('userRoles'))) {
+    return c.json({ success: false, error: { code: 'FORBIDDEN', message: 'Insufficient role' } }, 403);
+  }
   const body = await c.req.json();
   const [interview] = await db.insert(jobInterviews).values(body).returning();
   if (body.schedule) await db.update(jobApplications).set({ status: 'interviewed' }).where(eq(jobApplications.id, body.applicationId));
@@ -177,6 +231,9 @@ marketplaceRouter.get('/interviews/:applicationId', authMiddleware, async (c) =>
 
 marketplaceRouter.patch('/interviews/:id', authMiddleware, async (c) => {
   const db = getDb(c.env.DB);
+  if (!isStaff(c.get('userRoles'))) {
+    return c.json({ success: false, error: { code: 'FORBIDDEN', message: 'Insufficient role' } }, 403);
+  }
   const body = await c.req.json();
   await db.update(jobInterviews).set({ ...body, updatedAt: new Date() }).where(eq(jobInterviews.id, c.req.param('id')));
   return c.json({ success: true, data: { message: 'Interview updated' } });
@@ -185,6 +242,9 @@ marketplaceRouter.patch('/interviews/:id', authMiddleware, async (c) => {
 // --- Offers ---
 marketplaceRouter.post('/applications/:id/offer', authMiddleware, async (c) => {
   const db = getDb(c.env.DB);
+  if (!isStaff(c.get('userRoles'))) {
+    return c.json({ success: false, error: { code: 'FORBIDDEN', message: 'Insufficient role' } }, 403);
+  }
   const { salary, salaryCurrency, employmentType, startDate, notes } = await c.req.json();
   const existing = await db.select().from(jobOffers).where(eq(jobOffers.applicationId, c.req.param('id'))).limit(1);
   if (existing.length > 0) return c.json({ success: false, error: { code: 'CONFLICT', message: 'Offer already exists for this application' } }, 409);
