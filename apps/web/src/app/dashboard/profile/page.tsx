@@ -28,11 +28,12 @@ export default function ProfilePage() {
     setUploading(true);
     try {
       const ext = file.name.split('.').pop()?.toLowerCase() || 'jpg';
-      const key = `avatars/${user.id}/${Date.now()}.${ext}`;
+      // Public prefix so the browser can fetch the avatar without an auth header.
+      const key = `public/avatars/${user.id}/${Date.now()}.${ext}`;
       const res = await uploadFile(key, file);
       if (res.success && res.data) {
-        const base = (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8787').replace(/\/$/, '');
-        const avatarUrl = `${base}${res.data.url}`;
+        // Same-origin proxied path (res.data.url is "/v1/uploads/...").
+        const avatarUrl = `/api${res.data.url}`;
         await api(`/v1/users/${user.id}`, { method: 'PATCH', body: JSON.stringify({ avatarUrl }) });
         await refreshUser();
       }

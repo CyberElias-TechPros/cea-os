@@ -2,12 +2,12 @@ import { Hono } from 'hono';
 import { getDb, enrollments, grades, courses, users } from '@cea/db';
 import { eq, and, asc } from 'drizzle-orm';
 import type { Env } from '..';
-import { authMiddleware } from '../middleware/auth';
-import { sendNotification } from '../services/notification';
+import { authMiddleware, requireRole } from '../middleware/auth';
 
 export const gradebookRouter = new Hono<Env>();
 
-gradebookRouter.get('/course/:courseId', authMiddleware, async (c) => {
+// Only faculty/staff may view a whole course's gradebook.
+gradebookRouter.get('/course/:courseId', authMiddleware, requireRole('admin', 'staff', 'instructor'), async (c) => {
   const db = getDb(c.env.DB);
   const courseId = c.req.param('courseId');
 

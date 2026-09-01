@@ -44,10 +44,12 @@ export type Env = {
     NOTIF_QUEUE: Queue<unknown>;
     JWT_SECRET: string;
     APP_URL: string;
-    R2_ACCOUNT_ID: string;
-    R2_ACCESS_KEY_ID: string;
-    R2_SECRET_ACCESS_KEY: string;
-    R2_BUCKET: string;
+    ALLOWED_ORIGINS?: string;
+    CONTACT_EMAIL?: string;
+    R2_ACCOUNT_ID?: string;
+    R2_ACCESS_KEY_ID?: string;
+    R2_SECRET_ACCESS_KEY?: string;
+    R2_BUCKET?: string;
   };
   Variables: {
     userId: string;
@@ -58,9 +60,27 @@ export type Env = {
 
 const app = new Hono<Env>();
 
+function isAllowedOrigin(env: Env['Bindings'], origin: string): boolean {
+  const configured = (env.ALLOWED_ORIGINS ?? '')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean);
+  const defaults = ['http://localhost:3000', 'http://localhost:3001', env.APP_URL].filter(Boolean);
+  const origins = new Set([...configured, ...defaults]);
+
+  // In local/dev mode (APP_URL unset or localhost) accept any localhost origin
+  // so preview proxies keep working; production restricts to the allow-list.
+  const isDev = !env.APP_URL || env.APP_URL.startsWith('http://localhost');
+  if (isDev) return origin.startsWith('http://localhost') || origins.has(origin);
+  return origins.has(origin);
+}
+
 app.use('*', cors({
-  origin: ['http://localhost:3000', 'https://cea.academy', 'https://staging.cea.academy'],
+  origin: (origin, c) => (origin && isAllowedOrigin(c.env, origin) ? origin : null),
   credentials: true,
+  allowHeaders: ['Content-Type', 'Authorization'],
+  allowMethods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE', 'OPTIONS'],
+  maxAge: 86400,
 }));
 app.use('*', secureHeaders());
 app.use('*', logger());
