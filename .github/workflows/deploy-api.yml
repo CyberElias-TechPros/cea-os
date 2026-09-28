@@ -1,23 +1,45 @@
 name: Deploy API
 
+# NOTE: default branch is master (not main). No D1 migrations step here on
+# purpose: workers/api/migrations (0001_init/0002_seed) does not match the
+# production database history (0000_init..0038_*). Never run
+# `migrations apply` against production; migrations are fresh-install only.
+
 on:
   push:
-    branches: [main, staging]
+    branches: [master]
     paths: ['workers/**', 'packages/db/**', 'packages/validators/**', 'drizzle/**']
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-api
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Preflight secrets
+        run: |
+          if [ -z "${{ secrets.CF_API_TOKEN }}" ] || [ -z "${{ secrets.CF_ACCOUNT_ID }}" ]; then
+            echo "::error::Missing CF_API_TOKEN / CF_ACCOUNT_ID repo secrets. Create a Cloudflare API token (Account: Workers Scripts Write, D1 Write, KV Write, Queues Write, R2 Write on the consolidated account) and add it plus the account ID as repo secrets."
+            exit 1
+          fi
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
+      # node_modules must exist or wrangler bundling fails on node builtins.
       - run: npm ci
       - name: Deploy to Cloudflare Workers
-        run: npx wrangler deploy --env ${{ github.ref_name == 'main' && 'production' || 'staging' }}
+        run: npx wrangler deploy --config wrangler.production.toml
         working-directory: workers/api
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+      - name: Verify health
+        run: |
+          body="$(curl -fsS https://cea-api.cyber-e54.workers.dev/v1/health)"
+          echo "$body"
+          echo "$body" | grep -q '"status":"ok"' || { echo "::error::cea-api health check failed"; exit 1; }

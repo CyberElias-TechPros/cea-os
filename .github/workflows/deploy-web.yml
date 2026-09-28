@@ -1,25 +1,36 @@
 name: Deploy Web
 
+# NOTE: default branch is master (not main). Preview-only on purpose:
+# production (www.cea.ng) currently serves the legacy TanStack SPA while
+# master is Next.js with different marketing content. Do NOT add --prod
+# until content parity is confirmed, or the live business site changes.
 on:
   push:
-    branches: [main, staging]
-    paths: ['apps/web/**', 'packages/ui/**', 'packages/validators/**', 'packages/config/**']
+    branches: [master]
+    paths: ['apps/web/**', 'packages/ui/**', 'packages/validators/**', 'packages/config/**', 'vercel.json']
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Preflight secrets
+        run: |
+          if [ -z "${{ secrets.VERCEL_TOKEN }}" ] || [ -z "${{ secrets.VERCEL_ORG_ID }}" ] || [ -z "${{ secrets.VERCEL_PROJECT_ID }}" ]; then
+            echo "::error::Missing VERCEL_TOKEN / VERCEL_ORG_ID / VERCEL_PROJECT_ID repo secrets. Add them to enable preview deploys."
+            exit 1
+          fi
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
       - run: npm run build -w apps/web
-      - name: Deploy to Vercel
+      - name: Deploy preview to Vercel
         uses: amondnet/vercel-action@v25
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          vercel-args: ${{ github.ref_name == 'main' && '--prod' || '' }}
+          vercel-args: ''

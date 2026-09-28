@@ -1,0 +1,61 @@
+# Production config for cea-api — mirrors the live worker and ADDS the queue
+# producers the code requires (auth/platform call EMAIL_QUEUE/NOTIF_QUEUE.send;
+# without these bindings those requests throw at runtime).
+# DO NOT run `d1 migrations apply` with this file: workers/api/migrations
+# (0001_init/0002_seed) does not match the production database history
+# (0000_init..0038_*). Migrations here are fresh-install only.
+name = "cea-api"
+main = "src/index.ts"
+compatibility_date = "2025-11-01"
+# Required: dependencies (jsonwebtoken/safe-buffer) import node builtins
+# (buffer, util). Matches workers/api/wrangler.toml intent.
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+APP_URL = "https://cea.ng"
+ALLOWED_ORIGINS = "https://cea.ng,https://www.cea.ng,https://cea-os.vercel.app"
+AI_BASE_URL = "https://integrate.api.nvidia.com/v1"
+AI_MODEL = "nvidia/llama-3.3-nemotron-super-49b-v1"
+EMAIL_FROM = "Cyber Elias Academy <no-reply@cea.ng>"
+EMAIL_PROVIDER = "resend"
+FRONTEND_ORIGINS = "http://localhost:5173,http://127.0.0.1:5173,http://localhost:8081,http://127.0.0.1:8081,https://cea-os.vercel.app,https://cea.ng,https://www.cea.ng"
+UPLOADS_PRESIGN_URL = ""
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cea-db"
+database_id = "f673c459-0dfb-4e77-be5c-38ccbdc58838"
+
+[[kv_namespaces]]
+binding = "FLAGS"
+id = "8077455f347342c293f4df75faa65723"
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "cecad90caa824e689d7d7dfb334fed0d"
+
+[[kv_namespaces]]
+binding = "SESSION_KV"
+id = "cf50690488d840ad92344cd890a29613"
+
+[[kv_namespaces]]
+binding = "CACHE_KV"
+id = "af03f67a296d4d9ba60b30d8f240bdb1"
+
+[[r2_buckets]]
+binding = "UPLOADS"
+bucket_name = "cea-uploads"
+
+# Continuity binding for the pre-existing REALTIME_ROOMS namespace (see
+# src/realtime.ts). Never remove while instances exist.
+[[durable_objects.bindings]]
+name = "REALTIME_ROOMS"
+class_name = "RealtimeRoom"
+
+[[queues.producers]]
+binding = "EMAIL_QUEUE"
+queue = "cea-email-queue"
+
+[[queues.producers]]
+binding = "NOTIF_QUEUE"
+queue = "cea-notif-queue"

@@ -24,7 +24,9 @@ export default function VisitPage() {
     const form = new FormData(e.currentTarget);
     const data = Object.fromEntries(form.entries());
     try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/v1/visitors/request`, {
+      // Same-origin via the Vercel /api rewrite (see root vercel.json);
+      // never hardcode a backend host so session cookies stay first-party.
+      const res = await fetch(`/api/v1/visitors/request`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
