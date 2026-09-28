@@ -5,6 +5,12 @@
   "outputDirectory": "apps/web/.next",
   "installCommand": "npm install",
   "regions": ["iad1"],
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://cea-api.cyber-e54.workers.dev/:path*"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
