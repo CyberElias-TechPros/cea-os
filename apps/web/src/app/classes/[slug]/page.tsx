@@ -40,9 +40,9 @@ export default async function ClassPage({ params }: { params: Promise<{ slug: st
       <h2 className="mt-10 text-2xl font-bold">What you will cover</h2>
       <ol className="mt-4 space-y-2">
         {c.lessons.map((l, i) => (
-          <li key={l} className="flex items-start gap-3 rounded-lg border p-3">
+          <li key={l} className="flex items-start gap-3 rounded-lg border p-3 hover:border-primary/50 transition-colors">
             <span className="font-bold text-primary"> {(i + 1).toString().padStart(2, '0')}</span>
-            <span>{humanizeLesson(l)}</span>
+            <Link href={`/classes/${c.slug}/${l}`} className="hover:text-primary transition-colors">{humanizeLesson(l)}</Link>
           </li>
         ))}
       </ol>

@@ -1,8 +1,9 @@
 import type { MetadataRoute } from 'next';
 import { CLASSES } from '../lib/site';
+import { getAllLessonPaths, getNotes } from '../lib/content';
 
-// Phase 1: ported marketing/class catalogue URLs. Blog posts and class
-// lessons are Phase 2 (scraped content migration).
+// Phase 2: notes + lessons ported from the live site. Remaining strays
+// (accessibility, payment, refunds, shipping, shop, visit/*) still to port.
 const STATIC_ROUTES = [
   '', '/about', '/admissions', '/apply', '/blog', '/classes', '/contact',
   '/faq', '/team', '/terms', '/privacy', '/visit', '/verify', '/scholarships',
@@ -20,6 +21,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   urls[0] = { url: `${base}/`, lastModified: now };
   for (const c of CLASSES) {
     urls.push({ url: `${base}/classes/${c.slug}`, lastModified: now });
+  }
+  for (const n of getNotes()) {
+    urls.push({ url: `${base}/blog/${n.slug}`, lastModified: n.date ? new Date(n.date) : now });
+  }
+  for (const { classSlug, lesson } of getAllLessonPaths()) {
+    urls.push({ url: `${base}/classes/${classSlug}/${lesson}`, lastModified: now });
   }
   return urls;
 }

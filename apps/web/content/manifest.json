@@ -1,0 +1,2466 @@
+[
+ {
+  "path": "/classes/ai-productivity/ai-assisted-research-work",
+  "title": "Session 3: AI-Assisted Research & Work",
+  "description": "Using these tools for research and real work without being misled: summarising and drafting where they help, verifying everything that matters, and handling citation and sources honestly.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/ai-productivity/prompt-writing",
+  "title": "Session 2: Prompt Writing",
+  "description": "The craft of getting useful output: giving context and constraints, showing examples and formats, iterating rather than accepting the first result, and building a reusable prompt library so the skill compounds.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/ai-productivity/responsible-use",
+  "title": "Session 4: Responsible Use",
+  "description": "The final session: hallucinations and bias, data privacy, academic and workplace honesty, and a personal AI policy you will actually follow — so the workflow you built is one you can defend.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/ai-productivity/what-ai-tools-are",
+  "title": "Session 1: What AI Tools Actually Are",
+  "description": "What a language model actually does, what it is genuinely good at, where it fails predictably, and how to choose a tool — so you can use these tools fast without producing nonsense or leaking anything you should not.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/business-freelancing/business-plan-and-portfolio",
+  "title": "Session 6: Final Project — Business Plan & Portfolio",
+  "description": "The final project: a one-page freelance business plan and a portfolio of three case studies, presented to the class and stress-tested in a pricing challenge. This is the artefact that turns what you learned into something you can show, sell and be hired for.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/business-freelancing/delivering-professional-work",
+  "title": "Session 3: Delivering Professional Work",
+  "description": "Getting the job is half the work; delivering it well is what produces the next one. This session covers setting expectations, managing deadlines and revisions, communicating through problems, and handling complaints in a way that keeps the client.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/business-freelancing/finding-clients-and-proposals",
+  "title": "Session 2: Finding Clients & Proposals",
+  "description": "The work exists; the problem is being found by it. This session covers where clients actually are, how to approach them ethically, how to understand what they really need, and how to write a proposal that wins work rather than joining a pile.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/business-freelancing/from-skill-to-service",
+  "title": "Session 1: From Skill to Service",
+  "description": "A skill is something you can do; a service is something someone will pay you to have done. This session covers the difference, how to find problems worth solving, who will pay you to solve them, and how to turn one skill into a service you can describe, price and sell.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/business-freelancing/pricing-and-packaging",
+  "title": "Session 4: Pricing & Packaging",
+  "description": "Price is the lever most freelancers never touch, and it determines whether the work is a business or a poorly paid job. This session covers packaging, the pricing models, deposits and payment terms, controlling scope, and knowing when to walk away.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/business-freelancing/records-money-and-reputation",
+  "title": "Session 5: Records, Money & Reputation",
+  "description": "Freelancers fail financially for boring reasons: no records, money mixed together, no idea what was actually earned, and no habit of asking for the next job. This session covers the simple systems that keep the money straight and the reputation growing.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-basics-typing/digital-independence",
+  "title": "Session 4: Digital Independence",
+  "description": "The final session, and the one that makes everything else usable. You create and use a real email account with attachments, fill in online forms, join an online meeting, store files in the cloud, and learn to recognise the scams that cost Nigerians money every day — then you prove independence by doing it all unaided.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-basics-typing/files-and-internet",
+  "title": "Session 3: Files & Internet",
+  "description": "Losing work because you cannot find it is the most common and most avoidable failure in computing. This session builds a file system you can navigate in the dark, then covers the browser, searching properly, and downloading without breaking anything.",
+  "date": "2026-09-13",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-basics-typing/keyboard-and-mouse",
+  "title": "Session 2: Keyboard & Mouse",
+  "description": "Speed and accuracy both come from hand position, not from trying harder. This session covers every mouse action, the full keyboard layout, the modifier keys that unlock shortcuts, and the typing drills that build correct finger placement from the start.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-basics-typing/understanding-the-computer",
+  "title": "Session 1: Understanding the Computer",
+  "description": "You are going to sit at a computer, name the parts, turn it on with one press, reach the desktop, open a program, and leave it the safe way. By the end, a dark screen should feel like a checklist, not a dead machine.",
+  "date": "2026-09-26",
+  "minutes": "80"
+ },
+ {
+  "path": "/classes/computer-networking/ip-addressing",
+  "title": "Session 2: IP Addressing",
+  "description": "The addressing scheme that makes a network work: IPv4 and IPv6, subnet masks and what they actually do, DHCP against static allocation, and the NAT that lets a whole office share one public address.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-networking/network-fundamentals",
+  "title": "Session 1: Network Fundamentals",
+  "description": "How data actually moves between two machines and across the world — the layered model in terms you can use at a client site, and the physical cables and media that everything else depends on.",
+  "date": "2026-09-12",
+  "minutes": "6"
+ },
+ {
+  "path": "/classes/computer-networking/network-troubleshooting-practical",
+  "title": "Session 6: Network Troubleshooting Practical",
+  "description": "The final practical: a deliberately broken network, a timed diagnosis under realistic conditions, and the documentation that turns one engineer's knowledge into something the client can rely on.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-networking/routers-switches",
+  "title": "Session 3: Routers & Switches",
+  "description": "The two devices that make a network a network — what a switch does that a hub never could, what a router does that a switch cannot, and how to configure ports, VLANs and the basics safely on real equipment.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-networking/troubleshooting-tools",
+  "title": "Session 5: Troubleshooting Tools",
+  "description": "The diagnostic toolkit: ping and path testing, isolating DNS from connectivity, diagnosing DHCP failures, and reading a router's status pages so the equipment tells you what is wrong instead of you guessing.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-networking/wifi-setup",
+  "title": "Session 4: Wi-Fi",
+  "description": "Wireless done properly for a real Lagos office: what the standards and bands actually mean, secure SSID configuration, coverage planning for concrete floors, and a guest network that does not become a liability.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-repairs/disassembly-and-cleaning",
+  "title": "Session 3: Disassembly & Cleaning",
+  "description": "The most common paid job in this trade: open a laptop, clean out the dust that is making it slow and hot, replace the thermal paste, and put it back together working. This session covers the full disassembly and reassembly sequence, cleaning method, and thermal paste application done properly.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-repairs/inside-the-machine",
+  "title": "Session 1: Inside the Machine",
+  "description": "You cannot diagnose what you cannot picture. This session opens a real machine and names every component, explains what each one actually does and how they depend on each other, then teaches the mental model that turns a list of symptoms into a probable cause.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-repairs/laptops-safety-identification",
+  "title": "Session 2: Laptops, Safety & Identification",
+  "description": "Before you open anything you need to work safely and know exactly what you are holding. This session covers electrical safety, static discharge and battery hazards, then how to identify a machine precisely from its model number, read a service manual, and source the right part.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-repairs/power-display-heat-faults",
+  "title": "Session 5: Power, Display & Heat Faults",
+  "description": "The three hardware fault families that make up most physical repair work: a machine that will not power on, a screen that does not display correctly, and a machine that overheats or shuts down. This session covers systematic diagnosis of each, using a multimeter, and knowing when a repair stops being economic.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-repairs/service-workflow-and-final-practical",
+  "title": "Session 8: Service Workflow & Final Practical",
+  "description": "The final session turns skill into a business: intake and diagnosis, quoting honestly, handling customer data and expectations, the paperwork that protects you, and a timed practical where you diagnose and repair a real machine end to end.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-repairs/software-and-system-servicing",
+  "title": "Session 7: Software & System Servicing",
+  "description": "Half of what customers call a hardware problem is software. This session covers diagnosing and fixing a slow or unstable Windows machine, malware removal done properly, driver and update management, and a clean reinstall with the customer's data preserved.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-repairs/storage-memory-boot-faults",
+  "title": "Session 6: Storage, Memory & Boot Faults",
+  "description": "The faults that stop a machine reaching Windows: a failing drive, faulty RAM, a corrupted boot sequence, and the error messages each produces. This session covers reading those messages correctly, testing storage and memory properly, and recovering data before you attempt any repair.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/computer-repairs/upgrades-ram-storage",
+  "title": "Session 4: Upgrades: RAM & Storage",
+  "description": "The upgrade work that makes up most paid jobs: more RAM, a hard drive replaced with an SSD, and migrating a customer's Windows installation without reinstalling it. This session covers compatibility, the physical work, cloning, and how to verify an upgrade actually delivered what you promised.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/content-creation/editing",
+  "title": "Session 3: Editing",
+  "description": "Editing is where a video becomes watchable — not through effects, but through cutting what does not earn its place. This session covers trimming, transitions, text, music and captions on a phone, and the judgement that decides what stays.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/content-creation/final-short-form-video",
+  "title": "Session 6: Final Project — Short-Form Video",
+  "description": "The final project: one complete short-form educational or promotional video — scripted, shot, edited with captions and a thumbnail, published, and reviewed against its first week of analytics — then screened and critiqued by the class.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/content-creation/growth-rights-responsibility",
+  "title": "Session 5: Growth, Rights & Responsibility",
+  "description": "Growth is a system, not luck — and the same reach that builds an audience creates real obligations. This session covers engagement and analytics, copyright and privacy, and the responsibility that comes with having people listen.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/content-creation/ideas-audience-scripts",
+  "title": "Session 1: Ideas, Audience & Scripts",
+  "description": "Everything that follows — the shooting, the editing, the publishing — only works if the idea is right and the script holds attention. This session covers what content creation actually is, how to find an audience worth making content for, and how to write scripts people finish.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/content-creation/packaging-and-publishing",
+  "title": "Session 4: Packaging & Publishing",
+  "description": "A finished video that nobody clicks is unfinished. This session covers the packaging that earns the click — thumbnail, title, caption — then publishing properly and running a calendar that survives a busy week.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/content-creation/shooting-on-a-phone",
+  "title": "Session 2: Shooting on a Phone",
+  "description": "A phone is enough — the limitations that make phone footage look amateur are lighting, framing and audio, and all three are fixable for free. This session covers smartphone shooting properly: light, framing, sound, angles, presenting to camera and screen recording.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/cybersecurity/authentication-and-awareness",
+  "title": "Session 2: Authentication & Awareness",
+  "description": "How systems decide who you are, why most of that machinery fails in practice, and how people — including you — are targeted. This session covers the authentication methods and their real weaknesses, then social engineering as the attack that bypasses all of it.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/cybersecurity/encryption-and-web-security",
+  "title": "Session 6: Encryption & Web Security",
+  "description": "The last technical layer: how encryption actually protects data at rest and in transit, what HTTPS does and does not guarantee, and how to browse and transact safely. This session covers the practical cryptography a working professional needs, without the mathematics.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/cybersecurity/incident-response-and-recovery",
+  "title": "Session 7: Incident Response & Recovery",
+  "description": "The backup that nobody tested is not a backup, and the plan nobody rehearsed is not a plan. This session covers designing and testing real backups, the incident-response sequence when something has already gone wrong, and how to recover a business rather than just a machine.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/cybersecurity/networks-and-wifi-security",
+  "title": "Session 5: Networks & Wi-Fi Security",
+  "description": "The network is where a lot of security quietly fails — an open Wi-Fi, a default router password, a guest who never left. This session covers how home and small-office networks actually work, how they are attacked, and how to configure one properly.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/cybersecurity/passwords-and-account-security",
+  "title": "Session 3: Passwords & Account Security",
+  "description": "Passwords remain the foundation of almost everything, and most of what people believe about them is wrong. This session covers how they actually fail, why a password manager changes the entire problem, and how to secure the accounts that matter — including the practical account hygiene most people never do.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/cybersecurity/phishing-scams-malware",
+  "title": "Session 4: Phishing, Scams & Malware",
+  "description": "The three attacks that cause almost all real losses in Nigeria: phishing and impersonation, the scams built on them, and the malware that arrives through both. This session teaches you to recognise each in seconds, respond correctly when you have already clicked, and remove an infection properly.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/cybersecurity/policies-risk-and-final-project",
+  "title": "Session 8: Policies, Risk & Final Project",
+  "description": "The final session turns individual knowledge into something an organisation can run: simple policies that people actually follow, a risk assessment a small business can act on, and a complete security review of a real setup delivered as a professional report.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/cybersecurity/threats-risk-cia",
+  "title": "Session 1: Threats, Risk & the CIA Triad",
+  "description": "The vocabulary and judgement that everything else rests on: what security actually protects, how threats become risks, and how to think about a system's weaknesses rather than memorise a list of scare stories. This session builds the mental model the rest of the course applies.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/data-analytics/charts",
+  "title": "Session 5: Choosing & Building Charts",
+  "description": "A chart is an argument, and most charts argue badly. This session covers choosing a chart from the question you are answering, building bar, line, pie and scatter charts properly, formatting so the finding is obvious, and recognising the specific ways charts mislead people.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/data-analytics/cleaning-validation",
+  "title": "Session 2: Cleaning & Validation",
+  "description": "Cleaning is where most analysis time actually goes, and it should be repeatable rather than manual. This session covers the text functions that fix spelling and spacing, removing duplicates safely, handling missing values deliberately, and validation rules that stop the mess coming back.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/data-analytics/dashboards",
+  "title": "Session 6: Dashboards",
+  "description": "A dashboard answers the questions a business asks every week, on one screen, without anyone rebuilding anything. This session covers layout, slicers and filters connected across several pivot tables, conditional formatting that informs rather than decorates, and keeping a workbook fast enough that people actually open it.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/data-analytics/data-structure-types",
+  "title": "Session 1: Data Structure & Types",
+  "description": "Analysis fails far more often because of how data is arranged than because of the formula used. This session covers data types, tidy data, the real sources of mess in business data, and planning a dataset before you touch it — using one messy order export that the rest of the course works on.",
+  "date": "2025-03-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/data-analytics/formulas-lookups",
+  "title": "Session 3: Formulas & Lookups",
+  "description": "Once data is clean, formulas turn rows into answers. This session covers conditional logic with IF and IFS, lookups with VLOOKUP and XLOOKUP for combining datasets, date and text handling for real questions, and the errors every lookup eventually produces.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/data-analytics/pivot-tables-summaries",
+  "title": "Session 4: Pivot Tables & Summaries",
+  "description": "A pivot table answers a grouping question in seconds and rebuilds itself when the question changes. This session covers building them properly, grouping dates and values, calculated fields, the value options that turn a total into an insight, and the summary statistics that stop a single large order from misleading you.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/data-analytics/reading-numbers",
+  "title": "Session 7: Reading the Numbers",
+  "description": "Getting the right number is only half the work; the other half is not drawing the wrong conclusion from it. This session covers asking a question rather than fishing, telling trend from seasonality, why correlation is not causation, and the sample-size honesty that separates analysis people act on from analysis they laugh at.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/data-analytics/storytelling-final-project",
+  "title": "Session 8: Storytelling & Final Project",
+  "description": "Analysis that nobody acts on has no value, however correct it is. This session covers leading with the answer, writing recommendations a manager can act on, presenting to someone with no time, and the final project: a dashboard over a real messy dataset plus a one-page analysis note.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/data-entry/accuracy-and-speed-practical",
+  "title": "Session 4: Accuracy & Speed Practical",
+  "description": "The final Data Entry session is a timed, scored, real-world simulation: enter a complete dataset from mixed sources under time pressure, then verify and deliver it to a professional standard. It ends with the accuracy figure you can quote to clients, the portfolio artefact you will show them, and a clear picture of where the paid work actually is.",
+  "date": "2026-09-27",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/data-entry/data-discipline",
+  "title": "Session 1: Data Discipline",
+  "description": "Data entry is not typing. It is the discipline of moving information between systems without changing its meaning — and the habits that catch errors before a client does. This session builds that discipline: data types, fields, accuracy, speed, and the attention patterns that separate a professional from a liability.",
+  "date": "2026-09-13",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/data-entry/spreadsheets-for-data-work",
+  "title": "Session 2: Spreadsheets for Data Work",
+  "description": "The spreadsheet is where data entry lives. This session covers the parts of Excel and Google Sheets that data work actually depends on — structure, rows and columns, formatting for each data type, dates, names, phone numbers and addresses — then sorting, filtering and removing duplicates to clean what you have entered.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/data-entry/transcription-and-validation",
+  "title": "Session 3: Transcription & Validation",
+  "description": "Transcription is reading a source and reproducing it exactly; validation is proving that what you reproduced is right. This session covers the workflow of transcription, then the checks that catch errors before a client does — verification passes, cross-checks, totals reconciliation and data validation rules built into the sheet.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/digital-marketing/ads-landing-pages-conversion",
+  "title": "Session 6: Ads, Landing Pages & Conversion",
+  "description": "Attention is not a sale. This session covers the part most small businesses skip: ad creative and copy that earn the click, a landing page or WhatsApp flow that earns the enquiry, and the follow-up that turns an enquiry into a customer.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/digital-marketing/choosing-your-platforms",
+  "title": "Session 2: Choosing Your Platforms",
+  "description": "Facebook, Instagram, TikTok, WhatsApp, websites, email and search all work — for different audiences, with different content and at different costs. This session teaches you to choose deliberately based on who your customers are rather than which platform is fashionable.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/digital-marketing/content-types-and-storytelling",
+  "title": "Session 3: Content Types & Storytelling",
+  "description": "Content is the material that turns attention into customers, and almost all of it fails for the same reason: it talks about the business instead of the customer. This session covers the content types that work, how to tell a story that holds attention, and how to write captions and calls-to-action that produce a reply.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/digital-marketing/marketing-fundamentals",
+  "title": "Session 1: Marketing Fundamentals",
+  "description": "Before a single post, this session builds the foundation every campaign rests on: what digital marketing actually is, how it differs from traditional marketing, who your customer really is, what problem you solve, and why most Nigerian businesses get very little return on a great deal of spending.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/digital-marketing/organic-and-paid-promotion",
+  "title": "Session 5: Organic & Paid Promotion",
+  "description": "Organic reach and paid advertising are different tools with different jobs, and using the wrong one for the wrong purpose is how budgets disappear. This session covers how organic distribution works, what paid advertising actually buys you, and how targeting and objectives determine whether money produces customers.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/digital-marketing/planning-and-brand-voice",
+  "title": "Session 4: Planning & Brand Voice",
+  "description": "Posting when inspiration arrives is why most business accounts stall by week three. This session builds the two systems that make content sustainable: a content calendar you can actually keep, and a brand voice that makes every post sound like the same business without you thinking about it.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/digital-marketing/reading-the-numbers",
+  "title": "Session 7: Reading the Numbers",
+  "description": "Likes do not pay rent. This session teaches the metrics that actually matter — reach, impressions, engagement, clicks, leads, conversions and cost per result — how they relate to each other, and how to read a campaign honestly enough to know what to change.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/digital-marketing/reporting-and-final-campaign",
+  "title": "Session 8: Reporting & Final Campaign",
+  "description": "The final session turns four weeks of work into the two things that get you paid: a report a business owner can act on, and a complete campaign you can show. This is where the difference between someone who posts and someone who markets becomes visible.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/digital-productivity/calendar-and-forms",
+  "title": "Session 2: Calendar & Forms",
+  "description": "A calendar that reminds you before things go wrong, and forms that collect information into a spreadsheet automatically — the two tools that remove the most repeated manual effort.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/digital-productivity/email-management",
+  "title": "Session 3: Email Management",
+  "description": "An inbox that is a processed queue rather than a storage box: labels and filters doing the sorting, archive instead of delete, templates for what you write repeatedly, and notifications that serve you rather than interrupt you.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/digital-productivity/files-naming-cloud-backup",
+  "title": "Session 4: Files, Naming & Cloud Backup",
+  "description": "The layer that protects everything else: a folder structure you can navigate, filenames that survive being separated from their folder, cloud storage used properly, a backup strategy that assumes devices die, and how to recover a lost file.",
+  "date": "2026-03-14",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/digital-productivity/workspace-essentials",
+  "title": "Session 1: Google Workspace Essentials",
+  "description": "Google Docs, Sheets, Slides and Drive as one connected system — and the sharing and collaboration settings that stop your work being either stranded on one device or accidentally public.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/graphic-design/canva-interface",
+  "title": "Session 3: The Tool — Canva Interface",
+  "description": "Canva is where most paid design work in this market actually gets done — it is free, runs on a phone, and clients recognise it. This session takes you through the whole interface deliberately: the workspace, templates, elements, text, uploads, backgrounds, layers, sizing and export, so the tool stops being in the way.",
+  "date": "2026-09-27",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/graphic-design/design-foundations-colour-type",
+  "title": "Session 2: Design Foundations II — Colour & Type",
+  "description": "Colour and type are the two decisions that most visibly separate professional work from amateur work, and both are learnable systems rather than taste. This session covers how colour works, how to build and apply a palette, how contrast and accessibility constrain it, then typefaces, pairing, scale and the spacing that makes text readable.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/graphic-design/design-foundations-seeing",
+  "title": "Session 1: Design Foundations I — Seeing",
+  "description": "Before you open any tool you have to be able to see. This session teaches the vocabulary and judgement that separate designed work from decorated work: layout, balance, contrast, hierarchy, alignment, white space and how the eye actually travels across a page. Everything after this builds on being able to look at a design and name what is wrong with it.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/graphic-design/flyers-and-social",
+  "title": "Session 5: Real-World Design I — Flyers & Social",
+  "description": "The work that pays most often: flyers and social media content. This session covers how to design for the two very different conditions each faces — a flyer seen for three seconds at arm's length, a social post seen for under two seconds on a small screen — and how to produce a campaign set efficiently from one brand system.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/graphic-design/layers-and-brand",
+  "title": "Session 4: The Tool — Layers & Brand",
+  "description": "This session finishes the tool and starts the business. You master layers and grouped components so complex designs stay editable, then learn what a brand actually is — logo, palette, typefaces, tone — and how to build a brand kit that lets one client's materials look consistent across dozens of pieces.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/graphic-design/mini-brand-package",
+  "title": "Session 8: Final Project — Mini Brand Package",
+  "description": "The final Graphic Design project: a complete brand package for a real business, delivered to a professional standard and presented as a portfolio piece. It brings together every session — principles, colour and type, Canva craft, brand kit, campaign production, print specs and professional workflow — into one deliverable you can show a client.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/graphic-design/print-and-identity",
+  "title": "Session 6: Real-World Design II — Print & Identity",
+  "description": "Print is where design mistakes become physical and expensive. This session covers the print production chain — bleed, crop marks, CMYK versus RGB, resolution, paper stocks and Nigerian print realities — then applies it to identity materials: business cards, letterheads, banners and signage.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/graphic-design/professional-workflow",
+  "title": "Session 7: Professional Workflow",
+  "description": "The difference between someone who can design and someone who runs a design service is workflow. This session covers the whole professional loop: taking a brief, quoting, presenting work, handling revisions without losing profit, delivering files properly, and the pricing judgement that decides whether the work is worth doing.",
+  "date": "2026-09-27",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/it-support/documentation-support",
+  "title": "Session 5: Documentation",
+  "description": "The work that makes support survive your absence: knowledge base articles that people actually use, ticket notes that help the next person, and asset records that answer questions before they are asked.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/it-support/hardware-software-support",
+  "title": "Session 4: Hardware & Software Support",
+  "description": "The faults that make up most of a support queue: printers, software installation, updates and patches — and the recurring patterns that let you recognise a familiar problem in an unfamiliar description.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/it-support/how-support-works",
+  "title": "Session 1: How Support Works",
+  "description": "What an IT support function actually is: how work arrives, how it gets triaged and prioritised, what a ticket is for, what service levels really mean — and what separates support people who get trusted from those who get worked around.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/it-support/structured-troubleshooting",
+  "title": "Session 2: Structured Troubleshooting",
+  "description": "The method that makes diagnosis repeatable: reproducing the problem, isolating the cause by elimination, testing the fix properly, and confirming with the user — applied to the faults you will actually meet.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/it-support/support-simulation",
+  "title": "Session 6: Support Simulation",
+  "description": "The final assessment: live simulated calls with escalating pressure, escalation decisions made against real rules, and completion of the support playbook that is this course's deliverable.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/it-support/user-support",
+  "title": "Session 3: User Support",
+  "description": "The human half of the job: talking to people who are frustrated and not technical, running remote support sessions that actually work, handling password and account resets safely, and staying professional when the problem is trivial and the emotion is not.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/microsoft-office/document-formatting",
+  "title": "Session 2: Document Formatting",
+  "description": "Formatting is what turns text into a document someone takes seriously. This session covers the full character and paragraph toolkit — fonts, colour, alignment, spacing, indentation, lists, borders — plus Format Painter and Find and Replace, the two commands that make repetitive formatting take seconds instead of an hour.",
+  "date": "2026-09-12",
+  "minutes": "45"
+ },
+ {
+  "path": "/classes/microsoft-office/excel-fundamentals",
+  "title": "Session 4: Excel Fundamentals",
+  "description": "Excel is not a grid of boxes — it is a calculation engine that happens to look like a grid. This session builds the mental model: workbooks, worksheets, cells and references, then data entry, number formatting, and the five functions that do most real-world work.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/microsoft-office/powerpoint",
+  "title": "Session 6: PowerPoint",
+  "description": "The final session, and the one that puts you in front of a room. You learn to build a presentation that supports a speaker rather than replacing one: slides, layouts, themes, text, images, shapes, icons, transitions, animations, speaker notes and presentation mode — then you deliver a 5–7 slide presentation to the class.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/microsoft-office/practical-excel",
+  "title": "Session 5: Practical Excel",
+  "description": "The Excel skills that turn a list into a report. Sorting and filtering to interrogate data, tables for structure, percentages and calculations for insight, relative references for scale, and charts for communicating the result — finished with printing that actually fits the page.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/microsoft-office/professional-documents",
+  "title": "Session 3: Professional Documents",
+  "description": "Documents that leave the building. Page setup, headers and footers, tables, images, shapes and text boxes, hyperlinks — then the three artefacts Nigerian offices ask for most: a certificate, a formal letter and a CV, finished with correct printing and PDF export.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/microsoft-office/word-fundamentals",
+  "title": "Session 1: Word Fundamentals",
+  "description": "Before you format anything you need to know where things live and, more importantly, how to keep your work. This session covers the Word interface, creating and saving documents, file formats and the editing operations you will use in every document you ever write.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/mobile-app-development/app-concepts-scoping",
+  "title": "Session 1: App Concepts & Scoping",
+  "description": "Most app projects fail before any code is written, because the idea was too big and nobody cut it down. This session covers what actually makes an app different from a website, how to choose a first project you will finish, scoping a version one that is genuinely small, and the platform conventions that decide whether an app feels right.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/mobile-app-development/building-screens",
+  "title": "Session 3: Building Screens",
+  "description": "The toolchain, and the first screens that actually run on a phone. This session covers setting up Expo, why it removes the native build problem, running on a real device through Expo Go, the core components and how they differ from HTML, and laying out for small screens including safe areas and the keyboard.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/mobile-app-development/mobile-ui-design",
+  "title": "Session 2: Mobile UI Design",
+  "description": "A phone is not a small desktop: it is used one-handed, outdoors, in fragments of time, by a thumb. This session covers designing for the thumb, touch targets that are actually hittable, screens with one job each, the three navigation patterns and when to use each, and prototyping cheaply before writing any code.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/mobile-app-development/navigation-components",
+  "title": "Session 4: Navigation & Components",
+  "description": "Four screens need to know how to reach each other, and the code needs to stop repeating itself. This session covers wiring tab, stack and modal navigation together, passing data between screens, extracting reusable components, centralising styling so the app looks consistent, and behaving sensibly across device sizes.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/mobile-app-development/publishing-mobile",
+  "title": "Session 8: Publishing & Final Project",
+  "description": "The final project and the last mile. This session covers what publishing actually involves, how Android and iOS distribution genuinely differ, the store requirements most people discover too late, the options for getting an app into real hands without a store at all, and finishing the expense tracker as a documented, working prototype.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/mobile-app-development/state-and-data",
+  "title": "Session 5: State & Data",
+  "description": "An app that forgets everything when it closes is a demo. This session covers where state should live, handling user input properly, rendering lists with FlatList rather than a map, and persisting data to the device so the expense tracker still has your expenses tomorrow morning.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/mobile-app-development/testing-on-devices",
+  "title": "Session 7: Testing on Devices",
+  "description": "The emulator will tell you your app is fine. This session covers testing on real hardware, what an emulator systematically hides, debugging mobile with remote tools and reading the errors they produce, and the specific bugs that appear on phones and nowhere else — then a checklist that catches them before your users do.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/mobile-app-development/working-with-apis",
+  "title": "Session 6: Working with APIs",
+  "description": "Real apps talk to servers, and phones have worse connections than laptops. This session covers fetching data properly, implementing the loading and error states designed in week one, behaving sensibly offline, syncing queued writes when the connection returns, and keeping the app usable on the low-end devices and metered data most people actually have.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/online-teaching/course-and-lesson-structure",
+  "title": "Session 5: Course & Lesson Structure",
+  "description": "A single good lesson is an event; a structured course is an education. This session covers how to build a course from modules and lessons, how to structure a single lesson that works online, and how slides, demonstrations, exercises and feedback fit together into something cumulative.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/online-teaching/deliver-a-lesson",
+  "title": "Session 6: Final Project — Deliver a Lesson",
+  "description": "The final project: prepare and deliver a short online lesson to the class, record it, take peer feedback, and write an improvement plan. This is where the plan meets the room — and where most people discover that teaching is adjusting, not performing.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/online-teaching/demonstration-practice-assessment",
+  "title": "Session 2: Demonstration, Practice & Assessment",
+  "description": "Explanation is the smallest part of teaching. This session covers the three things that actually produce learning — demonstrating so it can be copied, structuring practice so it builds competence, and assessing so you know whether it worked — plus how to give feedback that changes behaviour.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/online-teaching/how-people-learn",
+  "title": "Session 1: How People Learn",
+  "description": "Knowing a subject and being able to teach it are different skills, and the gap between them is why experts often make poor teachers. This session covers what actually makes teaching work: understanding learners, writing objectives you can test, planning a lesson, and breaking anything complex into simple steps.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/online-teaching/materials-assignments-quizzes",
+  "title": "Session 4: Materials, Assignments & Quizzes",
+  "description": "What you give students to read, do and be tested on determines more of their learning than what you say in class. This session covers making materials that get used, designing assignments that teach rather than occupy, building quizzes that diagnose, and communicating so students are never guessing.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/online-teaching/running-an-online-classroom",
+  "title": "Session 3: Running an Online Classroom",
+  "description": "Teaching online is not teaching in a room with a camera. This session covers running a real online classroom: video meetings, screen sharing, presentations, digital whiteboards, recording — and handling the technical failures that decide whether a lesson happens at all.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/photography/camera-control",
+  "title": "Session 3: Camera Control on a Phone",
+  "description": "A phone camera makes dozens of decisions per second, most of them sensible and some of them wrong for your photograph. This session takes back the ones that matter: exposure and exposure lock, focus and focus lock, white balance, when HDR helps and when it ruins the image, raw capture, and stability.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/photography/composition-framing",
+  "title": "Session 1: Composition & Framing",
+  "description": "Composition is not a set of rules to obey but a series of decisions about what belongs in the frame. This session covers the rule of thirds, leading lines, negative space, perspective and the single habit that improves photographs faster than any other: cleaning the frame.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/photography/editing-photography",
+  "title": "Session 4: Editing & Assignment",
+  "description": "Editing is finishing a photograph, not rescuing it. This session covers the order of operations, colour correction, contrast and the line where clarity becomes damage, making a set of images look like one photographer took them, and exporting correctly for web, WhatsApp and print.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/photography/light",
+  "title": "Session 2: Light",
+  "description": "Photography is literally writing with light, and light is the variable that changes a photograph most. This session covers direction and quality, working with window light indoors, golden hour, building reflectors and diffusers from materials you already have, and surviving the mixed lighting of a church service.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/social-media-management/analytics-and-reporting",
+  "title": "Session 5: Analytics & Reporting",
+  "description": "Reading the numbers so you can prove what works and stop guessing. This session covers what each metric actually means, which ones matter for a small business, how to run a clean test, and how to write a monthly report a client will read and renew from.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/social-media-management/community-and-customer-service",
+  "title": "Session 4: Community & Customer Service",
+  "description": "For a Nigerian small business, the comment section and the DM inbox are the sales floor. This session covers responding at speed and in a consistent voice, turning enquiries into orders, handling complaints and trolls without damaging the brand, and the workflow that keeps a multi-client inbox under control.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/social-media-management/creating-the-content",
+  "title": "Session 3: Creating the Content",
+  "description": "Making the actual material — planning a shoot with a phone, shooting it well, writing from real customer language, editing quickly in Canva and CapCut, and building a reusable asset library so the next month is faster than this one.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/social-media-management/formats-captions-scheduling",
+  "title": "Session 2: Formats, Captions & Scheduling",
+  "description": "The craft of the individual post: which format suits which message, how to write a caption that gets read to the end, the hooks that stop a scroll, hashtags that work rather than decorate, and a scheduling system that makes consistency possible alongside everything else.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/social-media-management/profiles-and-content-strategy",
+  "title": "Session 1: Profiles & Content Strategy",
+  "description": "Most business social media fails before the first post, because nobody decided who it is for or what it should achieve. This session builds the foundation: auditing a real profile, defining the audience, choosing platforms on evidence rather than habit, and writing a content strategy that survives contact with a real business.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/social-media-management/safety-and-final-project",
+  "title": "Session 6: Safety & Final Project",
+  "description": "The final session covers the two things that end careers rather than slow them — account security and the legal and ethical lines — then puts the whole course into one deliverable: a complete social media management package for a real client, presented as a portfolio piece.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/video-editing/audio-editing",
+  "title": "Session 3: Audio",
+  "description": "Viewers forgive mediocre pictures and never forgive bad sound. This session covers dialogue levels that are actually usable, removing generator hum and room noise without making voices robotic, choosing music you are allowed to use, ducking it under speech, sound effects used sparingly, and recording a voiceover that sounds like a studio.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/video-editing/captions-text",
+  "title": "Session 4: Captions & Text",
+  "description": "Most social video is watched with the sound off, which makes captions a requirement rather than an extra. This session covers why captions are non-negotiable, generating and then correcting automatic captions, styling them to be readable inside a platform's interface, and lower thirds, titles and end cards that look designed rather than typed.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/video-editing/colour-export",
+  "title": "Session 6: Colour & Export",
+  "description": "The finish: making both cameras match and the picture look correct, then exporting each deliverable to the specifications its platform actually wants. This session covers the difference between correction and grading, solving the mixed window-and-LED light in our footage, export settings that matter, and why WhatsApp destroys a video you spent a week on.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/video-editing/cutting-craft",
+  "title": "Session 2: Cutting Craft",
+  "description": "The cut is the only thing unique to video, and where the craft actually lives. This session covers cutting on action so the eye follows, multi-camera cutting, J and L cuts that make dialogue sound natural, trimming dead air without making anyone sound anxious, and rhythm — the thing viewers feel and never name.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/video-editing/story-assembly",
+  "title": "Session 1: Story & Assembly",
+  "description": "Editing is not arranging clips nicely; it is deciding what the video is about and cutting everything that is not that. This session covers story structure, logging and selecting footage, building an assembly edit before touching anything decorative, and the opening three seconds that decide whether anyone watches the rest.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/video-editing/transitions-graphics",
+  "title": "Session 5: Transitions & Graphics",
+  "description": "The default transition is a hard cut, and knowing that is most of this session. This session covers the few places a transition genuinely earns its place, the ones that only hide a bad cut, the motion graphics basics of keyframes and easing, and building a brand-consistent template so every video you make looks like it came from the same place.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-design/business-website-sections",
+  "title": "Session 5: Business Website Sections",
+  "description": "The applied session: what a Nigerian small-business website actually needs, section by section. Header, hero, services, about, prices, testimonials, gallery, contact and footer — what each is for, what goes in it, and the mistakes that make a business site fail to produce enquiries.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-design/css-fundamentals",
+  "title": "Session 3: CSS Fundamentals",
+  "description": "CSS is what makes a page look deliberate. This session covers how CSS is attached and how conflicts resolve, the box model that governs every layout, colour and typography, and the spacing system that separates designed pages from accidental ones.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-design/css-layout",
+  "title": "Session 4: CSS Layout",
+  "description": "Layout is where CSS either makes sense or fights you. This session covers Flexbox and Grid — what each is for, the properties that actually matter — plus the practical patterns behind every business website: a navigation bar, a card row, a two-column section, a footer, and a hero.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-design/how-the-web-works",
+  "title": "Session 1: How the Web Works",
+  "description": "Before writing a line of code you need to know what a browser is actually doing. This session covers how the web works — clients, servers, DNS, HTTP and what happens between typing a URL and seeing a page — then the three languages and the tools, and ends with your first page running in a browser.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-design/html-structure",
+  "title": "Session 2: HTML Structure",
+  "description": "HTML is the part that decides whether a page means anything. This session covers document structure, the elements that make up every business page, semantic markup and why it matters, forms that actually collect what you need, images done properly, and the mistakes that quietly break pages.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-design/publishing",
+  "title": "Session 8: Publishing & Final Project",
+  "description": "The final session takes a site from your laptop to the internet: domains and how DNS really works, hosting options for a Nigerian business, deploying, connecting a custom domain with HTTPS, and the final project — a live, published website you can show a client.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-design/quality-ux-accessibility-seo",
+  "title": "Session 7: Quality: UX, Accessibility & SEO",
+  "description": "The difference between a site that exists and a site that works. This session covers usability and accessibility — what makes a page usable by everyone, including people who cannot see it — then on-page SEO, performance, and the pre-launch checklist that catches what a designer stops noticing.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-design/responsive-design",
+  "title": "Session 6: Responsive Design",
+  "description": "Most Nigerian visitors arrive on a phone over mobile data, so responsive design is not a refinement — it is the design. This session covers media queries, fluid units, responsive images, and the mobile-first method that produces sites working on every screen.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-development/css-box-model-typography",
+  "title": "Session 3: CSS Box Model & Typography",
+  "description": "CSS is how a page looks, and almost every layout confusion comes from not understanding the box model. This session covers selectors, classes and IDs, how boxes actually size, typography that is readable, and colour used with intent.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-development/debugging-and-quality",
+  "title": "Session 10: Debugging & Quality",
+  "description": "Debugging is a method, not a talent, and quality is a set of checks you run rather than a feeling you have. This session covers developer tools, systematic debugging, responsive testing, performance basics, accessibility and basic SEO.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-development/deployment-and-git",
+  "title": "Session 11: Deployment & Git Workflow",
+  "description": "A project on your machine is unfinished work. This session covers testing and cleaning up before release, a real Git workflow with branches, deployment concepts, hosting options, and getting a domain — then putting a project live.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-development/flexbox-grid-responsive",
+  "title": "Session 4: Flexbox, Grid & Responsive Layout",
+  "description": "Layout is arranging boxes, and Flexbox and Grid are the two tools that finally made it reliable. This session covers both, positioning, media queries, and transitions — then a project that holds together from a phone to a desktop.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-development/forms-and-accessibility",
+  "title": "Session 2: Forms & Accessibility",
+  "description": "Forms are how a website does anything, and accessibility is whether anyone can use what you built. This session covers building forms that work and validate, the accessibility basics that make a page usable by everyone, and a project bringing it together.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-development/forms-validation-dynamic-ui",
+  "title": "Session 8: Forms, Validation & Dynamic UI",
+  "description": "Forms are where a website earns its keep, and validation is where most of them fail — either by accepting nonsense or by shouting at people unhelpfully. This session covers validation done properly, modals, dynamic content, and a project that brings it together.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-development/functions-data-loops",
+  "title": "Session 6: Functions, Data & Loops",
+  "description": "Functions make code reusable, arrays and objects make it handle real data, and loops and events connect it to the user. This session covers all four — then a project that makes a page genuinely interactive.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-development/javascript-basics",
+  "title": "Session 5: JavaScript Basics",
+  "description": "JavaScript is what makes a page do things. This session covers what it is and where it runs, variables and data types, operators, and conditions — the foundation everything after it depends on.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-development/planning-and-structure",
+  "title": "Session 9: Planning & Structuring a Project",
+  "description": "Most projects fail before any code is written, through unclear scope and disorganised files. This session covers planning a project properly, structuring folders so you can find things, thinking in reusable components, and starting with Git and GitHub.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-development/portfolio-and-presentation",
+  "title": "Session 12: Portfolio & Final Presentation",
+  "description": "The final project: build and publish a complete website, document the decisions you made, and present it. This is where the course becomes something you can show — and where most people discover that explaining your work is a separate skill from doing it.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/web-development/semantic-html",
+  "title": "Session 1: Semantic HTML",
+  "description": "You are going to make a real HTML file, open it in a browser, and see a page whose structure means something — a heading that is a heading, a list that is a list, a table that is data. The page will look plain. That is the point. Colour comes later. Meaning starts here.",
+  "date": "2026-09-26",
+  "minutes": "120"
+ },
+ {
+  "path": "/classes/web-development/the-dom",
+  "title": "Session 7: The DOM",
+  "description": "The DOM is the live structure of your page that JavaScript can read and change. This session covers selecting elements, changing content and styles, and wiring up event listeners — the bridge between a static page and an application.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/wordpress/blog-plugins",
+  "title": "Session 4: Blog & Plugins",
+  "description": "The blog that makes a site worth finding, and the plugin system that makes WordPress capable of almost anything — together with the discipline that keeps plugins from quietly destroying the site.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/wordpress/forms-business-features",
+  "title": "Session 5: Forms & Business Features",
+  "description": "The features that make a website do business — a contact form that actually reaches someone, a WhatsApp button, basic e-commerce, SEO settings and analytics — installed in a way that keeps the site fast and honest.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/wordpress/pages-block-editor",
+  "title": "Session 3: Pages & the Block Editor",
+  "description": "The block editor is where the site actually gets built. This session covers pages and their hierarchy, how blocks and patterns work, reusable blocks as the biggest time saving available, menus and navigation that survive a phone screen, and a media library that does not destroy the site's performance.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/wordpress/security-backups-launch",
+  "title": "Session 6: Security, Backups & Launch",
+  "description": "The session that protects everything you built: security basics, backups that are proven to restore, update discipline, performance fundamentals — and a launch and handover process that leaves the client genuinely able to run their own site.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/wordpress/setup-dashboard",
+  "title": "Session 1: Setup & Dashboard",
+  "description": "Everything else depends on getting this right: the difference between the two things called WordPress, choosing hosting that will not embarrass you in front of a client, installing cleanly, and the handful of settings that quietly decide whether the site works properly later.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/classes/wordpress/themes-customisation",
+  "title": "Session 2: Themes & Customisation",
+  "description": "The theme decides how the site looks and how much of it you can safely change. This session covers what a theme actually controls, choosing one on the criteria that predict problems, the two customisation systems WordPress now has, why child themes exist, and the specific things that break a site when a theme changes.",
+  "date": "2026-09-12",
+  "minutes": ""
+ },
+ {
+  "path": "/blog/a-browser-profile-on-a-shared-computer",
+  "title": "A browser profile on a shared computer",
+  "description": "A profile is a schoolbag. Yours holds your mail and your passwords. Guest is a bag that empties. Sign out is not as empty as you think. Use Guest, or your own bag, not the house bag.",
+  "date": "2026-05-04",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/a-folder-for-school-or-work",
+  "title": "A folder structure for school or work",
+  "description": "One drawer is not a filing system. School, then the year, then the kind of paper. Name the rooms before the term fills them.",
+  "date": "2026-03-29",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/a-google-account-on-purpose",
+  "title": "A Google account on purpose",
+  "description": "Gmail is a house you rent. Choose a name you can say on the phone, write it down, add a recovery number, and do not let a shop create it for you in a hurry.",
+  "date": "2026-02-17",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/a-letter-that-looks-like-one",
+  "title": "A letter that looks like one",
+  "description": "Word is lined paper that can change its mind. Margins, a greeting, one typeface, and Save As PDF so the other person's computer cannot rearrange your name.",
+  "date": "2026-02-07",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/a-one-page-cv-that-is-honest",
+  "title": "A one-page CV that is honest",
+  "description": "A CV is a letter about work you have actually done. One page, real dates, a number that rings. Empty years are allowed. Invented jobs are not.",
+  "date": "2026-07-18",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/a-second-screen-or-projector",
+  "title": "A second screen or a projector",
+  "description": "The picture can leave the laptop. Duplicate is the same page twice. Extend is two desks. The projector is just another screen with a long cable.",
+  "date": "2026-04-16",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/a-shortcut-is-not-the-file",
+  "title": "A shortcut is not the file",
+  "description": "The little arrow means a signpost. Deleting the signpost leaves the house standing. Deleting the real folder takes the house down. Look for the arrow.",
+  "date": "2026-04-08",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/a-simple-poster",
+  "title": "A simple poster that can be read",
+  "description": "A poster is a shout from across a room. One heading, one sentence, one time and place. Size 72 is not pride. It is distance. Colour is optional. Printing is the test.",
+  "date": "2026-06-05",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/a-simple-weekly-money-list",
+  "title": "A simple weekly money list",
+  "description": "Four columns, seven days, one total. The grid is a shop book for a life. If you will not open it on Sunday, a paper envelope is still allowed.",
+  "date": "2026-08-10",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/a-video-call-without-panic",
+  "title": "A video call without panic",
+  "description": "The link is a room. Mute is a kindness. Camera is optional more often than pride admits. Join five minutes early, from the real address, with the kettle elsewhere.",
+  "date": "2026-02-27",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/agile-and-devops",
+  "title": "Agile and DevOps: how the teams build",
+  "description": "Two words that fill every job advert, explained at a market stall: build small, show early, adjust; and let the people who build carry it live. Agile and DevOps, without the incense.",
+  "date": "2026-05-10",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/airplane-mode",
+  "title": "Airplane mode",
+  "description": "The plane icon mutes the radios: calls, data, Wi‑Fi, Bluetooth. The phone is still a clock, a camera, a torch. Use it in a hall, in a queue, and when the bundle must sleep.",
+  "date": "2026-08-20",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/an-email-signature",
+  "title": "A signature at the bottom of a mail",
+  "description": "A signature is your name and how to reach you, repeated without retyping. Three lines is enough. A novel, a logo, and a quote are a poster glued to a letter.",
+  "date": "2026-07-06",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/app-permissions",
+  "title": "When an app asks for the camera or your location",
+  "description": "A permission is a door. Camera, microphone, location, contacts. Allow only if the app needs that door for the job you asked. Deny is a full sentence.",
+  "date": "2026-08-25",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/asking-clearly",
+  "title": "Asking clearly",
+  "description": "The assistant answers the question you actually asked. Four parts of a good instruction — the role, the task, the shape, and the fence — and the discipline of refining in place.",
+  "date": "2026-10-14",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/asking-for-help-without-the-password",
+  "title": "Asking for help without handing over the password",
+  "description": "A helper can look. A helper does not need the keys. You type, they point. Remote “support” from a pop-up is not a nephew.",
+  "date": "2026-03-14",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/backup-before-the-light-goes",
+  "title": "Backup before the light goes",
+  "description": "One copy is a rumour. Two copies is a backup. A USB, a folder you named, and a date you will actually repeat.",
+  "date": "2026-02-14",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/backup-for-someone-else",
+  "title": "Backing up someone else's machine",
+  "description": "Their whole life is in the machine and it is in your hands. What to copy, how to prove the copy works, and the iron rule about wiping nothing until the rescue is confirmed.",
+  "date": "2026-10-07",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/bank-in-your-hand",
+  "title": "Your bank in your hand",
+  "description": "The bank in your pocket, used with market sense: the name before the confirm, the receipt kept, the card switch found in daylight. Your money's front door, locked properly.",
+  "date": "2026-02-15",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/banking-without-the-internet",
+  "title": "Banking without the internet",
+  "description": "Data dead, network alive: the short codes that move money on any phone in Nigeria, the fake codes that collect instead, and the pocket habits that keep the two apart.",
+  "date": "2026-08-21",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/before-you-forget-the-password",
+  "title": "Before you forget the password",
+  "description": "Recovery is the spare key, cut while the main key still opens the door. Set it today, in daylight, and never accept recovery help from a caller.",
+  "date": "2026-01-29",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/bluetooth-to-a-phone",
+  "title": "Sending a file to a phone with Bluetooth",
+  "description": "Bluetooth is a short handshake. Pair once, send a file, turn it off. The cable is still better for a wedding. The radio is enough for one PDF across the desk.",
+  "date": "2026-03-24",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/booking-a-flight-online",
+  "title": "Booking a flight, online, by yourself",
+  "description": "The first flight, booked by your own hands: the airline's door, the name spelled like the passport, the reference guarded like a receipt — and the cheap-ticket man at the DM, declined.",
+  "date": "2026-09-05",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/bookmarks-you-can-find-again",
+  "title": "Bookmarks you can find again",
+  "description": "The star is a pin in a map. Name it. Put it in a folder. The address bar's memory is not a filing cabinet. A bookmark is.",
+  "date": "2026-05-06",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/brightness-and-night",
+  "title": "Brightness and night use",
+  "description": "The screen is a lamp. Too bright in a dark room is a headache, not a better computer. A function key, a slider, and a battery that lasts longer when the lamp is dimmer.",
+  "date": "2026-04-13",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/bullets-and-numbered-lists",
+  "title": "Bullets and numbered lists",
+  "description": "A list is a set of steps or a set of things. Numbers mean order. Dots mean a pile. Tab nests. Enter twice gets you out. Space-bar art is not a list.",
+  "date": "2026-06-18",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/buying-a-used-laptop",
+  "title": "Buying a used laptop without tears",
+  "description": "In the market, oily rags and sweet words hide tired batteries and cracked hinges. The five-minute inspection test: the battery report, drive hours, key grids, and corner checks.",
+  "date": "2026-09-18",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/calendar-and-reminders",
+  "title": "Calendar and reminders",
+  "description": "A calendar is a wall chart that can tap you on the shoulder. One sitting, one date, a time, a name. The phone and the laptop can share it if they share an account.",
+  "date": "2026-05-24",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/captions-pause-and-speed",
+  "title": "Captions, pause, and speed",
+  "description": "CC is words on the picture. Pause is thinking time. Speed is not a virtue. 0.75 is allowed. A notebook is still faster than rewinding ten times without writing.",
+  "date": "2026-08-18",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/careers-in-data-analytics",
+  "title": "Careers in data analytics: the person who reads the numbers",
+  "description": "A data analyst turns an organisation's piles of records into decisions — who buys, what works, where the money leaks. What the career actually is, what it pays, and the honest road in.",
+  "date": "2026-05-15",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/cc-bcc-and-reply-all",
+  "title": "Cc, Bcc, and Reply all",
+  "description": "To is the person who must act. Cc is the person who should see. Bcc is a copy they did not all see each other get. Reply all is a loud room. Use it rarely.",
+  "date": "2026-07-03",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/certificates-and-the-track-record",
+  "title": "Certificates, exams, and the track record",
+  "description": "When a certificate opens a door and when it merely decorates a wall — how to prepare for the exams that matter, and how to keep the proof that outranks every paper.",
+  "date": "2026-08-01",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/chargers-cables-and-the-spark",
+  "title": "Chargers, cables, and the blue spark",
+  "description": "Universal chargers with wobbly tips, cords that get hot to the touch, and power rules. Shoe size versus water buckets, center pins, and why the third brass pin saves motherboards.",
+  "date": "2026-09-19",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/charging-without-killing-the-battery",
+  "title": "Charging without killing the battery",
+  "description": "The brick and the cable are two parts. Use the one that fits. Leave it on the table while it drinks. A red X on the battery is a story; a swollen pack is a shop the same day.",
+  "date": "2026-04-24",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/checking-results-online",
+  "title": "Checking results and admissions online",
+  "description": "WAEC, NECO, JAMB: the portals, the tokens, the careful typing of exam numbers — and the one scam that hunts results season every single year.",
+  "date": "2026-08-11",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/checking-the-homework",
+  "title": "Checking the machine's homework",
+  "description": "It lies with a calm face, especially about names, numbers, and laws. The verification habit that keeps your name clean on the paper — and the two sources rule for anything that matters.",
+  "date": "2026-10-15",
+  "minutes": "6"
+ },
+ {
+  "path": "/blog/choosing-where-to-learn-bootcamp",
+  "title": "Choosing where to learn: bootcamps, night classes, and honest papers",
+  "description": "A data science bootcamp in Nigeria can be the best money you ever spend or the fastest you ever lose it. The questions that tell one from the other, before you pay anybody.",
+  "date": "2026-05-23",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/cleaning-the-digital-house",
+  "title": "Cleaning the digital house once a year",
+  "description": "Once a year, open the drawers: apps deleted, subscriptions cut, permissions revoked, the gallery backed up and pruned. The house lighter, the doors fewer, the mind quieter.",
+  "date": "2026-03-23",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/comments-on-a-document",
+  "title": "Comments on a document",
+  "description": "A comment is a note in the margin, not a change to the letter. Reply, resolve, or ignore. Suggesting is a cousin that writes in another colour. You still own Accept.",
+  "date": "2026-07-26",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/contacts-versus-the-phone-book",
+  "title": "Contacts versus the phone book",
+  "description": "A contact is a card: name, number, maybe email. The SIM is one drawer. The Google account is another. Two drawers is how numbers vanish when the phone dies.",
+  "date": "2026-05-26",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/cookies-and-accept-all",
+  "title": "Cookies and “Accept all”",
+  "description": "A cookie is a small note a site leaves on your machine. Accept all is a long signature. Necessary is often enough. You can refuse a fair without refusing the page.",
+  "date": "2026-05-01",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/copy-and-paste-between-programs",
+  "title": "Copy and paste between programs",
+  "description": "The clipboard is a small tray. Select, copy, click the other window, paste. It holds one thing at a time. That is enough to stop retyping your own address.",
+  "date": "2026-03-17",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/digital-signature-meaning",
+  "title": "What a digital signature really signs",
+  "description": "A digital signature is not a picture of your name. It is arithmetic that proves who sealed a document and that nobody has touched it since. The padlock's cousin, explained.",
+  "date": "2026-04-27",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/do-not-disturb",
+  "title": "Do not disturb",
+  "description": "The moon icon silences rings and banners and leaves the radios on. Alarms still speak if you allow them. A class, a night, a driving seat. Not airplane mode.",
+  "date": "2026-09-02",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/drag-and-drop",
+  "title": "Drag and drop without losing the file",
+  "description": "Hold, move, release. Inside one disk, that is often a move. Onto a USB, it is often a copy. Watch the ghost icon. Drop on a folder, not on a hole.",
+  "date": "2026-07-16",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/each-one-teach-one",
+  "title": "Each one, teach one",
+  "description": "Somebody sat beside you once, or a note did. Now you are the somebody. Teaching one person, patiently, with their hands on the machine — the skill that travels every other skill.",
+  "date": "2026-03-26",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/electricity-units-online",
+  "title": "Electricity units, bought online",
+  "description": "The meter is beeping and the night is dark: prepaid tokens bought correctly, typed patiently, kept as receipts — and the cheap-units man at the junction, declined politely forever.",
+  "date": "2026-09-03",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/email-in-your-pocket",
+  "title": "Your email in your pocket",
+  "description": "The desk taught the manners; the phone carries the letter. Attachments opened on glass, the CV attached from where it lives, and the right account chosen before you press send.",
+  "date": "2026-01-14",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/email-that-gets-answered",
+  "title": "Email that gets answered",
+  "description": "A busy person answers mail between meetings, in twenty seconds each. The subject line that says the thing, the first sentence that asks, and the follow-up that is polite and shameless.",
+  "date": "2026-09-01",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/files-and-folders",
+  "title": "Where your work lives: files and folders",
+  "description": "A file is a sheet of paper. A folder is an envelope. The desktop is the table. Once you can see the room this way, nothing you type has to disappear again.",
+  "date": "2026-01-15",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/filling-a-form-on-a-website",
+  "title": "Filling a form on a website",
+  "description": "A form is a paper with boxes. Tab moves to the next box. A red star means required. Submit once, then wait. The back button is how people pay twice.",
+  "date": "2026-02-24",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/filling-a-formula-down",
+  "title": "Filling a formula down a column",
+  "description": "One SUM or one price times quantity is enough. The fill handle copies the idea down. Each row should keep its own cells. Watch the first three answers before you fill a hundred.",
+  "date": "2026-08-08",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/find-and-replace",
+  "title": "Find and replace",
+  "description": "Find is search inside the page. Replace is change, once or everywhere. Look at the one before you change the thirty. Replace all is a tap you cannot always undo in email.",
+  "date": "2026-06-23",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/five-questions-in-order",
+  "title": "The five questions in order",
+  "description": "What changed, when, what does it say exactly, who else has it, what have you tried. Five questions that end guessing and start fixing — in that order, every time.",
+  "date": "2026-10-04",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/fixing-without-formatting",
+  "title": "Fixing without formatting",
+  "description": "Formatting is burning the house to kill a rat. Restore points, safe mode, and the repairs that leave every photograph in the folder where it lives.",
+  "date": "2026-10-05",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/freeze-the-top-row",
+  "title": "Freeze the top row so the header stays",
+  "description": "A long list swallows the words Name and Amount. Freeze panes pins the header. Scroll the people, keep the labels. You have not split the file. You have pinned a ruler.",
+  "date": "2026-08-05",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/frontend-developer-explained",
+  "title": "The frontend developer, explained",
+  "description": "The frontend developer builds everything you have ever touched on a screen — the stall that faces the road. What the work is, what the words mean, and how this shelf is already the first step.",
+  "date": "2026-04-30",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/google-docs-when-there-is-no-word",
+  "title": "Google Docs when there is no Word",
+  "description": "A letter can live in the browser. Same bones: a page, a cursor, Save that happens by itself if you are online. Download a PDF before you send it to an office.",
+  "date": "2026-07-21",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/government-things-online",
+  "title": "Government things, done online",
+  "description": "NIN, passports, company names: the paperwork of a Nigerian life, on screens. Finding the real gov.ng door, surviving the fakes advertised above it, and keeping every reference number.",
+  "date": "2026-03-05",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/graphic-designer-table",
+  "title": "Design as a trade: the graphic designer's table",
+  "description": "The designer's job is not beauty; it is clarity that sells — hierarchy, restraint, and the discipline to stop. What the work is, what the tools cost, and how the first paid jobs arrive.",
+  "date": "2026-06-09",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/health-online",
+  "title": "Health online, without the lies",
+  "description": "Booking appointments, verified telemedicine, pharmacy delivery — and the hard rule the forward lesson left behind: symptoms go to professionals, never to a search box or a broadcast list.",
+  "date": "2026-09-15",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/heat-and-the-vents",
+  "title": "Heat and the vents",
+  "description": "The fan is a lung. Beds and cloths are pillows over the lung. A table, a few centimetres of air, and a shutdown when it is too hot to touch.",
+  "date": "2026-04-26",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/helping-from-across-town",
+  "title": "Helping from across town",
+  "description": "Remote control is a powerful medicine with a small label. Permission every session, steps spoken out loud, three golden rules, and the clean exit that closes the door behind you.",
+  "date": "2026-10-10",
+  "minutes": "6"
+ },
+ {
+  "path": "/blog/history-and-private-windows",
+  "title": "History and private windows",
+  "description": "History is a list of rooms you walked through. A private window does not write on that list. It is not invisible to the network, the school, or the café.",
+  "date": "2026-05-09",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/how-the-internet-arrives",
+  "title": "How the internet gets to your house",
+  "description": "Fibre on a pole, a mast on the hill, or a dish to the sky: the internet is a road system that ends at your table. What the wire carries, who sells it, and what the router does with it.",
+  "date": "2026-09-23",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/how-to-build-mobile-app-nigeria",
+  "title": "How to build a mobile app in Nigeria, from the first sentence",
+  "description": "The honest ladder from idea to screen: write it small, prototype on paper, start with the web, learn the code or brief a developer, then the Play Store. No magic, no container loads of cash.",
+  "date": "2026-05-18",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/if-the-phone-is-stolen",
+  "title": "If the phone is stolen",
+  "description": "Call the network. Change mail and bank from another machine. Find My Device is a map, not a miracle. The lock you set yesterday is today’s whole defence.",
+  "date": "2026-08-30",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/installing-a-program-on-purpose",
+  "title": "Installing a program on purpose",
+  "description": "An installer is a guest you invited. Next is not the same as I agree to extra toolbars. Download from the real street, then walk through the boxes with your eyes open.",
+  "date": "2026-03-04",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/it-support-the-person-who-fixes-the-day",
+  "title": "IT support: the person who fixes the day",
+  "description": "When the printer dies before the meeting, one person becomes the most important in the building. What IT support work actually is, and why patience is the core qualification.",
+  "date": "2026-05-27",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/kilobytes-and-megabytes",
+  "title": "What KB, MB and GB actually mean",
+  "description": "Size is how heavy the suitcase is. A page of text is light. A phone photograph is a brick. Email has a door that will not take bricks. Look at the Size column.",
+  "date": "2026-07-11",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/learning-anything-faster",
+  "title": "Learning anything faster",
+  "description": "A patient tutor who never tires of your questions — used well, it compresses months into weeks. Roadmaps, quizzes, and the twenty hours at the table, now with company.",
+  "date": "2026-10-20",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/learning-in-public",
+  "title": "Learning in public",
+  "description": "Share what you learn, ask questions worth answering, and let the next person watch you climb. The habit that compounds a course into a career — and strangers into colleagues.",
+  "date": "2026-07-19",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/learning-online-mostly-free",
+  "title": "Learning online, mostly free",
+  "description": "The classroom in your pocket, mostly free: search like a student, use pause and captions, finish one thing with your hands, and close the gap between watching and doing.",
+  "date": "2026-03-08",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/listening-like-a-technician",
+  "title": "Listening like a technician",
+  "description": "The complaint and the problem are rarely the same thing. Let the person talk to the end, write the words down, and the machine will often diagnose itself.",
+  "date": "2026-10-03",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/loan-apps-the-real-cost",
+  "title": "Loan apps: the money that costs a reputation",
+  "description": "Fifteen minutes, no collateral, and your whole phonebook held as surety. How the instant-loan machine actually works, what the law says, and the defences that keep your name yours.",
+  "date": "2026-09-11",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/locking-the-phone-and-the-laptop",
+  "title": "Locking the phone and the laptop",
+  "description": "A lock is a gate, not a decoration. PIN, pattern, fingerprint, Windows+L. The screen going dark is not a lock. A cousin should meet a gate, not your mail.",
+  "date": "2026-08-28",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/machine-learning-engineer-work",
+  "title": "What a machine learning engineer does",
+  "description": "A machine learning engineer teaches machines by example instead of instruction — and spends most of the working day cleaning the examples. What the work is, and what it honestly pays.",
+  "date": "2026-05-05",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/mail-merge-you-can-skip",
+  "title": "Mail merge, and when you can skip it",
+  "description": "Mail merge is a factory for letters. Thirty names, one template. For three letters, type the name. For thirty, a list and a skip-or-learn moment. You do not owe the factory yet.",
+  "date": "2026-05-21",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/making-numbers-look-like-money",
+  "title": "Making numbers look like money",
+  "description": "Type 1500. Then tell the grid it is naira. The sign is a costume. The number underneath still adds. Typing ₦ yourself is how totals become words.",
+  "date": "2026-08-03",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/making-text-larger",
+  "title": "Making the page larger without breaking it",
+  "description": "Ctrl and plus is a magnifying glass on this page. It is not a new font. Accessibility is a lamp you are allowed to turn up. Squinting is not a virtue.",
+  "date": "2026-06-16",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/maps-without-getting-lost",
+  "title": "Maps without getting lost",
+  "description": "A map app is a paper map that can talk. Search a place, read the pin, then the road. Download the area if the data will die. The blue dot is you, not the destination.",
+  "date": "2026-06-03",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/naira-and-accents",
+  "title": "Typing naira, accents, and another language",
+  "description": "₦ is a character, not a drawing. A language in the taskbar is a second keyboard laid over the same keys. Alt codes and the emoji panel are how the symbol arrives.",
+  "date": "2026-03-09",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/names-on-the-network",
+  "title": "Names on the network",
+  "description": "Every machine wears two names: one is numbers, one is words. How the phonebook of the internet works, and why a wrong name can still knock on the wrong door.",
+  "date": "2026-09-28",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/neighbours-and-your-wifi",
+  "title": "The neighbours and your Wi-Fi",
+  "description": "Your wireless fence is not automatically yours. Change the provider's printed key, understand what the sticker warns you about, and give visitors their own gate into the compound.",
+  "date": "2026-09-30",
+  "minutes": "6"
+ },
+ {
+  "path": "/blog/new-phone-without-losing-your-life",
+  "title": "A new phone without losing your life",
+  "description": "Moving day is where people lose more than thieves ever take. WhatsApp backed up, the Google account carried over, and the old phone wiped like a house whose keys have found a new owner.",
+  "date": "2026-02-20",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/notes-that-last",
+  "title": "Notes that last",
+  "description": "You will not remember Friday in March, so Friday must write to March. One home for every note, named and dated, reviewed weekly — the quiet system that turns busy weeks into a memory.",
+  "date": "2026-09-06",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/one-time-passwords",
+  "title": "OTPs — codes that die",
+  "description": "A six-digit SMS is a key that works once. Nobody who is helping you needs to hear it. Type it into the page you opened on purpose. Then let it expire.",
+  "date": "2026-09-14",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/open-with-the-right-program",
+  "title": "Open with — this program, not that one",
+  "description": "A file is not a program. Double-click asks Windows to guess. Open with is how you choose. Always is a marriage. Once is a visit.",
+  "date": "2026-07-08",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/page-numbers-and-headers",
+  "title": "Page numbers and a quiet header",
+  "description": "A header is a small line that repeats. A page number is a counter, not a number you type at the bottom of each sheet. Insert it once. The next page will count.",
+  "date": "2026-07-01",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/papers-the-bag-cannot-lose",
+  "title": "Papers the bag cannot lose",
+  "description": "Certificates drown, burn, and walk out of bags. Scanned, named, and parked in Drive, they survive all three — one quiet evening of work, private until you say share.",
+  "date": "2026-01-24",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/passwords-you-can-keep",
+  "title": "Passwords you can keep",
+  "description": "A password is a key, not a motto. Long beats clever. One key per house. A notebook in a drawer beats the same word on every door.",
+  "date": "2026-01-25",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/paying-for-something-online",
+  "title": "Paying for something online",
+  "description": "The first honest purchase: pay on delivery, the padlock's honest limits, and counting your change in a market made of screens.",
+  "date": "2026-02-10",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/phone-as-rescue-wire",
+  "title": "Your phone as the rescue wire",
+  "description": "When the house line dies, the pocket router lives. Hotspot, the USB cable trick, and the data manners that keep the rescue from eating the rent.",
+  "date": "2026-10-01",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/photographing-a-document",
+  "title": "Photographing a document so it can be read",
+  "description": "A receipt at an angle is a riddle. Flatten the paper, stand above it, fill the frame, check the naira amount before you send. Light is the whole trick.",
+  "date": "2026-09-09",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/photos-off-the-phone",
+  "title": "Getting photographs off the phone",
+  "description": "The gallery is a pocket. The computer is a drawer. A cable, a folder called Pictures, and names that will still make sense when the phone is gone.",
+  "date": "2026-02-09",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/pictures-voices-and-truth",
+  "title": "Pictures, voices, and the truth",
+  "description": "The cloned face learned new tricks. What still betrays a fake, the standing habits of doubt, and the phone call with the family word that settles everything in sixty seconds.",
+  "date": "2026-10-18",
+  "minutes": "6"
+ },
+ {
+  "path": "/blog/power-banks-and-surges",
+  "title": "Power banks, surges, and the charging life",
+  "description": "The grid has moods; your machines have limits. Choosing a power bank that tells the truth, charging on hard ground, and the seconds after the light returns that decide a device's life.",
+  "date": "2026-08-31",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/pricing-your-work",
+  "title": "Pricing your work without apologising",
+  "description": "The freelancer's hardest lesson: a price is not a confession of worth, it is a tool with a floor, a market, and a value. How to quote, hold, deposit, and raise.",
+  "date": "2026-06-19",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/printing-a-sheet-so-it-fits",
+  "title": "Printing a spreadsheet so it fits",
+  "description": "A grid is wider than a letter. Preview, landscape, fit to one page wide. A shrunk ant-stack is not a register. Cut columns, or take two sheets on purpose.",
+  "date": "2026-07-31",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/printing-without-waste",
+  "title": "Printing without waste",
+  "description": "The printer is a tap. Preview is looking at the sink before you open it. One page, the right side of the paper, and ink that is not a rumour.",
+  "date": "2026-01-30",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/public-wifi-and-the-bank",
+  "title": "Public Wi‑Fi and the bank",
+  "description": "A free fan in a café is a shared tap. Mail can wait. The bank should use the SIM or the house. A login page that is not the café's is a street you did not mean.",
+  "date": "2026-09-17",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/renaming-files-without-breaking-them",
+  "title": "Renaming files without breaking them",
+  "description": "The name is for you. The part after the last dot is for the computer. Change Chidinma-JAMB. Leave .pdf alone.",
+  "date": "2026-04-01",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/scanning-to-pdf-on-the-phone",
+  "title": "Scanning a page to PDF on the phone",
+  "description": "A scan is a photograph with manners: edges found, a page, a PDF. Notes, Drive, and the camera's document mode are enough. A random scanner app from an advert is not.",
+  "date": "2026-09-12",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/searching-for-a-lost-file",
+  "title": "Searching the computer for a lost file",
+  "description": "Search is a clerk who can spell part of a name. Start in Documents, not the whole disk. One word you remember is enough if you named it like a human.",
+  "date": "2026-04-03",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/secrets-that-are-not-yours",
+  "title": "Secrets that are not yours",
+  "description": "Professional work means holding other people's keys: their data, their logins, their files. Confidentiality in ordinary words — what you may see, what you may keep, what you must never carry.",
+  "date": "2026-07-10",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/selecting-text",
+  "title": "Selecting text without rage",
+  "description": "Highlight is how the machine knows which words you mean. A drag, a double-click, Shift and an arrow. Click once in empty space if the blue block was a mistake.",
+  "date": "2026-06-28",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/selling-the-thing-you-own",
+  "title": "Selling the thing you own",
+  "description": "You are the shop now: photographs that tell the truth, a price from the real market, and the one rule — money is confirmed in your own app, never by an alert's tone or a stranger's screenshot.",
+  "date": "2026-02-23",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/setting-up-a-new-computer",
+  "title": "Setting up a new computer for somebody",
+  "description": "The new machine arrives with factory opinions. Remove the trial guests, install the real tools, walk their old life across, and teach the handover in one quiet sitting.",
+  "date": "2026-10-08",
+  "minutes": "6"
+ },
+ {
+  "path": "/blog/sharing-a-file-without-publishing-it",
+  "title": "Sharing a file without publishing it",
+  "description": "Anyone with the link is a public tray. A named email is a letter to one person. Viewer is enough for a receipt. Editor is a second pair of hands on your only copy.",
+  "date": "2026-07-23",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/sharing-on-the-network",
+  "title": "Sharing a printer or a folder at the office",
+  "description": "One printer, four laptops, no flash drive. What sharing really opens, the one permission rule that matters, and why the printer is always offline on Monday.",
+  "date": "2026-09-29",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/shrinking-a-photo-for-email",
+  "title": "Shrinking a photo so email will take it",
+  "description": "A phone photograph is a wall. Email wants a window. Resize is not crop. Save a copy. The original stays in Pictures.",
+  "date": "2026-06-08",
+  "minutes": "3"
+ },
+ {
+  "path": "/blog/shutdown-sleep-and-the-power-button",
+  "title": "Shut down, sleep, and the power button",
+  "description": "Closing the lid is not the same as leaving. Sleep is a nap. Shut down is going home. Holding the power button is a shove, for when the machine will not wake.",
+  "date": "2026-02-22",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/siem-in-ordinary-words",
+  "title": "SIEM, in ordinary words",
+  "description": "SIEM — said like seam — is the ledger that collects what every machine saw, and shouts when the pieces make a pattern. The tool at the heart of every watching room, demystified.",
+  "date": "2026-04-09",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/signing-out-of-a-machine-that-is-not-yours",
+  "title": "Signing out of a machine that is not yours",
+  "description": "Close is not sign out. Remember me is a trap you tick once. A last five minutes: mail, Drive, WhatsApp Web, browser, Guest. Then stand up.",
+  "date": "2026-05-16",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/sitting-down-at-a-computer",
+  "title": "Sitting down at a computer for the first time",
+  "description": "What the box in front of you actually is, how to wake it, and how to move the pointer without fear. The first hour, explained as if someone is sitting beside you.",
+  "date": "2026-01-13",
+  "minutes": "7"
+ },
+ {
+  "path": "/blog/six-more-keystrokes",
+  "title": "Six more keystrokes, then rest",
+  "description": "You already own copy, paste, and undo. Add save, find, select all, and three for the browser — then stop collecting. Six is a year's worth.",
+  "date": "2026-01-01",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/slides-that-speak",
+  "title": "Slides that speak",
+  "description": "The audience cannot read and listen at once, so the slide carries the lantern and you carry the talk. One idea per slide, letters for the back row, and the rehearsal that removes the fear.",
+  "date": "2026-08-29",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/social-media-manager-behind-posts",
+  "title": "The social media manager, behind the posts",
+  "description": "The job is not posting; it is selling with manners at scale — a calendar, a camera, a reply written like a host, and numbers read honestly every week.",
+  "date": "2026-06-06",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/sorting-a-spreadsheet-column",
+  "title": "Sorting a column without scrambling the rows",
+  "description": "Sort is lining up a register. Select the whole table, then sort by one column. Sorting a single column on its own is how names leave their amounts.",
+  "date": "2026-07-28",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/spell-check-is-a-cousin",
+  "title": "Spell check is a cousin, not a teacher",
+  "description": "The red line catches letters. It will not catch from for form. Read the letter out loud. Right-click a squiggle. Do not Accept all like a cookie banner.",
+  "date": "2026-06-21",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/spreadsheets-the-grid-that-counts",
+  "title": "Spreadsheets: the grid that counts",
+  "description": "Rows, columns, and one cell where they meet. Type a number, not a picture of a number. Let the grid add, so the total is still right when the light returns.",
+  "date": "2026-02-02",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/start-menu-and-taskbar",
+  "title": "The Start menu and the taskbar as a map",
+  "description": "Start is the front door. The taskbar is the row of rooms you are in. Pin what you use. Do not confuse a pin with the program itself.",
+  "date": "2026-04-06",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/storage-on-the-phone",
+  "title": "When the phone says storage is full",
+  "description": "Photos, WhatsApp, and video fill a pocket. The computer is a drawer. Delete the soup, keep the originals you already copied. A “cleaner” app is usually a stall.",
+  "date": "2026-08-23",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/support-as-honest-work",
+  "title": "Support as honest work",
+  "description": "People will now pay you for the quiet hour. Pricing without stealing, the logbook that steadies the year, response times, and the retainers that turn help into a living.",
+  "date": "2026-10-12",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/tables-in-a-letter",
+  "title": "A table in a letter",
+  "description": "A table is a grid that lives on a page, not in a spreadsheet. Rows, columns, one fact per cell. Tab moves. The borders are for reading, not for decoration.",
+  "date": "2026-05-19",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/taking-a-screenshot",
+  "title": "Taking a screenshot",
+  "description": "The screen can photograph itself. Print Screen is the shutter. Snipping Tool is the crop. Save it in Pictures with a name, not as a rumour in the clipboard.",
+  "date": "2026-03-19",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/talking-to-the-keyboard",
+  "title": "Talking to the keyboard",
+  "description": "Your voice is faster than your thumbs. The microphone key writes as fast as you speak — where it shines, where it fails, and the codes that must never be spoken aloud.",
+  "date": "2026-01-10",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/tcp-ip-road",
+  "title": "TCP/IP: how the road carries the mail",
+  "description": "TCP/IP is the shared grammar of the internet — a long letter torn into numbered parcels, each finding its own road, reassembled at the door. One lesson to never fear the word again.",
+  "date": "2026-04-22",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/ten-years-from-one-machine",
+  "title": "Ten years from one machine",
+  "description": "Every advert tells you to buy a new laptop every two years; the workshop bench knows the quiet dignity of maintenance. Battery thresholds, lightweight software, and the tool that lasts.",
+  "date": "2026-09-22",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-assistant-at-school",
+  "title": "The assistant at school",
+  "description": "Explain it slowly, quiz me, make me a timetable: the honest uses that make you stronger — and the copy-paste that quietly steals your own growth under the teacher's nose.",
+  "date": "2026-10-16",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-assistant-at-work",
+  "title": "The assistant at work",
+  "description": "Drafts, summaries, formulas, replies — the workday helpers that return your evenings. And the client's secrets that must never be typed into a stranger's chat box, however helpful.",
+  "date": "2026-10-17",
+  "minutes": "6"
+ },
+ {
+  "path": "/blog/the-assistant-that-types",
+  "title": "The assistant that types",
+  "description": "A very good autocomplete with reading habits — that is all it is, and it is already remarkable. Where the assistants live, what the box expects, and what it is genuinely good at.",
+  "date": "2026-10-13",
+  "minutes": "6"
+ },
+ {
+  "path": "/blog/the-atm-and-the-card-manners",
+  "title": "The ATM, the POS, and the card manners",
+  "description": "The queue under the umbrella, the slot that wiggles, the keypad worth covering: cash machines done correctly, the market POS done politely, and the card that gets frozen in one tap.",
+  "date": "2026-08-27",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-blue-screen-and-the-spinning-circle",
+  "title": "The blue screen and the spinning circle",
+  "description": "The sudden blue flash, the sad face, the white capital letters. Why Windows crashes to protect your files from corruption, photographing the stop code, and the Safe Mode cure.",
+  "date": "2026-09-20",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-body-at-the-desk",
+  "title": "The body at the desk",
+  "description": "The trade you chose is a sitting trade, and sitting is a hazard. Eyes, wrists, neck and back — the small arrangements that let a person work for decades instead of years.",
+  "date": "2026-07-15",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-books-of-a-one-person-business",
+  "title": "The books of a one-person business",
+  "description": "You earned it; now keep it. Separate the money, record every in and out, set aside the tax-and-rain share, and reconcile once a month — books a one-person business can actually keep.",
+  "date": "2026-07-07",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-cloud-in-ordinary-words",
+  "title": "What the cloud is, in ordinary words",
+  "description": "The cloud is a computer that is not in the room, with a door on the internet. Drive, Photos, iCloud are rooms in that building. It is not magic, and it is not a backup until you can open the file on a second machine.",
+  "date": "2026-05-14",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-cv-that-gets-read",
+  "title": "The CV that gets read",
+  "description": "Most CVs die inside a machine before a human ever sees them. The plain format that survives the robot parser, the honest keywords that match the advert, and the one page that opens doors.",
+  "date": "2026-08-19",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-cybersecurity-analyst-at-work",
+  "title": "The cybersecurity analyst, at work",
+  "description": "Somebody is paid to sit on the other side of everything these notes taught you — watching, triaging, asking who knocked. What the job actually is, and how a person walks into it.",
+  "date": "2026-03-30",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-deductions-on-your-line",
+  "title": "The deductions on your line",
+  "description": "Fifty naira here, twenty there, and the airtime is gone by Wednesday. The quiet subscriptions eating your line, how to see them, how to stop them, and the doors they walked in through.",
+  "date": "2026-08-22",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-downloads-pile",
+  "title": "The Downloads pile",
+  "description": "The mat by the door fills. A file that matters should walk into Documents the same day. The pile is not a folder structure. It is a habit of not finishing.",
+  "date": "2026-05-11",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-family-table",
+  "title": "The family table: phones, kids, and parental controls",
+  "description": "Children inherit our screens before our manners. Family Link, app approval, the bedtime rule that binds adults too — raising the next generation of users without a fight.",
+  "date": "2026-08-16",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-fan-that-screams",
+  "title": "The fan that screams and the machine that burns",
+  "description": "Laptops do not slow down because they are getting old; they slow down because they are choking on dust. The grey carpet behind the vents, the mattress trap, and how to give the machine cool air.",
+  "date": "2026-09-15",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-file-that-goes-up",
+  "title": "The file that goes up",
+  "description": "Downloads taught where files land. Applications need the other direction: choose the file, watch the bar finish, keep the slip. Uploading, done calmly.",
+  "date": "2026-01-19",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-forward-that-lies",
+  "title": "The forward that lies",
+  "description": "Some lies want your money; some want only your finger. The sixty-second check before you forward, and your name as the envelope every lie travels in.",
+  "date": "2026-02-05",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-hard-drive-that-clicks",
+  "title": "The hard drive that clicks and the solid-state cure",
+  "description": "Tick, tick, tick, click. The tiny record player spinning inside an old laptop, why the clicking needle means stop immediately, and how a solid-state drive gives an old machine new wings.",
+  "date": "2026-09-16",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-honest-reset",
+  "title": "The honest reset",
+  "description": "Sometimes the reinstall is right. Do it like a professional: rescue first, checklist written, USB prepared, and the files walked home again afterwards — nothing lost in the night.",
+  "date": "2026-10-06",
+  "minutes": "6"
+ },
+ {
+  "path": "/blog/the-internet-without-getting-lost",
+  "title": "The internet without getting lost",
+  "description": "A browser is a vehicle. The address bar is the road you typed. Search is asking a librarian. Tabs, the padlock, and how to come back from a wrong turn.",
+  "date": "2026-01-20",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-interview-on-a-screen",
+  "title": "The interview on a screen",
+  "description": "The online interview is won before it begins: the test run, the window behind you, the camera at eye level, and the manners of a guest in somebody's parlour.",
+  "date": "2026-08-24",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-job-card",
+  "title": "The job card and the boundary",
+  "description": "The bench lesson gave you the paper; this one is about the price sentence written on it. What to say before the work, what never goes on the card, and the favour done in daylight.",
+  "date": "2026-10-09",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-keyboard-on-the-phone",
+  "title": "The keyboard on the phone",
+  "description": "You type more on glass than on any keyboard you will meet. Long-presses, a cursor you can slide, and autocorrect put firmly in its place — one quiet hour with the keys you carry everywhere.",
+  "date": "2026-01-05",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-link-you-should-not-open",
+  "title": "The link you should not open",
+  "description": "Hurry is the bait. A real bank already knows you. Open a new tab and walk there yourself. If the story was true, it will still be true on the real street.",
+  "date": "2026-01-28",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-money-that-doubles",
+  "title": "Double your money: the oldest lie",
+  "description": "The dashboard glows green, the first withdrawal lands, the compound meeting claps. Inside the arithmetic of doubling schemes, the tells that survive every costume, and the boring cure.",
+  "date": "2026-09-13",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-phone-as-a-hotspot",
+  "title": "The phone as a hotspot",
+  "description": "The pocket can be a router. A name, a key, the laptop joins. The bundle pays. Heat and battery follow. Switch it off when the sitting ends.",
+  "date": "2026-09-04",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-pivot-table-properly",
+  "title": "The pivot table, properly",
+  "description": "One thousand rows in, three sentences out, without touching a formula: select, drag, read. The spreadsheet's most respected tool, walked slowly in the series voice.",
+  "date": "2026-09-10",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-portfolio-proof",
+  "title": "The portfolio: proof over promises",
+  "description": "A CV says you can; a portfolio shows you did; a client decides in one glance. How to build the small body of evidence that turns every trade in this chapter into a living.",
+  "date": "2026-06-24",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-profile-that-finds-work",
+  "title": "The profile that finds work",
+  "description": "The employer searches your name before the handshake. A CV in Drive, a photograph that is your face, one honest profile, and the two sentences that make an application yours.",
+  "date": "2026-03-13",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-recycle-bin-and-i-deleted-it",
+  "title": "The Recycle Bin and “I deleted it”",
+  "description": "Delete is a cupboard, not a fire. Restore puts the file back. Empty is the real goodbye. Shift+Delete skipped the cupboard — look twice.",
+  "date": "2026-03-12",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-repairs-engineer-and-the-bench",
+  "title": "The repairs engineer and the bench",
+  "description": "Taking your laptop to a commercial workshop in town. The photographic inventory, serial numbers, password rules, agreed diagnostic bounds, and asking for old parts back in your hand.",
+  "date": "2026-09-21",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-ride-that-comes-to-you",
+  "title": "The ride that comes to you",
+  "description": "Bolt, Uber, inDrive — the street's bargaining, arranged neatly on a map. The plate, the PIN, the person told, and the driver who asks you to cancel answered politely and refused.",
+  "date": "2026-02-28",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-right-click-menu",
+  "title": "The right-click menu is a map",
+  "description": "The right button is not a second click. It is a list of extra acts for whatever is under the pointer. Open, Rename, Delete, Open with, Properties. Click empty space to dismiss it.",
+  "date": "2026-07-13",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-road-ahead",
+  "title": "The road ahead",
+  "description": "From the first sitting to this one: the whole map on one page, the ten-year view, and the quiet hour you now owe somebody else. The last lesson of the series, and the first of yours.",
+  "date": "2026-10-22",
+  "minutes": "6"
+ },
+ {
+  "path": "/blog/the-router-and-its-lights",
+  "title": "The router and its five lights",
+  "description": "Blinking is talking. The small lights on the shelf tell you exactly where the road is broken, and the restart has an order. Read the box before you call anybody.",
+  "date": "2026-09-24",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-second-lock",
+  "title": "The second lock",
+  "description": "A stolen password should not be enough to be you. Two-step verification, backup codes on paper, and the rule for prompts you did not start.",
+  "date": "2026-02-01",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-shop-network",
+  "title": "A small network for a small shop",
+  "description": "Router, POS, camera, printer, two laptops: draw the map before you buy anything. Power for the shelf, a guest gate for customers, and the book of passwords on the last page.",
+  "date": "2026-10-02",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-soc-room",
+  "title": "The room that never sleeps: the SOC",
+  "description": "You will hear people say they work in a SOC. Here is the room, the tiers, the shifts — the place where the watching profession actually sits, explained without the mystique.",
+  "date": "2026-04-04",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-upgrade-habit",
+  "title": "The upgrade habit",
+  "description": "Every tool on this shelf will be replaced someday, and none of the habits will. The yearly skills audit, one new tool per quarter, unlearning with grace — how to stay current for decades.",
+  "date": "2026-09-20",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-voice-that-borrowed-a-face",
+  "title": "The voice that borrowed a face",
+  "description": "A clone needs twenty seconds of somebody's voice. The family word, the callback on the known number, and the rule that survives every costume: hurry, secrecy, money — pause.",
+  "date": "2026-03-18",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/the-vpn-explained",
+  "title": "The VPN, explained like a tunnel",
+  "description": "Your traffic, wrapped and carried through another town: what a VPN actually does, when it genuinely helps, when it sells you courage — and why the free ones are the most expensive.",
+  "date": "2026-09-08",
+  "minutes": "6"
+ },
+ {
+  "path": "/blog/the-webcam-and-who-can-see-you",
+  "title": "The webcam and who can see you",
+  "description": "The camera is a hole at the top of the screen. A light means it is looking. A cover is a curtain. Off in the meeting is not the same as a closed curtain.",
+  "date": "2026-04-29",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/the-working-life",
+  "title": "The working life",
+  "description": "The last note of the chapter is about the years: routines that survive motivation, integrity that survives temptation, and a career walked one honest Thursday at a time.",
+  "date": "2026-08-06",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/this-is-beyond-me",
+  "title": "When to say this is beyond me",
+  "description": "The mark of a real technician is the sentence the amateur cannot say. Where your hands must stop, how to refer well, and why the honesty compounds faster than the luck.",
+  "date": "2026-10-11",
+  "minutes": "6"
+ },
+ {
+  "path": "/blog/two-windows-at-once",
+  "title": "Two windows at once",
+  "description": "A letter on the left, a page on the right. Snap is not magic. Alt+Tab is the other door. You do not have to close one room to stand in the other.",
+  "date": "2026-06-13",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/undo-and-redo",
+  "title": "Undo, and the thing you did not mean",
+  "description": "Ctrl+Z takes back the last act. Ctrl+Y puts it back. Save is still the floor. Undo is a rope, not a time machine, and it dies when you close the window.",
+  "date": "2026-06-26",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/uninstalling-what-a-shop-added",
+  "title": "Uninstalling what a shop added",
+  "description": "Settings, Apps, the name you do not remember asking for. Uninstall is showing a guest the door. The Start menu is not the same as gone.",
+  "date": "2026-03-07",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/updates-without-panic",
+  "title": "Updates without panic",
+  "description": "The restart is not a punishment. Save first, plug in the charger, let the bar finish. An update is a repair the machine already knows how to fetch.",
+  "date": "2026-02-12",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/upgrading-ram-the-honest-math",
+  "title": "Upgrading RAM: the honest math",
+  "description": "A friend shouts that you need sixteen gigabytes of RAM to make your computer fast. Reading the numbers before spending money, the study desk rule, and the soldered chip trap.",
+  "date": "2026-09-21",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/usb-devices-that-are-not-flash-drives",
+  "title": "USB devices that are not flash drives",
+  "description": "The same hole takes a mouse, a keyboard, a printer, a dongle. Plug in, wait, look at the lights. The computer usually knows the guest. You still have to seat the plug.",
+  "date": "2026-04-18",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/volume-and-headphones",
+  "title": "Volume and headphones",
+  "description": "Sound has a tap on the keyboard and a tap in the tray. Headphones steal the speakers until you unplug them. Mute is a line through the speaker, not a broken machine.",
+  "date": "2026-04-11",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/vulnerability-assessment-fence",
+  "title": "The vulnerability assessment: checking the fence",
+  "description": "A vulnerability assessment is the systematic walk around your own walls before thieves do it for you — find the weak boards, rank them, fix the loudest first. Here is the honest method.",
+  "date": "2026-04-17",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/watching-a-video-without-getting-lost",
+  "title": "Watching a video without getting lost",
+  "description": "A video site is a market with a search box. Type the thing you came for. Full screen is not a new street. The sidebar is a stall shouting. You may leave.",
+  "date": "2026-08-15",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/water-on-the-keyboard",
+  "title": "Water, tea, and the spill on the keyboard",
+  "description": "The mug tips, tea floods the keys, and panic takes over. The immediate five-second drill: pull the plug, hold the button, the upside-down tent, and why raw rice ruins machines.",
+  "date": "2026-09-17",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/websites-for-small-businesses",
+  "title": "Websites for small businesses: a trade you can start this year",
+  "description": "Every shop, school and church needs one honest page on the internet — and somebody local to build and keep it. That somebody can be you, from skills this shelf has already begun.",
+  "date": "2026-06-01",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/what-a-megabyte-is",
+  "title": "What a megabyte is, and where your data goes",
+  "description": "A megabyte is a cup of water from a tank you paid for. Video drinks buckets, mail drinks cups, and the meter in Settings names every thirsty guest in the house.",
+  "date": "2026-09-26",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/what-a-pdf-is-for",
+  "title": "What a PDF is for",
+  "description": "A PDF is a photograph of a page that still lets you select the words. It will not rearrange itself on another computer. That is why offices ask for it.",
+  "date": "2026-03-27",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/what-a-qr-code-is-doing",
+  "title": "What a QR code is doing",
+  "description": "A QR code is a printed address. The camera reads it and offers a door. Read the door before you walk. A sticker on a pole is not your bank.",
+  "date": "2026-05-29",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/what-a-virus-usually-is",
+  "title": "What “the computer has a virus” usually is",
+  "description": "A flashing count of infections is usually an advert. A real problem is quieter: a file you cannot open, a browser that will not leave a stranger's page, a program you did not install. Close the scare. Do not call the number on it.",
+  "date": "2026-06-10",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/whatsapp-is-not-email",
+  "title": "WhatsApp is not email",
+  "description": "Chat is a tap on the shoulder. Email is a letter on a desk. Schools, banks, and workplaces still want the letter. Knowing which room you are in saves a week of silence.",
+  "date": "2026-02-04",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/whatsapp-web-on-a-computer",
+  "title": "WhatsApp Web on a computer",
+  "description": "The green app can sit in a browser. The phone stays the key. Scan once, type with a keyboard, log out when the desk is not yours.",
+  "date": "2026-05-31",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/when-a-client-goes-quiet",
+  "title": "When a client goes quiet",
+  "description": "The work is delivered; the phone goes silent. Chasing payment with dignity: the gentle ladder, the documents that win disputes, the pause of work, and when to walk away.",
+  "date": "2026-07-24",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/when-the-cell-looks-broken",
+  "title": "When the cell says ##### or #DIV/0!",
+  "description": "Hashes are a curtain: the column is too thin. #DIV/0! is divide by empty. #VALUE! is a word where a number should be. The amount is often still there. Widen, or fix the formula, before you panic.",
+  "date": "2026-08-13",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/when-the-computer-is-slow",
+  "title": "When the computer is slow",
+  "description": "Slow is usually a crowd, a full disk, or a dying drive. Close windows you cannot see. Restart is the polite medicine. A pop-up that sells a “cleaner” is not.",
+  "date": "2026-03-01",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/when-the-network-is-sick",
+  "title": "When the network is sick",
+  "description": "The page that will not open has four possible culprits: the device, the radio, the router, the provider. The ladder of checks finds the guilty one in five minutes, without any panic.",
+  "date": "2026-09-27",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/when-the-screen-stays-dark",
+  "title": "When the screen stays dark",
+  "description": "The power light breathes, the fan spins up, but the glass screen stays as dark as midnight. How to test the light, the memory stick, and the TV cord before anybody touches a screwdriver.",
+  "date": "2026-09-14",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/when-there-is-no-sound",
+  "title": "When there is no sound",
+  "description": "Silence has a checklist: mute, headphones, the wrong speaker, the player, then the driver. A pop-up “audio fixer” is not on the list.",
+  "date": "2026-04-21",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/where-the-data-goes",
+  "title": "Where the data goes",
+  "description": "Two gigabytes, finished by Thursday, and you barely watched anything. The four quiet eaters of a bundle, the settings that leash them, and the buying that stops the middlemen.",
+  "date": "2026-08-26",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/wi-fi-and-the-cable",
+  "title": "Wi-Fi and the cable under the table",
+  "description": "Radio is convenient and honest about its limits; copper is rude and fast. Where each one wins, why walls eat the signal, and when to stop fighting and run the cable.",
+  "date": "2026-09-25",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/wifi-at-home-without-mystery",
+  "title": "Wi‑Fi at home without mystery",
+  "description": "The router is a small radio. The laptop asks for the house name and the key on the sticker. If the internet dies, check the lights before you blame the website.",
+  "date": "2026-02-19",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/wifi-or-mobile-data",
+  "title": "Wi‑Fi or mobile data — which tap is open",
+  "description": "The fan is house radio. The arrows are the SIM. Both can be on; one is used. Look at the top of the phone before a video. A download on the wrong tap is a bill.",
+  "date": "2026-09-07",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/work-that-changes-and-stays",
+  "title": "The work that changes and the work that stays",
+  "description": "An honest look at the fear: transcription changed, judgment did not. The person who can check the machine eats in every season — and where to stand in the decade ahead.",
+  "date": "2026-10-21",
+  "minutes": "6"
+ },
+ {
+  "path": "/blog/working-remote-from-here",
+  "title": "Working remote from here: dollars, hours, and the light",
+  "description": "Remote work is not a hustle, it is a job with a longer commute. The four things it actually demands — proven skill, power and data, written English, and a way to be paid — and how to arrange each.",
+  "date": "2026-06-14",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/working-with-ai-assistants",
+  "title": "Working with AI assistants",
+  "description": "The assistant that answers everything and is sure about all of it: how to use the tools as apprentices — drafts, explanations, ideas — and where their confidence must be checked.",
+  "date": "2026-07-02",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/you-have-won",
+  "title": "“You have won” — the message that wants a fee",
+  "description": "A prize you did not enter is not a prize. A fee to release money is a tap that only flows out. Delete. Do not call the number. Do not send airtime to claim a car.",
+  "date": "2026-09-19",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/your-first-email",
+  "title": "Your first email, sent properly",
+  "description": "An address, a subject that tells the truth, a body with one job, and the paperclip. Reply is not Reply all. The first message you send should be one you would still sign on paper.",
+  "date": "2026-01-23",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/your-first-hand",
+  "title": "Your first hand: from freelancer to small studio",
+  "description": "The day the work exceeds your hands is a good day with a hard question. Hiring your first person — paying fairly, teaching openly, checking quality, and the arithmetic of two desks.",
+  "date": "2026-07-29",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/your-first-paid-client",
+  "title": "Your first paid client, start to finish",
+  "description": "One real job, walked the whole way: the enquiry, the written quote, the deposit, the delivery, the invoice, and the ask that turns one client into the next.",
+  "date": "2026-06-27",
+  "minutes": "3"
+ },
+ {
+  "path": "/blog/your-hands-on-the-keyboard",
+  "title": "Your hands on the keyboard",
+  "description": "Hunt-and-peck works until it does not. Home row, the keys that edit, and the two shortcuts that copy a world. Ten honest minutes a day beats a course you never open.",
+  "date": "2026-01-18",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/your-judgment-stays-yours",
+  "title": "Your judgment stays yours",
+  "description": "The pilot who lets the autopilot fly alone is the pilot nobody wants. Which skills must stay manual in your own hands, and how to practise them without the crutch on certain days of the week.",
+  "date": "2026-10-19",
+  "minutes": "5"
+ },
+ {
+  "path": "/blog/zero-trust-gate",
+  "title": "Zero trust: the gate that trusts nobody",
+  "description": "What is zero trust security? The old walls trusted whoever was inside. Zero trust trusts nobody — every knock, every time, identity and device both checked. You already carry its front door in your pocket.",
+  "date": "2026-04-14",
+  "minutes": "4"
+ },
+ {
+  "path": "/blog/zipping-a-folder-to-email",
+  "title": "Zipping a folder to email",
+  "description": "A zip is a suitcase. Many files become one. Attach the suitcase, not twenty photographs. The other person unzips on their desk.",
+  "date": "2026-03-22",
+  "minutes": "4"
+ }
+]

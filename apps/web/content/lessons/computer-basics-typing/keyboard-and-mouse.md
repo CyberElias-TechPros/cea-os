@@ -1,0 +1,219 @@
+---
+title: "Session 2: Keyboard & Mouse"
+description: "Speed and accuracy both come from hand position, not from trying harder. This session covers every mouse action, the full keyboard layout, the modifier keys that unlock shortcuts, and the typing drills that build correct finger placement from the start."
+date: "2026-09-12"
+class_slug: "computer-basics-typing"
+---
+
+Speed and accuracy both come from hand position, not from trying harder. This session covers every mouse action, the full keyboard layout, the modifier keys that unlock shortcuts, and the typing drills that build correct finger placement from the start.
+
+
+## Learning objectives
+
+By the end of this session you will be able to do each of these without prompting.
+
+- Perform every mouse action: left click, right click, double click, drag and drop, scroll
+
+- Identify every region of the keyboard and the purpose of the modifier keys
+
+- Use Shift, Ctrl, Alt and the Windows key deliberately rather than by accident
+
+- Place your hands in the home row position and type without looking
+
+- Apply the ten shortcuts that cover most daily work
+
+- Run a timed typing drill and measure your own accuracy and speed
+
+## The taught content
+
+### The five mouse actions
+
+There are only five things a mouse does, and every interaction on a computer is built from them. **Left click** selects — one press, once. **Double click** opens — two quick presses on the same spot, used for desktop icons and files; if it opens nothing, you are probably clicking too slowly, and the speed is adjustable in Control Panel → Mouse. **Right click** opens the context menu, which is the most under-used action in computing: it offers exactly the actions available for the thing you clicked, and it is almost always faster than finding the same command in a menu. **Drag and drop** moves or selects — press and hold, move, release; dragging across empty space draws a selection box. **Scroll** moves through content, with the wheel or by two-finger swipe on a touchpad.
+
+Two habits matter more than any of these. First, use the right click constantly — it is the fastest route to rename, copy, paste, delete, open with and properties. Second, look at the cursor, because it tells you what will happen: an arrow means select, an I-beam means you can place text there, a hand means it is clickable, and a spinning circle means the machine is busy and you should wait rather than click again.
+
+### The keyboard, region by region
+
+The main **letter and number keys** are the QWERTY block, named for its top-left letters — a layout designed in the 1870s for typewriters and kept ever since for familiarity. Above it are the **function keys** F1 to F12, whose meaning changes per program but which include near-universal assignments: F1 is help, F2 renames a selected file, F5 refreshes, F12 in Word is Save As. The **number pad** on the right is for fast numeric entry and is disabled when Num Lock is off — a common source of confusion when number keys suddenly type arrows instead.
+
+Then the editing keys, which most beginners never use and which save enormous time. **Enter** confirms or starts a new line. **Backspace** deletes backwards, **Delete** deletes forwards — knowing the difference matters when you are editing rather than rewriting. The **arrow keys** move one character or line at a time. **Home** jumps to the start of a line, **End** to the end. **Page Up** and **Page Down** move a screenful. **Tab** jumps between fields in a form, which is why filling a form with Tab and Shift+Tab is several times faster than reaching for the mouse.
+
+### Modifier keys: the four that unlock everything
+
+A modifier key does nothing alone; it changes what another key does. **Shift** produces capitals and the upper symbol on a key — press Shift+2 for the at sign, Shift+3 for the naira or hash symbol depending on your layout. **Caps Lock** locks capitals on permanently, and the single most common beginner typing error is forgetting it is on; look at the Caps Lock indicator light before you conclude the keyboard is broken. **Ctrl** is the command modifier and produces nearly every shortcut: Ctrl+C copy, Ctrl+V paste, Ctrl+S save, Ctrl+Z undo, Ctrl+A select all, Ctrl+F find, Ctrl+P print, Ctrl+W close.
+
+**Alt** is the alternative command modifier — Alt+Tab switches programs, Alt+F4 closes the current program, Alt+Enter shows properties. The **Windows key** opens the Start menu alone and produces system shortcuts in combination: Windows+D shows the desktop, Windows+E opens File Explorer, Windows+L locks the screen immediately (use this every time you stand up from a shared machine), Windows+Shift+S takes a screenshot of a region you choose.
+
+The pattern to internalise is that **Ctrl+Shift reverses or extends** the plain Ctrl version: Ctrl+Shift+Z redoes, Ctrl+Shift+T reopens a closed browser tab, and holding Shift while clicking or using arrow keys extends a selection. Once you see that, you can guess most shortcuts correctly instead of memorising them one by one.
+
+### Home row and why not looking matters
+
+Correct typing is a hand-position discipline, not a speed effort. Rest your left hand with fingers on **A S D F** and your right on **J K L ;** — those are the home row keys, and F and J each have a small raised bump precisely so you can find them by touch without looking. Each finger owns a diagonal column of keys: the left little finger takes A, Q, Z and the modifiers; the left index reaches R, T, G, B and V as well as F; and the mirror image applies on the right. Thumbs rest on the spacebar.
+
+The reason this matters is arithmetic, not pedantry. Hunting with two fingers means your eyes leave the screen on every keystroke, so your speed is limited by how fast you can find keys and your accuracy drops because you are not watching what you type. Touch typing keeps your eyes on the text, so errors are visible as you make them. Two weeks of correct practice beats two years of hunting, and the uncomfortable truth is that self-taught hunters rarely fix it later because the wrong habit feels faster than the right one while you are relearning.
+
+Expect to be slower for the first few days. That is normal and it passes. Do not abandon the position because hunting feels quicker today — it is a ceiling you will hit within a month, whereas correct placement keeps improving for as long as you practise.
+
+### Drills: how to actually improve
+
+Improvement comes from short, frequent, accurate practice — not from long frustrated sessions. Fifteen minutes a day beats two hours once a week, because the skill is motor memory and motor memory consolidates with repetition and sleep. Always practise accuracy first: hitting the right key slowly builds speed, whereas practising fast and wrong builds a habit you must later unlearn.
+
+Use a structured trainer rather than random typing. Free options that work well include typingclub.com, keybr.com and 10fastfingers.com — all run in a browser and need no installation. Work through the home row first, then the rows above and below, then capitals and punctuation. Do not chase the words-per-minute figure; chase the accuracy percentage, and let speed follow. A useful benchmark: below 95% accuracy you are practising mistakes, so slow down until accuracy recovers.
+
+## Instructor demonstration
+
+The instructor demonstrates each mouse action and modifier key on the projector, then leads the whole class through hand placement and the first drill set together.
+
+### Demonstrate the five mouse actions
+
+On the desktop: single click to select an icon, double click to open it, right click to show the context menu and choose Rename, drag the icon to a new position, then drag across empty space to draw a selection box. Scroll through a long document with the wheel.02
+
+### Show the cursor shapes
+
+Hover over a desktop icon (arrow), over text in Notepad (I-beam), over a link in a browser (hand), and during a save operation (spinning circle). Ask the class to predict what each will do before clicking.03
+
+### Tour the keyboard
+
+Name the QWERTY block, the function row, the editing cluster and the number pad. Turn Num Lock off and on to show the number pad changing behaviour. Press F2 on a selected file to rename it and F5 in a browser to refresh.04
+
+### Demonstrate Shift and Caps Lock
+
+Type a sentence in lowercase, then hold Shift for capitals, then switch on Caps Lock and show the indicator light. Turn it off. Point out the light's position so learners check it when output looks wrong.05
+
+### Demonstrate the Ctrl shortcuts
+
+In Notepad, type a sentence and use Ctrl+A, Ctrl+C, Ctrl+V, Ctrl+Z, Ctrl+Y, Ctrl+S and Ctrl+F in sequence. Say the name of each action aloud as it is pressed.06
+
+### Demonstrate Ctrl+Shift reversal
+
+Undo with Ctrl+Z, then redo with Ctrl+Shift+Z. Close a browser tab and reopen it with Ctrl+Shift+T. Extend a selection by holding Shift and pressing the right arrow.07
+
+### Demonstrate the Windows key shortcuts
+
+Windows alone for Start, Windows+D for the desktop, Windows+E for File Explorer, Windows+L to lock, Windows+Shift+S to capture a selected region. Emphasise Windows+L as the habit for shared machines.08
+
+### Set hand position as a class
+
+Everyone places fingers on A S D F and J K L ; and finds the bumps on F and J with eyes closed. Thumbs on the spacebar. The instructor walks the room correcting position before any typing begins.09
+
+### Run the first drill
+
+Open a typing trainer and run the home row lesson together for ten minutes. Call out accuracy over speed. Have learners report their accuracy percentage, not their speed.10
+
+### Measure and record a baseline
+
+Each learner runs a one-minute test and records words per minute and accuracy on paper. This is the baseline the session-four test will be compared against.
+
+## Guided practice
+
+### Mouse precision and typing drills
+
+A two-part practical: a mouse-precision exercise proving control of all five actions, then twenty minutes of structured typing drills with a recorded accuracy figure.
+
+1. 01Create a new folder on the desktop by right-clicking, choosing New → Folder, and renaming it to your name.
+
+2. 02Open the folder, then create three text files inside it using the right-click menu.
+
+3. 03Drag one file out of the folder onto the desktop, then drag it back in.
+
+4. 04Select all three files at once by dragging a selection box around them.
+
+5. 05Open a typing trainer and complete the home row lesson set.
+
+6. 06Complete the top row and bottom row lesson sets.
+
+7. 07Maintain at least 95% accuracy — slow down if you fall below it.
+
+8. 08Run a one-minute timed test and record both words per minute and accuracy.
+
+9. 09Compare today's figure with your session-one baseline.
+
+The standard we hold you to
+
+All five mouse actions demonstrated correctly without prompting, the home row hand position held throughout the drills without looking at the keyboard, and a recorded accuracy of 95% or higher at whatever speed that requires.
+
+## Common mistakes and how to fix them
+
+You look at the keyboard while typing
+
+Fix: Cover your hands with a cloth for one drill session if necessary. The bumps on F and J exist so you can find home position by touch. Looking at the keys caps your speed permanently and hides your errors from you.
+
+Your double clicks do not register
+
+Fix: You are clicking too slowly or moving the mouse between clicks. Hold the mouse still and click twice quickly. The threshold is adjustable in Control Panel → Mouse → Double-click speed.
+
+Everything you type comes out in capitals
+
+Fix: Caps Lock is on. Press it once and check the indicator light. If only some letters are capitals, you are holding Shift unintentionally with your little finger.
+
+The number pad types arrows instead of numbers
+
+Fix: Num Lock is off. Press Num Lock once. On compact keyboards the number pad is overlaid on the letter keys and needs the Num Lock or Fn combination.
+
+You hunt for shortcuts in menus instead of using them
+
+Fix: Learn ten and use only those for a week: Ctrl+C, Ctrl+V, Ctrl+Z, Ctrl+S, Ctrl+A, Ctrl+F, Alt+Tab, Windows+D, Windows+L and Ctrl+Shift+Esc. Menu hunting is the single biggest daily time cost for new users.
+
+You type fast but with many errors
+
+Fix: You are practising mistakes. Drop your speed until accuracy is above 95% and let speed rebuild itself. Speed built on errors does not survive real work, where you must stop and correct.
+
+## Expert notes
+
+The habits that separate someone who can do this from someone who does it well.
+
+- Learn Ctrl+A, Ctrl+C, Ctrl+V before anything else, then never select text with the mouse again unless you need a partial selection. Keyboard selection with Shift and the arrow keys is faster and far more precise, and it works identically in every program you will ever use.
+
+- Lock your screen with Windows+L every single time you leave a shared machine, even for a minute. This is a security habit, not a typing one, and it costs less than a second. The Cybersecurity course builds on it.
+
+- If you use a laptop touchpad and find it imprecise, buy a ₦3,000 USB mouse. It is the cheapest productivity upgrade available and it removes an entire category of frustration for people learning to work quickly.
+
+- Set a daily fifteen-minute drill alarm on your phone for the next thirty days. Typing is the one skill on this page where daily repetition produces a permanent, compounding return — every other course you take will be faster because of it.
+
+## Key termsContext menuThe menu opened by right-clicking, listing actions available for whatever you clicked.Modifier keyA key that does nothing alone but changes another key's effect: Shift, Ctrl, Alt, Windows.Home rowThe middle letter row — A S D F and J K L ; — where fingers rest between keystrokes.Touch typingTyping from muscle memory without looking at the keyboard, enabled by the raised bumps on F and J.Num LockThe toggle that switches the number pad between numbers and navigation keys.Caps LockThe toggle that locks capitals on. Its indicator light is the first thing to check when output looks wrong.Words per minute (wpm)The standard typing speed measure. Meaningless without the accuracy figure alongside it.Accuracy percentageThe proportion of keystrokes typed correctly. Below 95% you are rehearsing errors.
+
+## Homework before the next session
+
+Fifteen minutes of drills, every day
+
+Use a free browser-based typing trainer for fifteen minutes daily until the next session. Record your accuracy and speed each day so you can see the trend rather than guessing.
+
+Learn ten shortcuts and use only those
+
+Ctrl+C, Ctrl+V, Ctrl+Z, Ctrl+S, Ctrl+A, Ctrl+F, Alt+Tab, Windows+D, Windows+L, Ctrl+Shift+Esc. Write them on paper beside your machine and reach for the paper, not the mouse.
+
+Right-click everything for one day
+
+Deliberately use the context menu for rename, copy, paste, delete and open with. Notice how often the action you wanted was one click away and you had been walking to a menu instead.
+
+Practise home position with eyes closed
+
+Five times a day, close your eyes, place your fingers on home row using the F and J bumps, and type the alphabet. This is the exercise that makes not looking automatic.
+
+## Assessment rubric
+
+How this session is marked. The certificate for Typing & Computer Basics is awarded on the deliverable, not on attendance.
+
+| Criterion | Passing | Excellent |
+| --- | --- | --- |
+| Mouse control | Performs all five actions correctly. | Uses the context menu as the default route and reads the cursor shape to predict behaviour. |
+| Keyboard knowledge | Identifies the main keyboard regions and the modifier keys. | Uses Num Lock, Caps Lock indicators, function keys and the editing cluster deliberately. |
+| Hand position | Starts from home row and uses the correct fingers for most keys. | Maintains home row throughout without looking at the keyboard, including for capitals and punctuation. |
+| Accuracy | 95% or better at any speed. | 97% or better with measurable improvement against the session-one baseline. |
+| Shortcuts | Uses at least five shortcuts without prompting. | Uses all ten fluently and prefers the keyboard to the mouse for selection and navigation. |
+
+## Session questionsI already type with my own method. Should I really relearn?+
+
+If you type accurately above 40 words per minute, no — your method works and relearning would cost you weeks. If you are below that, or you make frequent errors, or you look at the keyboard, then yes: the ceiling on hunting is real and you will hit it. Most self-taught typists plateau around 25–35 wpm; touch typists routinely reach 50–70.How fast is fast enough to get data entry work?+
+
+Most paid data entry roles in Nigeria expect 35–45 words per minute with 98% or better accuracy. Accuracy matters more than speed — a client will keep a slow, accurate typist and drop a fast, careless one immediately. The Data Entry course tests at those thresholds.Do I need an expensive keyboard?+
+
+No. Any working keyboard will build the skill. A quieter, better-travelled keyboard is more comfortable for long sessions and costs a few thousand naira, but the technique is identical on a cheap one. Spend on a mouse before a keyboard if you are on a laptop.My fingers hurt after practice. Is that normal?+
+
+Mild tiredness in the first week is normal as unfamiliar muscles are used. Sharp pain, or pain in the wrists, is not — check that your wrists are straight and floating rather than bent up or resting hard on the desk edge, and take a short break every fifteen minutes. Persistent wrist pain needs attention, not more practice.What keyboard layout should I learn?+
+
+QWERTY, which is what every machine you will meet in Nigeria uses. Other layouts such as Dvorak claim efficiency gains but will leave you unable to use any shared or public machine, which is a bad trade for a beginner.Last reviewed: 2026-09-12By Cyber Elias Academy faculty[Previous session1: Understanding the Computer](https://www.cea.ng/classes/computer-basics-typing/understanding-the-computer)[Next session 3: Files & Internet](https://www.cea.ng/classes/computer-basics-typing/files-and-internet)
+
+Typing & Computer Basics
+
+2 weeks · 4 sessions · ₦20,000 · you leave with demonstrated independence[See the full course](https://www.cea.ng/classes/computer-basics-typing)[Enrol now](https://www.cea.ng/admissions)
