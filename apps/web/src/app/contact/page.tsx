@@ -4,13 +4,14 @@ import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Button, Input, Label, Textarea } from '@cea/ui';
 import { api } from '../../lib/api-client';
+import { ACADEMY } from '../../lib/site';
 import { Mail, Phone, MapPin, Send, Loader2, CheckCircle2, MessageSquare, Clock } from 'lucide-react';
 
 const contactMethods = [
-  { icon: Mail, title: 'Email us', value: 'hello@cea.academy', href: 'mailto:hello@cea.academy' },
-  { icon: Phone, title: 'Call us', value: '+234 800 000 0000', href: 'tel:+2348000000000' },
-  { icon: MapPin, title: 'Visit us', value: 'Lagos, Nigeria', href: '#' },
-  { icon: Clock, title: 'Response time', value: 'Within 24 hours', href: '#' },
+  { icon: Mail, title: 'Email us', value: ACADEMY.email, href: `mailto:${ACADEMY.email}` },
+  { icon: Phone, title: 'Call us', value: ACADEMY.phone, href: ACADEMY.phoneHref },
+  { icon: MapPin, title: 'Visit us', value: ACADEMY.address, href: '/visit' },
+  { icon: Clock, title: 'Opening hours', value: ACADEMY.hours, href: '/visit' },
 ];
 
 export default function ContactPage() {

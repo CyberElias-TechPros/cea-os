@@ -8,13 +8,12 @@ import { Button } from '@cea/ui';
 import { motion, AnimatePresence } from 'motion/react';
 
 const navLinks = [
-  { href: '/courses', label: 'Courses' },
-  { href: '/scholarships', label: 'Scholarships' },
-  { href: '/events', label: 'Events' },
-  { href: '/community', label: 'Community' },
-  { href: '/tour', label: 'Virtual Tour' },
-  { href: '/blog', label: 'Blog' },
+  { href: '/classes', label: 'Classes' },
+  { href: '/blog', label: 'Notes' },
+  { href: '/admissions', label: 'Admissions' },
+  { href: '/visit', label: 'Visit' },
   { href: '/about', label: 'About' },
+  { href: '/faq', label: 'FAQ' },
   { href: '/contact', label: 'Contact' },
 ];
 

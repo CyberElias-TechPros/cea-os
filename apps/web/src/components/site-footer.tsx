@@ -4,29 +4,24 @@ import Link from 'next/link';
 import { GraduationCap, Mail, MapPin, Phone, Heart, BadgeCheck, Send, CheckCircle2 } from 'lucide-react';
 import { useState } from 'react';
 import { api } from '../lib/api-client';
+import { ACADEMY, CLASSES } from '../lib/site';
 
 const footerLinks = {
   Academy: [
     { href: '/about', label: 'About Us' },
-    { href: '/courses', label: 'Courses' },
-    { href: '/events', label: 'Events' },
-    { href: '/alumni', label: 'Alumni Network' },
-    { href: '/employers', label: 'Employer Partners' },
-    { href: '/tour', label: 'Virtual Campus Tour' },
-    { href: '/courses/compare', label: 'Compare Programs' },
-    { href: '/scholarships', label: 'Scholarships' },
+    { href: '/classes', label: 'Classes' },
+    { href: '/admissions', label: 'Admissions' },
     { href: '/apply', label: 'Apply Now' },
+    { href: '/visit', label: 'Plan a Visit' },
+    { href: '/team', label: 'Our Team' },
+    { href: '/scholarships', label: 'Scholarships' },
     { href: '/donate', label: 'Donate' },
   ],
-  Programs: [
-    { href: '/courses/software-development', label: 'Software Development' },
-    { href: '/courses/data-science', label: 'Data Science' },
-    { href: '/courses/cybersecurity', label: 'Cyber Security' },
-    { href: '/courses/digital-marketing', label: 'Digital Marketing' },
-  ],
+  Classes: CLASSES.slice(0, 6).map((c) => ({ href: `/classes/${c.slug}`, label: c.title })),
   Support: [
     { href: '/faq', label: 'FAQ' },
     { href: '/verify', label: 'Verify Certificate' },
+    { href: '/contact', label: 'Contact' },
     { href: '/terms', label: 'Terms of Service' },
     { href: '/privacy', label: 'Privacy Policy' },
     { href: '/help', label: 'Help Center' },
@@ -63,20 +58,20 @@ export function SiteFooter() {
               </span>
             </Link>
             <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-              Empowering the next generation of tech professionals with industry-relevant skills.
+              {ACADEMY.tagline}. Short, practical courses taught in small groups, two sessions a week.
             </p>
             <div className="mt-5 space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 shrink-0 text-primary" />
-                <a href="mailto:hello@cea.academy" className="hover:text-foreground transition-colors">hello@cea.academy</a>
+                <a href={`mailto:${ACADEMY.email}`} className="hover:text-foreground transition-colors">{ACADEMY.email}</a>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0 text-primary" />
-                <span>+234 800 000 0000</span>
+                <a href={ACADEMY.phoneHref} className="hover:text-foreground transition-colors">{ACADEMY.phone}</a>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 shrink-0 text-primary" />
-                <span>Lagos, Nigeria</span>
+                <span>{ACADEMY.address}</span>
               </div>
             </div>
             <div className="mt-6">

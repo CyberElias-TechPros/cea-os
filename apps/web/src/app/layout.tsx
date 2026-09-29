@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     default: 'Cyber Elias Academy',
     template: '%s | Cyber Elias Academy',
   },
-  description: 'Empowering the next generation of tech professionals with industry-relevant skills',
+  description: 'Practical computer and digital-skills training in Port Harcourt — short, hands-on courses two sessions a week.',
   manifest: '/manifest.json',
   icons: [{ rel: 'icon', url: '/icons/icon-192.svg' }],
   openGraph: {
     title: 'Cyber Elias Academy',
-    description: 'Empowering the next generation of tech professionals',
+    description: 'Practical computer and digital-skills training in Port Harcourt.',
     type: 'website',
-    locale: 'en_ZA',
+    locale: 'en_NG',
     siteName: 'Cyber Elias Academy',
   },
 };
