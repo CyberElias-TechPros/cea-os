@@ -4,7 +4,7 @@ description: "Every advert tells you to buy a new laptop every two years; the wo
 date: "2026-09-22"
 minutes: "5"
 next_href: "/blog/the-repairs-engineer-and-the-bench"
-next_title: "The repairs engineer and the bench"
+next_title: "Lesson"
 ---
 
 ![A ten-year-old classic black laptop working quietly on a neat wooden desk next to a notebook and mug.](https://www.cea.ng/images/blog/old-thinkpad-working-bench.jpg)
@@ -46,3 +46,9 @@ And the third pillar is habits that cost nothing: dust the heatsink once a year,
 ## The bench closes, the tool endures
 
 One hundred and eighty lessons behind you. You began at the very first sitting: fingers learning to rest gently on the home row keys, the mouse learning not to wander off the table, the mystery of the yellow folder, your first honest email. Since then: documents that look like documents, spreadsheets that balance money, phones that keep their secrets, networks, career paths, freelance clients, and now the bench where physical machines are understood, diagnosed, and respected. The machine in front of you is no longer a black box full of magic and fear. You know what lives inside its casing, what it eats, how it speaks, and how to defend it. Keep the machine clean and keep your head clear. The road does not end at the bench; it rises from it.
+
+Previous
+
+Lesson 179: The repairs engineer and the bench
+
+Lesson 181: How the internet gets to your house

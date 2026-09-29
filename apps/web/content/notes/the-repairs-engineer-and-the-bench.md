@@ -4,7 +4,7 @@ description: "Taking your laptop to a commercial workshop in town. The photograp
 date: "2026-09-21"
 minutes: "5"
 next_href: "/blog/upgrading-ram-the-honest-math"
-next_title: "Upgrading RAM: the honest math"
+next_title: "Lesson"
 ---
 
 ![A repair shop job card receipt listing the exact serial number, existing scratches, and agreed diagnostic fee.](https://www.cea.ng/images/blog/workshop-receipt-serial-number.jpg)
@@ -46,3 +46,9 @@ Rule three: the agreed diagnostic bound. Insist on a written receipt or job card
 ## Professional dignity
 
 A good repair engineer is one of the most valuable artisans in any community. Treat him with respect, pay his diagnostic fee honestly, and arrive with your documentation intact — the same professional courtesy his craft shows your machine. When both sides follow clear boundaries, machines are repaired properly, relationships endure, and your computer comes home healthy and whole. Next: the ten-year machine — how to step off the endless upgrade treadmill.
+
+Previous
+
+Lesson 178: Upgrading RAM: the honest math
+
+Lesson 180: Ten years from one machine

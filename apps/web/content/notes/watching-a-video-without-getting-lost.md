@@ -4,7 +4,7 @@ description: "A video site is a market with a search box. Type the thing you cam
 date: "2026-08-15"
 minutes: "5"
 next_href: "/blog/when-the-cell-looks-broken"
-next_title: "When the cell says ##### or #DIV/0!"
+next_title: "Lesson"
 ---
 
 ![A video site with a search box on a laptop screen.](https://www.cea.ng/images/blog/video-search.jpg)
@@ -50,3 +50,9 @@ One more trap with a familiar face: “free Windows activator” and “crack”
 - Never download a “fix tool” from a video description. If the fix needs a download, go to the maker's own site or ask at the academy.
 
 You now have a way to learn a forgotten button at 10 p.m. without going to a shop: search with the real words, choose the quiet teacher, pause and do, write the step down. The sidebar will still shout tomorrow — the rows of shouting thumbnails are not going anywhere. But the search box is the map, and you already know how to walk past a stall to reach the door.
+
+Previous
+
+Lesson 85: When the cell says ##### or #DIV/0!
+
+Lesson 87: Captions, pause, and speed

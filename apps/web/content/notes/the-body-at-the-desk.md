@@ -4,7 +4,7 @@ description: "The trade you chose is a sitting trade, and sitting is a hazard. E
 date: "2026-07-15"
 minutes: "4"
 next_href: "/blog/secrets-that-are-not-yours"
-next_title: "Secrets that are not yours"
+next_title: "Lesson"
 ---
 
 ![A person sitting properly at a desk, feet flat, screen raised to eye level on a stand of books.](https://www.cea.ng/images/blog/posture-desk-chair.jpg)
@@ -46,3 +46,9 @@ One more section in this country's own language. A hot room tires a body faster 
 - Night-time tingling in the hands is a clinic visit, not a character flaw. Go early.
 
 The working-life lesson said this trade asks for patience and calm. It quietly asks for vertebrae too. Every plan this chapter has made — the clients, the books, the decade of remote Fridays — assumes a body that can still sit, see, and type when the plan matures. Maintain the only tool you cannot replace, and the sitting trade stays what it should be: a livelihood that lifts nothing heavier than a laptop, carried lightly for forty years.
+
+Previous
+
+Lesson 144: Secrets that are not yours
+
+Lesson 146: Learning in public

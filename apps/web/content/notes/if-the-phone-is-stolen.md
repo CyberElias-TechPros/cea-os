@@ -4,7 +4,7 @@ description: "Call the network. Change mail and bank from another machine. Find 
 date: "2026-08-30"
 minutes: "5"
 next_href: "/blog/locking-the-phone-and-the-laptop"
-next_title: "Locking the phone and the laptop"
+next_title: "Lesson"
 ---
 
 ![A learner at a desk looking at the empty place where a phone was.](https://www.cea.ng/images/blog/lost-phone.jpg)
@@ -48,3 +48,9 @@ Keep a small written record somewhere at home of which accounts live on the phon
 A new handset, same Google account, contacts and some apps come back if they lived in the account. WhatsApp backups, if you had Drive or iCloud on, may restore chats. If you had none, the chats are the price. The money in the bank is not, if you were fast. Tell family the old number may be in a thief's hand until the SIM dies; they should not send OTPs or urgent airtime to a message that sounds like you.
 
 The lock from the last lesson is the whole difference between a brick and an open mail. The copies are the whole difference between a lost pocket and a lost life. You cannot do those after. You can do them this evening. Then the hour, if it comes, is a list, not a freeze.
+
+Previous
+
+Lesson 91: Locking the phone and the laptop
+
+Lesson 93: Do not disturb

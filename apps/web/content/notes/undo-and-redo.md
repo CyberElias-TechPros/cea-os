@@ -4,7 +4,7 @@ description: "Ctrl+Z takes back the last act. Ctrl+Y puts it back. Save is still
 date: "2026-06-26"
 minutes: "5"
 next_href: "/blog/find-and-replace"
-next_title: "Find and replace"
+next_title: "Lesson"
 ---
 
 ![A word-processor letter on a laptop with an undo control nearby.](https://www.cea.ng/images/blog/undo-menu.jpg)
@@ -48,3 +48,9 @@ If undo cannot help — the window closed, the bin emptied, the form submitted �
 - Never practise undo on the only copy of a real certificate. Copy first, then experiment.
 
 Undo is how a person stays calm at a keyboard. It is not bravery to refuse it, and it is not a reason to skip saving. The rope is short and the disk is the floor — use both, and the thing you did not mean costs you a minute instead of an afternoon.
+
+Previous
+
+Lesson 65: Find and replace
+
+Lesson 67: Selecting text without rage

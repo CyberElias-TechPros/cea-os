@@ -4,7 +4,7 @@ description: "The online interview is won before it begins: the test run, the wi
 date: "2026-08-24"
 minutes: "4"
 next_href: "/blog/the-cv-that-gets-read"
-next_title: "The CV that gets read"
+next_title: "Lesson"
 ---
 
 ![A candidate in a video interview on a laptop, neatly dressed, a notebook beside the keyboard.](https://www.cea.ng/images/blog/interview-video-call.jpg)
@@ -40,3 +40,9 @@ Then the old manners, on a new road. Look at the camera when you answer — the 
 ## The room you control
 
 The office candidate competes in a room the employer built. You compete in a room you built — its light, its sound, its calm. That is not a disadvantage; it is a rehearsal. Every habit this lesson installs — the test run, the staged room, the briefed house, the early arrival — is the same discipline the remote-work lesson asked of the paid professional. Practise it at the interview, and you arrive at the job already fluent in its daily grammar. Munira got the second interview. The panel remembered her room before her answers — and then her answers, which the room had protected.
+
+Previous
+
+Lesson 153: The CV that gets read
+
+Lesson 155: Slides that speak

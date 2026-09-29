@@ -4,7 +4,7 @@ description: "The new machine arrives with factory opinions. Remove the trial gu
 date: "2026-10-08"
 minutes: "6"
 next_href: "/blog/backup-for-someone-else"
-next_title: "Backing up someone else's machine"
+next_title: "Lesson"
 ---
 
 ![A new slim laptop being set up on a wooden table beside its box and a mug in cheerful morning light.](https://www.cea.ng/images/blog/new-laptop-unboxing-desk.jpg)
@@ -50,3 +50,9 @@ The last five minutes belong to the keys, and the rule from the help lesson is a
 - They type every password while you look away. Teach three things, write them on a card, and leave with no keys in your pocket.
 
 The new machine sits at its table with its owner inside it. But notice the shape of this morning: scheduled, priced in daylight, ended with a card. That shape is the skeleton of a trade — and the next lesson puts flesh on it: the paper that turns help into work, and the words that keep work from swallowing your evenings forever.
+
+Previous
+
+Lesson 195: Backing up someone else's machine
+
+Lesson 197: The job card and the boundary

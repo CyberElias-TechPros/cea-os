@@ -4,7 +4,7 @@ description: "The assistant answers the question you actually asked. Four parts 
 date: "2026-10-14"
 minutes: "5"
 next_href: "/blog/the-assistant-that-types"
-next_title: "The assistant that types"
+next_title: "Lesson"
 ---
 
 ![A notebook with a short handwritten brief beside an open laptop on a wooden table in warm top-down light.](https://www.cea.ng/images/blog/writing-brief-notebook-laptop.jpg)
@@ -44,3 +44,9 @@ Keep the four-part card propped against the monitor for a fortnight and somethin
 - Keep four shapes on the card by the monitor: the letter, the plan, the checker, the translator.
 
 The instructions are now in your hands and the answers arrive well-shaped. But shaped is not the same as true, and the next lesson is the one your name depends on — checking the machine’s homework before anything leaves your table, because the assistant’s greatest fault is not error. It is error wearing a calm face.
+
+Previous
+
+Lesson 201: The assistant that types
+
+Lesson 203: Checking the machine's homework

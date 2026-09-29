@@ -4,7 +4,7 @@ description: "NIN, passports, company names: the paperwork of a Nigerian life, o
 date: "2026-03-05"
 minutes: "5"
 next_href: "/blog/the-ride-that-comes-to-you"
-next_title: "The ride that comes to you"
+next_title: "Lesson"
 ---
 
 ![A laptop on a desk showing an official-looking application form beside a file of documents.](https://www.cea.ng/images/blog/gov-portal-form.jpg)
@@ -48,3 +48,9 @@ The dishonest agent has three tells, and they never change. He wants the PIN of 
 ## The queue you can see
 
 Portals are sometimes slower than their promises, and always slower than the touts standing beside them claim. But they are visible: a status page that moves, a slip that says received, a date you can point at. Visible beats a cousin's cousin's promise every day of the year. The state is learning the screen the way you learned it — slowly, then suddenly — and every form you fill yourself, receipt and all, is one less door that needs an intermediary to open.
+
+Previous
+
+Lesson 114: The ride that comes to you
+
+Lesson 116: Learning online, mostly free

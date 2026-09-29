@@ -4,7 +4,7 @@ description: "Bluetooth is a short handshake. Pair once, send a file, turn it of
 date: "2026-03-24"
 minutes: "4"
 next_href: "/blog/zipping-a-folder-to-email"
-next_title: "Zipping a folder to email"
+next_title: "Lesson"
 ---
 
 ![A phone and a laptop on a wooden desk, sharing a file over Bluetooth.](https://www.cea.ng/images/blog/bluetooth-share.jpg)
@@ -46,3 +46,9 @@ Range is the second failure. Bluetooth is a conversation across a table, not acr
 ## When it is the wrong tool
 
 A whole DCIM folder: cable. A file for someone in another city: email or Drive — Bluetooth will not stretch to the next street. And earphones pair on the same radio: one pair at a time on many phones, so if the laptop steals the earphones, disconnect them from the laptop's Bluetooth list. Do not leave the phone discoverable all day in a market — pair, send, switch discoverable off. The file on the phone is now in the pocket. If it matters, copy it off the phone later, as you learned. Bluetooth moved it. It did not file it.
+
+Previous
+
+Lesson 28: Zipping a folder to email
+
+Lesson 30: What a PDF is for

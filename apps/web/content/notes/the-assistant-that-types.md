@@ -4,7 +4,7 @@ description: "A very good autocomplete with reading habits — that is all it is
 date: "2026-10-13"
 minutes: "6"
 next_href: "/blog/support-as-honest-work"
-next_title: "Support as honest work"
+next_title: "Lesson"
 ---
 
 ![A person typing at a laptop at a wooden table in the evening, warm screen glow lighting their face.](https://www.cea.ng/images/blog/chat-window-laptop-evening.jpg)
@@ -44,3 +44,9 @@ One habit from the security shelf belongs at the door of this room above all oth
 - Private problems arrive with the names removed; every word typed becomes the assistant company's business.
 
 The colleague is introduced and its country is mapped. Now the practical art: how to speak to it so the first answer is already useful — the four parts of a good instruction, written in your own plain language, that turn the box from a toy into a tool.
+
+Previous
+
+Lesson 200: Support as honest work
+
+Lesson 202: Asking clearly

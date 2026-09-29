@@ -4,7 +4,7 @@ description: "Somebody is paid to sit on the other side of everything these note
 date: "2026-03-30"
 minutes: "4"
 next_href: "/blog/each-one-teach-one"
-next_title: "Each one, teach one"
+next_title: "Lesson"
 ---
 
 ![A young analyst at a desk with two screens showing lists of security alerts.](https://www.cea.ng/images/blog/analyst-monitor-grid.jpg)
@@ -40,3 +40,9 @@ How a person walks in, from this shelf: the basics you now own, then networking 
 ## Why this job exists at all
 
 Because every organisation now keeps its most valuable things in machines, and machines keep honest records of every visitor. Somebody must read those records the way a bank reconciles its till. That is the whole profession in one sentence: reading the records, noticing the visitor who does not reconcile. If you have ever caught yourself re-checking a locked door, you have already felt the shape of the work. The next lesson is the room they watch from.
+
+Previous
+
+Lesson 120: Each one, teach one
+
+Lesson 122: The room that never sleeps: the SOC

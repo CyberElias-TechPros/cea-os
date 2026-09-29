@@ -4,7 +4,7 @@ description: "The moon icon silences rings and banners and leaves the radios on.
 date: "2026-09-02"
 minutes: "5"
 next_href: "/blog/if-the-phone-is-stolen"
-next_title: "If the phone is stolen"
+next_title: "Lesson"
 ---
 
 ![A phone with Do not disturb or a moon icon switched on.](https://www.cea.ng/images/blog/do-not-disturb.jpg)
@@ -48,3 +48,9 @@ Windows has its own quiet switch — Focus assist, or Do Not Disturb in newer ve
 - Set the night schedule once — 11 p.m. to 6 a.m. — and stop making the decision every night.
 
 The moon is manners for a pocket that never learned to whisper. You do not owe every banner your eyes the second it arrives — the messages will stack themselves politely at the gate and wait for you to look, on purpose, at a time you chose. Try it for one lecture, one movie, one night. Notice how much of the noise was never urgent. It was merely loud.
+
+Previous
+
+Lesson 92: If the phone is stolen
+
+Lesson 94: The phone as a hotspot

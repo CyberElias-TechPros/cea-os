@@ -4,7 +4,7 @@ description: "Every machine wears two names: one is numbers, one is words. How t
 date: "2026-09-28"
 minutes: "5"
 next_href: "/blog/when-the-network-is-sick"
-next_title: "When the network is sick"
+next_title: "Lesson"
 ---
 
 ![An open paper telephone directory on a wooden table with an old mobile phone resting on its pages.](https://www.cea.ng/images/blog/telephone-directory-and-phone.jpg)
@@ -46,3 +46,9 @@ One more kindness to know by sound: names can be written into a private page of 
 - Give your own devices plain household names — the printer and the shared folder will thank you next lesson.
 
 Numbers and names now hold no mystery: the words are for us, the numbers are for the wires, and the phonebook keeps the peace. With the vocabulary complete, we can finally do the thing offices ask for every week — share one printer and one folder across four laptops, without a single flash drive changing hands and without opening the gate to the street.
+
+Previous
+
+Lesson 185: When the network is sick
+
+Lesson 187: Sharing a printer or a folder at the office

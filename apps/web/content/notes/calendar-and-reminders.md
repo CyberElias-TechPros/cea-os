@@ -4,7 +4,7 @@ description: "A calendar is a wall chart that can tap you on the shoulder. One s
 date: "2026-05-24"
 minutes: "4"
 next_href: "/blog/mail-merge-you-can-skip"
-next_title: "Mail merge, and when you can skip it"
+next_title: "Lesson"
 ---
 
 ![A week view of a calendar on a laptop screen.](https://www.cea.ng/images/blog/calendar-week.jpg)
@@ -44,3 +44,9 @@ Use the two-calendar habit and the tool becomes a real assistant. One calendar, 
 ## Invitations, and what not to accept
 
 Mail will bring “Will you attend?” calendar invites. Accept only if you know the sender — a meeting invite from a stranger is a phishing costume. Decline, or ignore, and do not click “Join Zoom” from an invite you did not expect. Walk to the real street if the class is real. Finally, the limit of the tool: a calendar is not a cage. Three events a week is a tool; forty overlapping colours is a second job. Put fee deadlines, class times, the birthday you always miss. Leave the rest to the paper on the wall if that is how the house already works. The computer should tap you. It should not become the only clock in the room.
+
+Previous
+
+Lesson 52: Mail merge, and when you can skip it
+
+Lesson 54: Contacts versus the phone book

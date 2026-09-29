@@ -4,7 +4,7 @@ description: "Tick, tick, tick, click. The tiny record player spinning inside an
 date: "2026-09-16"
 minutes: "5"
 next_href: "/blog/the-fan-that-screams"
-next_title: "The fan that screams and the machine that burns"
+next_title: "Lesson"
 ---
 
 ![Hands sliding a 2.5-inch solid-state drive into a laptop drive bay next to an old mechanical drive.](https://www.cea.ng/images/blog/ssd-swap-old-laptop.jpg)
@@ -52,3 +52,9 @@ And the habits that keep any drive young: never move a running machine — sleep
 - Replacing a spinning drive with an SSD is the best money this shelf has ever recommended: boots in fifteen seconds, and never clicks again.
 
 Spinning plates served our parents well, and a machine that travels in your bag across bumpy roads belongs on silent flash memory now. Keep the files on quiet chips and leave the beetle behind. Next: the terrible accident that takes half a second — the tea, the water, and the spill across the keyboard.
+
+Previous
+
+Lesson 172: The fan that screams and the machine that burns
+
+Lesson 174: Water, tea, and the spill on the keyboard

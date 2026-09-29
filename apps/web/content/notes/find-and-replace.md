@@ -4,7 +4,7 @@ description: "Find is search inside the page. Replace is change, once or everywh
 date: "2026-06-23"
 minutes: "4"
 next_href: "/blog/spell-check-is-a-cousin"
-next_title: "Spell check is a cousin, not a teacher"
+next_title: "Lesson"
 ---
 
 ![A Find and Replace box open over a letter on a laptop.](https://www.cea.ng/images/blog/find-replace.jpg)
@@ -48,3 +48,9 @@ It could happen to you on a Friday: one Replace All on a landlord's name, and th
 It cannot see inside a photograph of a letter. It cannot see a word you spelled three ways. It cannot see March if you typed march and Match case is on. If you cannot find a sentence you remember, you may be in another window — Alt+Tab — or in an older Save As. Find searches this file, not the house. Explorer searches the house. Two clerks, two rooms.
 
 Used gently, Replace is how a wrong phone number leaves a ten-page notice without ten hunts. Used as a panic, it is how a letter becomes nonsense in one click. Sample, then the tap. Then act. The box will wait.
+
+Previous
+
+Lesson 64: Spell check is a cousin, not a teacher
+
+Lesson 66: Undo, and the thing you did not mean

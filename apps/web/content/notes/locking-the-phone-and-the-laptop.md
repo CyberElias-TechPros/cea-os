@@ -4,7 +4,7 @@ description: "A lock is a gate, not a decoration. PIN, pattern, fingerprint, Win
 date: "2026-08-28"
 minutes: "5"
 next_href: "/blog/app-permissions"
-next_title: "When an app asks for the camera or your location"
+next_title: "Lesson"
 ---
 
 ![A phone lock screen with a PIN pad on a wooden desk.](https://www.cea.ng/images/blog/screen-lock.jpg)
@@ -54,3 +54,9 @@ It happens. On the phone, the Google or Apple account you registered on purpose 
 - Do not use 1234, your birthday, or any phone number as the PIN. You already know why.
 
 A lock is not full-disk encryption, and it will not stop a repair shop with the right tools. But it is still the entire difference between a stranger reading your mail and a stranger holding a brick. Three seconds when you sit down. Pay them every time, and the POS counter stops being a place where your life lies face-up on the wood.
+
+Previous
+
+Lesson 90: When an app asks for the camera or your location
+
+Lesson 92: If the phone is stolen

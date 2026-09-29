@@ -4,7 +4,7 @@ description: "Somebody sat beside you once, or a note did. Now you are the someb
 date: "2026-03-26"
 minutes: "5"
 next_href: "/blog/cleaning-the-digital-house"
-next_title: "Cleaning the digital house once a year"
+next_title: "Lesson"
 ---
 
 ![A young person guiding an older woman&#x27;s hand on a laptop trackpad, both smiling slightly.](https://www.cea.ng/images/blog/teaching-one-learner.jpg)
@@ -48,3 +48,9 @@ One hundred and twenty notes now. The sitting, the files, the letter, the grid, 
 - Teach the teacher too: show them how to sit somebody else down, and your single hour doubles every year.
 
 Go and be somebody's quiet hour. The shelf will hold.
+
+Previous
+
+Lesson 119: Cleaning the digital house once a year
+
+Lesson 121: The cybersecurity analyst, at work

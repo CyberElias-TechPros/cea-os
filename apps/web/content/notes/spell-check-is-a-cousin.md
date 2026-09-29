@@ -4,7 +4,7 @@ description: "The red line catches letters. It will not catch from for form. Rea
 date: "2026-06-21"
 minutes: "4"
 next_href: "/blog/bullets-and-numbered-lists"
-next_title: "Bullets and numbered lists"
+next_title: "Lesson"
 ---
 
 ![A word-processor paragraph with a red squiggle under a misspelled word.](https://www.cea.ng/images/blog/spellcheck-red.jpg)
@@ -48,3 +48,9 @@ Then keep the cousin in his place. He catches a transposed letter and will never
 Gmail and most web forms squiggle too, with the same manners. And a phone will autocorrect a name into a stranger on the way to WhatsApp — watch the name and the number before you send, especially a number that became a word. Autocorrect is a cousin who interrupts. Hold the word and choose what you typed, if the phone allows.
 
 One contrast worth carrying out of here: a clean page and a true letter are not the same thing. Spell check will pass a fee of 15,000 typed as 150,000. It will pass an empty attachment. You still owe the slow read, the attachment glance, and a subject line that tells the truth. When the cousin is quiet and the mouth is quiet, send. Ndidi sent hers at 4:40 that afternoon, with Okoro intact and form where it belonged.
+
+Previous
+
+Lesson 63: Bullets and numbered lists
+
+Lesson 65: Find and replace

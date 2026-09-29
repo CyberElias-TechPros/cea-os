@@ -4,7 +4,7 @@ description: "The brick and the cable are two parts. Use the one that fits. Leav
 date: "2026-04-24"
 minutes: "5"
 next_href: "/blog/when-there-is-no-sound"
-next_title: "When there is no sound"
+next_title: "Lesson"
 ---
 
 ![A laptop charging cable plugged in on a wooden desk.](https://www.cea.ng/images/blog/laptop-charging.jpg)
@@ -50,3 +50,9 @@ Swollen batteries are rare and unmistakable, and the fear of them should not fol
 - Tonight, move the charging phone off the bed and onto the hard table. That single move is the whole lesson's heart.
 
 Charge on the table like a kettle on a counter, not in a bed. Unplug at a hundred if you like. Sleep well. The battery will outlive the fuss.
+
+Previous
+
+Lesson 40: When there is no sound
+
+Lesson 42: Heat and the vents

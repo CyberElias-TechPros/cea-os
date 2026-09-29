@@ -4,7 +4,7 @@ description: "The star is a pin in a map. Name it. Put it in a folder. The addre
 date: "2026-05-06"
 minutes: "4"
 next_href: "/blog/a-browser-profile-on-a-shared-computer"
-next_title: "A browser profile on a shared computer"
+next_title: "Lesson"
 ---
 
 ![A browser bookmarks bar with a few named bookmarks.](https://www.cea.ng/images/blog/bookmarks-bar.jpg)
@@ -46,3 +46,9 @@ Name the pins for the person you will be in a year. Not “Home” and “Page 1
 ## What not to pin
 
 Do not pin a page you reached from a strange link — pin the real street after you typed it. Do not pin “login” pages that are really searches. Do not pin fifty news articles; that is history, next lesson. A bookmark is for a door you will use again; an article is a room you visited. If the bar vanished after an update, it is hiding, not gone — right-click, show it. If pins duplicated, delete the extras. And on a shared computer, do not sign the house browser into your account just for pins: type the few addresses, or use your own profile. The star is a servant. It is not a reason to leave the keys on the table.
+
+Previous
+
+Lesson 45: A browser profile on a shared computer
+
+Lesson 47: History and private windows

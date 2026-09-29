@@ -4,7 +4,7 @@ description: "Silence has a checklist: mute, headphones, the wrong speaker, the 
 date: "2026-04-21"
 minutes: "4"
 next_href: "/blog/usb-devices-that-are-not-flash-drives"
-next_title: "USB devices that are not flash drives"
+next_title: "Lesson"
 ---
 
 ![A young man looking at a silent laptop, earphones beside it.](https://www.cea.ng/images/blog/no-sound.jpg)
@@ -48,3 +48,9 @@ The full checklist, in order, is now short enough to say from memory: the mute l
 A page that says audio driver outdated — download now from a pop-up is the same family as the fake update. Close it. Real driver updates live in Windows Update, or the laptop maker's own site, walked to on purpose. A shop can test the speaker with a known file in five minutes. Backup first if they will keep the machine.
 
 Osahon's call ended with grandmother heard and the earphones demoted to a drawer with a name. Silence is almost always a path to the wrong door. Open the right door, then listen. If after restart, Speakers, mixer, and a second file you still hear nothing, and the laptop never cracked or drank water, then a helper. You will not have wasted their time. You will have already walked the house.
+
+Previous
+
+Lesson 39: USB devices that are not flash drives
+
+Lesson 41: Charging without killing the battery

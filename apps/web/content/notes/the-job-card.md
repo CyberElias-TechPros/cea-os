@@ -4,7 +4,7 @@ description: "The bench lesson gave you the paper; this one is about the price s
 date: "2026-10-09"
 minutes: "5"
 next_href: "/blog/setting-up-a-new-computer"
-next_title: "Setting up a new computer for somebody"
+next_title: "Lesson"
 ---
 
 ![A carbon-copy job card booklet with neat handwriting lying on a wooden counter with a pen across it.](https://www.cea.ng/images/blog/paper-job-card-handwriting.jpg)
@@ -48,3 +48,9 @@ Contrast the two Sundays for a moment. Our Sunday's free weekend became a shop-f
 - Free small favours get written as 'no charge' and said aloud. The daylight is the difference between a gift and a rumour.
 
 The card is now doing two jobs at once: fencing the work and protecting the friendship. Next lesson opens a door that used to close at the edge of town — the machine whose owner is an hour away, and the manners of the distant hand.
+
+Previous
+
+Lesson 196: Setting up a new computer for somebody
+
+Lesson 198: Helping from across town

@@ -4,7 +4,7 @@ description: "A poster is a shout from across a room. One heading, one sentence,
 date: "2026-06-05"
 minutes: "4"
 next_href: "/blog/maps-without-getting-lost"
-next_title: "Maps without getting lost"
+next_title: "Lesson"
 ---
 
 ![A simple poster on a laptop screen with a heading and plenty of white space.](https://www.cea.ng/images/blog/simple-poster.jpg)
@@ -46,3 +46,9 @@ The business centre can print a hundred copies for the price of a lunch, and the
 ## What a poster is not
 
 It is not a programme of ten courses in size 12 — that is a flyer for a hand, or a letter. It is not a photograph of a full Word page taken with a phone at an angle: export. It is not fluorescent text on a fluorescent ground; contrast is kindness. When you can read it from the door, you are done. Save as poster-class.pdf in Documents. A poster is a one-job page. You already know one job per email. Same manners, larger letters.
+
+Previous
+
+Lesson 57: Maps without getting lost
+
+Lesson 59: Shrinking a photo so email will take it

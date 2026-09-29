@@ -4,7 +4,7 @@ description: "The complaint and the problem are rarely the same thing. Let the p
 date: "2026-10-03"
 minutes: "5"
 next_href: "/blog/the-shop-network"
-next_title: "A small network for a small shop"
+next_title: "Lesson"
 ---
 
 ![A young technician listening carefully to a woman across a wooden table, notebook and pen in his hand.](https://www.cea.ng/images/blog/listening-to-customer-notebook.jpg)
@@ -44,3 +44,9 @@ Then the physical minute, which completes the listening. Look at the machine wit
 - One physical minute with your hands behind your back: look, say what you see, and watch their face.
 
 The ears are trained and the notebook is open. But stories arrive in every order and leave gaps where questions must go — and the next lesson supplies exactly five, in an order that ends guessing, respects the customer's time, and walks you both to the guilty room in under ten minutes.
+
+Previous
+
+Lesson 190: A small network for a small shop
+
+Lesson 192: The five questions in order

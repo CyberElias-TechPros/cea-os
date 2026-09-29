@@ -4,7 +4,7 @@ description: "Size is how heavy the suitcase is. A page of text is light. A phon
 date: "2026-07-11"
 minutes: "4"
 next_href: "/blog/open-with-the-right-program"
-next_title: "Open with — this program, not that one"
+next_title: "Lesson"
 ---
 
 ![A folder window showing a Size column for a few files.](https://www.cea.ng/images/blog/file-size-column.jpg)
@@ -46,3 +46,9 @@ On the computer, the same units police the house: This PC, the C: bar — green 
 ## Before you walk to the post
 
 When a form says “maximum 100 KB,” obey the number — that is the small photograph lesson again. When a portal says “2 MB,” that is the door. The Size column is how you know before you try. Look, then shrink or zip or use Drive. The suitcase has a scale. Use it before you walk to the post.
+
+Previous
+
+Lesson 71: Open with — this program, not that one
+
+Lesson 73: The right-click menu is a map

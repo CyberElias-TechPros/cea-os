@@ -4,7 +4,7 @@ description: "A cookie is a small note a site leaves on your machine. Accept all
 date: "2026-05-01"
 minutes: "4"
 next_href: "/blog/the-webcam-and-who-can-see-you"
-next_title: "The webcam and who can see you"
+next_title: "Lesson"
 ---
 
 ![A cookie consent banner at the bottom of a browser window.](https://www.cea.ng/images/blog/cookie-banner.jpg)
@@ -46,3 +46,9 @@ The Manage window is deliberately dull: usually one switch for necessary, one fo
 ## Shared machines, and fear
 
 On a business-centre computer, do not Accept all and leave. Sign out of mail, close the browser, clear cookies for the hour if you can. You already know not to tick “remember this computer” — cookies are part of that remembering. Your own laptop can keep the notes for the sites you live in; a stranger's laptop should forget you. And ignore any page that screams “your cookies are corrupted — download repair.” That is the fake-update family again. Cookies do not need a doctor from a banner. They need a choice on the banner of the site you meant to visit, and a clear button in your own browser when the computer is not yours. Accept all is easy. Easy is how the market gets your name.
+
+Previous
+
+Lesson 43: The webcam and who can see you
+
+Lesson 45: A browser profile on a shared computer

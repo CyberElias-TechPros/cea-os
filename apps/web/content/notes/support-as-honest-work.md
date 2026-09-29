@@ -4,7 +4,7 @@ description: "People will now pay you for the quiet hour. Pricing without steali
 date: "2026-10-12"
 minutes: "5"
 next_href: "/blog/this-is-beyond-me"
-next_title: "When to say this is beyond me"
+next_title: "Lesson"
 ---
 
 ![A ruled logbook with handwritten rows and a mobile phone beside it on a wooden desk.](https://www.cea.ng/images/blog/support-logbook-and-phone.jpg)
@@ -46,3 +46,9 @@ And the last piece of the fence: price without stealing — do not undercut the 
 - Fence the hours on the board. The good technician does not answer everything — he answers within his word, and prices the rest.
 
 The helping hand now has a menu, a book, a fence, and two households on a monthly arrangement. Notice that nothing in it is a trick — every piece is what the tailor, the mechanic, and the electrician at the junction already do, applied to the machine on the table. Next lesson opens the workshop's last door: the sentence that protects all of this from its own limits — when the job is genuinely beyond you.
+
+Previous
+
+Lesson 199: When to say this is beyond me
+
+Lesson 201: The assistant that types

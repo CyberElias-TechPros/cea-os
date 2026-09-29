@@ -4,7 +4,7 @@ description: "Booking appointments, verified telemedicine, pharmacy delivery —
 date: "2026-09-15"
 minutes: "5"
 next_href: "/blog/the-pivot-table-properly"
-next_title: "The pivot table, properly"
+next_title: "Lesson"
 ---
 
 ![A woman booking a doctor&#x27;s appointment on her phone at a kitchen table.](https://www.cea.ng/images/blog/health-booking-phone.jpg)
@@ -44,3 +44,9 @@ Install the rule at the table, not in the group chat: health forwards are neithe
 - Emergencies are travelled, not typed. Know your nearest good hospital the way you know your nearest fuel station.
 
 Of everything this shelf has taught, this lesson carries the heaviest arithmetic, because the accounts are not in naira. The same care you learned to spend on money — verify the channel, keep the record, refuse the hurry — spends even better on health. The house that books its own appointments, keeps its own records, and declines its own forwards is a hard house to hurt. Go and keep it well.
+
+Previous
+
+Lesson 158: The pivot table, properly
+
+Lesson 160: The upgrade habit

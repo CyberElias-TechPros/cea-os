@@ -4,7 +4,7 @@ description: "You will not remember Friday in March, so Friday must write to Mar
 date: "2026-09-06"
 minutes: "4"
 next_href: "/blog/email-that-gets-answered"
-next_title: "Email that gets answered"
+next_title: "Lesson"
 ---
 
 ![An open notebook with dated notes beside a phone showing a notes app, pen across the page.](https://www.cea.ng/images/blog/notebook-system-desk.jpg)
@@ -46,3 +46,9 @@ The weekly review is where notes become a memory instead of a landfill. Friday, 
 ## The memory you are building
 
 A year of this system leaves you with something nobody can take to the cleaners: a searchable record of your own working life — every decision, every price, every promise and its date. It makes you the person who says “as I wrote on the 14th” instead of “I think”; it settles arguments before they start; and it compounds, quietly, into the professional’s greatest advantage: knowing what actually happened. Halima’s last three disagreements ended with her reading her own note aloud, once, and the room adjusting around it. The bookkeeper’s books keep the money honest. This keeps the weeks honest. Same discipline, smaller notebook.
+
+Previous
+
+Lesson 156: Email that gets answered
+
+Lesson 158: The pivot table, properly

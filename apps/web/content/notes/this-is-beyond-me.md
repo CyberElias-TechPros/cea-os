@@ -4,7 +4,7 @@ description: "The mark of a real technician is the sentence the amateur cannot s
 date: "2026-10-11"
 minutes: "6"
 next_href: "/blog/helping-from-across-town"
-next_title: "Helping from across town"
+next_title: "Lesson"
 ---
 
 ![Two technicians shaking hands across a repair bench with tools and an open laptop between them.](https://www.cea.ng/images/blog/referral-handshake-bench.jpg)
@@ -50,3 +50,9 @@ Then the hardest part of generosity on a competitive street: accept the border w
 - Stop at the clicking drive and the burnt board. Your hands rescue files and refer resurrection. That division saves names and photographs alike.
 
 The border is drawn and the handshake is part of your toolkit. But the phone has changed since the first lesson of this chapter — people now call you on purpose, and some want to pay you monthly. The last lesson of the chair is the one your family has been waiting for: how the helping hand becomes honest bread, priced without stealing, and steadied by a small book that makes the next year predictable.
+
+Previous
+
+Lesson 198: Helping from across town
+
+Lesson 200: Support as honest work

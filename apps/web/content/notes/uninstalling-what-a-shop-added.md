@@ -4,7 +4,7 @@ description: "Settings, Apps, the name you do not remember asking for. Uninstall
 date: "2026-03-07"
 minutes: "4"
 next_href: "/blog/installing-a-program-on-purpose"
-next_title: "Installing a program on purpose"
+next_title: "Lesson"
 ---
 
 ![A Windows Settings list of installed apps on a laptop screen.](https://www.cea.ng/images/blog/apps-list.jpg)
@@ -42,3 +42,9 @@ Then the door itself: click the extra, Uninstall, follow the boxes. Some will pl
 Many shops are paid a small fee for every trial they leave on a machine, and the fee arrives whether or not you asked for the trial. That is why the laptop came home with three antivirus programs arguing with each other and a PDF reader from a company nobody has heard of. It is not malice. It is bread. But the machine is yours now, and two guards at one door is not safety — it is a queue. Keep one good security program, often the one Windows already carries, and show the rest the door.
 
 And the lie that keeps machines fat: unpinning from Start, or dragging an icon to the Recycle Bin, does not uninstall anything. It tidies the street while the guest still eats. Always return to the Apps list to know the truth. A toolbar living inside the browser may not even appear as its own app — look at the browser's Extensions or Add-ons and remove the stranger there. If the machine is packed with extras you cannot name, this is the moment for the backup lesson, then a more patient person — not a “one-click cleaner” from a banner, whose family you already know. Show guests out one at a time, names you can defend. The machine will feel lighter because it is — not because a percentage said so.
+
+Previous
+
+Lesson 21: Installing a program on purpose
+
+Lesson 23: Typing naira, accents, and another language

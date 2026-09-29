@@ -4,7 +4,7 @@ description: "The dashboard glows green, the first withdrawal lands, the compoun
 date: "2026-09-13"
 minutes: "5"
 next_href: "/blog/loan-apps-the-real-cost"
-next_title: "Loan apps: the money that costs a reputation"
+next_title: "Lesson"
 ---
 
 ![A phone showing an investment app with a steep green profit curve and a big balance.](https://www.cea.ng/images/blog/roi-dashboard-phone.jpg)
@@ -52,3 +52,9 @@ One more retrieval before the chapter closes: Brother Paul was paid his first mo
 - Nobody legitimate needs your recovery phrase — the crypto clause. The boring cure compounds; the exciting one collects.
 
 Ten lessons of the pocket and the purse: the code that works without data, the line that stopped leaking, the bundle that learned manners, the wall machine and its wiggles, the little brick, the token in the dark, the first flight, the tunnel, the fifteen-minute loan, and now the doubling lie — oldest of them all. Every one of them obeyed the law this shelf has taught since the first sitting: the pause is the profit. The chapter closes. The purse stays open — and now it stays yours.
+
+Previous
+
+Lesson 169: Loan apps: the money that costs a reputation
+
+Lesson 171: When the screen stays dark

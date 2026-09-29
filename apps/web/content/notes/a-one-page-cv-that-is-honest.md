@@ -4,7 +4,7 @@ description: "A CV is a letter about work you have actually done. One page, real
 date: "2026-07-18"
 minutes: "4"
 next_href: "/blog/drag-and-drop"
-next_title: "Drag and drop without losing the file"
+next_title: "Lesson"
 ---
 
 ![A simple one-page CV on a laptop screen.](https://www.cea.ng/images/blog/simple-cv.jpg)
@@ -48,3 +48,9 @@ A CV is a letter with a longer memory. It should still look like something you w
 Some offices want their own form. Fill the form. Attach the CV if they said so, not instead. Some public-sector processes want NYSC, certificates, a longer pile. That pile is not this one page; it is a folder, School or Work, named. The one page is the door. The folder is the house. Do not email the whole house unasked.
 
 Zakari's page took one evening and one honest conversation with himself. The gold border took longer and did nothing. Start the quiet page tonight: four blocks, one true gap line, three bullets you can say aloud without looking down.
+
+Previous
+
+Lesson 74: Drag and drop without losing the file
+
+Lesson 76: Google Docs when there is no Word

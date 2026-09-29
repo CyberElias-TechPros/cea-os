@@ -4,7 +4,7 @@ description: "The restart is not a punishment. Save first, plug in the charger, 
 date: "2026-02-12"
 minutes: "4"
 next_href: "/blog/photos-off-the-phone"
-next_title: "Getting photographs off the phone"
+next_title: "Lesson"
 ---
 
 ![A laptop screen showing a Windows restart and update message.](https://www.cea.ng/images/blog/windows-update.jpg)
@@ -46,3 +46,9 @@ Do not hold the power button — that is a forced shutdown, and during an update
 If the computer boots to a recovery screen after a failed update, do not click random options. Shut down if you can, plug in, start again, and wait — Windows often finishes on the second try. If it offers to restore to an earlier point, that is a last resort, not the first. At the academy, stop and ask. At home, a second restart is cheaper than a guessed reset.
 
 And the costume in this neighbourhood: a page or pop-up announcing that your Windows is expired — call this number, download this repair tool — is not Windows Update. Real updates live in Settings, not in an advert. You met this cousin in the links lesson. Close the banner. Open Settings yourself. If nothing is waiting, nothing is waiting. Fear is a product someone is selling. Phones follow the same principle: at night, on Wi-Fi, charging — let the system update, and let the app stores wait their turn. Save what you can, give the machine a full cup of power, and do not snatch the cup away because the bar is slow. The bar is the repair.
+
+Previous
+
+Lesson 12: Getting photographs off the phone
+
+Lesson 14: Backup before the light goes

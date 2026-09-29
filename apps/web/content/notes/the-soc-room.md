@@ -4,7 +4,7 @@ description: "You will hear people say they work in a SOC. Here is the room, the
 date: "2026-04-04"
 minutes: "4"
 next_href: "/blog/the-cybersecurity-analyst-at-work"
-next_title: "The cybersecurity analyst, at work"
+next_title: "Lesson"
 ---
 
 ![A dim room with a wall of monitors showing maps and dashboards, two analysts at desks.](https://www.cea.ng/images/blog/soc-room-screens.jpg)
@@ -40,3 +40,9 @@ What the room watches with is named across the next two lessons: the SIEM — th
 ## Is the room for you?
 
 If you loved the locking lessons — if the second lock felt like a puzzle you would happily own — the SOC will feel like home with a salary. If you need quiet and long unhurried building, making things rather than watching for their breakers, then the developer rooms later in this stretch will fit better, and nobody should pretend otherwise. Security watching is a temperament before it is a career. Uchechi asked her cousin which he preferred, the night or the day, and he said something she repeated to me: “The night teaches; the day decides.” The shelf is wide. Walk it with your eyes open.
+
+Previous
+
+Lesson 121: The cybersecurity analyst, at work
+
+Lesson 123: SIEM, in ordinary words

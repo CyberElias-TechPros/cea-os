@@ -4,7 +4,7 @@ description: "The screen is a lamp. Too bright in a dark room is a headache, not
 date: "2026-04-13"
 minutes: "4"
 next_href: "/blog/volume-and-headphones"
-next_title: "Volume and headphones"
+next_title: "Lesson"
 ---
 
 ![A laptop screen at low brightness in a dim room.](https://www.cea.ng/images/blog/dim-screen.jpg)
@@ -48,3 +48,9 @@ Dark mode is the theme everyone finds in week one, and the honest word on it is 
 Night light, or a blue-light filter, tints the screen yellow after sunset. It is optional, and it does not repair sleep on its own. What repairs sleep is shutting down — as you learned — and not taking the lamp to bed at full brightness. The laptop is a larger phone in this one way.
 
 If the screen flickers at one brightness and not another, that is a hardware conversation — a shop, after backup. If only one program is dark, it is not brightness; it is that window. And if a cousin once set the contrast or inverted colours in Accessibility, Settings, Accessibility, Visual effects will undo it. The lamp has a dimmer. Use it like the one on the wall. Abosede found hers on F6, and the back room became a place where reading could finish.
+
+Previous
+
+Lesson 36: Volume and headphones
+
+Lesson 38: A second screen or a projector

@@ -4,7 +4,7 @@ description: "Ctrl and plus is a magnifying glass on this page. It is not a new 
 date: "2026-06-16"
 minutes: "4"
 next_href: "/blog/two-windows-at-once"
-next_title: "Two windows at once"
+next_title: "Lesson"
 ---
 
 ![A laptop document zoomed in so the words are easy to read.](https://www.cea.ng/images/blog/zoom-page.jpg)
@@ -50,3 +50,9 @@ The same shelf exists on the phone and in the browser, usually with the honest n
 A photograph zoomed in becomes cubes. That is the dots, not a broken file. A PDF of a scan may never become sharp. A form that uses tiny grey type may still print tiny; zoom is for you, on the glass. If a site forbids zoom, that site is rude. The browser still often allows Ctrl+plus. Try.
 
 High contrast and Narrator are extra doors in Accessibility, for people who need them. You do not have to use them to be allowed a larger page. Ctrl and plus is the everyday glass. Use it at the academy, on a phone (pinch), in a café. The words were always that size. You have only walked closer without moving the chair. Funmi now reads at 150 percent with the glasses in their case — and her daughter has stopped hovering.
+
+Previous
+
+Lesson 61: Two windows at once
+
+Lesson 63: Bullets and numbered lists

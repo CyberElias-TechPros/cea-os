@@ -4,7 +4,7 @@ description: "Your wireless fence is not automatically yours. Change the provide
 date: "2026-09-30"
 minutes: "6"
 next_href: "/blog/sharing-on-the-network"
-next_title: "Sharing a printer or a folder at the office"
+next_title: "Lesson"
 ---
 
 ![A small handwritten notebook lying beside a home Wi-Fi router on a wooden shelf in warm lamplight.](https://www.cea.ng/images/blog/password-notebook-beside-router.jpg)
@@ -52,3 +52,9 @@ Finally, the habits around the keys, because a fence is only as good as the comp
 - Roll the wireless key whenever somebody leaves your household or compound. One hour, once, and the fence is yours again.
 
 The Martins are still your neighbours, and the boy is still a good boy. He lives in a compound now where the gate has a key, the guests have a courtyard, and the gatehouse has a manager. That is not unfriendly. That is what a fence is for.
+
+Previous
+
+Lesson 187: Sharing a printer or a folder at the office
+
+Lesson 189: Your phone as the rescue wire

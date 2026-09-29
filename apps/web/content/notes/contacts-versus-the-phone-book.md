@@ -4,7 +4,7 @@ description: "A contact is a card: name, number, maybe email. The SIM is one dra
 date: "2026-05-26"
 minutes: "4"
 next_href: "/blog/calendar-and-reminders"
-next_title: "Calendar and reminders"
+next_title: "Lesson"
 ---
 
 ![A contacts list showing names and phone numbers.](https://www.cea.ng/images/blog/contacts-list.jpg)
@@ -50,3 +50,9 @@ Ten minutes twice a year keeps the list clean: merge the duplicates — Amaka, A
 The test of the cloud, in names: a new handset, the same Google account, Contacts switched on — and the cards walk back in. If they do not come, you had saved to the old phone, and the old phone is in a drawer with its screen dark. A shop that “transfers contacts” is copying drawers; watch which one. SIM to SIM is small work. Account to account is the real move.
 
 Still, write four things on paper: the academy, the landlord, and two family numbers. Electricity fails. Accounts fail. The paper in the drawer is how you still phone a person when the tool is in the shop. You do not need five hundred cards on paper. You need the few that open a door. Aminat’s new phone has all three hundred and twelve cards back — she checked before she paid the boy — and four numbers live on the inside cover of her dictionary, where power cuts cannot reach them.
+
+Previous
+
+Lesson 53: Calendar and reminders
+
+Lesson 55: What a QR code is doing

@@ -4,7 +4,7 @@ description: "Delete is a cupboard, not a fire. Restore puts the file back. Empt
 date: "2026-03-12"
 minutes: "5"
 next_href: "/blog/naira-and-accents"
-next_title: "Typing naira, accents, and another language"
+next_title: "Lesson"
 ---
 
 ![A Recycle Bin window on a laptop showing a few deleted files.](https://www.cea.ng/images/blog/recycle-bin.jpg)
@@ -54,3 +54,9 @@ And ignore one piece of market wisdom you will hear: emptying the bin does not �
 - Never practise Shift+Delete on a real document. Once is enough to understand.
 
 Different machines keep different bins, but the idea travels: email has a Trash on the website that keeps deleted mail around thirty days, phones have a “recently deleted” album for photographs. Different rooms, same cupboard. When something vanishes, walk to the nearest recently-deleted place before you despair. Looking first is the whole skill. Everything else in this lesson is just the details of where to look.
+
+Previous
+
+Lesson 23: Typing naira, accents, and another language
+
+Lesson 25: Asking for help without handing over the password

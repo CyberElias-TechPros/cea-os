@@ -4,7 +4,7 @@ description: "Some lies want your money; some want only your finger. The sixty-s
 date: "2026-02-05"
 minutes: "4"
 next_href: "/blog/the-second-lock"
-next_title: "The second lock"
+next_title: "Lesson"
 ---
 
 ![A phone screen showing a chat message marked Forwarded many times.](https://www.cea.ng/images/blog/forwarded-many-times.jpg)
@@ -46,3 +46,9 @@ This habit also protects the true stories. When the message is real — the road
 ## Your name is the envelope
 
 A forward travels in an envelope with your name on it, into rooms you will never sit in. Facts travel that way, and so do flames; the envelope does not choose. Check once and share what survives the check, or let the lie die in your phone, quietly, unwitnessed. A lie needs a writer once and a hundred honest fingers after that. You are only responsible for the one finger you own — but the whole chain hangs from it.
+
+Previous
+
+Lesson 108: The second lock
+
+Lesson 110: Paying for something online

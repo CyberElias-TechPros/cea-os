@@ -4,7 +4,7 @@ description: "A clone needs twenty seconds of somebody's voice. The family word,
 date: "2026-03-18"
 minutes: "5"
 next_href: "/blog/the-profile-that-finds-work"
-next_title: "The profile that finds work"
+next_title: "Lesson"
 ---
 
 ![An older man holding a phone away from his ear, looking at it with suspicion during a call.](https://www.cea.ng/images/blog/suspect-voice-call.jpg)
@@ -46,3 +46,9 @@ Then use the family word again, now on video. Agree with the household that any 
 ## The lie that got cheaper
 
 Lies used to need a writer and a hundred honest fingers, the forward lesson said. Now they need a laptop and twenty seconds of somebody’s evening. Nothing new is needed in the defence, though: pause, verify on your own road, refuse the hurry. Every scam in these notes is the same animal in different skins, and it has exactly one strategy — to remove the pause between the story and the money. Keep the pause and you keep everything.
+
+Previous
+
+Lesson 117: The profile that finds work
+
+Lesson 119: Cleaning the digital house once a year

@@ -28,5 +28,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const { classSlug, lesson } of getAllLessonPaths()) {
     urls.push({ url: `${base}/classes/${classSlug}/${lesson}`, lastModified: now });
   }
+  for (const r of ['/accessibility', '/payment', '/refunds', '/shipping',
+    '/visit/info', '/visit/brochure', '/visit/feedback', '/certificates/verify']) {
+    urls.push({ url: `${base}${r}`, lastModified: now });
+  }
   return urls;
 }

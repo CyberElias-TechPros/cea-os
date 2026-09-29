@@ -4,7 +4,7 @@ description: "A letter on the left, a page on the right. Snap is not magic. Alt+
 date: "2026-06-13"
 minutes: "4"
 next_href: "/blog/what-a-virus-usually-is"
-next_title: "What “the computer has a virus” usually is"
+next_title: "Lesson"
 ---
 
 ![A laptop showing a letter and a browser side by side.](https://www.cea.ng/images/blog/two-windows.jpg)
@@ -46,3 +46,9 @@ The second arrangement is the corner: a window dragged into a corner takes a qua
 ## When the window vanishes
 
 A window can sit on a second screen that is unplugged — the projector lesson's ghost. Windows+P, PC screen only, then Alt+Tab. Or Windows+arrow until it walks back. If the letter is “gone,” it is usually minimised, behind another window, or on a wall that went home. Search will not find an unsaved window. Alt+Tab will. On a small laptop two halves can feel cramped — then use Alt+Tab and a larger font instead of snap. The point is not a pretty split. The point is not closing the letter to look up a fee on a website. Two rooms. One save. Then you can stand up.
+
+Previous
+
+Lesson 60: What “the computer has a virus” usually is
+
+Lesson 62: Making the page larger without breaking it

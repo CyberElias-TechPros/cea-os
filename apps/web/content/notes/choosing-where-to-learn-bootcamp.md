@@ -4,7 +4,7 @@ description: "A data science bootcamp in Nigeria can be the best money you ever 
 date: "2026-05-23"
 minutes: "4"
 next_href: "/blog/how-to-build-mobile-app-nigeria"
-next_title: "How to build a mobile app in Nigeria, from the first sentence"
+next_title: "Lesson"
 ---
 
 ![Adult learners at computers in a small evening class, an instructor leaning over one screen.](https://www.cea.ng/images/blog/classroom-night-class.jpg)
@@ -40,3 +40,9 @@ Two smaller tells: size and after. A class where one teacher faces sixty student
 ## What a school actually sells
 
 Strip the brochures and a school sells three things: a structure you would not have built alone, a teacher who answers before the question cools, and classmates who make Thursday mean something. The internet cannot reliably give the second, and never gives the third. That is the whole case for rooms and fees — and the reason this academy keeps its classes small, its machines humming, and its alumni teaching one another years after. Whatever school you choose, choose it the way you now choose everything: slowly, with the receipt kept and the promise in writing.
+
+Previous
+
+Lesson 132: How to build a mobile app in Nigeria, from the first sentence
+
+Lesson 134: IT support: the person who fixes the day

@@ -4,7 +4,7 @@ description: "Search is a clerk who can spell part of a name. Start in Documents
 date: "2026-04-03"
 minutes: "4"
 next_href: "/blog/renaming-files-without-breaking-them"
-next_title: "Renaming files without breaking them"
+next_title: "Lesson"
 ---
 
 ![File Explorer search box with results listed below.](https://www.cea.ng/images/blog/file-search.jpg)
@@ -48,3 +48,9 @@ Think, too, of a word inside the file — Windows can search inside many documen
 You may have named it document. Search cannot invent a name you never gave. Then the older drawers: Recycle Bin next, as you learned. Then the USB. Then ask: did I save at all, or only type? If the computer restarted without Ctrl+S, there is no file. That is not a search failure; it is a save that never happened.
 
 And when the rescue succeeds, do the second thing at once: move the file to the room it should have lived in, and rename it so next term's clerk has something to hold. Kaneng's receipt now lives in Documents/School/2026 and is called fees-receipt-march-2026. Search is a rescue. Rooms are how you stop needing rescue every Friday.
+
+Previous
+
+Lesson 32: Renaming files without breaking them
+
+Lesson 34: The Start menu and the taskbar as a map

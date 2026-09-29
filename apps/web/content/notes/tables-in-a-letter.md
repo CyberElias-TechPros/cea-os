@@ -4,7 +4,7 @@ description: "A table is a grid that lives on a page, not in a spreadsheet. Rows
 date: "2026-05-19"
 minutes: "4"
 next_href: "/blog/signing-out-of-a-machine-that-is-not-yours"
-next_title: "Signing out of a machine that is not yours"
+next_title: "Lesson"
 ---
 
 ![A simple three-column table in a Word document on a laptop.](https://www.cea.ng/images/blog/word-table.jpg)
@@ -46,3 +46,9 @@ Build tables the way a clerk builds a register: one idea per row, one measure pe
 ## When the spreadsheet is the right tool
 
 If you must add a column of naira, Excel will not forget the formula — a Word table can add, through a formula field, and it is a maze. Copy the numbers to a sheet, add, copy the total back as a number. Or keep the whole list in Excel entirely. Usually they asked for a list, and a table is a list that will not collapse. Merging cells for one title across the top is allowed once. Nested tables are not a first-week skill. If the table looks busy, you have too much border, too much colour, too many columns. Black lines, white cells, words. Print preview. If it fits on the page with the greeting still above it, you are done.
+
+Previous
+
+Lesson 50: Signing out of a machine that is not yours
+
+Lesson 52: Mail merge, and when you can skip it

@@ -4,7 +4,7 @@ description: "Children inherit our screens before our manners. Family Link, app 
 date: "2026-08-16"
 minutes: "4"
 next_href: "/blog/checking-results-online"
-next_title: "Checking results and admissions online"
+next_title: "Lesson"
 ---
 
 ![A family at a living-room table, a parent guiding a child&#x27;s hands on a small tablet.](https://www.cea.ng/images/blog/family-table-phones.jpg)
@@ -40,3 +40,9 @@ And teach downward with the shelf itself. The child who can play is ready to lea
 ## The long inheritance
 
 The children on your knees will run a country whose every road, market and classroom is a screen. What they will not pick up from school is judgement — that walks across the family table, one evening at a time: the rules kept, the reasons given, the example set by the adult whose own phone sleeps in the basket by the door. Restriction produces a sneaky user and a skilled liar. Teaching produces the person these notes have always been writing to. Laraba’s own two children keep the basket rule — and keep correcting her when she reaches for the phone past nine, which she counts as a triumph. The next lesson returns to the working road, at its very first gate: the paper that decides who gets to interview.
+
+Previous
+
+Lesson 151: Checking results and admissions online
+
+Lesson 153: The CV that gets read

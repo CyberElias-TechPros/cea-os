@@ -4,7 +4,7 @@ description: "A list is a set of steps or a set of things. Numbers mean order. D
 date: "2026-06-18"
 minutes: "4"
 next_href: "/blog/making-text-larger"
-next_title: "Making the page larger without breaking it"
+next_title: "Lesson"
 ---
 
 ![A short bullet list in a word processor on a laptop.](https://www.cea.ng/images/blog/word-bullets.jpg)
@@ -46,3 +46,9 @@ Lists read faster than paragraphs on a phone screen, and a reply sent as three c
 ## When a list should not be a list
 
 A list that is longer than a thumb is probably a table, or two lists. Fees with amounts belong in a table, as you learned. A list is for names of things and names of steps. When the walker can say them aloud, you are done. When you are decorating with wings and arrows from a clip-art pane, you have left the lesson. Dots or numbers. Then stop.
+
+Previous
+
+Lesson 62: Making the page larger without breaking it
+
+Lesson 64: Spell check is a cousin, not a teacher

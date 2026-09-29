@@ -4,7 +4,7 @@ description: "You are the shop now: photographs that tell the truth, a price fro
 date: "2026-02-23"
 minutes: "5"
 next_href: "/blog/new-phone-without-losing-your-life"
-next_title: "A new phone without losing your life"
+next_title: "Lesson"
 ---
 
 ![Hands photographing a used smartphone on a plain table in good daylight.](https://www.cea.ng/images/blog/selling-photo-item.jpg)
@@ -52,3 +52,9 @@ Here is the trade's oldest character-reading, now applied to chats. The buyer wh
 - Meet in public, in daylight, with a person beside you. Trust the slow careful buyer above the urgent one with a story.
 
 Selling is the buying lesson held to a mirror: same slowness, same receipts, same public place, same refusal of hurry. The mirror does not change the rules. It only changes whose pocket the money is flowing toward.
+
+Previous
+
+Lesson 112: A new phone without losing your life
+
+Lesson 114: The ride that comes to you

@@ -4,7 +4,7 @@ description: "A data analyst turns an organisation's piles of records into decis
 date: "2026-05-15"
 minutes: "4"
 next_href: "/blog/agile-and-devops"
-next_title: "Agile and DevOps: how the teams build"
+next_title: "Lesson"
 ---
 
 ![A woman studying a spreadsheet of sales figures on a laptop, pen in hand.](https://www.cea.ng/images/blog/analyst-spreadsheet.jpg)
@@ -40,3 +40,9 @@ The money, honestly: a junior analyst in Nigeria commonly starts around the rang
 ## Why the trade suits this place
 
 Because Nigeria is not short of data — it is short of readers. Every problem anyone complains about — fuel, queues, churn, stock — sits on a pile of records nobody has calmly counted. The analyst is the person who counts, and in a country that is learning to measure itself, the person who can say “this is what the numbers actually say, and here is the picture,” is quietly becoming one of the most useful people in every room. Chukwuma still keeps the book in the family hand. He just answers June’s question now in ten seconds — and the visitor has become a customer. You already read a grid, sort a column, and fill a formula down. The career is those habits, taken seriously, with a decision waiting at the end of every table.
+
+Previous
+
+Lesson 130: Agile and DevOps: how the teams build
+
+Lesson 132: How to build a mobile app in Nigeria, from the first sentence

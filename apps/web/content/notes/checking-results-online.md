@@ -4,7 +4,7 @@ description: "WAEC, NECO, JAMB: the portals, the tokens, the careful typing of e
 date: "2026-08-11"
 minutes: "4"
 next_href: "/blog/the-working-life"
-next_title: "The working life"
+next_title: "Lesson"
 ---
 
 ![A young person checking an exam result on a phone at a table, pen and scratch card nearby.](https://www.cea.ng/images/blog/results-portal-phone.jpg)
@@ -42,3 +42,9 @@ Parents and guardians: the same lesson, taught sideways. Do not outsource the ch
 ## The season, handled
 
 Results season rewards exactly what this shelf has taught all along: the real address, the careful typing, the slip kept, the hurry refused. A family that can check its own results, accept its own admission, and file its own slips has retired one of the season's oldest taxes — paid to queues, to cafés, and to liars. The next lesson stays at the family table, where the phones are smaller and the stakes are the children.
+
+Previous
+
+Lesson 150: The working life
+
+Lesson 152: The family table: phones, kids, and parental controls

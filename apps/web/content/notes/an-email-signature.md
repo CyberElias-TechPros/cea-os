@@ -4,7 +4,7 @@ description: "A signature is your name and how to reach you, repeated without re
 date: "2026-07-06"
 minutes: "4"
 next_href: "/blog/cc-bcc-and-reply-all"
-next_title: "Cc, Bcc, and Reply all"
+next_title: "Lesson"
 ---
 
 ![An email with a short name-and-phone signature at the bottom.](https://www.cea.ng/images/blog/email-signature.jpg)
@@ -42,3 +42,9 @@ Keep the stamp light in bytes as well as in taste. A signature built as an image
 A new number: edit the signature the same day. An old number in the stamp is how people miss you for a term. If you use two addresses, set the stamp on both, or you will send from the academy-looking address with no name. On a shared computer, do not save a signature in the house profile. Guest, then type your name at the bottom once, as you used to. The stamp lives in the bag. You know whose bag you are in. The stamp works when you forget it is there.
 
 A signature is not a CV. It is not a poster. It is the printed name under the last sentence, with a number so the other person can call instead of hunting. When the letter is one job, the stamp is one name. You have reached the end of the envelope. To, maybe Cc, body, attachment, stamp. Send. Then wait, like an adult.
+
+Previous
+
+Lesson 69: Cc, Bcc, and Reply all
+
+Lesson 71: Open with — this program, not that one

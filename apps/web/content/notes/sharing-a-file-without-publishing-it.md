@@ -4,7 +4,7 @@ description: "Anyone with the link is a public tray. A named email is a letter t
 date: "2026-07-23"
 minutes: "4"
 next_href: "/blog/google-docs-when-there-is-no-word"
-next_title: "Google Docs when there is no Word"
+next_title: "Lesson"
 ---
 
 ![A share dialog with an email field on a laptop screen.](https://www.cea.ng/images/blog/share-dialog.jpg)
@@ -48,3 +48,9 @@ Sharing is not a state you enter; it is a door you open, use, and close. When th
 - Remove the share when you finish practising. Share, the person, Remove. Feel how quick closing a door is.
 
 The short version has been true since envelopes were invented: a named email is a letter to one person; a link is a tray on the street. Prefer Viewer. Prefer a name. And when the other person only needs to read and print — prefer the PDF, and let the cloud rest.
+
+Previous
+
+Lesson 76: Google Docs when there is no Word
+
+Lesson 78: Comments on a document

@@ -4,7 +4,7 @@ description: "When a certificate opens a door and when it merely decorates a wal
 date: "2026-08-01"
 minutes: "4"
 next_href: "/blog/your-first-hand"
-next_title: "Your first hand: from freelancer to small studio"
+next_title: "Lesson"
 ---
 
 ![A focused candidate at a desk with past papers, a laptop and a small calendar marked for an exam date.](https://www.cea.ng/images/blog/exam-study-desk.jpg)
@@ -40,3 +40,9 @@ After the pass: the certificate goes into Drive with the papers, a line goes ont
 ## The truth about doors
 
 A career on this shelf is a long corridor of doors, and it helps to stop resenting the locks: some were installed by committees, some by law, some by simple habit — and most open to the combination the market has always honoured, proof on paper and proof in hand. Carry both, and the corridor keeps opening. Carry one, and you will spend your years explaining the other. You already know how to build the proof in hand. This lesson was the cheaper half — a calendar, a syllabus, and a receipt.
+
+Previous
+
+Lesson 148: Your first hand: from freelancer to small studio
+
+Lesson 150: The working life

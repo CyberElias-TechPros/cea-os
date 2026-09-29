@@ -4,7 +4,7 @@ description: "When the printer dies before the meeting, one person becomes the m
 date: "2026-05-27"
 minutes: "4"
 next_href: "/blog/choosing-where-to-learn-bootcamp"
-next_title: "Choosing where to learn: bootcamps, night classes, and honest papers"
+next_title: "Lesson"
 ---
 
 ![An IT support officer crouched beside a colleague&#x27;s desk, fixing a cable while they watch.](https://www.cea.ng/images/blog/support-desk-helping.jpg)
@@ -40,3 +40,9 @@ The road in, honestly. The fundamentals first — machines, networks, accounts, 
 ## The trade that keeps the lights on
 
 No app ships, no analysis lands, no campaign runs, in a building whose machines are down and whose people are afraid of them. IT support is the floor under every floor — unglamorous by design, indispensable by arithmetic. Almost nobody ends where support began; the trade's habit of fixing things has always included fixing one's own ladder. If your temperament is the helper's — if the locked-out colleague's relief is payment you actually enjoy — this is a career that begins where you are already standing: calm, curious, and unafraid of the question everybody else is afraid to ask twice.
+
+Previous
+
+Lesson 133: Choosing where to learn: bootcamps, night classes, and honest papers
+
+Lesson 135: Websites for small businesses: a trade you can start this year

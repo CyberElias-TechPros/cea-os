@@ -4,7 +4,7 @@ description: "The pocket can be a router. A name, a key, the laptop joins. The b
 date: "2026-09-04"
 minutes: "4"
 next_href: "/blog/do-not-disturb"
-next_title: "Do not disturb"
+next_title: "Lesson"
 ---
 
 ![Phone hotspot settings on a wooden desk.](https://www.cea.ng/images/blog/phone-hotspot.jpg)
@@ -42,3 +42,9 @@ So set the connection as Metered — Settings, Network, the connection's propert
 USB tethering — a cable from phone to laptop — is the quieter cousin: no radio for the neighbours, no network name announced to the compound, and it charges the phone while it shares. Turn it on after you plug in. For one laptop and one phone in the same room, the cable is better; the wireless hotspot earns its keep when the tablet and the visitor's laptop also need the road.
 
 And when the house Wi-Fi exists, prefer the house pipe — it is cheaper by the gigabyte, cooler for the phone, and does not turn a battery into a candle burning at both ends. The hotspot is a spare tyre: the form that must go in tonight, the café whose password you do not trust for a bank, the generator night when the router is dark. Spare tyres are not daily drivers. If you live on hotspot, you are paying phone prices for a home — ask the house about data on the router instead. Off when you stand up. The airplane mode is another kind of off. The hotspot is a tap: close it, and look once at the phone's data usage after a hotspot evening. You will learn what a PDF costs, and what a film costs, without a speech.
+
+Previous
+
+Lesson 93: Do not disturb
+
+Lesson 95: Wi‑Fi or mobile data — which tap is open

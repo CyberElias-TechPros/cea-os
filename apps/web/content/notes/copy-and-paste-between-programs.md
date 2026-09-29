@@ -4,7 +4,7 @@ description: "The clipboard is a small tray. Select, copy, click the other windo
 date: "2026-03-17"
 minutes: "5"
 next_href: "/blog/asking-for-help-without-the-password"
-next_title: "Asking for help without handing over the password"
+next_title: "Lesson"
 ---
 
 ![Selected text highlighted in a document on a laptop screen.](https://www.cea.ng/images/blog/selected-text.jpg)
@@ -54,3 +54,9 @@ And one small, heavy rule: passwords do not go on the tray. Copying a password f
 - Save the file as copy-practice. You have just stopped retyping things for the rest of your life.
 
 That is the whole machinery: select, copy, walk, paste — one tray, one item, and no passwords aboard. The machine is very good at never making you write the same line twice. Now it is allowed to do that for you.
+
+Previous
+
+Lesson 25: Asking for help without handing over the password
+
+Lesson 27: Taking a screenshot

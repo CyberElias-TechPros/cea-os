@@ -4,7 +4,7 @@ description: "One copy is a rumour. Two copies is a backup. A USB, a folder you 
 date: "2026-02-14"
 minutes: "4"
 next_href: "/blog/updates-without-panic"
-next_title: "Updates without panic"
+next_title: "Lesson"
 ---
 
 ![An external drive and a USB flash drive beside a laptop on a wooden desk.](https://www.cea.ng/images/blog/backup-drives.jpg)
@@ -44,3 +44,9 @@ Plug in the USB. Open it. Open Documents. Copy the folders that changed. If the 
 ## Cloud, theft, and the repair shop
 
 If you have a Google account, Drive can hold the same folders. That is a backup that survives a stolen bag, if you also had a password you can keep and a second lock on the phone. Use it for the small, important files first: the PDF of a certificate, the passport photograph, the fees sheet. A full photograph library will eat data and space; the cable-and-USB copy is still the workhorse here when the network is tired. And the habit earns its keep in the two old emergencies: before a machine goes to the shop, copy first — say it out loud to the technician: the files have been copied; do not format unless you tell me — and after a theft, the backup is the whole point. A copy you have not opened is still a rumour; open one file from the USB before you trust it. The light will go again. The second house is how you do not start the letter from memory.
+
+Previous
+
+Lesson 13: Updates without panic
+
+Lesson 15: A Google account on purpose

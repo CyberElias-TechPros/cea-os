@@ -4,7 +4,7 @@ description: "Professional work means holding other people's keys: their data, t
 date: "2026-07-10"
 minutes: "4"
 next_href: "/blog/the-books-of-a-one-person-business"
-next_title: "The books of a one-person business"
+next_title: "Lesson"
 ---
 
 ![A laptop with a lock screen turned away from visitors on a tidy desk, files closed beside it.](https://www.cea.ng/images/blog/client-files-locked.jpg)
@@ -46,3 +46,9 @@ One question Salamat now asks before every job: what will I be holding when this
 ## The trade inside the trade
 
 Skills get you hired once; discretion gets you hired again, quietly, for years, by people who tell other people with money. Every profession that touches other people’s machines — the analyst, the support engineer, the web builder, the bookkeeper of the last lesson — is trusted first and skilled second, because the files can be rebuilt and the trust cannot. So hold other people’s secrets the way you hold your own OTP: never typed into a machine you do not control, never spoken aloud to a helpful stranger. The street is watching, and it keeps better records than any ledger. Discretion compounds. So does its absence.
+
+Previous
+
+Lesson 143: The books of a one-person business
+
+Lesson 145: The body at the desk

@@ -4,7 +4,7 @@ description: "Gmail is a house you rent. Choose a name you can say on the phone,
 date: "2026-02-17"
 minutes: "4"
 next_href: "/blog/backup-before-the-light-goes"
-next_title: "Backup before the light goes"
+next_title: "Lesson"
 ---
 
 ![A laptop browser showing a simple account creation form.](https://www.cea.ng/images/blog/account-form.jpg)
@@ -48,3 +48,9 @@ This is your email, your door to Drive, and often the door to a phone's Play Sto
 You will be offered Gmail, Drive, Photos, a phone backup. You do not have to switch every tap on. Gmail is enough for today. Drive, when you are ready, is the cloud drawer. Photos can eat data — wait until you mean it. And if Google asks for a second step — a code on the phone — say yes. That is the second lock. You have met it before.
 
 If you already have an old address you cannot enter, do not start a maze of resets on a borrowed laptop. Sit at a machine you trust, try Forgot password once, take the code on your own phone. If the recovery phone is a number you lost years ago, the account may be gone — make a new one on purpose, write it down, and tell the school, the bank, and the academy the new house. Amaka kept her second address alive for one month as a spare, then closed the tab on the other two forever. One address, owned, is worth more than four that a shop still knows.
+
+Previous
+
+Lesson 14: Backup before the light goes
+
+Lesson 16: Wi‑Fi at home without mystery

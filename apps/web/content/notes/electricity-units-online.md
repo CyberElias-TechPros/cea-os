@@ -4,7 +4,7 @@ description: "The meter is beeping and the night is dark: prepaid tokens bought 
 date: "2026-09-03"
 minutes: "5"
 next_href: "/blog/power-banks-and-surges"
-next_title: "Power banks, surges, and the charging life"
+next_title: "Lesson"
 ---
 
 ![A hand typing a long token number into a prepaid meter&#x27;s keypad by phone light.](https://www.cea.ng/images/blog/prepaid-meter-token.jpg)
@@ -48,3 +48,9 @@ And the junction, because he is always at the junction: the man with a calculato
 The meter asks to be understood, not feared: one number to protect, one code to type patiently, one receipt to keep. Buy from the beep's own family, keep the paper, and the darkest night of the month becomes a two-minute chore done by phone-light. A household that learns this chore once buys its light in two minutes for the rest of its life, and never again stands in the dark decoding a stranger's promise.
 
 The same evening that feeds the meter can feed the phone, the bank and the books — the compound, running itself, one token at a time. Next, the lesson boards a plane: your first flight, booked by your own hands.
+
+Previous
+
+Lesson 165: Power banks, surges, and the charging life
+
+Lesson 167: Booking a flight, online, by yourself

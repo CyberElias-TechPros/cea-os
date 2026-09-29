@@ -4,7 +4,7 @@ description: "One drawer is not a filing system. School, then the year, then the
 date: "2026-03-29"
 minutes: "5"
 next_href: "/blog/what-a-pdf-is-for"
-next_title: "What a PDF is for"
+next_title: "Lesson"
 ---
 
 ![File Explorer showing nested folders named School, 2026 and Fees.](https://www.cea.ng/images/blog/folder-tree.jpg)
@@ -50,3 +50,9 @@ And when folders must travel — to a USB, to the business centre — carry the 
 - Rescue five files from your own heap today — newest first. Five a day until the heap is furniture.
 
 Kemi found the school receipt in under ten seconds on Friday morning, in Fees, named like a receipt should be. The ninety-one files are now four rooms and a shelf. She has not searched for anything since — she has walked to it. Build the tree once, and every file you touch for the rest of your working life will know where it lives.
+
+Previous
+
+Lesson 30: What a PDF is for
+
+Lesson 32: Renaming files without breaking them

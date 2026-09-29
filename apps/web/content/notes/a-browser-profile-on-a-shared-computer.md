@@ -4,7 +4,7 @@ description: "A profile is a schoolbag. Yours holds your mail and your passwords
 date: "2026-05-04"
 minutes: "4"
 next_href: "/blog/cookies-and-accept-all"
-next_title: "Cookies and “Accept all”"
+next_title: "Lesson"
 ---
 
 ![A browser profile icon in the corner of a laptop window.](https://www.cea.ng/images/blog/browser-profile.jpg)
@@ -46,3 +46,9 @@ When you must use your real bag on a borrowed machine — the application closes
 ## Passwords saved in the browser
 
 The browser will offer to remember passwords. On your locked profile, on your own laptop, that can be a help — one more keyring, with the risk of someone opening the bag. On a shared profile, never: the keyring becomes a public hook. You already have a notebook in a drawer and a sentence password. Use those on a shared machine. Let the browser forget. And if you find you have been living in the house bag with three relatives, create your profile today, sign into mail there, sign out of the old window. It is not rude. It is the same as not leaving your ATM card on the table. The circle in the corner tells you whose bag is open — look at it the way you look at ENG on the taskbar. Then type.
+
+Previous
+
+Lesson 44: Cookies and “Accept all”
+
+Lesson 46: Bookmarks you can find again

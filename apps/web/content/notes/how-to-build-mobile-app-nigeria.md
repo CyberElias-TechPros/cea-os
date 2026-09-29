@@ -4,7 +4,7 @@ description: "The honest ladder from idea to screen: write it small, prototype o
 date: "2026-05-18"
 minutes: "4"
 next_href: "/blog/careers-in-data-analytics"
-next_title: "Careers in data analytics: the person who reads the numbers"
+next_title: "Lesson"
 ---
 
 ![A notebook with hand-drawn phone screen sketches beside a phone on a desk.](https://www.cea.ng/images/blog/app-idea-notebook.jpg)
@@ -40,3 +40,9 @@ And build for the street you live on: the app must survive a three-bar network a
 ## The myth, and the ladder beside it
 
 The myth says building an app here requires somebody’s millions. The ladder says otherwise: a sentence, paper screens, a web version, ten honest testers, and only then — if the street confirms the idea — the store, the code, or the developer. Every step is free or nearly, every step teaches, and any step can stop with dignity if the idea fails the test, which is precisely what steps are for. The person who asks how to build an app and begins at rung one this evening is ahead of the person who has been pricing containers since last year.
+
+Previous
+
+Lesson 131: Careers in data analytics: the person who reads the numbers
+
+Lesson 133: Choosing where to learn: bootcamps, night classes, and honest papers

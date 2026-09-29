@@ -4,7 +4,7 @@ description: "Closing the lid is not the same as leaving. Sleep is a nap. Shut d
 date: "2026-02-22"
 minutes: "4"
 next_href: "/blog/wifi-at-home-without-mystery"
-next_title: "Wi‑Fi at home without mystery"
+next_title: "Lesson"
 ---
 
 ![A laptop Start menu showing Shut down, Sleep and Restart.](https://www.cea.ng/images/blog/shutdown-menu.jpg)
@@ -46,3 +46,9 @@ End of the day, especially where the light is unreliable: Start, power icon, Shu
 If the pointer will not move and Shut down will not open, wait thirty seconds — some freezes are a disk catching up. Then try Ctrl+Alt+Delete, three keys together, which on Windows often offers Task Manager or a sign-out. If nothing: the long hold on the power button until the machine dies. Count slowly to ten. Then wait another ten before starting it. That shove can lose unsaved work, and it should not be how you leave every evening.
 
 A desktop tower's power button is the same family: one press to start, one press often to sleep or to ask Windows to shut down, a long hold to force. And the monitor has its own button — turning off only the screen is not shutting down the computer. The box under the desk may still be working, quietly, for hours. If you can hear the fan after you “left,” you have only darkened the window.
+
+Previous
+
+Lesson 16: Wi‑Fi at home without mystery
+
+Lesson 18: Filling a form on a website

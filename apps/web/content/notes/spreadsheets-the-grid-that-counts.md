@@ -4,7 +4,7 @@ description: "Rows, columns, and one cell where they meet. Type a number, not a 
 date: "2026-02-02"
 minutes: "5"
 next_href: "/blog/printing-without-waste"
-next_title: "Printing without waste"
+next_title: "Lesson"
 ---
 
 ![A laptop screen showing a simple spreadsheet with names, items and amounts.](https://www.cea.ng/images/blog/spreadsheet-grid.jpg)
@@ -48,3 +48,9 @@ To add a column: click the cell under the last amount — if your amounts are C2
 A cell that shows ###### is not an error in your life. The column is too narrow for the number — put the pointer on the line between C and D at the top until it becomes a double arrow, then drag. #DIV/0! means you asked the grid to divide by empty. And a cell showing the formula you typed instead of an answer usually means you missed the equals sign, or the cell is formatted as text: delete, type again starting with =. None of these is the machine judging you. They are notices from a clerk.
 
 One sheet, one job. A tab at the bottom is a page in the same book — fees on one tab, attendance on another, not both tangled in column Z. Name the file as you would a folder: fees-2026, not Book1. Save as you learned — Ctrl+S, often; Google Sheets saves itself when online, which is a kindness, not a reason to work without looking. And when a number matters — school fees, a shop tally — print a copy or keep the paper receipts. The grid is a good clerk. It is not the only witness.
+
+Previous
+
+Lesson 8: Printing without waste
+
+Lesson 10: WhatsApp is not email

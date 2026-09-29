@@ -4,7 +4,7 @@ description: "Your traffic, wrapped and carried through another town: what a VPN
 date: "2026-09-08"
 minutes: "6"
 next_href: "/blog/booking-a-flight-online"
-next_title: "Booking a flight, online, by yourself"
+next_title: "Lesson"
 ---
 
 ![A thumb switching a VPN connection on in a phone app, the icon glowing.](https://www.cea.ng/images/blog/vpn-app-toggle.jpg)
@@ -48,3 +48,9 @@ The habit, then, is small and fits in one line: the VPN goes on when the network
 - Tell one person the honest definition: a VPN hides your traffic from the road, not from the VPN company, and never from a scammer you chose to believe.
 
 The tunnel is real engineering and worth the two taps on a stranger's Wi-Fi. It is just not the cloak the adverts draw. Use it as a tool with edges — the way you use a padlock, a backup, a locked screen — and the office sceptic and the Instagram seller will both sound exactly as accurate as they are.
+
+Previous
+
+Lesson 167: Booking a flight, online, by yourself
+
+Lesson 169: Loan apps: the money that costs a reputation

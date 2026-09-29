@@ -4,7 +4,7 @@ description: "The name is for you. The part after the last dot is for the comput
 date: "2026-04-01"
 minutes: "4"
 next_href: "/blog/a-folder-for-school-or-work"
-next_title: "A folder structure for school or work"
+next_title: "Lesson"
 ---
 
 ![A file name highlighted in File Explorer, ready to type.](https://www.cea.ng/images/blog/rename-file.jpg)
@@ -48,3 +48,9 @@ Duplicates in one folder get the bracket treatment — Letter (2), Letter (3) �
 Avoid / \ : * ? " < > | in names. They are commands to the computer, not decoration. Spaces are allowed, but a-name-like-this travels better in some links. Accents are allowed; you learned those. A trailing space is a ghost that makes two files look identical. Keep names short enough to read in a narrow window.
 
 If a file is open in Word, rename will fail — “in use.” Close, then rename. If two files cannot have the same name in one folder, that is the computer protecting you; put them in different rooms, or date them. And if you already stripped a .pdf, rename and put the .pdf back. The file was not converted. It was only disguised. You did not lose the letter. You hid its envelope. Tayo found his March receipt in four seconds that October — the name did the remembering he had left to chance.
+
+Previous
+
+Lesson 31: A folder structure for school or work
+
+Lesson 33: Searching the computer for a lost file

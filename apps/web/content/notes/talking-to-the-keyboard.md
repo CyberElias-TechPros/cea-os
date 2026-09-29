@@ -4,7 +4,7 @@ description: "Your voice is faster than your thumbs. The microphone key writes a
 date: "2026-01-10"
 minutes: "4"
 next_href: "/blog/the-keyboard-on-the-phone"
-next_title: "The keyboard on the phone"
+next_title: "Lesson"
 ---
 
 ![A man speaking toward his phone while words appear on the screen as text.](https://www.cea.ng/images/blog/voice-typing-mic.jpg)
@@ -42,3 +42,9 @@ One line is drawn hard. Do not speak passwords, PINs, card numbers, or the codes
 Choose the room the way you would for a phone call. The microphone hears the generator, the television, the market — and it hears your private business as well, so do not dictate the bank letter in the middle of a shop. Speak the figures slowly; nothing fails like a twenty-digit account number at speed. And in English as in your language, watch the two words the machine loves to swap: figures and names. It will hear a cousin where you said a name, a sale where you said Sade. Read the draft's first sentence and its every number before anything leaves your hands. Emem reads every dictated letter twice — once for the names, once for the figures — and says the two minutes saved by the voice are repaid with interest by the two minutes spent listening back.
 
 Treat dictated text as clay, not pottery. Read it before you send it. Fix, then send. People who trust the first hearing spend their evening on apologies; people who read once send like people who write. The microphone has given your thumbs a holiday. It has not taken over the letter.
+
+Previous
+
+Lesson 102: The keyboard on the phone
+
+Lesson 104: Your email in your pocket

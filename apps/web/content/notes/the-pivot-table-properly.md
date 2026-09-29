@@ -4,7 +4,7 @@ description: "One thousand rows in, three sentences out, without touching a form
 date: "2026-09-10"
 minutes: "4"
 next_href: "/blog/notes-that-last"
-next_title: "Notes that last"
+next_title: "Lesson"
 ---
 
 ![A laptop showing a spreadsheet of sales rows beside a small pivot summary table.](https://www.cea.ng/images/blog/pivot-table-screen.jpg)
@@ -40,3 +40,9 @@ Now the rule that separates the beginners from the analysts: the summary is a le
 ## The lever, not the magic
 
 Practise once on any data you own — the shop's book, the house expenses from the expenses lesson — and you will feel the moment every analyst remembers: the thousand rows became one sentence, and you did not type a single formula. Nothing here required genius, only the willingness to select, drag, and read, which you have been doing since the sorting lesson. That is the quiet joke of the spreadsheet world: its most respected tool is a two-minute skill wearing a fearsome name. Learn it once on your own books, and the next time somebody dumps a thousand rows in your lap and asks for the summary by Friday, you will smile the analyst's smile and say: give me five minutes.
+
+Previous
+
+Lesson 157: Notes that last
+
+Lesson 159: Health online, without the lies

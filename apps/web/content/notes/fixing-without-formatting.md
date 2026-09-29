@@ -4,7 +4,7 @@ description: "Formatting is burning the house to kill a rat. Restore points, saf
 date: "2026-10-05"
 minutes: "5"
 next_href: "/blog/five-questions-in-order"
-next_title: "The five questions in order"
+next_title: "Lesson"
 ---
 
 ![A laptop on a wooden desk at night showing a plain dark glowing screen, a technician&#x27;s hand on the trackpad.](https://www.cea.ng/images/blog/safe-mode-laptop-evening.jpg)
@@ -44,3 +44,9 @@ Then, and only then, consider the reinstall — and when you do, the honest rese
 - Copy everything irreplaceable and confirm it opens before any surgery; the rescue is the roof over your reputation.
 
 Six rooms, one roof rule, and the photograph album of restore points standing ready. But a day arrives — the disk is dying, the system is corrupted past stitching, the customer wants the machine new — when the reinstall is genuinely the right act. The next lesson is how to do it in daylight, like a professional, without a single photograph dying in the night.
+
+Previous
+
+Lesson 192: The five questions in order
+
+Lesson 194: The honest reset

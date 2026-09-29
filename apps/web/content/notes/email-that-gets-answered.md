@@ -4,7 +4,7 @@ description: "A busy person answers mail between meetings, in twenty seconds eac
 date: "2026-09-01"
 minutes: "4"
 next_href: "/blog/slides-that-speak"
-next_title: "Slides that speak"
+next_title: "Lesson"
 ---
 
 ![A laptop screen showing a short email being composed with a clear subject line filled.](https://www.cea.ng/images/blog/email-subject-line.jpg)
@@ -40,3 +40,9 @@ And the small courtesies that make your address a welcome one: the signature wit
 ## The twenty-second gift
 
 Every rule here is one mercy in two directions: it wins the reader's twenty seconds, and it buys your letter a life. The person whose emails are clear, short and easy to answer is not merely efficient — they are trusted, because clarity reads as competence and brevity reads as respect. Write the letter a busy person can say yes to, and busy people will keep opening yours first.
+
+Previous
+
+Lesson 155: Slides that speak
+
+Lesson 157: Notes that last

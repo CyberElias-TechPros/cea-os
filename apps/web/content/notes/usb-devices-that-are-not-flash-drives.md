@@ -4,7 +4,7 @@ description: "The same hole takes a mouse, a keyboard, a printer, a dongle. Plug
 date: "2026-04-18"
 minutes: "4"
 next_href: "/blog/a-second-screen-or-projector"
-next_title: "A second screen or a projector"
+next_title: "Lesson"
 ---
 
 ![A USB mouse, a keyboard, and a cable on a desk beside a laptop.](https://www.cea.ng/images/blog/usb-devices.jpg)
@@ -42,3 +42,9 @@ And the honest limits: a red X on a device in Device Manager is for later lesson
 Plug a phone into the USB hole and it stops being only a phone — it asks out loud, in a small menu, whether you want charging or file transfer. Choose deliberately. Charge only is the polite default at a friend's house; file transfer is for moving your own photographs, which appear in the folder called DCIM — the film name that never died. And unlike a flash drive, the phone does not need the wave goodbye before unplugging; that ceremony is for drives with impatient filing systems. Unplug the phone whenever the copy is finished.
 
 The other guests are simpler. A mouse or keyboard arrives with its tiny receiver and works after a breath — the breath is called a driver, and Windows usually already has one. A printer arrives with a disc nobody can use anymore: ignore the disc, plug the USB, and let Windows Update find the driver itself, which it does for almost every printer made this century. The rule through all of it: plug one thing, wait for the machine to finish greeting it, then plug the next. A port is a doorway. Even guests should walk through it one at a time. A printer on USB still needs power of its own — cable to the computer, power to the wall, paper in the tray — and a hub that starves a hungry disk wants that disk plugged into the laptop directly. Unplug by holding the plastic, not the wire. The hole is simple. The guest is simple. The wait is the skill.
+
+Previous
+
+Lesson 38: A second screen or a projector
+
+Lesson 40: When there is no sound

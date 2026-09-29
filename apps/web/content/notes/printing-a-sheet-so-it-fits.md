@@ -4,7 +4,7 @@ description: "A grid is wider than a letter. Preview, landscape, fit to one page
 date: "2026-07-31"
 minutes: "4"
 next_href: "/blog/sorting-a-spreadsheet-column"
-next_title: "Sorting a column without scrambling the rows"
+next_title: "Lesson"
 ---
 
 ![A spreadsheet print preview fitted onto one page.](https://www.cea.ng/images/blog/print-sheet.jpg)
@@ -46,3 +46,9 @@ For finer surgery there is Page Break Preview, under the View menu: drag the blu
 ## PDF of a sheet
 
 Save as PDF from Print, or Export. The PDF is a picture of the grid, not a grid that adds. For an office that must add, send the Excel or Sheets file. For an office that must see, send the PDF. Do not send both “in case” unless they asked. One job, one attachment. The sheet on the screen can be as wide as you like. The sheet on the tray has to fit a hand. Preview until it does. Then the tap. Doris’s second register came to the meeting as one landscape page with the names repeated — and the meeting moved on to the arguments, which is where meetings belong.
+
+Previous
+
+Lesson 79: Sorting a column without scrambling the rows
+
+Lesson 81: Making numbers look like money

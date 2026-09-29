@@ -4,7 +4,7 @@ description: "Once a year, open the drawers: apps deleted, subscriptions cut, pe
 date: "2026-03-23"
 minutes: "4"
 next_href: "/blog/the-voice-that-borrowed-a-face"
-next_title: "The voice that borrowed a face"
+next_title: "Lesson"
 ---
 
 ![A phone screen showing several apps about to be uninstalled.](https://www.cea.ng/images/blog/uninstall-apps.jpg)
@@ -42,3 +42,9 @@ The gallery last, and always in this order: backup first — the cloud lesson, t
 A yearly clean needs a yearly date or it becomes a good intention. Tie it to a day the calendar already carries — the first Saturday of your birthday month, the week the rent is paid, the evening after the JAMB form is submitted — and set the reminder now, repeating every year, in the calendar you rescued earlier. The alarm will do the remembering; you will do the twenty-minute walk: the apps list with the uninstall key in hand, the subscriptions list with the cancel button, the permissions screen, the gallery crowd, the passwords that changed and the notebook that must know it.
 
 Keep the ritual small and it survives. One room a weekend for a month is a fine pace if the evening is busy — apps this week, subscriptions next, the gallery after. What matters is the date and the walk, not the ceremony. And the lightness afterwards is real: the phone with room to update, the bank app that opens without the queue of forty forgotten logins behind it, the drawer with only the keys you still use. A house does not clean itself because you bought new furniture. It cleans because one evening a year, you walk through it with the bin bag in your hand.
+
+Previous
+
+Lesson 118: The voice that borrowed a face
+
+Lesson 120: Each one, teach one

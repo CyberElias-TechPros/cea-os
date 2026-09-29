@@ -4,7 +4,7 @@ description: "Slow is usually a crowd, a full disk, or a dying drive. Close wind
 date: "2026-03-01"
 minutes: "4"
 next_href: "/blog/a-video-call-without-panic"
-next_title: "A video call without panic"
+next_title: "Lesson"
 ---
 
 ![A laptop on a wooden desk with many windows open.](https://www.cea.ng/images/blog/cluttered-windows.jpg)
@@ -46,3 +46,9 @@ This PC, then the C: drive. If the bar is red, or says “a few GB free,” the 
 A dying disk has a personality: long pauses, files that corrupt, a restart that hangs on the manufacturer’s logo. Backup first — the whole point of the earlier lesson — then a shop. Tell them the files are copied. Ask them not to format until you say. A slow-but-healthy machine, after a restart and a cleaner disk, can live for years. Adding memory (RAM) helps some older laptops; that is a shop conversation with a price, not a pop-up. The two impostors wear opposite coats: one sells fear in a flashing banner, the other sells speed in a five-minute promise. Both want your money before the diagnosis.
 
 Ignore banners that say “your PC is 82 percent infected.” Real Windows Security lives in Settings, not in a flashing count. If a relative installed three toolbars and a lottery of free PDFs, those programs are the crowd — Uninstall from Settings, Apps, one by one, names you recognise as extras. When the machine is honest again, it feels like a different object. Usually it was only tired.
+
+Previous
+
+Lesson 19: A video call without panic
+
+Lesson 21: Installing a program on purpose

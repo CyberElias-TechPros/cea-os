@@ -4,7 +4,7 @@ description: "Hold, move, release. Inside one disk, that is often a move. Onto a
 date: "2026-07-16"
 minutes: "4"
 next_href: "/blog/the-right-click-menu"
-next_title: "The right-click menu is a map"
+next_title: "Lesson"
 ---
 
 ![A file icon being dragged toward a folder on a laptop screen.](https://www.cea.ng/images/blog/drag-drop.jpg)
@@ -46,3 +46,9 @@ One detail prevents a hundred lost files, and it is the one Yewande learned in t
 ## On a trackpad, and on a phone
 
 Trackpads make drag fussy: the finger lifts, the drop fires early. A mouse is kinder for this one act. On a trackpad, a firmer press-and-drag with a second finger resting helps. On a phone, hold a photo, then a share sheet — that is not the same as a Windows move; a long-press lifts the icon and a slow hold over the destination folder is how you carry it. Do not practise drag with files you cannot replace. Practise with delete-practice, zip-practice, the names you already made. When the drop is boring, you have learned it. Boring is the goal. Drama is a file in a hole.
+
+Previous
+
+Lesson 73: The right-click menu is a map
+
+Lesson 75: A one-page CV that is honest

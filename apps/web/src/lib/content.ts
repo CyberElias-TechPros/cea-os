@@ -67,6 +67,12 @@ export function getNote(slug: string): Doc | null {
   return parseFile(file, slug);
 }
 
+export function getStaticPage(name: string): Doc | null {
+  const file = join(contentRoot(), 'pages', `${name}.md`);
+  if (!existsSync(file)) return null;
+  return parseFile(file, name);
+}
+
 export function getLessonSlugs(classSlug: string): string[] {
   const dir = join(contentRoot(), 'lessons', classSlug);
   if (!existsSync(dir)) return [];

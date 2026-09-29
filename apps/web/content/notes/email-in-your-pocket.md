@@ -4,7 +4,7 @@ description: "The desk taught the manners; the phone carries the letter. Attachm
 date: "2026-01-14"
 minutes: "4"
 next_href: "/blog/talking-to-the-keyboard"
-next_title: "Talking to the keyboard"
+next_title: "Lesson"
 ---
 
 ![A woman reading an email on her phone in an office corridor.](https://www.cea.ng/images/blog/email-pocket.jpg)
@@ -48,3 +48,9 @@ The one discipline the pocket adds is to the rubbish. Deleting on the phone dele
 ## Notifications without drowning
 
 Email is not WhatsApp, and it must not learn to shout like it. The letter does not need an answer in four minutes; it needs an answer today, thought through. In the app’s settings, let the important inbox notify you and let the adverts pass in silence — most apps sort this for you, if you look once. A short signature saying who you are is enough; the phone does not need to tell the world it is a phone. The desk gave you the manners. The pocket keeps them, quietly.
+
+Previous
+
+Lesson 103: Talking to the keyboard
+
+Lesson 105: The file that goes up

@@ -4,7 +4,7 @@ description: "Sort is lining up a register. Select the whole table, then sort by
 date: "2026-07-28"
 minutes: "4"
 next_href: "/blog/comments-on-a-document"
-next_title: "Comments on a document"
+next_title: "Lesson"
 ---
 
 ![A simple spreadsheet with a column sorted A to Z.](https://www.cea.ng/images/blog/spreadsheet-sort.jpg)
@@ -46,3 +46,9 @@ Then sort with the second sense awake: ascending from small to big, descending f
 ## Print after, not before
 
 Sort, look, then print. A printed pile in arrival order may be what the meeting wants; a sorted pile may be what the accountant wants. Ask. The grid will do either. It will not know which truth you meant. You are still the clerk. Sort is a tool for the eyes. The rows must stay married to their facts. That marriage is the whole lesson.
+
+Previous
+
+Lesson 78: Comments on a document
+
+Lesson 80: Printing a spreadsheet so it fits

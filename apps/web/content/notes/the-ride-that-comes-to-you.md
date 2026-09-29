@@ -4,7 +4,7 @@ description: "Bolt, Uber, inDrive — the street's bargaining, arranged neatly o
 date: "2026-02-28"
 minutes: "5"
 next_href: "/blog/selling-the-thing-you-own"
-next_title: "Selling the thing you own"
+next_title: "Lesson"
 ---
 
 ![A phone showing a ride app map with a car icon approaching along the street.](https://www.cea.ng/images/blog/ride-app-map.jpg)
@@ -50,3 +50,9 @@ In the car, the rest is ordinary Nigerian road sense: the fare is the fare you s
 - Share the trip with one person, and refuse every request to cancel “on your side”. Warm voice, closed door.
 
 Ngozi's car splashed to the gate at seven eighteen. She checked the plate against the four characters she had said to her sister, sat in, typed the PIN, and watched the rain from a dry seat while the dot crawled on the shared map. The street's old bargaining has not disappeared. It has just learned to write things down.
+
+Previous
+
+Lesson 113: Selling the thing you own
+
+Lesson 115: Government things, done online

@@ -4,7 +4,7 @@ description: "Close is not sign out. Remember me is a trap you tick once. A last
 date: "2026-05-16"
 minutes: "4"
 next_href: "/blog/the-cloud-in-ordinary-words"
-next_title: "What the cloud is, in ordinary words"
+next_title: "Lesson"
 ---
 
 ![A browser account menu with Sign out visible.](https://www.cea.ng/images/blog/sign-out.jpg)
@@ -46,3 +46,9 @@ Two more sweeps for honest completeness. Signing out of the mail's web page and 
 ## What still leaks
 
 A file on their Desktop. A print nobody collected. A photo in their WhatsApp if you sent it to yourself through their app. Paper in the printer tray. Look. The ritual is not paranoia — it is leaving a borrowed room as you found it, plus not leaving your ATM card in the sofa. And if you already forgot all of this at the café? From home: change the mail password, then the bank if you touched it — Google can sign out the other sessions — the same day. Shame is how this one finishes badly, like the phishing lesson. You are not the first person to leave a tab open in a café. You can still lock the door from the other street. Then the next sitting, walk the five minutes. Lid last.
+
+Previous
+
+Lesson 49: What the cloud is, in ordinary words
+
+Lesson 51: A table in a letter

@@ -4,7 +4,7 @@ description: "A letter can live in the browser. Same bones: a page, a cursor, Sa
 date: "2026-07-21"
 minutes: "4"
 next_href: "/blog/a-one-page-cv-that-is-honest"
-next_title: "A one-page CV that is honest"
+next_title: "Lesson"
 ---
 
 ![A simple letter open in a browser on a laptop.](https://www.cea.ng/images/blog/docs-browser.jpg)
@@ -48,3 +48,9 @@ The other gift is the save itself. There is no Save button in the browser editor
 On a shared computer, Docs in Guest is a trap: you will type, then Guest will throw the bag away if you were not signed in. Sign in, write, Download the PDF to your USB, sign out — the five-minute walk, applied to a browser. The doc remains in Drive, which is your building, not theirs, if you signed into your account. If you signed into theirs, you have written a letter in their house. Copy it out. Sign out.
 
 Docs is Word without a disc. It is not better manners, not worse. A PDF you downloaded is what you attach. A link is the next lesson. For today: a page, a name at the top, a PDF on the USB. The office can read a plate. They should not have to knock on your cloud to do it, unless they asked. Nafisat’s landlord letter was typed, downloaded, and printed by 4:40 — on a machine that never had Word at all.
+
+Previous
+
+Lesson 75: A one-page CV that is honest
+
+Lesson 77: Sharing a file without publishing it

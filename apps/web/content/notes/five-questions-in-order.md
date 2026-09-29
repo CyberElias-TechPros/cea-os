@@ -4,7 +4,7 @@ description: "What changed, when, what does it say exactly, who else has it, wha
 date: "2026-10-04"
 minutes: "5"
 next_href: "/blog/listening-like-a-technician"
-next_title: "Listening like a technician"
+next_title: "Lesson"
 ---
 
 ![A ruled notebook with a short handwritten checklist and a pen resting on it, seen from above on a wooden desk.](https://www.cea.ng/images/blog/checklist-notebook-pen.jpg)
@@ -44,3 +44,9 @@ What have you already tried is asked last and asked kindly, because it has three
 - Read the five answers back once before touching anything; half the time the guilty room announces itself.
 
 The five questions now belong to your hands and the notebook has become a case file. The next lesson walks into the guilty room with the smallest possible toolbox — and the largest possible principle: that everything on that machine is somebody’s photographs, and formatting is the confession that the repair failed.
+
+Previous
+
+Lesson 191: Listening like a technician
+
+Lesson 193: Fixing without formatting

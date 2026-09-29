@@ -4,7 +4,7 @@ description: "A flashing count of infections is usually an advert. A real proble
 date: "2026-06-10"
 minutes: "5"
 next_href: "/blog/shrinking-a-photo-for-email"
-next_title: "Shrinking a photo so email will take it"
+next_title: "Lesson"
 ---
 
 ![A generic fake virus warning on a laptop screen.](https://www.cea.ng/images/blog/fake-virus.jpg)
@@ -48,3 +48,9 @@ If the page claims you cannot leave — the old trick that reopens itself — ho
 Updates. The real street. No unknown installers. No USB from a stranger without a look. A browser that is not a carnival of toolbars. Guest on shared machines. That list is the antivirus. Windows Security is the night watchman, not a preacher on a billboard. A paid extra antivirus can be fine if you chose it on purpose; three at once fight each other. One is enough — and zero extra is also enough for a careful person.
 
 When a relative says “virus,” ask what they saw. A red page is a website. A slow machine is heat, disk, or a crowd of startup programs. A missing file is usually the Recycle Bin. Name the thing, then walk. You now have enough names to refuse a shop that formats first and talks second — backup first, then a person you can see. The siren on the screen is not the disease. It is an advert with a costume.
+
+Previous
+
+Lesson 59: Shrinking a photo so email will take it
+
+Lesson 61: Two windows at once

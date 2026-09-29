@@ -4,7 +4,7 @@ description: "Photos, WhatsApp, and video fill a pocket. The computer is a drawe
 date: "2026-08-23"
 minutes: "4"
 next_href: "/blog/airplane-mode"
-next_title: "Airplane mode"
+next_title: "Lesson"
 ---
 
 ![Phone storage settings showing what is using space.](https://www.cea.ng/images/blog/phone-storage.jpg)
@@ -42,3 +42,9 @@ Two words on the app's own page decide most of the fear: cache and data. Cache i
 Open the gallery and look for the crowd: the same photograph sent and received and screenshotted and sent again; the twenty takes where only one was kept; the four-minute video of a ceiling recorded by accident. The storage menu shows the real breakdown — gallery first, WhatsApp second, the rest trailing — and the gallery is where the free gigabytes live. Delete the duplicates with a hard heart and one exception: keep the one photograph where everyone's eyes are open. Move that one to the computer or the cloud before the sweep, and the hard heart costs nothing.
 
 When the bar has room again, the camera will open — that is the whole practical aim. And the last street of the map: Google Photos can offload pictures if you chose that on purpose and the bundle can stand it; an SD card is a second pocket (apps on the card are fussy, and photos on the card vanish when the card dies — the computer copy is still the backup). One warning aimed at the market: a shop that “cleans storage” in five minutes without your cable has deleted first. Ask them to copy. Stand there. A full phone is not a virus. It is a pocket with too many bricks — and you know bricks from the size lesson. Walk them to the drawer. Then the pocket works.
+
+Previous
+
+Lesson 88: Airplane mode
+
+Lesson 90: When an app asks for the camera or your location

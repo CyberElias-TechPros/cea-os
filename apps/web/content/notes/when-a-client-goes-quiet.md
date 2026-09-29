@@ -4,7 +4,7 @@ description: "The work is delivered; the phone goes silent. Chasing payment with
 date: "2026-07-24"
 minutes: "4"
 next_href: "/blog/learning-in-public"
-next_title: "Learning in public"
+next_title: "Lesson"
 ---
 
 ![A hand holding a phone showing a politely worded payment reminder message.](https://www.cea.ng/images/blog/payment-reminder-phone.jpg)
@@ -40,3 +40,9 @@ Then the two verdicts only you can deliver. When to forgive: the client who trul
 ## The name and the naira
 
 Every step of the ladder protects the same two assets: the money and the name. Run it cold and you usually recover the naira and occasionally the client, who respects being reminded in sentences they could not fault. Run it hot and you keep neither. The working life will always contain a quiet client or two — the shelf cannot legislate other people’s pockets. It can make you the person whose paperwork never flinches, whose tone never drops, and whose next client never gets the chance, because the deposit was taken before the first line of work. Deji was paid on the 19th — step two, one plainer sentence, and the silence broke politely.
+
+Previous
+
+Lesson 146: Learning in public
+
+Lesson 148: Your first hand: from freelancer to small studio

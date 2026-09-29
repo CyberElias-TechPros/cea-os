@@ -4,7 +4,7 @@ description: "Four columns, seven days, one total. The grid is a shop book for a
 date: "2026-08-10"
 minutes: "4"
 next_href: "/blog/filling-a-formula-down"
-next_title: "Filling a formula down a column"
+next_title: "Lesson"
 ---
 
 ![A simple weekly spending list on a spreadsheet.](https://www.cea.ng/images/blog/weekly-budget.jpg)
@@ -48,3 +48,9 @@ And keep it small on purpose. Four columns and one total. No pie charts, no five
 ## What not to put here
 
 Card PINs, BVN, the password to the bank. Those are keys. This is a register. Do not share the sheet as Anyone with the link. A PDF of a week, if someone must see, is enough. And do not let a colourful “finance guru” sheet shame you into twenty categories. The skill is the habit of one true line. The grid is only the clerk. You are still the one who spent the naira.
+
+Previous
+
+Lesson 83: Filling a formula down a column
+
+Lesson 85: When the cell says ##### or #DIV/0!

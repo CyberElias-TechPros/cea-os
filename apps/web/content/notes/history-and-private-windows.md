@@ -4,7 +4,7 @@ description: "History is a list of rooms you walked through. A private window do
 date: "2026-05-09"
 minutes: "4"
 next_href: "/blog/bookmarks-you-can-find-again"
-next_title: "Bookmarks you can find again"
+next_title: "Lesson"
 ---
 
 ![A browser history list on a laptop screen.](https://www.cea.ng/images/blog/browser-history.jpg)
@@ -42,3 +42,9 @@ Use it on a shared computer for mail when you have no Guest profile. Use it to c
 History is not only a confession; it is a diary of the useful kind. Press Ctrl and H and the road you walked is laid out by day, with a search box at the top that takes the word you half remember — the article about rent, the portal with the green logo, the name of the man in the photograph. The page you could not find again is almost always sitting in Tuesday. Delete one entry when it is none of anyone's business, and leave the rest of the diary intact.
 
 What even a private sitting cannot unsend: files you saved, things you printed, mail you sent, and the other person's computer if you logged into WhatsApp Web and did not log out. Private does not hide you from a camera over your shoulder. It hides the diary in this browser — which is still worth doing, without magic attached. And if a family keeps fighting over History on the house profile, that is not a History problem. It is a bags problem: separate profiles, as you learned, beat endless sweeping. The diary is a tool. On your laptop, keep it. On theirs, do not write in it.
+
+Previous
+
+Lesson 46: Bookmarks you can find again
+
+Lesson 48: The Downloads pile

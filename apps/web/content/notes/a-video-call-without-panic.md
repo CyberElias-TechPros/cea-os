@@ -4,7 +4,7 @@ description: "The link is a room. Mute is a kindness. Camera is optional more of
 date: "2026-02-27"
 minutes: "4"
 next_href: "/blog/filling-a-form-on-a-website"
-next_title: "Filling a form on a website"
+next_title: "Lesson"
 ---
 
 ![Over-the-shoulder view of a laptop on a video call, earphones beside it.](https://www.cea.ng/images/blog/video-call.jpg)
@@ -46,3 +46,9 @@ Find mute as soon as you arrive — usually bottom-centre — and practise toggl
 A link that does nothing: copy it, paste it into the address bar yourself. Still nothing: the meeting has not opened yet, or it has ended, or the ID is wrong by one letter. Message the host on the channel they already use — WhatsApp, email — not a second join every ten seconds. Camera not found: close WhatsApp Desktop or another app that might be holding the camera, then rejoin. Echo: mute the laptop speakers and use earphones, or mute one of the two devices in the room.
 
 Data: video eats a bundle. If the picture stutters, turn your camera off; audio-only still counts as present. A phone hotspot works for a short call and suffers on a two-hour class; sit near the house router if you can. And when it is over, Leave, then close the tab. A meeting left open in the background is a microphone you forgot. The room should not hear you after you think you have gone. One contrast worth carrying in: the call feels like a performance on a stage. It is actually a visit to somebody’s parlour — and the guest who leaves the door tidy gets invited back. Chidinma now joins church committees with the camera level and the kettle silent — and nobody notices the ritual at all, which is the point.
+
+Previous
+
+Lesson 18: Filling a form on a website
+
+Lesson 20: When the computer is slow

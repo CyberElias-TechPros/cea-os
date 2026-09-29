@@ -4,7 +4,7 @@ description: "Two words that fill every job advert, explained at a market stall:
 date: "2026-05-10"
 minutes: "4"
 next_href: "/blog/machine-learning-engineer-work"
-next_title: "What a machine learning engineer does"
+next_title: "Lesson"
 ---
 
 ![A team standing around a board covered in sticky notes, one person speaking.](https://www.cea.ng/images/blog/standup-board-sticky.jpg)
@@ -44,3 +44,9 @@ The practices behind the word, named so adverts read plainly: continuous integra
 And so this road closes where the reader now stands: at the edge of a world whose vocabulary you hold. The analyst and the room that never sleeps, the ledger and the gate that trusts nobody, the fence walk, the grammar of the roads, the seal that cannot be photocopied, the stall, the teaching room, and the teams that build in Tuesdays. None of it was magic; none of it was closed to you; it was only never explained at this table before.
 
 The notes end here for now — but the reader who began at the very first lesson, afraid of the power button, has just read the job adverts without flinching. Walk into any of these rooms and say you came from the shelf. Then come back and tell us which chair fit.
+
+Previous
+
+Lesson 129: What a machine learning engineer does
+
+Lesson 131: Careers in data analytics: the person who reads the numbers

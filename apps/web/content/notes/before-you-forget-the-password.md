@@ -4,7 +4,7 @@ description: "Recovery is the spare key, cut while the main key still opens the 
 date: "2026-01-29"
 minutes: "4"
 next_href: "/blog/papers-the-bag-cannot-lose"
-next_title: "Papers the bag cannot lose"
+next_title: "Lesson"
 ---
 
 ![A man looking thoughtfully at his phone showing an account verification screen.](https://www.cea.ng/images/blog/recovery-screen.jpg)
@@ -42,3 +42,9 @@ Then the day comes, and it is mild. On the sign-in page: Forgot password. The co
 One spare key is how people lose accounts anyway — the recovery email being the account you stopped using in 2023 whose password you also forgot. So give every important account two exits and put the exits in different houses. The first is the mobile number: real, current, in your name, kept alive with a small bundle even in a lean month. The second is a recovery email you actually read — the one on your phone, not the old one in the wind. When both doors exist, losing one key is an errand.
 
 The paper in the drawer is the third exit and the most honest one. One small notebook at home, with account names and passwords written plainly, is not a security failure — it is the password book of every careful office in the world. Paper cannot be hacked from Port Harcourt by a boy in another country. It can only be found by someone already at your drawer, and that person has bigger access than your Gmail. Update the page when a password changes. The notebook is the memory your head cannot be trusted with, kept where thieves cannot reach it. Cut the spare while the main still turns, keep the record current when the house changes, and treat anyone who offers to open your door from outside, by phone, as exactly what they are. The next lesson adds a second lock to the door itself.
+
+Previous
+
+Lesson 106: Papers the bag cannot lose
+
+Lesson 108: The second lock

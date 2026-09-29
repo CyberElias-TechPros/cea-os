@@ -4,7 +4,7 @@ description: "The picture can leave the laptop. Duplicate is the same page twice
 date: "2026-04-16"
 minutes: "4"
 next_href: "/blog/brightness-and-night"
-next_title: "Brightness and night use"
+next_title: "Lesson"
 ---
 
 ![A laptop connected by a cable to a small extra monitor.](https://www.cea.ng/images/blog/second-monitor.jpg)
@@ -48,3 +48,9 @@ Blurry projector pictures are usually a language problem, not a broken projector
 Second screen only, left on after you unplug, is a famous black laptop. Windows still thinks the picture lives on a wall that has gone home. Windows+P, then the down arrow, then Enter on PC screen only — even if you cannot see it, it often works. Or close the lid, wait, open, or plug the extra screen back in to undo the choice. Do not format. Do not hold power yet.
 
 Ayuba's chapel talk now begins with three quiet minutes: cable seated, Duplicate chosen, sound walked to the hall, first slide tested. Two screens is a bigger desk, not two different programmes. Duplicate for the room, extend for your own desk work — and learn Duplicate first. It is the one you will use at every presentation from here.
+
+Previous
+
+Lesson 37: Brightness and night use
+
+Lesson 39: USB devices that are not flash drives

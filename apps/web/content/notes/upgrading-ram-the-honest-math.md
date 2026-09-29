@@ -4,7 +4,7 @@ description: "A friend shouts that you need sixteen gigabytes of RAM to make you
 date: "2026-09-21"
 minutes: "4"
 next_href: "/blog/the-blue-screen-and-the-spinning-circle"
-next_title: "The blue screen and the spinning circle"
+next_title: "Lesson"
 ---
 
 ![Task Manager Performance tab showing memory usage bar at 7.4 of 8.0 GB in use with high commit charge.](https://www.cea.ng/images/blog/task-manager-ram-usage-tab.jpg)
@@ -46,3 +46,9 @@ It looks like stinginess from the manufacturer. It is actually a thinness trade 
 ## Spend where the choke lives
 
 Never buy computer parts on street advice or loud opinions. Open Task Manager, look at the numbers with your own eyes, and spend your money where the real bottleneck lives. Yusuf eventually bought an SSD for a third of the RAM money, and the thirty seconds became five. The friend still tells people to buy sixteen gigabytes. Next: taking your machine to a commercial workshop without losing your parts or your privacy.
+
+Previous
+
+Lesson 177: The blue screen and the spinning circle
+
+Lesson 179: The repairs engineer and the bench

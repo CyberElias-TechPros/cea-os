@@ -4,7 +4,7 @@ description: "Hurry is the bait. A real bank already knows you. Open a new tab a
 date: "2026-01-28"
 minutes: "5"
 next_href: "/blog/passwords-you-can-keep"
-next_title: "Passwords you can keep"
+next_title: "Lesson"
 ---
 
 ![A laptop on a wooden desk showing an email inbox.](https://www.cea.ng/images/blog/inbox-caution.jpg)
@@ -50,3 +50,9 @@ When you do look at a link, read the street in the address bar after the page op
 Stop typing. Do not “finish the form.” Close the tab. On your phone, do not call the number in the message. From a number you already have — the back of the card, the app, a printed receipt — tell the bank what happened. Change the email password first, because that is the master door, then the bank password, then any other house that used the same key. If money moved, the bank's fraud line is the next call — not a helper in the comment section of Facebook.
 
 Shame is how these traps finish the job. People hide the mistake until the account is empty. Bisi's neighbour hid hers for two weeks and the recovery became a police story instead of a phone call. You are not the first, and the professionals on the fraud line have heard it all before breakfast. The lesson is the walk: new tab, real street, then maybe the story is true. Everything else can wait.
+
+Previous
+
+Lesson 6: Passwords you can keep
+
+Lesson 8: Printing without waste

@@ -4,7 +4,7 @@ description: "Downloads taught where files land. Applications need the other dir
 date: "2026-01-19"
 minutes: "4"
 next_href: "/blog/email-in-your-pocket"
-next_title: "Your email in your pocket"
+next_title: "Lesson"
 ---
 
 ![A laptop screen showing an online form with a file chosen and its name beside the button.](https://www.cea.ng/images/blog/choose-file.jpg)
@@ -46,3 +46,9 @@ When the wrong parcel is already in the van, send the recovery letter at once: b
 ## The slip is the receipt
 
 Most portals, after an upload, show the file’s name, or let you download what you submitted. Do download it, once, and look at it with your own eyes. The wrong file — the scanned WAEC where the birth certificate should be — has travelled farther than most lies, and the portal will judge it without pity. Then print or PDF the final confirmation page, the way you keep a teller’s slip at the bank. Applications are lost not at the choosing but in the last ten seconds: the bar abandoned, the wrong parcel posted, the slip never kept. Bilikisu submitted at 11:47 that night, kept her slip, and slept. You are past all three dangers now.
+
+Previous
+
+Lesson 104: Your email in your pocket
+
+Lesson 106: Papers the bag cannot lose

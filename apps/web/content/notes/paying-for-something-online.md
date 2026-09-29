@@ -4,7 +4,7 @@ description: "The first honest purchase: pay on delivery, the padlock's honest l
 date: "2026-02-10"
 minutes: "5"
 next_href: "/blog/the-forward-that-lies"
-next_title: "The forward that lies"
+next_title: "Lesson"
 ---
 
 ![A courier handing a parcel to a woman at a gate while she holds her phone.](https://www.cea.ng/images/blog/pay-on-delivery.jpg)
@@ -50,3 +50,9 @@ And if the checkout said success but no alert came: do not press Pay again in pa
 - Keep the receipt and read the bank alert twice. The change-counting moved indoors; it is still yours to do.
 
 Ngozi's slippers arrived on a Tuesday. She opened the parcel at the gate, the size was right, and she released the money with one tap — the same button her hand had hovered over, from a seller she had checked the way this lesson checks. The market is still a market. Now you know the stalls.
+
+Previous
+
+Lesson 109: The forward that lies
+
+Lesson 111: Your bank in your hand

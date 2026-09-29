@@ -4,7 +4,7 @@ description: "CC is words on the picture. Pause is thinking time. Speed is not a
 date: "2026-08-18"
 minutes: "5"
 next_href: "/blog/watching-a-video-without-getting-lost"
-next_title: "Watching a video without getting lost"
+next_title: "Lesson"
 ---
 
 ![A paused video with captions at the bottom of the picture.](https://www.cea.ng/images/blog/captions-on.jpg)
@@ -54,3 +54,9 @@ And when a video has no captions at all? Slow it to 0.75, use earphones, and wri
 - Do not download a “subtitle plugin” from a banner under the video. The captions are already in the player.
 
 The point of any tutorial is one thing you can do afterwards that you could not do before. Captions, pause, speed, paper — those four taps buy you that one thing from almost any video on the internet. And when you have it, close the tab. The next video will offer itself. You already know how to leave a market.
+
+Previous
+
+Lesson 86: Watching a video without getting lost
+
+Lesson 88: Airplane mode

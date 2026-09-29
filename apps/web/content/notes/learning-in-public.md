@@ -4,7 +4,7 @@ description: "Share what you learn, ask questions worth answering, and let the n
 date: "2026-07-19"
 minutes: "4"
 next_href: "/blog/the-body-at-the-desk"
-next_title: "The body at the desk"
+next_title: "Lesson"
 ---
 
 ![A person typing a question into an online forum on a laptop, notebook open beside them.](https://www.cea.ng/images/blog/question-post-forum.jpg)
@@ -40,3 +40,9 @@ Keep the shelf’s guard up while you are open: the forward-that-lies circulates
 ## The compounding of being seen
 
 A year of learning in public leaves a strange residue: a timeline of a person who keeps showing up, a small library of answers under your name, strangers who forward you work with the words “I have been watching you.” The certificates lesson will say what papers prove; this lesson says what presence proves — persistence, honesty about the struggle, and the habit of finishing in daylight. The portfolio shows what you did. The public trail shows who you are. Clients and employers read both, and only one of them builds itself while you learn. Oluchi’s shop-spreadsheet man came back in October with a paid job and one sentence of explanation: “You answer people.” Post the pivot table.
+
+Previous
+
+Lesson 145: The body at the desk
+
+Lesson 147: When a client goes quiet

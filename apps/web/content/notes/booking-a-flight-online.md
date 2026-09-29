@@ -4,7 +4,7 @@ description: "The first flight, booked by your own hands: the airline's door, th
 date: "2026-09-05"
 minutes: "5"
 next_href: "/blog/electricity-units-online"
-next_title: "Electricity units, bought online"
+next_title: "Lesson"
 ---
 
 ![A laptop showing a flight booking form with dates and a passenger&#x27;s details being typed.](https://www.cea.ng/images/blog/flight-booking-screen.jpg)
@@ -50,3 +50,9 @@ A day before the flight, the airline opens check-in: a few taps on the site or a
 - The half-price DM is the junction man with a data plan. Four honest doors, all yours — use one.
 
 The travel agent keeps a place — tangled visas, multi-country tours, corporate accounts. But the Lagos flight, the December homecoming, the interview in Abuja: these are now a table, a card, and twenty careful minutes. Every skill this road used, you already owned: the source law, the exact name, the reference kept, the screenshot as receipt. This was only their widest street. The next lesson wraps that street in a sealed cover and explains the word every traveller eventually meets: the VPN.
+
+Previous
+
+Lesson 166: Electricity units, bought online
+
+Lesson 168: The VPN, explained like a tunnel

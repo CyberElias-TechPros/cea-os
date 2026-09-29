@@ -4,7 +4,7 @@ description: "The classroom in your pocket, mostly free: search like a student, 
 date: "2026-03-08"
 minutes: "4"
 next_href: "/blog/government-things-online"
-next_title: "Government things, done online"
+next_title: "Lesson"
 ---
 
 ![A young person watching a tutorial video on a laptop with a notebook open beside them.](https://www.cea.ng/images/blog/youtube-tutorial-learning.jpg)
@@ -46,3 +46,9 @@ Keep the hours deliberate and they compound quietly. Pick the next step that is 
 ## Respect the gift
 
 A grandmother in this country could not have bought this shelf for any money, at any age in history, and it now sits beside her — free, in her language, mostly. The honour you pay a gift like that is to use it. Close the app sometimes and do the thing with your own hands, badly at first, the way every hand in these notes was trained. Watching is the beginning. Doing is the lesson. The rest is the pause button, pressed as often as needed.
+
+Previous
+
+Lesson 115: Government things, done online
+
+Lesson 117: The profile that finds work

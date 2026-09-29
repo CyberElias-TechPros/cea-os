@@ -4,7 +4,7 @@ description: "The mat by the door fills. A file that matters should walk into Do
 date: "2026-05-11"
 minutes: "5"
 next_href: "/blog/history-and-private-windows"
-next_title: "History and private windows"
+next_title: "Lesson"
 ---
 
 ![A Downloads folder with mixed files on a laptop.](https://www.cea.ng/images/blog/downloads-folder.jpg)
@@ -56,3 +56,9 @@ Last detail: a zip file on the mat is still a suitcase. Extract it into Document
 - Download a small PDF on purpose and watch it land in Documents/School instead of on the mat. Notice how that feels.
 
 Tunde's folder is at eleven files now, most of them from this week. The receipt lives in Fees, named like a person named it. The mat by the door is doing its real job again: holding things for one day, not one year. Finish the walk in the same sitting you downloaded, and the pile never comes back.
+
+Previous
+
+Lesson 47: History and private windows
+
+Lesson 49: What the cloud is, in ordinary words

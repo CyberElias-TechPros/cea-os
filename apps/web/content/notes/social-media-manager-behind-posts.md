@@ -4,7 +4,7 @@ description: "The job is not posting; it is selling with manners at scale — a 
 date: "2026-06-06"
 minutes: "4"
 next_href: "/blog/websites-for-small-businesses"
-next_title: "Websites for small businesses: a trade you can start this year"
+next_title: "Lesson"
 ---
 
 ![A planner showing a week of scheduled posts beside a phone on a desk.](https://www.cea.ng/images/blog/phone-content-calendar.jpg)
@@ -42,3 +42,9 @@ And keep the shelf’s guard up while you work, because this desk meets every li
 ## The trade of being trusted in public
 
 Strip the platforms and the trends — they will change again before these words grow old — and the job is ancient: stand at the front of the shop, know your goods, greet every caller well, and keep honest count of what sells. Businesses will always pay the person who can be trusted to speak for them in public, because most people cannot bear to do it daily. Damilola’s brand posted through two Februaries now, and the owner says the same thing at every market day: “She answers them before I finish hemming.” That is the work behind the posts, and there has never been more of it than now.
+
+Previous
+
+Lesson 135: Websites for small businesses: a trade you can start this year
+
+Lesson 137: Design as a trade: the graphic designer's table

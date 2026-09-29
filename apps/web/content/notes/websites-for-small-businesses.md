@@ -4,7 +4,7 @@ description: "Every shop, school and church needs one honest page on the interne
 date: "2026-06-01"
 minutes: "4"
 next_href: "/blog/it-support-the-person-who-fixes-the-day"
-next_title: "IT support: the person who fixes the day"
+next_title: "Lesson"
 ---
 
 ![A shop owner and a young developer looking at a laptop together behind a shop counter.](https://www.cea.ng/images/blog/small-shop-owner-laptop.jpg)
@@ -40,3 +40,9 @@ The road in is the portfolio's road. Build the first site for your church free, 
 ## The street is the market
 
 Nobody needs to import this trade. The customers are already within twenty minutes of you, already searched by strangers every day, already paying printers for banners that say less than one honest page would. The developer of the full-stack lesson builds for companies and continents; this trade builds for the street, in afternoons, for wages that compound into a living. One clear page at a time — it is how most of the independent web people you admire actually began. There is a particular satisfaction in walking past a shop and knowing its corner of the internet is yours.
+
+Previous
+
+Lesson 134: IT support: the person who fixes the day
+
+Lesson 136: The social media manager, behind the posts

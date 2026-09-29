@@ -4,7 +4,7 @@ description: "Data dead, network alive: the short codes that move money on any p
 date: "2026-08-21"
 minutes: "4"
 next_href: "/blog/the-upgrade-habit"
-next_title: "The upgrade habit"
+next_title: "Lesson"
 ---
 
 ![A thumb dialing a short banking code on a small phone under a dim bulb.](https://www.cea.ng/images/blog/ussd-dial-screen.jpg)
@@ -44,3 +44,9 @@ Two pocket manners complete the craft. First, the PIN: it is typed on the keypad
 ## The network that never finishes
 
 Data bundles expire and promotions end, but the call network is the last light on in every storm — it carried the OTP lesson’s ninety-second lantern and now it carries the market’s money. The trader with the small phone was never behind the times. She was ahead of them: she keeps one road that does not depend on bundles, on apps, on the grid. Learn her road, keep its laws, and the twelfth of the month becomes just another date the money crossed.
+
+Previous
+
+Lesson 160: The upgrade habit
+
+Lesson 162: The deductions on your line

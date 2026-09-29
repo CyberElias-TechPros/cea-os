@@ -4,7 +4,7 @@ description: "Their whole life is in the machine and it is in your hands. What t
 date: "2026-10-07"
 minutes: "5"
 next_href: "/blog/the-honest-reset"
-next_title: "The honest reset"
+next_title: "Lesson"
 ---
 
 ![A young woman copying files at a desktop computer while an older woman watches beside her at a warm home table.](https://www.cea.ng/images/blog/copying-photos-for-family.jpg)
@@ -48,3 +48,9 @@ Which is really the first: when the job later becomes a repair, an upgrade, or t
 - Two houses for every rescued life — and the iron law: no wipe until a fresh, sampled, signed backup stands behind the work.
 
 You are not copying files; you are carrying somebody's photographs through a river. Carry them high, count them twice, and let the owner watch you do it. Next: the rescue's elder cousin — the reinstall done properly in daylight, for the four times it is genuinely the right act.
+
+Previous
+
+Lesson 194: The honest reset
+
+Lesson 196: Setting up a new computer for somebody

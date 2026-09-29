@@ -4,7 +4,7 @@ description: "To is the person who must act. Cc is the person who should see. Bc
 date: "2026-07-03"
 minutes: "5"
 next_href: "/blog/page-numbers-and-headers"
-next_title: "Page numbers and a quiet header"
+next_title: "Lesson"
 ---
 
 ![An email compose window showing To, Cc and Bcc fields.](https://www.cea.ng/images/blog/cc-bcc.jpg)
@@ -50,3 +50,9 @@ One more set of eyes habit, cousin to the form lesson's re-reading: check the To
 - This week, press Reply — not Reply all — to every message that only the sender needs. Count how many mornings you just gave people back.
 
 The meeting is still on Friday at two. One email said so, and now one email is all it will ever need. To the organiser, Cc the supervisor, Bcc the crowd, and Reply with your answer alone. A quiet inbox is not an empty inbox. It is an inbox where every letter knows its room.
+
+Previous
+
+Lesson 68: Page numbers and a quiet header
+
+Lesson 70: A signature at the bottom of a mail

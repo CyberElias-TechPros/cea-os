@@ -4,7 +4,7 @@ description: "The grid has moods; your machines have limits. Choosing a power ba
 date: "2026-08-31"
 minutes: "5"
 next_href: "/blog/the-atm-and-the-card-manners"
-next_title: "The ATM, the POS, and the card manners"
+next_title: "Lesson"
 ---
 
 ![A phone charging from a power bank on a table at night, a small lamp glowing beside it.](https://www.cea.ng/images/blog/power-bank-charging.jpg)
@@ -46,3 +46,9 @@ The generator changeover deserves its sentence: the machines of the desk — the
 ## The grid and the guest
 
 The grid will keep its moods and the machines will keep their appetites; the household that prospers between the two is the one that arranged its bricks, its strips, and its one-minute rule in a quiet week. Power, like money and data, obeys the oldest law of this shelf: what is arranged in daylight does not panic at night. The next lesson takes the same arranging instinct to the wall box in the corridor that beeps when it is hungry — the prepaid meter, and the tokens that feed it.
+
+Previous
+
+Lesson 164: The ATM, the POS, and the card manners
+
+Lesson 166: Electricity units, bought online

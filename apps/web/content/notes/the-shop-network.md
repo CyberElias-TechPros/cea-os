@@ -4,7 +4,7 @@ description: "Router, POS, camera, printer, two laptops: draw the map before you
 date: "2026-10-02"
 minutes: "5"
 next_href: "/blog/phone-as-rescue-wire"
-next_title: "Your phone as the rescue wire"
+next_title: "Lesson"
 ---
 
 ![A small Nigerian shop counter with a desktop computer, a POS terminal, and a receipt printer arranged neatly.](https://www.cea.ng/images/blog/small-shop-counter-computer.jpg)
@@ -48,3 +48,9 @@ Two habits finish the plan. Quiet Tuesday: ten minutes once a week — is the re
 - Keep the book of keys and numbers in the drawer, and give the network ten quiet minutes every Tuesday.
 
 The wire from the mast now ends where the money is counted — fenced into three courtyards, lit through the darkness by a small power plan of its own, and mapped on paper in the drawer, which is where every good institution keeps its maps. The network chapter is complete. The next chapter changes seats entirely: not the machine that breaks, but the person it breaks for — the one people call, and the quiet trade of answering well.
+
+Previous
+
+Lesson 189: Your phone as the rescue wire
+
+Lesson 191: Listening like a technician

@@ -4,7 +4,7 @@ description: "The green app can sit in a browser. The phone stays the key. Scan 
 date: "2026-05-31"
 minutes: "4"
 next_href: "/blog/what-a-qr-code-is-doing"
-next_title: "What a QR code is doing"
+next_title: "Lesson"
 ---
 
 ![A laptop showing WhatsApp in a browser beside a phone with a QR code.](https://www.cea.ng/images/blog/whatsapp-web.jpg)
@@ -48,3 +48,9 @@ A full keyboard turns a two-minute voice note into a forty-second letter, and ev
 The menu — three dots, Log out — ends this computer's handshake. Closing the tab is not always enough; a session can linger. On a business-centre machine, log out, then the five-minute walk from the signing-out lesson. And Linked devices on the phone lists every computer still holding a key: remove the ones you do not recognise, especially after a café.
 
 Do not link WhatsApp to a shop's “test” computer. Do not photograph your own QR code and send it to a helper. The square is a key laid on the table — anyone who scans it sits in your chats until you remove the device. Web is a keyboard for your pocket, not a copy of your life left behind. Type, send, log out. The green app goes back in the pocket, where it belongs.
+
+Previous
+
+Lesson 55: What a QR code is doing
+
+Lesson 57: Maps without getting lost

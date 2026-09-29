@@ -4,7 +4,7 @@ description: "Mail merge is a factory for letters. Thirty names, one template. F
 date: "2026-05-21"
 minutes: "4"
 next_href: "/blog/tables-in-a-letter"
-next_title: "A table in a letter"
+next_title: "Lesson"
 ---
 
 ![A printed list of names beside a laptop.](https://www.cea.ng/images/blog/name-list.jpg)
@@ -48,3 +48,9 @@ Before the factory prints anything, run the preview — the button walks your le
 A job that prints fees notices. A union. A school office. Then learn it on a copy of the list, not the only list. Preview ten records before you print two hundred. Paper is a tap, you know that. Merge to PDF first if you can, look, then print. The factory is fast at making mistakes too.
 
 You now know the name of the machine so a supervisor cannot use it as a fog. “We will mail-merge” means a list plus a template. Ask to see the list. If there is no list, there is no merge. There is only hope. Skip until the list is real.
+
+Previous
+
+Lesson 51: A table in a letter
+
+Lesson 53: Calendar and reminders

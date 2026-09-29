@@ -4,7 +4,7 @@ description: "A machine learning engineer teaches machines by example instead of
 date: "2026-05-05"
 minutes: "4"
 next_href: "/blog/frontend-developer-explained"
-next_title: "The frontend developer, explained"
+next_title: "Lesson"
 ---
 
 ![An engineer at a whiteboard covered in diagrams, a laptop open beside them.](https://www.cea.ng/images/blog/ml-engineer-whiteboard.jpg)
@@ -40,3 +40,9 @@ And the road in, honestly: comfort with the spreadsheet's logic, then a real pro
 ## The teacher's teacher
 
 One respect to end on: this room sits behind half the conveniences of the wider street — the ride app's price, the bank's fraud watch, the map's traffic. When it is honest, it is the most powerful apprentice ever hired. When it is fed dirt or examined lazily, it learns the dirt faithfully and repeats it at scale, which is why the world needs people who understand it rather than people who merely invoke it. You now sit in the first group — and the exam of the next ten years will be finding more of them.
+
+Previous
+
+Lesson 128: The frontend developer, explained
+
+Lesson 130: Agile and DevOps: how the teams build

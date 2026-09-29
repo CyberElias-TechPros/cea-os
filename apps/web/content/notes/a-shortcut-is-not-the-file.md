@@ -4,7 +4,7 @@ description: "The little arrow means a signpost. Deleting the signpost leaves th
 date: "2026-04-08"
 minutes: "4"
 next_href: "/blog/start-menu-and-taskbar"
-next_title: "The Start menu and the taskbar as a map"
+next_title: "Lesson"
 ---
 
 ![A desktop shortcut icon with a small arrow, beside a real folder.](https://www.cea.ng/images/blog/shortcut-icon.jpg)
@@ -50,3 +50,9 @@ A “missing shortcut” warning means the address inside the sign is wrong — 
 - Now look at your own desktop honestly. Delete three signposts you never use. Keep every real file.
 
 Chinedu's Word was never gone, of course. The shop deleted nothing and installed nothing; they made one new signpost, and he walked to Word through it. Signs and houses look alike on purpose. The corner of the icon is the truth.
+
+Previous
+
+Lesson 34: The Start menu and the taskbar as a map
+
+Lesson 36: Volume and headphones

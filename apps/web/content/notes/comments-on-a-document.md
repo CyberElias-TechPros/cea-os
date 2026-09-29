@@ -4,7 +4,7 @@ description: "A comment is a note in the margin, not a change to the letter. Rep
 date: "2026-07-26"
 minutes: "4"
 next_href: "/blog/sharing-a-file-without-publishing-it"
-next_title: "Sharing a file without publishing it"
+next_title: "Lesson"
 ---
 
 ![A document with a short comment in the margin.](https://www.cea.ng/images/blog/doc-comment.jpg)
@@ -46,3 +46,9 @@ The at-symbol is the loudest key in the margin. Type it before a name and that p
 ## Email comments, and what not to @
 
 Some tools mail you for every comment. That can be a tap on the shoulder; it can also be a siren. Mute a document you only needed to send. Do not @ a list. Do not paste an OTP into a comment — the margin is not a vault. A comment is manners for two desks. It is not a court. You may disagree in a short reply, then edit the body yourself if you own it. When the page is clean and the margin is empty, you are done. Download the PDF if the office wants a plate without notes. Notes are for the kitchen. The plate is for the tray.
+
+Previous
+
+Lesson 77: Sharing a file without publishing it
+
+Lesson 79: Sorting a column without scrambling the rows

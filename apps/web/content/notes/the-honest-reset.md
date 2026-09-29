@@ -4,7 +4,7 @@ description: "Sometimes the reinstall is right. Do it like a professional: rescu
 date: "2026-10-06"
 minutes: "6"
 next_href: "/blog/fixing-without-formatting"
-next_title: "Fixing without formatting"
+next_title: "Lesson"
 ---
 
 ![A hand holding a USB flash drive in front of an open laptop on a wooden desk, ready to reinstall the system.](https://www.cea.ng/images/blog/windows-usb-installer-hand.jpg)
@@ -50,3 +50,9 @@ The last five minutes are the handover, and the honest reset earns its name here
 - Hand over with the completed inventory, and make the customer sign in to mail and bank with their own hands.
 
 The machine is clean, the files are home, and the daylight did its work. But notice how much of the honest reset was really the rescue in disguise — the copying, counting, and confirming that happened before anything was destroyed. That rescue deserves a lesson of its own, because it is the service every family in this country needs and almost nobody performs before the disaster. Next: backing up somebody else's machine without losing their life.
+
+Previous
+
+Lesson 193: Fixing without formatting
+
+Lesson 195: Backing up someone else's machine

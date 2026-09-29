@@ -4,7 +4,7 @@ description: "The camera is a hole at the top of the screen. A light means it is
 date: "2026-04-29"
 minutes: "4"
 next_href: "/blog/heat-and-the-vents"
-next_title: "Heat and the vents"
+next_title: "Lesson"
 ---
 
 ![A laptop webcam with a small sliding privacy cover closed.](https://www.cea.ng/images/blog/webcam-cover.jpg)
@@ -48,3 +48,9 @@ The paper sticker is the low-technology answer and there is no shame in it. A sm
 A shop testing a camera should do it in front of you. A “support” person on the phone who needs the camera on while they remote-control the machine is the password lesson wearing a lens. No. Family sharing a laptop: a cover is kinder than an argument. Children: the cover is not a toy. It slides for a reason.
 
 You are not being asked to fear the eye every minute. You are being asked to know when it is open. Light, permission, curtain. Three checks. Then use the camera on purpose, as you use the microphone on purpose. The machine looking without you is a guest you did not invite. Show it the door.
+
+Previous
+
+Lesson 42: Heat and the vents
+
+Lesson 44: Cookies and “Accept all”

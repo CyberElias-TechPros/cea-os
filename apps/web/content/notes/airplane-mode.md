@@ -4,7 +4,7 @@ description: "The plane icon mutes the radios: calls, data, Wi‑Fi, Bluetooth. 
 date: "2026-08-20"
 minutes: "4"
 next_href: "/blog/captions-pause-and-speed"
-next_title: "Captions, pause, and speed"
+next_title: "Lesson"
 ---
 
 ![A phone settings screen with Airplane mode switched on.](https://www.cea.ng/images/blog/airplane-mode.jpg)
@@ -46,3 +46,9 @@ The same switch settles other small wars. A class that must not be interrupted b
 ## When it is the wrong tool
 
 A bank OTP will not arrive on the plane — switch off before you pay. Maps that need live data will freeze (the offline map still shows streets). And WhatsApp Web on the laptop dies when the phone is on the plane, because the phone is the key — you know that handshake. The plane is a door you close on purpose. It is not broken signal, and it is not a virus. If a relative says the phone “has no network,” look for the plane before you buy data. The icon is small. The effect is large. Look, then tap.
+
+Previous
+
+Lesson 87: Captions, pause, and speed
+
+Lesson 89: When the phone says storage is full

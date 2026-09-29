@@ -4,7 +4,7 @@ description: "The fan is a lung. Beds and cloths are pillows over the lung. A ta
 date: "2026-04-26"
 minutes: "4"
 next_href: "/blog/charging-without-killing-the-battery"
-next_title: "Charging without killing the battery"
+next_title: "Lesson"
 ---
 
 ![Laptop side vents on a wooden desk.](https://www.cea.ng/images/blog/laptop-vents.jpg)
@@ -48,3 +48,9 @@ The rest is table sense. A video call at noon on a foam bed is a heavy meal in a
 Direct sun on a black lid is a second heater. Shade, even a veranda, is better. A closed car at noon will cook a pack until it swells. Take the machine with you, or do not leave it there. This is not delicate. It is the same as not leaving a bottle of perfume on a dashboard.
 
 If Windows says it is too hot and goes off, believe it. Let it cool on a table, lid open a little, before you start again. Starting immediately to see if it works is how you meet a shutdown loop. So where would you look first the next time the fan screams mid-letter? At the grille and the surface beneath it — before the task manager, before the repair shop. Heat is a message. The vents are the mouth. Give them air.
+
+Previous
+
+Lesson 41: Charging without killing the battery
+
+Lesson 43: The webcam and who can see you

@@ -4,7 +4,7 @@ description: "Laptops do not slow down because they are getting old; they slow d
 date: "2026-09-15"
 minutes: "4"
 next_href: "/blog/when-the-screen-stays-dark"
-next_title: "When the screen stays dark"
+next_title: "Lesson"
 ---
 
 ![An opened laptop revealing a thick felt carpet of grey dust clogging the copper cooling exhaust fins.](https://www.cea.ng/images/blog/laptop-heatsink-dust-carpet.jpg)
@@ -48,3 +48,9 @@ One more part ages quietly. Between the chip and the copper pipe sits a thin gre
 ## Cool air is free speed
 
 Before you spend money on a newer laptop — or pay somebody to “format” a drive that was never the problem — give the machine room to breathe. Brush the grill, lift the belly, keep it off the mattress. A cool computer is a quiet servant that will work beside you for years without shouting. Next in this home-stretch run: the frightening tick-tick-click sound from inside the palm rest, and the solid-state cure.
+
+Previous
+
+Lesson 171: When the screen stays dark
+
+Lesson 173: The hard drive that clicks and the solid-state cure

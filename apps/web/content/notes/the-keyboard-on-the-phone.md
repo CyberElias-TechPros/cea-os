@@ -4,7 +4,7 @@ description: "You type more on glass than on any keyboard you will meet. Long-pr
 date: "2026-01-05"
 minutes: "4"
 next_href: "/blog/six-more-keystrokes"
-next_title: "Six more keystrokes, then rest"
+next_title: "Lesson"
 ---
 
 ![Two thumbs typing on a phone keyboard held in both hands.](https://www.cea.ng/images/blog/phone-keyboard-hands.jpg)
@@ -48,3 +48,9 @@ And when autocorrect replaces something you meant, the undo is gentler than you 
 ## When it misbehaves
 
 The keyboard vanished? Tap the box you were typing into; it is shy, not broken. It switched itself to French overnight? Look for the globe or language key beside the space bar. The clicks and vibrations madden you? That lives in the keyboard’s own settings, usually behind a gear or a long-press on the comma. Nothing here needs a technician. The keyboard is the smallest computer you own — and now its dictionary knows your names.
+
+Previous
+
+Lesson 101: Six more keystrokes, then rest
+
+Lesson 103: Talking to the keyboard

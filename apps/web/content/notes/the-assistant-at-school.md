@@ -4,7 +4,7 @@ description: "Explain it slowly, quiz me, make me a timetable: the honest uses t
 date: "2026-10-16"
 minutes: "5"
 next_href: "/blog/checking-the-homework"
-next_title: "Checking the machine's homework"
+next_title: "Lesson"
 ---
 
 ![A young student at a wooden desk at night with a textbook, notebook, and laptop under lamp light.](https://www.cea.ng/images/blog/student-studying-with-laptop-night.jpg)
@@ -44,3 +44,9 @@ Then the picture at the end of the road, which settles the fear. The assistant a
 - The assistant is the calculator of this decade — keep the wrestling and let it carry the load.
 
 The student's desk is arranged and the line is agreed at home. But the same box sits on the adult's desk at the office with different temptations entirely — salary letters, client contracts, the boss's confidential circular. The next lesson is the assistant at work, where the four errands stay and one very large rule joins them: the secrets never walk into the confessional.
+
+Previous
+
+Lesson 203: Checking the machine's homework
+
+Lesson 205: The assistant at work

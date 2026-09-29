@@ -4,7 +4,7 @@ description: "The queue under the umbrella, the slot that wiggles, the keypad wo
 date: "2026-08-27"
 minutes: "4"
 next_href: "/blog/where-the-data-goes"
-next_title: "Where the data goes"
+next_title: "Lesson"
 ---
 
 ![A hand covering the ATM keypad while the other types, shoulder and camera protected.](https://www.cea.ng/images/blog/atm-shield-pin.jpg)
@@ -44,3 +44,9 @@ The POS at the market completes the craft, in reverse politeness: before the mac
 ## The nation at the wall
 
 Every manner in this lesson is small, and together they are the reason some people have used machines for thirty years without one story to tell. The watchers at the wall are real, but they are lazy — they take the uncovered keypad, the wiggled slot, the uncounted change. Be the person who is boring to steal from. The queue will call you careful under its breath, and your Friday will end with the notes you came for. The next lesson steps away from the wall, to the quiet war your devices fight every day: the grid, and how to keep your machines fed through its moods.
+
+Previous
+
+Lesson 163: Where the data goes
+
+Lesson 165: Power banks, surges, and the charging life

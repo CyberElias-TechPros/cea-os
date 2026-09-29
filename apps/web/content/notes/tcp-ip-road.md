@@ -4,7 +4,7 @@ description: "TCP/IP is the shared grammar of the internet — a long letter tor
 date: "2026-04-22"
 minutes: "4"
 next_href: "/blog/vulnerability-assessment-fence"
-next_title: "The vulnerability assessment: checking the fence"
+next_title: "Lesson"
 ---
 
 ![Small numbered parcels travelling along a road toward a house in warm evening light.](https://www.cea.ng/images/blog/tcp-parcels-road.jpg)
@@ -42,3 +42,9 @@ And why does a learner who is not chasing those jobs care? Because half of every
 ## The grammar under everything
 
 Every lesson on this shelf rode these roads without naming them: the email lesson, the cloud, the ride map, the bank in your hand. Named now, they lose their last fog. The internet is houses with addresses, roads with junctions, letters as parcels, doors numbered by business. Everything the analysts watch travels these roads; everything the builders build travels them. The padlock, the update, the second lock — all of it is traffic on TCP/IP. One grammar, learned once, used for the rest of the connected life. The next lesson stays with the mail, and asks what it means when a letter must carry proof of who sealed it.
+
+Previous
+
+Lesson 125: The vulnerability assessment: checking the fence
+
+Lesson 127: What a digital signature really signs

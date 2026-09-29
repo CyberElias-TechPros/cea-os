@@ -4,7 +4,7 @@ description: "Moving day is where people lose more than thieves ever take. Whats
 date: "2026-02-20"
 minutes: "4"
 next_href: "/blog/bank-in-your-hand"
-next_title: "Your bank in your hand"
+next_title: "Lesson"
 ---
 
 ![An old phone and a new phone lying side by side on a table during a move.](https://www.cea.ng/images/blog/two-phones-move.jpg)
@@ -42,3 +42,9 @@ Photographs last, because they are the heaviest: if the gallery was backing up t
 Keep the old phone whole and charged for a week after the move. It is the attic now, and attics are not demolished while the new house is still being unpacked — something always turns out to be missing, and the attic holds it. Only then does the market get the old machine.
 
 A phone sold with your accounts inside is a house handed over with keys still in the doors. Sign out of the Google or Apple account — Settings, Accounts, Remove. Remove the SIM and the memory card; the number is the key that keeps the new phone yours. Then factory reset — Settings, System, Reset — and confirm. The machine returns to the afternoon it was born, empty and honest, and the next owner inherits a phone, not your WhatsApp, your gallery, your two-step codes, and your good name. What mattered crossed over in the backup. That is what the backup was for.
+
+Previous
+
+Lesson 111: Your bank in your hand
+
+Lesson 113: Selling the thing you own

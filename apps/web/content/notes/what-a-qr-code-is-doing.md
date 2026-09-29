@@ -4,7 +4,7 @@ description: "A QR code is a printed address. The camera reads it and offers a d
 date: "2026-05-29"
 minutes: "5"
 next_href: "/blog/contacts-versus-the-phone-book"
-next_title: "Contacts versus the phone book"
+next_title: "Lesson"
 ---
 
 ![A phone camera pointed at a QR code on a paper flyer.](https://www.cea.ng/images/blog/qr-scan.jpg)
@@ -50,3 +50,9 @@ You can turn your own address into dots easily — the academy's site, your busi
 - If the camera does nothing: more light, hold still, move a little farther back. A blurry square is not a broken phone.
 
 A QR code is only an address that nobody had room to print in letters. You already know what to do with an address you were handed by a stranger: read it, weigh it, and walk only where you would have walked anyway. The square will wait for you to decide.
+
+Previous
+
+Lesson 54: Contacts versus the phone book
+
+Lesson 56: WhatsApp Web on a computer

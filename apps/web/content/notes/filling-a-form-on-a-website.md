@@ -4,7 +4,7 @@ description: "A form is a paper with boxes. Tab moves to the next box. A red sta
 date: "2026-02-24"
 minutes: "4"
 next_href: "/blog/shutdown-sleep-and-the-power-button"
-next_title: "Shut down, sleep, and the power button"
+next_title: "Lesson"
 ---
 
 ![A laptop browser showing a simple web form with name, phone and email fields.](https://www.cea.ng/images/blog/web-form.jpg)
@@ -46,3 +46,9 @@ When you press Continue and the page jumps, look for red text or a box outlined 
 The last button is the one that files you, or takes money. One click. Then wait. A slow network will tempt a second click — and a second click is how people are charged twice or create two applications. If the page seems dead, look at the tab's little spinner and count to sixty. If nothing, do not press Back. Back, in a payment, is famous. Open a new tab instead, go to the same real site, and look for a dashboard, a receipt, or “already submitted.” If money left the bank and the site is silent, the bank SMS is your receipt — keep it — then use the site's own contact, not a number from a pop-up.
 
 Save or screenshot the success page if the site does not email you. Pictures, named. The form is finished when you have evidence, not when you feel finished. And if a page asks you to create a password for this one form: a new sentence, a hint in the notebook, and never a recycled Gmail key. Each house its own key — you have heard that before, because it keeps being true.
+
+Previous
+
+Lesson 17: Shut down, sleep, and the power button
+
+Lesson 19: A video call without panic

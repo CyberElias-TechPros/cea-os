@@ -4,7 +4,7 @@ description: "The page that will not open has four possible culprits: the device
 date: "2026-09-27"
 minutes: "5"
 next_href: "/blog/what-a-megabyte-is"
-next_title: "What a megabyte is, and where your data goes"
+next_title: "Lesson"
 ---
 
 ![A young man crouching beside a low shelf, looking closely at a router&#x27;s blinking lights in a dim room.](https://www.cea.ng/images/blog/checking-router-lights-crouch.jpg)
@@ -48,3 +48,9 @@ And one last honest rung for this country: ask whether the light has been kind. 
 - Call the provider only with the account number and one evidence sentence: lights normal, shelf-speed poor.
 
 Four suspects, one ladder, five minutes. The page that would not open last Tuesday was the browser; the one before it was a loose cable behind the shelf; once, just once, it was truly the provider, and the call took four minutes because the notebook already held the numbers. Keep the ladder and the panic retires. Fixing is not genius. It is order.
+
+Previous
+
+Lesson 184: What a megabyte is, and where your data goes
+
+Lesson 186: Names on the network

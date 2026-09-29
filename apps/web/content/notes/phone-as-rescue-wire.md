@@ -4,7 +4,7 @@ description: "When the house line dies, the pocket router lives. Hotspot, the US
 date: "2026-10-01"
 minutes: "5"
 next_href: "/blog/neighbours-and-your-wifi"
-next_title: "The neighbours and your Wi-Fi"
+next_title: "Lesson"
 ---
 
 ![A phone propped against a mug beside a laptop on a wooden table, both in use in afternoon light.](https://www.cea.ng/images/blog/phone-hotspot-laptop.jpg)
@@ -46,3 +46,9 @@ Then watch the meter honestly. Every phone keeps a record under Settings, then N
 - Watch Data usage after every rescue. The culprit that ate the bundle is listed there, in plain type.
 
 The rescue wire goes back in the bag when the road reopens. Used that way, a phone is not a second internet bill — it is the generator that keeps the shop's last four customers paying, and nothing more. Next lesson puts all of this into one room at last: the small shop's network, drawn on paper before a single naira is spent.
+
+Previous
+
+Lesson 188: The neighbours and your Wi-Fi
+
+Lesson 190: A small network for a small shop

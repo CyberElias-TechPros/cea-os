@@ -4,7 +4,7 @@ description: "A free fan in a café is a shared tap. Mail can wait. The bank sho
 date: "2026-09-17"
 minutes: "5"
 next_href: "/blog/one-time-passwords"
-next_title: "OTPs — codes that die"
+next_title: "Lesson"
 ---
 
 ![A laptop at a small café table with a Wi-Fi password card.](https://www.cea.ng/images/blog/cafe-wifi.jpg)
@@ -46,3 +46,9 @@ With the promise narrowed to its true size, the café rules become simple. Anyth
 ## The business centre
 
 Their machines plus their Wi-Fi is two crowds. USB your files, do the work, the five-minute walk from the signing-out lesson, take the stick. Their machine, your bank login — that combination should never exist. If they offer to “help you pay,” they are in the password lesson's territory: you type, they point, or you leave. Public radio is not evil. It is shared. Shared is fine for a newspaper. Shared is not fine for a key. Look at the fan, name the job, and if the job is money, pay for the pipe. The bundle is smaller than a reversal you will not get.
+
+Previous
+
+Lesson 98: OTPs — codes that die
+
+Lesson 100: “You have won” — the message that wants a fee

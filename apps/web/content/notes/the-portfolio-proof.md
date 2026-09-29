@@ -4,7 +4,7 @@ description: "A CV says you can; a portfolio shows you did; a client decides in 
 date: "2026-06-24"
 minutes: "4"
 next_href: "/blog/pricing-your-work"
-next_title: "Pricing your work without apologising"
+next_title: "Lesson"
 ---
 
 ![A printed portfolio of project pages spread across a table beside a laptop.](https://www.cea.ng/images/blog/portfolio-printed-works.jpg)
@@ -42,3 +42,9 @@ Then the rhythm that keeps it alive. Every finished job, however small, enters t
 ## The shelf, complete
 
 One hundred and forty notes. You began at a dark screen and a plastic oval, afraid of breaking something, and you end with the vocabulary of watchers and builders, the manners of money, the law of proof. Nothing on this shelf was magic — it was only never explained at this table before, and you did the hours anyway, which was always the entire secret. Wherever this chapter finds you — the night class, the first free job, the first held price — leave one note behind you for the next person: a taught hand, a kind answer, a kept promise. That is the whole curriculum, and it was always yours. Go and show them.
+
+Previous
+
+Lesson 139: Pricing your work without apologising
+
+Lesson 141: Your first paid client, start to finish

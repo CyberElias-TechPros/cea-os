@@ -4,7 +4,7 @@ description: "A long list swallows the words Name and Amount. Freeze panes pins 
 date: "2026-08-05"
 minutes: "4"
 next_href: "/blog/making-numbers-look-like-money"
-next_title: "Making numbers look like money"
+next_title: "Lesson"
 ---
 
 ![A spreadsheet scrolled down with the header row still visible.](https://www.cea.ng/images/blog/freeze-panes.jpg)
@@ -46,3 +46,9 @@ One honest limit: the frozen bands still print. Pinning does not repeat column A
 ## What freeze is not
 
 It is not Protect Sheet. It is not Hide. It is not a backup. People still edit frozen headers if they click them; if you want the header safe, that is a different lock, and you do not need it yet. For today: a ruler that stays while the register walks. When you can name column C at row 90 without scrolling home — as Ekene now can, every December — the pin has earned its keep.
+
+Previous
+
+Lesson 81: Making numbers look like money
+
+Lesson 83: Filling a formula down a column

@@ -4,7 +4,7 @@ description: "Certificates drown, burn, and walk out of bags. Scanned, named, an
 date: "2026-01-24"
 minutes: "4"
 next_href: "/blog/the-file-that-goes-up"
-next_title: "The file that goes up"
+next_title: "Lesson"
 ---
 
 ![A phone held in both hands showing cloud storage folders named Papers, Certificates and IDs.](https://www.cea.ng/images/blog/drive-papers.jpg)
@@ -46,3 +46,9 @@ Then build the shelf to match: one folder per person or per matter, inside your 
 ## One evening, then a habit
 
 Do not attempt the whole drawer in one heroic night. One paper each evening, the way the keyboard was learned — ten honest minutes. The originals stay where your mother can find them; the copies sit above the flood line, above the fire, above the thief. Amara rebuilt every paper in nine evenings that September, and the December when the roof finally leaked, the only casualty was the ceiling. A house may stand for eighty years without trouble. The papers cost you one week of evenings to make sure that if it does not, your name survives the trouble.
+
+Previous
+
+Lesson 105: The file that goes up
+
+Lesson 107: Before you forget the password

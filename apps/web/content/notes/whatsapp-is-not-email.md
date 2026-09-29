@@ -4,7 +4,7 @@ description: "Chat is a tap on the shoulder. Email is a letter on a desk. School
 date: "2026-02-04"
 minutes: "5"
 next_href: "/blog/spreadsheets-the-grid-that-counts"
-next_title: "Spreadsheets: the grid that counts"
+next_title: "Lesson"
 ---
 
 ![A smartphone showing a chat beside a laptop with an email open.](https://www.cea.ng/images/blog/phone-and-laptop.jpg)
@@ -50,3 +50,9 @@ WhatsApp compresses photographs. A receipt that looked sharp on your screen can 
 Groups are rooms with many ears. A class group is not a private letter to the instructor. Do not post your BVN, your OTP, or a quarrel. Reply privately when the matter is one person's. Admin messages pinned at the top are the closest thing chat has to a subject line — read them before asking the question already answered.
 
 Back up the phone if the chats matter. WhatsApp can save to Google Drive or iCloud; that is a setting, not a miracle. It still is not a filing cabinet. The academy will not hunt through your backup to find last term's receipt. Put work that must last in Documents, on email, on a USB, the way the files lesson said. Use the green app to live. Use the letter to remain.
+
+Previous
+
+Lesson 9: Spreadsheets: the grid that counts
+
+Lesson 11: A letter that looks like one

@@ -4,7 +4,7 @@ description: "Sound has a tap on the keyboard and a tap in the tray. Headphones 
 date: "2026-04-11"
 minutes: "5"
 next_href: "/blog/a-shortcut-is-not-the-file"
-next_title: "A shortcut is not the file"
+next_title: "Lesson"
 ---
 
 ![Laptop keyboard with volume keys, a speaker icon on the screen.](https://www.cea.ng/images/blog/volume-keys.jpg)
@@ -52,3 +52,9 @@ Two manners worth carrying out of this lesson. Headphones in before the video st
 - Unplug. If the speakers stay dead, click the tray speaker, the small arrow, and choose Speakers.
 
 Four places, then: keys, tray, headphones, and the player. Look at all four before you believe anything about a broken speaker. Kelechi's machine was never sick. One path had been closed by an errant finger, and the tray knew it all along.
+
+Previous
+
+Lesson 35: A shortcut is not the file
+
+Lesson 37: Brightness and night use

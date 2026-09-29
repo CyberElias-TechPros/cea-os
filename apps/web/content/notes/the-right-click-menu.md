@@ -4,7 +4,7 @@ description: "The right button is not a second click. It is a list of extra acts
 date: "2026-07-13"
 minutes: "4"
 next_href: "/blog/kilobytes-and-megabytes"
-next_title: "What KB, MB and GB actually mean"
+next_title: "Lesson"
 ---
 
 ![A small right-click menu open over a file on a laptop.](https://www.cea.ng/images/blog/right-click-menu.jpg)
@@ -44,3 +44,9 @@ Because the menu answers the thing you actually asked, its coat changes: on a fi
 There is a keyboard for hands that do not use a mouse well: the key with the menu drawn on it, usually beside the right Ctrl key, opens the same coat at the cursor's place — and Shift+F10 does the same on keyboards missing that key. Inside the menu, the New submenu is the quiet workshop: a folder, a shortcut, a blank document of any installed kind, two clicks from any empty table. And Properties, at the bottom of almost every coat, is the facts panel: size, type, where the file lives, when it last changed. Date modified settles which of two similar receipts is the new one; Read-only is the tick that says “do not save over me,” useful on a template. You do not need to live in Properties. Know it exists, so a helper who says “check the size” is not speaking a foreign language.
 
 The right button is how a computer hides power in a small list instead of fifty icons. You will not memorise every list. You will look, pick a verb you can defend, or leave — the same manners as the installer boxes. The menu is not a command. It is an offer.
+
+Previous
+
+Lesson 72: What KB, MB and GB actually mean
+
+Lesson 74: Drag and drop without losing the file

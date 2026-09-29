@@ -4,7 +4,7 @@ description: "One printer, four laptops, no flash drive. What sharing really ope
 date: "2026-09-29"
 minutes: "4"
 next_href: "/blog/names-on-the-network"
-next_title: "Names on the network"
+next_title: "Lesson"
 ---
 
 ![A small office printer on a wooden cabinet with paper in its tray and a laptop nearby in soft daylight.](https://www.cea.ng/images/blog/shared-office-printer.jpg)
@@ -44,3 +44,9 @@ And the flash drive, since someone always asks: it still exists, it still works,
 - Check the print queue before any funeral for the printer. Most offline Mondays are four jobs waiting in line.
 
 Inside the compound, everything now shares politely by name and permission. But wireless fences are transparent things, and the next question is the one every neighbour with a strong antenna eventually asks: whose lantern is that — and may I sit in its light?
+
+Previous
+
+Lesson 186: Names on the network
+
+Lesson 188: The neighbours and your Wi-Fi

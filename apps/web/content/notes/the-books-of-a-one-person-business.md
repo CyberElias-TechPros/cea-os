@@ -4,7 +4,7 @@ description: "You earned it; now keep it. Separate the money, record every in an
 date: "2026-07-07"
 minutes: "4"
 next_href: "/blog/working-with-ai-assistants"
-next_title: "Working with AI assistants"
+next_title: "Lesson"
 ---
 
 ![Two bank cards and a small ledger notebook on a desk, one card marked for business.](https://www.cea.ng/images/blog/money-two-accounts.jpg)
@@ -40,3 +40,9 @@ The tools, honestly: begin with notebook or spreadsheet — you own both skills 
 ## The books are the business’s own portrait
 
 One reframe to close: the books are not bureaucracy. They are the honest mirror the bank lesson taught you to read for your employer’s sake — read now for your own. The weekly list, the split on arrival, the monthly hour: together they turn a person who earns into a business that lasts, and they answer, at last, the question every worker on this shelf deserves to ask precisely: is this working? Now you will know, to the naira. Adanna learned in September that March’s contract had earned less than a week of smaller jobs — a fact her head had polished into a triumph. The books told the truth, kindly, before the year could lie any further.
+
+Previous
+
+Lesson 142: Working with AI assistants
+
+Lesson 144: Secrets that are not yours

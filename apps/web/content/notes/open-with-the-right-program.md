@@ -4,7 +4,7 @@ description: "A file is not a program. Double-click asks Windows to guess. Open 
 date: "2026-07-08"
 minutes: "4"
 next_href: "/blog/an-email-signature"
-next_title: "A signature at the bottom of a mail"
+next_title: "Lesson"
 ---
 
 ![An Open with list of programs over a file on a laptop.](https://www.cea.ng/images/blog/open-with.jpg)
@@ -42,3 +42,9 @@ A file that says “Windows cannot open this” is usually one of two honest pro
 Photographs want the photo viewer for looking, Paint or Photos for fixing. PDFs want a reader or the browser. Documents want Word — or its browser cousin for reading. Music and video want the media player. And notice the useful oddity: the browser is a fine temporary home for PDFs and photographs — it opens them gently in a tab with no marriage at all. When a file type has wandered entirely — an .txt opening in a spreadsheet, a photograph in Notepad — remember the real cause. The file is fine. The signpost points to the wrong house.
 
 So the skill in one breath: a PDF in Edge or Chrome is fine for reading; Word is for editing; Photos is for a picture you might crop; Excel is for a grid that must add. Double-click is a habit. Open with is a decision. When the habit is wrong, use the decision — the file will wait. It is only paper until hands pick it up.
+
+Previous
+
+Lesson 70: A signature at the bottom of a mail
+
+Lesson 72: What KB, MB and GB actually mean

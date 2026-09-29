@@ -4,7 +4,7 @@ description: "Fifty naira here, twenty there, and the airtime is gone by Wednesd
 date: "2026-08-22"
 minutes: "5"
 next_href: "/blog/banking-without-the-internet"
-next_title: "Banking without the internet"
+next_title: "Lesson"
 ---
 
 ![A phone screen showing a list of small deduction text messages, held by a frowning owner.](https://www.cea.ng/images/blog/data-deduction-message.jpg)
@@ -46,3 +46,9 @@ One more leak deserves its own sentence: the airtime-to-data conversions and the
 ## The smallest recurring scam
 
 Nobody gets rich stealing fifty naira from a million people — but a million people quietly get poorer, which is the same arithmetic wearing the other trouser. The deductions survive on not-looking, and not-looking is a habit you can end. One evening with the network's app, one list switched off, one DND turned on — and the line goes back to being what you paid for: your voice, your data, your money. The next lesson stays with the bundle itself, and asks where the data actually goes by Wednesday.
+
+Previous
+
+Lesson 161: Banking without the internet
+
+Lesson 163: Where the data goes

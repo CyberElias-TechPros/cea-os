@@ -4,7 +4,7 @@ description: "It lies with a calm face, especially about names, numbers, and law
 date: "2026-10-15"
 minutes: "6"
 next_href: "/blog/asking-clearly"
-next_title: "Asking clearly"
+next_title: "Lesson"
 ---
 
 ![Two open books and a phone on a wooden table, a person&#x27;s finger comparing them in warm library light.](https://www.cea.ng/images/blog/verifying-with-two-sources.jpg)
@@ -50,3 +50,9 @@ Compressed, it fits on the card beside the four-part instruction: shape from the
 - The checking pass is your name's warranty department. The machine will never grow anxious on your behalf.
 
 The homework habit now stands between the machine and your name. With the tool honest and fenced, we can finally put it to its kindest work — as the patient tutor who never tires of a question, and who can compress the lonely weeks of learning into evenings that actually stick.
+
+Previous
+
+Lesson 202: Asking clearly
+
+Lesson 204: The assistant at school

@@ -4,7 +4,7 @@ description: "An installer is a guest you invited. Next is not the same as I agr
 date: "2026-03-04"
 minutes: "5"
 next_href: "/blog/when-the-computer-is-slow"
-next_title: "When the computer is slow"
+next_title: "Lesson"
 ---
 
 ![A laptop screen showing a simple software installer with a Next button.](https://www.cea.ng/images/blog/installer-window.jpg)
@@ -52,3 +52,9 @@ Choose custom or advanced whenever it appears; that door shows you the rooms. Un
 SmartScreen may say “Windows protected your PC.” If you are on the maker’s real site and you recognise the name, More info, then Run anyway. If you do not recognise the name, Close. That warning is not always a liar. It is a cautious clerk. Treat unknown installers as you treat unknown links.
 
 After install, a browser may have a new homepage you did not want. That is the extra guest. You will remove it in the next lesson. For today: one program, one purpose, eyes on the ticks. Installing is not dangerous because it is technical. It is dangerous because Next is easy.
+
+Previous
+
+Lesson 20: When the computer is slow
+
+Lesson 22: Uninstalling what a shop added

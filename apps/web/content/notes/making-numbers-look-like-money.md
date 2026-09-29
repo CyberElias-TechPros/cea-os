@@ -4,7 +4,7 @@ description: "Type 1500. Then tell the grid it is naira. The sign is a costume. 
 date: "2026-08-03"
 minutes: "4"
 next_href: "/blog/printing-a-sheet-so-it-fits"
-next_title: "Printing a spreadsheet so it fits"
+next_title: "Lesson"
 ---
 
 ![A spreadsheet amount column formatted as money.](https://www.cea.ng/images/blog/currency-format.jpg)
@@ -48,3 +48,9 @@ Two more costumes share the drawer. Comma style adds the thousands without the s
 A government portal that wants 1500.00 in a box may reject ₦. Paste digits. A letter to a human may want ₦1,500 — and that is Word, Insert Symbol, not a spreadsheet cell. Two rooms, two costumes. In the grid, the number is the worker and the sign is a hat. Put the hat on after the worker is in place, and then the total still moves when Friday’s figure changes — which was the whole point of the grid.
 
 Musa’s list now shows ₦18,500.00 at the foot of the column, and the formula bar, when you click it, says 18500. The costume is perfect. The body is untouched. That gap between how a number looks and what a number is will serve you in every room after this one.
+
+Previous
+
+Lesson 80: Printing a spreadsheet so it fits
+
+Lesson 82: Freeze the top row so the header stays

@@ -4,7 +4,7 @@ description: "Every tool on this shelf will be replaced someday, and none of the
 date: "2026-09-20"
 minutes: "4"
 next_href: "/blog/health-online"
-next_title: "Health online, without the lies"
+next_title: "Lesson"
 ---
 
 ![A person comparing an old phone and a new phone side by side at a desk, both open on settings.](https://www.cea.ng/images/blog/upgrade-shelf-books.jpg)
@@ -42,3 +42,9 @@ And teach the upgrades onward — the each-one rule, forever. The colleague you 
 ## The shelf, and the road
 
 One hundred and sixty notes. From the dark screen of the very first lesson to the habit that outlasts every screen to come. The chapter closes, the notes stay open, and the rule of the whole shelf says goodbye the only way it knows: whatever changes, sit down, name the parts, do the hours, and teach somebody on your way out. The road will keep being rebuilt. So will you. That is not the tragedy of the trade — it is the trade. Go and audit your fence.
+
+Previous
+
+Lesson 159: Health online, without the lies
+
+Lesson 161: Banking without the internet

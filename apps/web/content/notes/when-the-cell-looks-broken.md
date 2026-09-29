@@ -4,7 +4,7 @@ description: "Hashes are a curtain: the column is too thin. #DIV/0! is divide by
 date: "2026-08-13"
 minutes: "4"
 next_href: "/blog/a-simple-weekly-money-list"
-next_title: "A simple weekly money list"
+next_title: "Lesson"
 ---
 
 ![A spreadsheet cell filled with hash marks because the column is narrow.](https://www.cea.ng/images/blog/cell-error.jpg)
@@ -46,3 +46,9 @@ And when a cell shows you the formula you typed — =SUM(C2:C6) sitting in plain
 A file that will not open — or opens saying “repaired,” with sheets missing — is the backup lesson arriving on time. Close it, copy the file, try again on the copy. Do not keep saving over the only copy while it limps. And a warning about circular reference deserves its name: a SUM that includes itself. If C7 says =SUM(C2:C7), the snake is eating its tail. Sum to C6 and put the total in C7.
 
 Name the shout before you call a shop. Hashes: width. #DIV/0!: empty bottom. #VALUE!: a word in the maths. Kelechi widened his columns, watched ₦48,250.00 walk back out from behind the curtain, and closed the file without fear. The grid is a good clerk. Clerks sometimes write too large for the column. They rarely burn the book.
+
+Previous
+
+Lesson 84: A simple weekly money list
+
+Lesson 86: Watching a video without getting lost

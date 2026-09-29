@@ -4,7 +4,7 @@ description: "A header is a small line that repeats. A page number is a counter,
 date: "2026-07-01"
 minutes: "4"
 next_href: "/blog/selecting-text"
-next_title: "Selecting text without rage"
+next_title: "Lesson"
 ---
 
 ![A letter on a laptop with a page number at the bottom of the page.](https://www.cea.ng/images/blog/page-numbers.jpg)
@@ -48,3 +48,9 @@ The date field in the footer can also be told to update itself each time the fil
 Save as PDF after the numbers look right. A PDF keeps the footer. If you number in Word then export, do not also stamp numbers in a second program. Two counters fight. For a one-page PDF of a receipt, skip the header. For a ten-page notes file, the number is kindness.
 
 Headers are not a place to hide a second essay. They repeat on every page, which is how a joke becomes a punishment. Name, or title, or nothing. Number at the bottom. Body in the middle. Where would you look first to make a cover page quiet? That one checkbox. The strips at the top and the bottom are white space with one small fact each — use them the way Nwakaego now does, and nobody will ever again lose the middle of your letter.
+
+Previous
+
+Lesson 67: Selecting text without rage
+
+Lesson 69: Cc, Bcc, and Reply all

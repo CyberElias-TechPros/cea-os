@@ -4,7 +4,7 @@ description: "Word is lined paper that can change its mind. Margins, a greeting,
 date: "2026-02-07"
 minutes: "5"
 next_href: "/blog/whatsapp-is-not-email"
-next_title: "WhatsApp is not email"
+next_title: "Lesson"
 ---
 
 ![A laptop showing a one-page formal letter in a word processor.](https://www.cea.ng/images/blog/word-letter.jpg)
@@ -48,3 +48,9 @@ Pictures jump. A photograph dropped into the middle of a sentence shoves the tex
 A .docx is a working file. Another person's Word can change the font, shift a heading, or refuse to open it. A PDF is a photograph of the page that still lets you select the words. When you email a school, a bank, or an office, send the PDF unless they asked for Word so they can edit. File, Save As, PDF — then look at the PDF before you attach it. If a heading has slipped to a lonely last page, go back and fix the spacing, then save again. And do not send both “because one might work.” Send the one you mean.
 
 Spell check is a cousin, not a teacher. The red underline catches letters; it will not catch form instead of from, or the wrong Mrs. Read the letter out loud once. If you would not sign it on paper, do not send it. The machine made the lines neat. You still have to mean them.
+
+Previous
+
+Lesson 10: WhatsApp is not email
+
+Lesson 12: Getting photographs off the phone

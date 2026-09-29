@@ -4,7 +4,7 @@ description: "Drafts, summaries, formulas, replies — the workday helpers that 
 date: "2026-10-17"
 minutes: "6"
 next_href: "/blog/the-assistant-at-school"
-next_title: "The assistant at school"
+next_title: "Lesson"
 ---
 
 ![An office worker at a tidy wooden desk drafting a letter on a laptop, papers and a file tray beside them.](https://www.cea.ng/images/blog/office-desk-laptop-letter.jpg)
@@ -44,3 +44,9 @@ Used with the rule and the discipline, the assistant at work does something quie
 - The draft is never the letter: slow voice at the end, figures at the fountain, and one paragraph only you could have written.
 
 The desk at the office is now fenced and fed. But the assistant's family is larger than the typing box — the newest cousins can draw faces, imitate voices, and make a person say words they never said. The next lesson turns to the forgery shop: pictures, voices, and the truth, and the habits of doubt that keep your family from paying a stranger for a performance.
+
+Previous
+
+Lesson 204: The assistant at school
+
+Lesson 206: Pictures, voices, and the truth

@@ -4,7 +4,7 @@ description: "A scan is a photograph with manners: edges found, a page, a PDF. N
 date: "2026-09-12"
 minutes: "4"
 next_href: "/blog/photographing-a-document"
-next_title: "Photographing a document so it can be read"
+next_title: "Lesson"
 ---
 
 ![A phone camera framing a document to scan.](https://www.cea.ng/images/blog/phone-scan.jpg)
@@ -50,3 +50,9 @@ Scans want the drawer treatment the day they are made. One folder — Scans or P
 It is not the signed original, if somebody asked to see ink in person. It is not secrecy: a PDF of your ID shared to Anyone-with-the-link is your ID standing on the street corner. Mail it to the address they gave you, or upload to their portal with access restricted.
 
 And one confusion to retire while we are here: a scan and a screenshot are cousins who do different work. A scan is for paper. A screenshot is for glass. If the thing you want already lives inside the laptop — a result page, a receipt on a website — do not photograph the screen; that is a picture of pixels with your curtains in the background. Right-click, save the file, or capture the screen cleanly. Uchenna now has both tools, and the school office has stopped sighing at his attachments.
+
+Previous
+
+Lesson 96: Photographing a document so it can be read
+
+Lesson 98: OTPs — codes that die

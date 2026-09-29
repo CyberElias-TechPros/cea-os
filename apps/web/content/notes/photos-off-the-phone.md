@@ -4,7 +4,7 @@ description: "The gallery is a pocket. The computer is a drawer. A cable, a fold
 date: "2026-02-09"
 minutes: "4"
 next_href: "/blog/a-letter-that-looks-like-one"
-next_title: "A letter that looks like one"
+next_title: "Lesson"
 ---
 
 ![A USB cable connecting a phone to a laptop on a wooden desk.](https://www.cea.ng/images/blog/phone-usb.jpg)
@@ -46,3 +46,9 @@ Select the photographs you want. Click the first, hold Shift, click the last, fo
 You do not need every blurry plate of rice. You need the passport scan, the receipt, the group photograph from a funeral, the child's first day. Those get names. Screenshots of a bank OTP can go. Twice-compressed WhatsApp images can go when the original already lives in Pictures. A full dump of DCIM is fine as a first backup — sorting can wait. What cannot wait is one copy off the phone.
 
 If no cable works, email a few originals to yourself as documents, or use the computer's phone-link app if it already exists. Do not send the wedding through WhatsApp to “save them” — you will save a fog. And once the copy is on the computer, the backup lesson is how that drawer survives a stolen laptop. For today: pocket to drawer, cable, copy, look — and only then, maybe, delete.
+
+Previous
+
+Lesson 11: A letter that looks like one
+
+Lesson 13: Updates without panic

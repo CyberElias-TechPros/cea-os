@@ -4,7 +4,7 @@ description: "A helper can look. A helper does not need the keys. You type, they
 date: "2026-03-14"
 minutes: "4"
 next_href: "/blog/the-recycle-bin-and-i-deleted-it"
-next_title: "The Recycle Bin and “I deleted it”"
+next_title: "Lesson"
 ---
 
 ![A learner at a laptop with a helper pointing at the screen, not typing.](https://www.cea.ng/images/blog/asking-help.jpg)
@@ -50,3 +50,9 @@ True remote-control programs are a deeper room. With one installed, the other pe
 AnyDesk, TeamViewer, Quick Assist — use them only with a person you already know, on a channel you already use, and watch the screen the whole time. Do not leave the program set to start forever. Do not give a code from a pop-up to a stranger who phoned you. And a shop that wants to “just sign into your Google to test the Play Store” can test with a guest account, or with you standing there: you sign in, they work, you sign out. You met that in the Google-account lesson, with its backup first.
 
 At the academy, the whole point is to ask. Bring the machine if you can. Bring the question in one sentence. Bring what you already tried. Keep the keys in your pocket. Umar’s printing crisis ended with the young man pointing at a greyed printer name while Umar clicked — and one sentence at the door: “Next time you will see it yourself.” A person who will not teach without the password is offering a service you should not buy.
+
+Previous
+
+Lesson 24: The Recycle Bin and “I deleted it”
+
+Lesson 26: Copy and paste between programs

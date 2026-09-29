@@ -4,7 +4,7 @@ description: "The printer is a tap. Preview is looking at the sink before you op
 date: "2026-01-30"
 minutes: "5"
 next_href: "/blog/the-link-you-should-not-open"
-next_title: "The link you should not open"
+next_title: "Lesson"
 ---
 
 ![A small printer on a wooden desk beside a laptop and a stack of paper.](https://www.cea.ng/images/blog/printer-desk.jpg)
@@ -48,3 +48,9 @@ Copies defaults to 1 on a good day and to whatever the last person chose on a sh
 Ink runs out in the middle of a sentence. A streaked page is often a clogged nozzle, not an empty tank — but do not shake a cartridge over the desk to find out. At home, run the printer’s own cleaning routine once, not five times; cleaning spends ink. At a business centre, pay for the page you got and ask them to reprint if the streak is theirs. And one distinction that saves money all its life: an empty tank and a clogged head look the same on paper. The software’s ink gauge knows the difference.
 
 A jam is a folded sheet in the path. Switch the printer off. Open the doors the arrows point to. Pull the paper in the direction it was travelling, slowly, so it does not tear and leave a tooth behind. If you leave a tooth, the next ten pages jam too. Never use a knife; the rollers are rubber. And when the page must survive somebody else’s computer, make a PDF: File, Save As, PDF, then print the PDF. What you see is what the machine will draw, fonts included. For photographs, know that a full-page colour picture can cost more than the document it illustrates. Ask the price before you send twenty wedding pictures to the shop printer. The tap is patient. You do not have to open it all the way.
+
+Previous
+
+Lesson 7: The link you should not open
+
+Lesson 9: Spreadsheets: the grid that counts

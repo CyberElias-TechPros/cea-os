@@ -4,7 +4,7 @@ description: "A six-digit SMS is a key that works once. Nobody who is helping yo
 date: "2026-09-14"
 minutes: "4"
 next_href: "/blog/scanning-to-pdf-on-the-phone"
-next_title: "Scanning a page to PDF on the phone"
+next_title: "Lesson"
 ---
 
 ![A phone showing a short SMS with a six-digit code.](https://www.cea.ng/images/blog/otp-sms.jpg)
@@ -46,3 +46,9 @@ Treat every arriving code as a small alarm bell in the pocket. If a code arrives
 ## When it does not arrive
 
 Airplane mode, no signal, a full SIM, a new number the bank does not have. Switch the plane off, wait a minute, resend once. If you just ported a number, tell the bank before you panic. And never give a shop your OTP to “unlock a faster SIM” — that is the key to the house. The second lock only works if the second key stays in your hand. Password, then OTP, then you are in. Anyone who wants the middle of that sandwich wants the house. The digits are just smaller than the other lessons. Let them die in the box you chose, not in a stranger's ear.
+
+Previous
+
+Lesson 97: Scanning a page to PDF on the phone
+
+Lesson 99: Public Wi‑Fi and the bank

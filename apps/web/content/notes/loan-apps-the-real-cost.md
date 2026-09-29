@@ -4,7 +4,7 @@ description: "Fifteen minutes, no collateral, and your whole phonebook held as s
 date: "2026-09-11"
 minutes: "4"
 next_href: "/blog/the-vpn-explained"
-next_title: "The VPN, explained like a tunnel"
+next_title: "Lesson"
 ---
 
 ![A phone showing a loan app offering a large amount with one big button, a hesitant thumb above it.](https://www.cea.ng/images/blog/loan-app-offer.jpg)
@@ -46,3 +46,9 @@ The deeper cure sits in the money lessons' rain slice. A small, boring emergency
 ## The name is the collateral
 
 Every loan on this shelf is secured by something: the bank holds your salary, the family holds your word, the predator holds your phonebook. Choose the collateral you can afford to lose — never the name. The next lesson closes the chapter at the compound's oldest scam, wearing its newest clothes: the money that promises to double itself, and the arithmetic it hopes you never do.
+
+Previous
+
+Lesson 168: The VPN, explained like a tunnel
+
+Lesson 170: Double your money: the oldest lie

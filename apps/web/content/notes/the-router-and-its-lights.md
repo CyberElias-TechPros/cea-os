@@ -4,7 +4,7 @@ description: "Blinking is talking. The small lights on the shelf tell you exactl
 date: "2026-09-24"
 minutes: "5"
 next_href: "/blog/how-the-internet-arrives"
-next_title: "How the internet gets to your house"
+next_title: "Lesson"
 ---
 
 ![A small black home Wi-Fi router with tiny green lights sitting on a wooden shelf beside a doorway.](https://www.cea.ng/images/blog/home-router-wooden-shelf.jpg)
@@ -50,3 +50,9 @@ And keep the sticker habit from the neighbours chapter alive: the label under th
 - Call with three facts ready: the account, the lights, the ritual you already performed.
 
 Five lights, four words, one photograph, three sentences. The machine on the shelf now speaks your language — and the next lesson takes its signal off the shelf and walks it, by air and by cable, to the chair where the real work happens.
+
+Previous
+
+Lesson 181: How the internet gets to your house
+
+Lesson 183: Wi-Fi and the cable under the table

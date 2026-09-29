@@ -4,7 +4,7 @@ description: "Most CVs die inside a machine before a human ever sees them. The p
 date: "2026-08-19"
 minutes: "4"
 next_href: "/blog/the-family-table"
-next_title: "The family table: phones, kids, and parental controls"
+next_title: "Lesson"
 ---
 
 ![A job seeker tailoring a CV on a laptop, the job advert open on a phone beside the keyboard.](https://www.cea.ng/images/blog/cv-tailoring-desk.jpg)
@@ -40,3 +40,9 @@ Then the tailoring, which is where the two-sentences lesson grows into a method:
 ## After the robot, the human
 
 Everything the scanner does, it does to decide whose ten seconds of human attention you get. Win them, and the old laws resume: honesty in the room, proof in the portfolio, the manner of the guest. Boring, matched, true — the three secrets of the paper that opens the room. The machine is not your enemy. It is the first gateman you have already met — dull, fair, and completely readable, now that somebody has finally introduced you.
+
+Previous
+
+Lesson 152: The family table: phones, kids, and parental controls
+
+Lesson 154: The interview on a screen

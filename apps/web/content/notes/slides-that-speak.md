@@ -4,7 +4,7 @@ description: "The audience cannot read and listen at once, so the slide carries 
 date: "2026-08-29"
 minutes: "4"
 next_href: "/blog/the-interview-on-a-screen"
-next_title: "The interview on a screen"
+next_title: "Lesson"
 ---
 
 ![A speaker beside a projected slide in a small hall, the audience listening in shadow.](https://www.cea.ng/images/blog/slides-projector-talk.jpg)
@@ -40,3 +40,9 @@ Then the delivery, which is smaller than the fear: face the room, not the wall �
 ## Why this is a basic skill
 
 Because the person who can stand, lantern in hand, and make a room understand an idea in ten minutes becomes the person the room asks to explain things — and the person rooms ask to explain things is the person rooms promote, hire and recommend. The analyst’s chart, the designer’s concept, the teacher’s lesson, the pastor’s announcement: all of them ride on this one small machine craft. The lantern is cheap. The nerve is practised. Begin with the next staff meeting. Zainab’s cooperative now asks her to open every annual meeting — twelve slides, one lantern, and a room that nods.
+
+Previous
+
+Lesson 154: The interview on a screen
+
+Lesson 156: Email that gets answered

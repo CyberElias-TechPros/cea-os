@@ -4,7 +4,7 @@ description: "Universal chargers with wobbly tips, cords that get hot to the tou
 date: "2026-09-19"
 minutes: "4"
 next_href: "/blog/buying-a-used-laptop"
-next_title: "Buying a used laptop without tears"
+next_title: "Lesson"
 ---
 
 ![A close-up photograph of the fine print on a genuine laptop power brick highlighting 19.5V and 3.33A.](https://www.cea.ng/images/blog/charger-label-volts-amps.jpg)
@@ -48,3 +48,9 @@ Tonight, before you sleep, turn your own brick over and read it: the V, the A, t
 ## Clean electricity for the brain
 
 Your laptop’s brain thinks in tiny whispers of current, billions of times a second. Feeding it dirty, unstable power from a wobbly adapter is pouring contaminated petrol into a good car. Buy the heavy original brick, protect its thick cord near the strain-relief collar where fraying begins, keep the receipt, and treat ₦15,000 for a genuine brick as exactly what it is: the cheapest insurance in the whole machine. Chinonso paid ₦8,500 for a universal box and a motherboard. Do the arithmetic slowly, on paper, before the market does it for you. Next: the sudden blue screen, and why Windows sometimes crashes on purpose, to save your work.
+
+Previous
+
+Lesson 175: Buying a used laptop without tears
+
+Lesson 177: The blue screen and the spinning circle

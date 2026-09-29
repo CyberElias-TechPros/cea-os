@@ -4,7 +4,7 @@ description: "SIEM — said like seam — is the ledger that collects what every
 date: "2026-04-09"
 minutes: "4"
 next_href: "/blog/the-soc-room"
-next_title: "The room that never sleeps: the SOC"
+next_title: "Lesson"
 ---
 
 ![A computer screen showing a dashboard of stacked alerts and a rising line graph.](https://www.cea.ng/images/blog/siem-dashboard-alerts.jpg)
@@ -42,3 +42,9 @@ And the ledger needs tending, which is a career in itself. Rules that raise ever
 ## Why this word follows you
 
 Because every watching room on earth stands on one. Job adverts for analysts assume you have stood beside a SIEM; interviews ask how you would hunt in one. But the idea, as you now hold it, is a village idea: every compound keeps records; one trusted house collects them each evening; when a pattern crosses compounds, the crier raises it, and the watchers decide. You have just understood what universities wrap in an acronym. The next lesson is the philosophy the whole room increasingly watches by — and it begins at a gate.
+
+Previous
+
+Lesson 122: The room that never sleeps: the SOC
+
+Lesson 124: Zero trust: the gate that trusts nobody

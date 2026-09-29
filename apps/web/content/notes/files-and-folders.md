@@ -4,7 +4,7 @@ description: "A file is a sheet of paper. A folder is an envelope. The desktop i
 date: "2026-01-15"
 minutes: "5"
 next_href: "/blog/sitting-down-at-a-computer"
-next_title: "Sitting down at a computer for the first time"
+next_title: "Lesson"
 ---
 
 ![A computer screen showing folders named Documents, Pictures and Desktop.](https://www.cea.ng/images/blog/folders-screen.jpg)
@@ -54,3 +54,9 @@ Eject before you pull. On Windows, look for the small USB icon near the clock, c
 Deleting a file usually sends it to the Recycle Bin or Trash — a holding room. Open that icon on the desktop and you will see what you threw away. Restore puts it back. Empty Recycle Bin is the real goodbye. Until you empty it, the work is still in the house, only in a cupboard you do not look at. Do not empty it because someone told you it “frees space” unless you have looked first.
 
 And if you cannot find a file: do not panic-click. Use the search box at the top of File Explorer or Finder and type part of the name you gave it. Search looks through the whole house. It cannot find a name you never gave — which is why “Document (3)” is a trap, and why the first Save As is the most important minute of any new piece of work. Tomorrow's lessons open these drawers one at a time. For today: name it, save it, and know the room it sleeps in.
+
+Previous
+
+Lesson 1: Sitting down at a computer for the first time
+
+Lesson 3: Your hands on the keyboard

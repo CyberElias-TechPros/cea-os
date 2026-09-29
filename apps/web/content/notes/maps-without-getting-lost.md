@@ -4,7 +4,7 @@ description: "A map app is a paper map that can talk. Search a place, read the p
 date: "2026-06-03"
 minutes: "5"
 next_href: "/blog/whatsapp-web-on-a-computer"
-next_title: "WhatsApp Web on a computer"
+next_title: "Lesson"
 ---
 
 ![A map with a search box on a laptop screen.](https://www.cea.ng/images/blog/maps-screen.jpg)
@@ -52,3 +52,9 @@ A pin dropped in WhatsApp by a stranger is a suggestion, and you read suggestion
 - Before your next unfamiliar journey: load the route at home on Wi-Fi, screenshot the junction, tell one person.
 
 Amara went back to the map that evening and did all four. The next morning she typed the full address, read the grey line under the pin, and screenshot the junction after the second filling station. The interview started at nine. She was there at eight thirty-five, reading her notes under a tree, because the map had already done its shouting at home in the quiet.
+
+Previous
+
+Lesson 56: WhatsApp Web on a computer
+
+Lesson 58: A simple poster that can be read

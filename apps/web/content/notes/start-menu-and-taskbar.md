@@ -4,7 +4,7 @@ description: "Start is the front door. The taskbar is the row of rooms you are i
 date: "2026-04-06"
 minutes: "4"
 next_href: "/blog/searching-for-a-lost-file"
-next_title: "Searching the computer for a lost file"
+next_title: "Lesson"
 ---
 
 ![The Windows Start menu open on a laptop.](https://www.cea.ng/images/blog/start-menu.jpg)
@@ -44,3 +44,9 @@ What if the bar itself misbehaves? If the taskbar vanished, it may be set to hid
 - Click the small arrow at the far right of the bar and look at the hidden guests once. Close it. You now know where the Wi-Fi fan lives.
 
 The Start menu is not a mystery drawer. It is an index — a telephone directory for everything your machine can do — and the search box at its top is the fastest finger in the house. Four letters, two seconds. From now on, when somebody watches you find a program in two seconds flat, they will ask how. Tell them: you dialled it.
+
+Previous
+
+Lesson 33: Searching the computer for a lost file
+
+Lesson 35: A shortcut is not the file

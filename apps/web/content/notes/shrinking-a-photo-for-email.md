@@ -4,7 +4,7 @@ description: "A phone photograph is a wall. Email wants a window. Resize is not 
 date: "2026-06-08"
 minutes: "3"
 next_href: "/blog/a-simple-poster"
-next_title: "A simple poster that can be read"
+next_title: "Lesson"
 ---
 
 ![A photograph being resized in a simple window on a laptop.](https://www.cea.ng/images/blog/resize-photo.jpg)
@@ -42,3 +42,9 @@ A passport photo for a portal is often demanded in kilobytes — 50 KB, 100 KB, 
 Twenty photographs at once follow the same logic one level up. Shrink the folder into one suitcase — the zipping lesson — or park it in the cloud and send a link, as the Drive lesson taught. Do not screenshot a photo to shrink it: you lose quality and gain a taskbar. Do not send the whole DCIM folder and hope. And do not use an online “compressor” you reached from a video advert — you are uploading the face to a stranger’s server to save a few kilobytes. Paint is enough. The machine on your desk is enough.
 
 The original stays in Pictures, in the room you made, backed up if you have learned that lesson. The small copy lives beside it, or in the Fees folder if it is a receipt: receipt-march-small.jpg. You know why. Bala sent nine of the twelve angles — resized, named, one mail — and the flyer man replied in an hour. Email will take a window. It will not take a wall. Give it a window.
+
+Previous
+
+Lesson 58: A simple poster that can be read
+
+Lesson 60: What “the computer has a virus” usually is

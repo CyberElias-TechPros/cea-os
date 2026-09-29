@@ -4,7 +4,7 @@ description: "A browser is a vehicle. The address bar is the road you typed. Sea
 date: "2026-01-20"
 minutes: "5"
 next_href: "/blog/your-hands-on-the-keyboard"
-next_title: "Your hands on the keyboard"
+next_title: "Lesson"
 ---
 
 ![A laptop screen showing a web browser with the address bar visible at the top.](https://www.cea.ng/images/blog/browser-address.jpg)
@@ -56,3 +56,9 @@ To the left of the address you will often see a small padlock. It means the road
 Pages will offer you files: a form, a past question, a programme. Downloading is the internet placing a parcel on your Downloads mat. Know that. Open Downloads after and move the file into Documents if you mean to keep it, the way you would take a parcel off the floor. Do not download a programme because a page shouted that your computer is infected. That shout is a common trick. If you did not go looking for a repair tool, do not install one from a pop-up.
 
 Bookmarks are addresses you want to find again. In most browsers, a star at the end of the address bar saves the current page. Name it something you will recognise. The next time you need it, open Bookmarks and click. This is how a person stops searching for their own bank every Saturday. Ikem keeps five: the bank, the academy, WAEC, his mail, and the news site his mother reads. The library is still infinite. His five shelves are where he starts.
+
+Previous
+
+Lesson 3: Your hands on the keyboard
+
+Lesson 5: Your first email, sent properly

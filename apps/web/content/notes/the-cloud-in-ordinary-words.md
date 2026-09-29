@@ -4,7 +4,7 @@ description: "The cloud is a computer that is not in the room, with a door on th
 date: "2026-05-14"
 minutes: "4"
 next_href: "/blog/the-downloads-pile"
-next_title: "The Downloads pile"
+next_title: "Lesson"
 ---
 
 ![A cloud storage folder list in a browser on a laptop.](https://www.cea.ng/images/blog/cloud-folder.jpg)
@@ -48,3 +48,9 @@ Paying for the cloud earns its keep at a specific threshold: when the files insi
 Sync folders that “keep a copy here and there” can empty both sides if you delete in one place and do not understand the machinery. Until you do, upload copies. Do not turn on a sync you have not been shown. The USB in the drawer is still the backup you can hold; Drive is the backup that survives fire if you also remember the password. Both is adult. One is a start.
 
 iCloud is Apple's building. OneDrive is Microsoft's. They are not interchangeable bags — a file in one is not in the other unless you copied it. “The cloud” is not one cupboard. It is several landlords. Know which door you used; write it next to the account in the notebook. Then the word stops meaning magic and starts meaning a street you can type.
+
+Previous
+
+Lesson 48: The Downloads pile
+
+Lesson 50: Signing out of a machine that is not yours

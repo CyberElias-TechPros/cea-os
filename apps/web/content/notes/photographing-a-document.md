@@ -4,7 +4,7 @@ description: "A receipt at an angle is a riddle. Flatten the paper, stand above 
 date: "2026-09-09"
 minutes: "4"
 next_href: "/blog/wifi-or-mobile-data"
-next_title: "Wi‑Fi or mobile data — which tap is open"
+next_title: "Lesson"
 ---
 
 ![A phone held directly above a document on a wooden desk.](https://www.cea.ng/images/blog/document-photo.jpg)
@@ -46,3 +46,9 @@ Straightening is the other half-minute polish: most photo apps carry a small whe
 ## When they asked for a scan
 
 A photograph can pass. A scan is the next lesson — edges found, a PDF, often flatter. If the portal says PDF, do not send a WhatsApp soup of the page. If they say JPEG under 100 KB, shrink a copy, as you learned. The picture is only as good as the last look you took before Send. Zoom. Read. Then the paperclip. Chinwe’s second receipt was accepted in four minutes — flat, filled, named — and the clerk never knew there had been a first.
+
+Previous
+
+Lesson 95: Wi‑Fi or mobile data — which tap is open
+
+Lesson 97: Scanning a page to PDF on the phone

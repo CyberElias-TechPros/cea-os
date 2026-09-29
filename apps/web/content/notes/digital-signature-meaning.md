@@ -4,7 +4,7 @@ description: "A digital signature is not a picture of your name. It is arithmeti
 date: "2026-04-27"
 minutes: "4"
 next_href: "/blog/tcp-ip-road"
-next_title: "TCP/IP: how the road carries the mail"
+next_title: "Lesson"
 ---
 
 ![A hand signing a document with a pen beside a laptop showing a digital signing screen.](https://www.cea.ng/images/blog/signing-document-seal.jpg)
@@ -44,3 +44,9 @@ Your browser carries the list of guilds it trusts, which is why the padlock in t
 Now that it has a name, it appears everywhere. The updates lesson: good software arrives signed, and the machine refuses what no trusted key vouches for — that refusal is the update box doing its quiet work. The papers lesson: signing platforms let a contract cross the world with its proof attached. And in the analyst's world of this chapter, signatures decide which program may speak and which document may be believed. Three promises in one seal — who, untouched, irrevocable — and each promise is arithmetic rather than good manners.
 
 The whole shelf has been one long lesson in verification: check the name before the confirm, the channel before the code, the plate before the door. The digital signature is where that instinct became mathematics — proof that does not tire, does not flatter, and does not forget what it sealed. From here, whenever somebody says “signed,” you will know to ask: sealed by whose key, vouched by whose office, verified at which door. The next lesson crosses the compound wall entirely, to the people who build the things all this security watches over.
+
+Previous
+
+Lesson 126: TCP/IP: how the road carries the mail
+
+Lesson 128: The frontend developer, explained

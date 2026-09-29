@@ -4,7 +4,7 @@ description: "The sudden blue flash, the sad face, the white capital letters. Wh
 date: "2026-09-20"
 minutes: "4"
 next_href: "/blog/chargers-cables-and-the-spark"
-next_title: "Chargers, cables, and the blue spark"
+next_title: "Lesson"
 ---
 
 ![A phone camera taking a photograph of a blue screen with the stop code MEMORY_MANAGEMENT clearly readable.](https://www.cea.ng/images/blog/bsod-stop-code-camera.jpg)
@@ -46,3 +46,9 @@ What is Safe Mode? Safe Mode is Windows walking into the room dressed in plain w
 ## A crash is only a warning
 
 Do not be afraid of the blue screen. It is not an enemy that came to destroy your work; it is a watchful guardian that stopped the machine before your files were corrupted. Photograph the code, enter Safe Mode, roll back the driver, and carry on with your day. Ayomide finished his letter that evening on the same machine, and the only scar was a photograph in his gallery named with a stop code. Next: upgrading your computer’s RAM, and how to avoid the soldered chip trap.
+
+Previous
+
+Lesson 176: Chargers, cables, and the blue spark
+
+Lesson 178: Upgrading RAM: the honest math

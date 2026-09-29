@@ -4,7 +4,7 @@ description: "The frontend developer builds everything you have ever touched on 
 date: "2026-04-30"
 minutes: "4"
 next_href: "/blog/digital-signature-meaning"
-next_title: "What a digital signature really signs"
+next_title: "Lesson"
 ---
 
 ![A developer at a laptop with code on one half of the screen and a webpage on the other.](https://www.cea.ng/images/blog/frontend-code-screen.jpg)
@@ -46,3 +46,9 @@ Much of the day is two of this shelf’s old elders in professional clothes: car
 ## Is the stall for you?
 
 If the Notepad lesson left you secretly pleased — if arranging a page, naming things properly and watching your change appear on refresh gave you a small honest joy — then the frontend is a door worth walking through, and the road from these notes to paid work in it is walked every year, self-taught hands included. The watching-room lesson guards the compound; the stall builders raise what the compound is for. Both are honest work. Only you know which chair fits your temperament — and now Tobi has sat in both, described without mystique, before spending a naira on either.
+
+Previous
+
+Lesson 127: What a digital signature really signs
+
+Lesson 129: What a machine learning engineer does

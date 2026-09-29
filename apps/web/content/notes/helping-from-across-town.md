@@ -4,7 +4,7 @@ description: "Remote control is a powerful medicine with a small label. Permissi
 date: "2026-10-10"
 minutes: "6"
 next_href: "/blog/the-job-card"
-next_title: "The job card and the boundary"
+next_title: "Lesson"
 ---
 
 ![A technician at a laptop wearing earphones, speaking on a video call with a remote screen softly glowing.](https://www.cea.ng/images/blog/remote-help-video-call-laptop.jpg)
@@ -50,3 +50,9 @@ Last boundary, the counter's gate at a distance: remote sessions happen inside t
 - Prefer the phone camera and the voice when trust is young. The software is for heavy work and old customers.
 
 The distant door now opens and closes with your manners intact. But the trade has a limit no technique crosses, and the next lesson is the sentence the amateur cannot pronounce — 'this is beyond me' — said early, said well, and worth more to your name than a hundred lucky repairs.
+
+Previous
+
+Lesson 197: The job card and the boundary
+
+Lesson 199: When to say this is beyond me

@@ -4,7 +4,7 @@ description: "The mug tips, tea floods the keys, and panic takes over. The immed
 date: "2026-09-17"
 minutes: "4"
 next_href: "/blog/the-hard-drive-that-clicks"
-next_title: "The hard drive that clicks and the solid-state cure"
+next_title: "Lesson"
 ---
 
 ![A laptop opened into an inverted V tent shape on a dry towel, keyboard facing downwards so liquid drains out.](https://www.cea.ng/images/blog/laptop-tent-position-spill.jpg)
@@ -46,3 +46,9 @@ Now listen carefully: never, under any circumstance, bury a wet laptop in a bag 
 ## The 48-hour patience rule
 
 The hardest part of a spill is the waiting. Leave the laptop standing in the tent position in a breezy room with a ceiling fan running for forty-eight full hours — two whole days and two whole nights. Do not touch it. Do not “just press power for one second to see if it works.” That impatient tap after four hours is the exact moment electricity meets a hidden water droplet and burns the board. Give it two days of dry air. When forty-eight hours pass, plug in the charger and turn it on. In eight cases out of ten, the machine wakes up as if nothing happened. Anselem’s tea machine woke on the morning of day three — and the mug now lives on the far side of the desk, a small ceremony of respect. Next: walking into the used laptop market without getting sweet-talked or cheated.
+
+Previous
+
+Lesson 173: The hard drive that clicks and the solid-state cure
+
+Lesson 175: Buying a used laptop without tears

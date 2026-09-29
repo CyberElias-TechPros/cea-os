@@ -4,7 +4,7 @@ description: "Fibre on a pole, a mast on the hill, or a dish to the sky: the int
 date: "2026-09-23"
 minutes: "5"
 next_href: "/blog/ten-years-from-one-machine"
-next_title: "Ten years from one machine"
+next_title: "Lesson"
 ---
 
 ![A black telecommunications cable stapled along a painted wall and entering a small house above a window in warm afternoon light.](https://www.cea.ng/images/blog/fibre-cable-entering-house.jpg)
@@ -44,3 +44,9 @@ And know the road's other hunger: electricity. The mast needs power. The box on 
 - Give the network shelf its own small power plan — even a modest UPS holds the road open through an evening outage.
 
 The map is now in your head: a road of glass and copper, a junction near your street, a wire along the wall, a box and a router on a shelf, your devices inside the compound the router built. Everything else in this chapter — radio and cables, megabytes and repairs, neighbours and small shops — is walking this map room by room. The internet ends at your table. From here, it is housekeeping.
+
+Previous
+
+Lesson 180: Ten years from one machine
+
+Lesson 182: The router and its five lights

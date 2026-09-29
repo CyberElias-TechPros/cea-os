@@ -4,7 +4,7 @@ description: "The bank in your pocket, used with market sense: the name before t
 date: "2026-02-15"
 minutes: "5"
 next_href: "/blog/paying-for-something-online"
-next_title: "Paying for something online"
+next_title: "Lesson"
 ---
 
 ![A thumb pausing above a transfer confirmation button on a phone held in one hand.](https://www.cea.ng/images/blog/bank-app-confirm.jpg)
@@ -46,3 +46,9 @@ Behind the session sits the alert, and the alert deserves its own trust level. T
 ## When the alert is quiet
 
 Networks delay in both directions. Money you sent and the receiver has not seen: it usually lands within minutes; check your receipt first, then wait a little, then the bank's line — the number on their own site, not one a caller gave you. Money someone claims to have sent you: believe it when your balance moves, in your own app, with the sender's name on it. An SMS tone is not a promise. A screenshot in a chat is not a promise. The balance is the promise — and Emediong, eleven seconds and one name-check wiser, now counts his change at the digital gate the way he counts it at the market gate. Slowly, and out loud.
+
+Previous
+
+Lesson 110: Paying for something online
+
+Lesson 112: A new phone without losing your life

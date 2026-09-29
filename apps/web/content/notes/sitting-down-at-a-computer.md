@@ -58,3 +58,5 @@ Look at the keyboard. The letters are not in ABC order. They are in an old layou
 Four names, one button, one pointer, three keys. That is the whole machine, reduced to what a person actually does with their hands. Tomorrow you will put work into folders so it does not vanish. Tonight, if you can, sit down again for ten minutes and only move the pointer: aim at icons, click once, click twice, right-click and dismiss the menu. Madam Grace did that for three evenings and stopped being afraid on the fourth. The fear leaves through the hands, not through a speech.
 
 If the screen stayed black, check the monitor's own power light, then the wall socket, then the cable at the back. If the pointer did not move, turn the mouse over — a red or blue light should be on. No light means it is unplugged or the battery is dead. These are household problems, not computer science. Treat them as you would a lamp that will not light.
+
+Lesson 2: Where your work lives: files and folders

@@ -4,7 +4,7 @@ description: "A permission is a door. Camera, microphone, location, contacts. Al
 date: "2026-08-25"
 minutes: "4"
 next_href: "/blog/storage-on-the-phone"
-next_title: "When the phone says storage is full"
+next_title: "Lesson"
 ---
 
 ![A phone permission dialog asking for the camera, with Allow and Deny.](https://www.cea.ng/images/blog/app-permission.jpg)
@@ -48,3 +48,9 @@ One last habit from the repair-bench world: look at the list after the phone has
 - Never Allow a new app every door on the first sitting because the screen is in a hurry. The hurry is part of the act.
 
 You are not being asked to fear every app. You are being asked to match the door to the job. Camera for a camera. Location for a map. Microphone for a call. Everything else can wait at the gate. The app will not take offence — it does not have feelings. It has a list. Keep the list short.
+
+Previous
+
+Lesson 89: When the phone says storage is full
+
+Lesson 91: Locking the phone and the laptop

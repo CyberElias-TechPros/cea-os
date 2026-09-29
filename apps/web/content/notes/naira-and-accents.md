@@ -4,7 +4,7 @@ description: "₦ is a character, not a drawing. A language in the taskbar is a 
 date: "2026-03-09"
 minutes: "4"
 next_href: "/blog/uninstalling-what-a-shop-added"
-next_title: "Uninstalling what a shop added"
+next_title: "Lesson"
 ---
 
 ![A document on a laptop showing the naira symbol and accented letters.](https://www.cea.ng/images/blog/naira-typing.jpg)
@@ -46,3 +46,9 @@ For the everyday marks, Windows grows a second layer on the same plastic. Settin
 On a phone, hold the letter key — e, o, a — and the cousins appear: á à, and on the right keyboards, the under-dots that Igbo names carry. Hold N or the currency key if your keyboard offers ₦; Gboard and its cousins keep a symbols page of their own. Use the character in WhatsApp if you like; use it in the Word letter if the letter will be printed. And one rule for the forms: a name on an ID should match the form. Accents the ID does not have can wait. Accents that the ID does have should be typed, not approximated, whenever the box allows it.
 
 This matters more than it looks. A name is a door into a person, and Ayɔ̀deji written Ayodeji is not a small loss — the mark carries the meaning his grandfather chose. Spell names the way their owners spell them: in letters, in forms, and in the certificates one day framed. You do not need every language pack. You need the marks you actually write. One extra keyboard, the naira in the panel, and the habit of glancing at ENG before you type a password — because a French layout will move where A and Q live, and a password typed on the wrong layout is a lockout. Glance at the taskbar. Then type.
+
+Previous
+
+Lesson 22: Uninstalling what a shop added
+
+Lesson 24: The Recycle Bin and “I deleted it”

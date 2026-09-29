@@ -4,7 +4,7 @@ description: "The freelancer's hardest lesson: a price is not a confession of wo
 date: "2026-06-19"
 minutes: "4"
 next_href: "/blog/working-remote-from-here"
-next_title: "Working remote from here: dollars, hours, and the light"
+next_title: "Lesson"
 ---
 
 ![A hand writing figures into a notebook beside a calculator and a laptop.](https://www.cea.ng/images/blog/invoice-notebook-writing.jpg)
@@ -42,3 +42,9 @@ Then raising, which is the part everyone fears and every professional eventually
 ## The number, said plainly
 
 Everything on this shelf has been training for calm at decisive moments — the pause before the link, the name before the confirm, the plate before the door. The pricing moment is that same decisive instant, wearing your own hat: the pause before the number, said plainly, held kindly. Quote the value, take the deposit, bound the revisions, raise without apology. The trade that pays a person properly is built from these small held lines, one quote at a time — and the confidence clients actually respect was never arrogance. It was preparation, with a figure attached.
+
+Previous
+
+Lesson 138: Working remote from here: dollars, hours, and the light
+
+Lesson 140: The portfolio: proof over promises

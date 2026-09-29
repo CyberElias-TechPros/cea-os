@@ -4,7 +4,7 @@ description: "The designer's job is not beauty; it is clarity that sells — hie
 date: "2026-06-09"
 minutes: "4"
 next_href: "/blog/social-media-manager-behind-posts"
-next_title: "The social media manager, behind the posts"
+next_title: "Lesson"
 ---
 
 ![A designer&#x27;s desk with colour swatches, sketches and a laptop showing a layout.](https://www.cea.ng/images/blog/designer-colour-swatches.jpg)
@@ -42,3 +42,9 @@ And the trade's professional manners matter as much as the eye: the brief writte
 The first paid jobs arrive the way they do across this whole shelf: the church programme, the cousin's shop banner, the school's flyer — small works, done exactly, collected as proof. The academy's own advice to design students holds: small jobs — event flyers, social posts, church graphics — once the portfolio carries three to five solid pieces; price modestly at first, deliver precisely what was promised, and most beginners meet their first repeat client within months. From there the ladder is real: brand identities, retainers with businesses who need you monthly, and the print shops and event planners who send steady work to the designer whose files never make their machines complain.
 
 Every business on your street already believes in its own message; what it lacks is the person who can make a stranger believe it in one glance. That is what design sells, and why it survives every platform shift: tools will change their names again, but hierarchy, restraint and listening are older than printing. The table is cheap to set, the practice is free, and the first client is probably within three doors of you. Sit down, file a hundred examples, and let the eye grow the way every skill on this shelf grew — one honest hour at a time.
+
+Previous
+
+Lesson 136: The social media manager, behind the posts
+
+Lesson 138: Working remote from here: dollars, hours, and the light

@@ -4,7 +4,7 @@ description: "A password is a key, not a motto. Long beats clever. One key per h
 date: "2026-01-25"
 minutes: "5"
 next_href: "/blog/your-first-email"
-next_title: "Your first email, sent properly"
+next_title: "Lesson"
 ---
 
 ![A notebook and pen beside a closed laptop on a wooden desk.](https://www.cea.ng/images/blog/password-notebook.jpg)
@@ -52,3 +52,9 @@ When a site offers “remember this computer,” say yes only on a machine that 
 Nobody who actually works at a bank will ask you to reply with your password. Nobody at the academy will. A page that arrived from a link — in a mail or a WhatsApp — and then asks for your password is the subject of our next lesson. For today, hold one line: if you did not walk to the real site yourself, do not type the key. Open a new tab. Type the address you already trust. If the story was true, it will still be true there.
 
 If you have been using one short password everywhere, change email tonight. That one change closes the master door; the rest can follow this week, one house at a time. You do not need a new personality. You need keys that do not open the neighbour's gate.
+
+Previous
+
+Lesson 5: Your first email, sent properly
+
+Lesson 7: The link you should not open

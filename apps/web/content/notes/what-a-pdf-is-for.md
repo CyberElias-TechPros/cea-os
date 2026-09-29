@@ -4,7 +4,7 @@ description: "A PDF is a photograph of a page that still lets you select the wor
 date: "2026-03-27"
 minutes: "5"
 next_href: "/blog/bluetooth-to-a-phone"
-next_title: "Sending a file to a phone with Bluetooth"
+next_title: "Lesson"
 ---
 
 ![A laptop screen showing a PDF of a one-page letter.](https://www.cea.ng/images/blog/pdf-letter.jpg)
@@ -46,3 +46,9 @@ The signature deserves one warning, and it is a wall not a fence: never sign a b
 ## When PDF is the wrong tool
 
 If someone must edit the words with you, send Word or Docs, or share a Drive file — a PDF is a finished plate, and editing it is possible and clumsy. If they asked for Excel, a PDF of the sheet is a picture of numbers that will not add. If they asked for a photograph of your face, a PDF is extra wrapping. Obey the request. Then PDF is for the letter, the certificate, the form that should not restyle itself overnight. Watch the weight too: one or two pages is a letter, forty colour scans is a brick that email will refuse — zip, or Drive, or fewer pages. And a PDF from a stranger that contains only a link and a button is not a document. It is a cousin of the mail you should not open. Close it. Walk to the real street if the story might be true.
+
+Previous
+
+Lesson 29: Sending a file to a phone with Bluetooth
+
+Lesson 31: A folder structure for school or work

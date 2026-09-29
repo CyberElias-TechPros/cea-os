@@ -4,7 +4,7 @@ description: "A megabyte is a cup of water from a tank you paid for. Video drink
 date: "2026-09-26"
 minutes: "5"
 next_href: "/blog/wi-fi-and-the-cable"
-next_title: "Wi-Fi and the cable under the table"
+next_title: "Lesson"
 ---
 
 ![A hand holding a phone showing a simple coloured bar chart of data usage with soft screen glow.](https://www.cea.ng/images/blog/phone-data-usage-in-hand.jpg)
@@ -42,3 +42,9 @@ One warning about the true thieves, the ones the meter cannot stop by counting: 
 - Drop video quality one step on the small screen; the story survives and the bill shrinks to a third.
 
 - Choose the bundle shape that matches your week, and learn whether your unused data rolls or dies.
+
+Previous
+
+Lesson 183: Wi-Fi and the cable under the table
+
+Lesson 185: When the network is sick

@@ -4,7 +4,7 @@ description: "A patient tutor who never tires of your questions — used well, i
 date: "2026-10-20"
 minutes: "5"
 next_href: "/blog/your-judgment-stays-yours"
-next_title: "Your judgment stays yours"
+next_title: "Lesson"
 ---
 
 ![A hand pinning a simple weekly study timetable chart to a wooden wall with pins and paper.](https://www.cea.ng/images/blog/study-plan-on-wall-chart.jpg)
@@ -42,3 +42,9 @@ Finally, the picture that settles the practice: the wall chart with the roadmap 
 - Bring the stuck step to the tutor in words, then let the hands try it eleven times at the table.
 
 - Chaperone the tutor with the homework habit: verify the specifics at the fountain before they enter the notes.
+
+Previous
+
+Lesson 207: Your judgment stays yours
+
+Lesson 209: The work that changes and the work that stays

@@ -4,7 +4,7 @@ description: "The screen can photograph itself. Print Screen is the shutter. Sni
 date: "2026-03-19"
 minutes: "4"
 next_href: "/blog/copy-and-paste-between-programs"
-next_title: "Copy and paste between programs"
+next_title: "Lesson"
 ---
 
 ![A finger near the Print Screen key on a laptop keyboard.](https://www.cea.ng/images/blog/printscreen-key.jpg)
@@ -48,3 +48,9 @@ And screenshots travel better as documents than as photographs. Sent the ordinar
 ## Errors, receipts, and what not to photograph
 
 When something fails, screenshot the error before you click OK — the OK dismisses the only sentence a helper can use. When a payment page shows a reference, capture it before you leave. When a form refuses a file, capture the red text. What you do not capture: a password, an OTP, a bank balance to post in a group. Crop a transfer proof to amount and reference, never the whole dashboard. Phones know the same gesture — volume down and power, or a swipe — but for a laptop problem, a laptop screenshot beats any photo of the laptop. Save it, name it, send it as a document. Two habits and one shutter.
+
+Previous
+
+Lesson 26: Copy and paste between programs
+
+Lesson 28: Zipping a folder to email

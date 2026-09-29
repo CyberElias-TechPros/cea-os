@@ -4,7 +4,7 @@ description: "In the market, oily rags and sweet words hide tired batteries and 
 date: "2026-09-18"
 minutes: "4"
 next_href: "/blog/water-on-the-keyboard"
-next_title: "Water, tea, and the spill on the keyboard"
+next_title: "Lesson"
 ---
 
 ![A black command prompt window running a powercfg battery report showing design capacity versus full charge capacity.](https://www.cea.ng/images/blog/battery-report-cmd-screen.jpg)
@@ -46,3 +46,9 @@ Test number three: the hinge check. Hold the laptop by the base with one hand; w
 ## Preparation commands respect
 
 When a seller sees you sit down with a calm face, open the command box to check battery wear, flex the hinges, and test every key on the board, his whole attitude changes. The exaggerated stories stop, the sweet talk disappears, and honest business begins. One contrast worth carrying into every market on earth: the shine is on the plastic; the truth is in the report. Preparation turns an intimidating market into a fair deal where you walk away with a sturdy business machine that will serve you for years. Next: chargers, adapters, voltage rules, and the blue spark that destroys boards.
+
+Previous
+
+Lesson 174: Water, tea, and the spill on the keyboard
+
+Lesson 176: Chargers, cables, and the blue spark

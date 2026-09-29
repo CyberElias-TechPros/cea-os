@@ -4,7 +4,7 @@ description: "One SUM or one price times quantity is enough. The fill handle cop
 date: "2026-08-08"
 minutes: "4"
 next_href: "/blog/freeze-the-top-row"
-next_title: "Freeze the top row so the header stays"
+next_title: "Lesson"
 ---
 
 ![A spreadsheet formula being filled down a column.](https://www.cea.ng/images/blog/fill-handle.jpg)
@@ -42,3 +42,9 @@ The fill handle has a faster greeting. Instead of dragging the tiny square down 
 - Save as fill-practice. Do not fill a live fees book until three rows have been true.
 
 One last look back at the handle: it will copy a mistake as cheerfully as a truth. The calculator is the witness for three rows — if three match, the fill is probably honest; if row 1 matches and row 5 does not, look at the formula bar before you print. Nnenna’s forty-eight lines took one drag and three checks. The will to live returned somewhere around row 12. You already know Undo. Use it the second the column looks too clever.
+
+Previous
+
+Lesson 82: Freeze the top row so the header stays
+
+Lesson 84: A simple weekly money list

@@ -4,7 +4,7 @@ description: "The employer searches your name before the handshake. A CV in Driv
 date: "2026-03-13"
 minutes: "4"
 next_href: "/blog/learning-online-mostly-free"
-next_title: "Learning online, mostly free"
+next_title: "Lesson"
 ---
 
 ![A laptop showing a professional profile page while a woman types at the desk.](https://www.cea.ng/images/blog/work-profile-laptop.jpg)
@@ -46,3 +46,9 @@ The rooms to stand in are few and real. The professional network where employers
 ## What the search finds, in time
 
 The profile grows quieter work than you expect: the poster you made for the shop, the books you kept, the spreadsheet that saved the school’s fees — shared deliberately, the way the sharing lesson taught, never by accident. The search for your name should end at a door you are proud to open. That is the whole of what people call personal brand: a swept front door, true words above it, and real work visible through the window. Sweep the door. The search will find it in the same order a visitor would.
+
+Previous
+
+Lesson 116: Learning online, mostly free
+
+Lesson 118: The voice that borrowed a face

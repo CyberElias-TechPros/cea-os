@@ -4,7 +4,7 @@ description: "The cloned face learned new tricks. What still betrays a fake, the
 date: "2026-10-18"
 minutes: "6"
 next_href: "/blog/the-assistant-at-work"
-next_title: "The assistant at work"
+next_title: "Lesson"
 ---
 
 ![A person comparing a photograph on a phone with a printed photograph held in hand at a wooden table.](https://www.cea.ng/images/blog/comparing-photos-phone-and-print.jpg)
@@ -48,3 +48,9 @@ Finally, hold the fear at its proper size — because the forgers would love you
 - Teach the table, not just yourself: one demonstration for the parents, the family word rehearsed until it is reflex.
 
 The forgery shop is understood and its prices are falling, which raises a fair fear in every honest worker at the table: if the machine writes, draws, answers, and now performs — what remains for the hands? The next lesson answers the fear honestly, and the answer is older than the machine: the judgment that stays yours, and the small discipline of keeping it sharp.
+
+Previous
+
+Lesson 205: The assistant at work
+
+Lesson 207: Your judgment stays yours

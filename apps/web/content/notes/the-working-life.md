@@ -4,7 +4,7 @@ description: "The last note of the chapter is about the years: routines that sur
 date: "2026-08-06"
 minutes: "5"
 next_href: "/blog/certificates-and-the-track-record"
-next_title: "Certificates, exams, and the track record"
+next_title: "Lesson"
 ---
 
 ![A tidy desk at morning: laptop closed, notebook open with the day&#x27;s three lines written, tea steaming.](https://www.cea.ng/images/blog/morning-routine-desk.jpg)
@@ -44,3 +44,9 @@ One hundred and fifty notes ago you sat before a dark screen, afraid of breaking
 - When the dry month comes, and it will: shrink the plan, keep the hour. The pace is the promise.
 
 These notes began as class notes for beginners in Port Harcourt and grew, one lesson at a time, into the whole walk — from the first sitting to the working years. They remain free, they remain yours, and they remain best used the way the last lesson of every chapter has said: taught onward. Somewhere near you is the person lesson one was written for — the dark screen, the plastic oval, the fear. Hand them the shelf. Sit with them for ten honest minutes. Then go back to your desk and keep showing up. That is the whole of it.
+
+Previous
+
+Lesson 149: Certificates, exams, and the track record
+
+Lesson 151: Checking results and admissions online

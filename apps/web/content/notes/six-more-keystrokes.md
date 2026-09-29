@@ -4,7 +4,7 @@ description: "You already own copy, paste, and undo. Add save, find, select all,
 date: "2026-01-01"
 minutes: "4"
 next_href: "/blog/you-have-won"
-next_title: "“You have won” — the message that wants a fee"
+next_title: "Lesson"
 ---
 
 ![A left little finger pressing the Ctrl key while another finger presses S on a keyboard.](https://www.cea.ng/images/blog/shortcut-save-hands.jpg)
@@ -48,3 +48,9 @@ Practice the six inside real errands, not drills. Save the half-written letter b
 ## Then stop
 
 There are hundreds more, and one day you will meet Ctrl and P for printing, and be pleased it was waiting. But six is a year's worth. The hands learn by repetition, not by lists, and a shortcut you use weekly is worth fifty you memorised in one proud evening. Six more keys. Then rest. The collection plate has gone around long enough. Close the list. Go and use the six.
+
+Previous
+
+Lesson 100: “You have won” — the message that wants a fee
+
+Lesson 102: The keyboard on the phone

@@ -4,7 +4,7 @@ description: "A stolen password should not be enough to be you. Two-step verific
 date: "2026-02-01"
 minutes: "5"
 next_href: "/blog/before-you-forget-the-password"
-next_title: "Before you forget the password"
+next_title: "Lesson"
 ---
 
 ![A phone showing a sign-in approval prompt with two buttons, held by a thoughtful woman.](https://www.cea.ng/images/blog/second-lock.jpg)
@@ -48,3 +48,9 @@ The second lock brings one new danger and one new rule. The danger: a thief who 
 - Tell nobody your WhatsApp PIN — including kind strangers who offer to set it up for you.
 
 The first lock keeps out the lazy. The second keeps out the lucky. After that, what protects you is the habit of pausing at the knock — and you have had that habit since the first lesson that told you hurry is still the bait. Fit the lock this week. The two-in-the-morning message will one day arrive; when it does, you will read it, smile without fear, and go back to sleep.
+
+Previous
+
+Lesson 107: Before you forget the password
+
+Lesson 109: The forward that lies

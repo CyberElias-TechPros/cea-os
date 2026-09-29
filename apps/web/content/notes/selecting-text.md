@@ -4,7 +4,7 @@ description: "Highlight is how the machine knows which words you mean. A drag, a
 date: "2026-06-28"
 minutes: "4"
 next_href: "/blog/undo-and-redo"
-next_title: "Undo, and the thing you did not mean"
+next_title: "Lesson"
 ---
 
 ![A paragraph on a laptop with a few words highlighted.](https://www.cea.ng/images/blog/selecting-text.jpg)
@@ -48,3 +48,9 @@ Watch the blue as it forms and the picture is honest: the highlight shows exactl
 On a phone, press and hold a word, then drag the two little handles. Copy sits in a small menu. The handles are fiddly but generous — zoom first, as the zoom lesson taught, then hold; drag them wider than needed and shrink back, which is easier than creeping forwards. In a web form, select the box's text with Ctrl+A inside the box — click the box first — not Ctrl+A on the whole page, which may try to copy the site. A greyed box cannot be selected; it is not yours to copy, or it is already filled.
 
 Selection is a quiet skill that sits under copy, under bold, under replace, under why did my letter disappear. Look for the blue before you press anything that changes words. If there is blue you did not paint, click it off. Then act. The machine is literal. It will spend its next key on whichever words are wearing the blue coat.
+
+Previous
+
+Lesson 66: Undo, and the thing you did not mean
+
+Lesson 68: Page numbers and a quiet header
